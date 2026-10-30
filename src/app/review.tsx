@@ -15,28 +15,30 @@ const VERDICTS: { value: Verdict; label: string }[] = [
 const STORE = "pw-hero-review";
 
 export default function Review({ heroes, sets }: { heroes: Item[]; sets: Item[] }) {
-  const [name, setName] = useState("");
-  const [answers, setAnswers] = useState<Answers>({});
-  const [overall, setOverall] = useState("");
+  const [draft, setDraft] = useState<{ name: string; answers: Answers; overall: string }>({ name: "", answers: {}, overall: "" });
+  const { name, answers, overall } = draft;
   const [copied, setCopied] = useState(false);
   const [open, setOpen] = useState<Item | null>(null);
 
-  // Keep an unsent review across reloads on this device.
+  // Keep an unsent review across reloads on this device. Restored after mount: the page is prerendered, so reading
+  // localStorage during the first render would not match the server HTML.
   useEffect(() => {
     try {
       const saved = JSON.parse(localStorage.getItem(STORE) ?? "{}");
-      setName(saved.name ?? "");
-      setAnswers(saved.answers ?? {});
-      setOverall(saved.overall ?? "");
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setDraft({ name: saved.name ?? "", answers: saved.answers ?? {}, overall: saved.overall ?? "" });
     } catch {}
   }, []);
   useEffect(() => {
     try {
-      localStorage.setItem(STORE, JSON.stringify({ name, answers, overall }));
+      localStorage.setItem(STORE, JSON.stringify(draft));
     } catch {}
-  }, [name, answers, overall]);
+  }, [draft]);
 
-  const set = (id: string, patch: Answer) => setAnswers((a) => ({ ...a, [id]: { ...a[id], ...patch } }));
+  const setName = (name: string) => setDraft((d) => ({ ...d, name }));
+  const setOverall = (overall: string) => setDraft((d) => ({ ...d, overall }));
+  const set = (id: string, patch: Answer) =>
+    setDraft((d) => ({ ...d, answers: { ...d.answers, [id]: { ...d.answers[id], ...patch } } }));
 
   const lines = (title: string, items: Item[]) => {
     const rows = items
