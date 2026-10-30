@@ -15,8 +15,7 @@ export default function GuidesIndex() {
         <p className="eyebrow">PlantsWorld · plant care guides</p>
         <h1>Care guide review</h1>
         <p className="lede">
-          Draft care guides for plantsworld.ae, shown as they will look on the site. Open a guide, mark each section, add
-          notes where something is wrong or missing, then send your review at the bottom of the guide.
+          Draft care guides for plantsworld.ae, shown exactly as they will look on the site.
         </p>
       </header>
       <ul className="guide-list">

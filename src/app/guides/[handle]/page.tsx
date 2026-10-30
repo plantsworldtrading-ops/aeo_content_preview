@@ -1,9 +1,7 @@
 /* eslint-disable @next/next/no-img-element -- product images come straight from the Shopify CDN, as on the live page */
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getGuide, guides, productsByHandle, SITE, type Guide } from "@/content/guides";
-import { ReviewBar, ReviewProvider, SendReview, type Part } from "./review";
 import "../guide.css";
 
 export const dynamicParams = false;
@@ -11,10 +9,10 @@ export const generateStaticParams = () => guides.map((g) => ({ handle: g.handle 
 
 export async function generateMetadata({ params }: { params: Promise<{ handle: string }> }): Promise<Metadata> {
   const g = getGuide((await params).handle);
-  return g ? { title: `Review: ${g.seo_title}`, description: g.seo_description } : {};
+  return g ? { title: g.seo_title, description: g.seo_description } : {};
 }
 
-// Mirrors aeo/shopify/theme/sections/plant-care-guide.liquid so reviewers see what goes live.
+// Mirrors aeo/shopify/theme/sections/plant-care-guide.liquid and aeo/preview/*.html.
 function ShopLinks({ label, handles }: { label: string; handles?: string[] }) {
   const items = (handles ?? []).filter((h) => productsByHandle[h]);
   if (!items.length) return null;
@@ -66,26 +64,10 @@ export default async function GuidePage({ params }: { params: Promise<{ handle: 
   const g = getGuide((await params).handle);
   if (!g) notFound();
 
-  const parts: Part[] = [
-    { id: "answer", label: "Title and quick answer" },
-    { id: "facts", label: "Quick facts" },
-    ...g.care_sections.map((s) => ({ id: s.id, label: s.heading })),
-    { id: "uae-year", label: "Care through the UAE year" },
-    ...g.problems.map((p, i) => ({ id: `problem-${i}`, label: p.question })),
-    { id: "faq", label: "FAQs" },
-    { id: "products", label: "Products shown" },
-  ];
   const updated = new Date(g.updated_on).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
 
   return (
-    <ReviewProvider handle={g.handle}>
-      <div className="review-banner review-only">
-        <Link href="/guides">← All guides</Link>
-        <span>
-          Draft for review · goes live at <code>plantsworld.ae/pages/plant-care/{g.handle}</code>
-        </span>
-      </div>
-
+    <>
       <article className="pcg">
         <nav className="pcg-crumbs" aria-label="Breadcrumb">
           <a href={SITE}>Home</a> › <a href={`${SITE}/pages/plant-care`}>Plant Care</a> › <span>{g.name}</span>
@@ -106,7 +88,6 @@ export default async function GuidePage({ params }: { params: Promise<{ handle: 
             </div>
           )}
         </header>
-        <ReviewBar id="answer" label="Title and quick answer" />
 
         <section className="pcg-facts">
           <h2>{g.name} quick facts</h2>
@@ -121,7 +102,6 @@ export default async function GuidePage({ params }: { params: Promise<{ handle: 
             </tbody>
           </table>
         </section>
-        <ReviewBar id="facts" label="Quick facts" />
 
         <nav className="pcg-toc" aria-label="On this page">
           <ul>
@@ -144,7 +124,6 @@ export default async function GuidePage({ params }: { params: Promise<{ handle: 
               <ul className="pcg-tips">{s.tips.map((t) => <li key={t}>{t}</li>)}</ul>
             )}
             <ShopLinks label="Shop" handles={s.products} />
-            <ReviewBar id={s.id} label={s.heading} />
           </section>
         ))}
 
@@ -158,12 +137,11 @@ export default async function GuidePage({ params }: { params: Promise<{ handle: 
               </div>
             ))}
           </div>
-          <ReviewBar id="uae-year" label="Care through the UAE year" />
         </section>
 
         <section id="problems" className="pcg-section">
           <h2>Common {g.name.toLowerCase()} problems and how to fix them</h2>
-          {g.problems.map((pr, i) => (
+          {g.problems.map((pr) => (
             <div key={pr.question} className="pcg-problem">
               <h3>{pr.question}</h3>
               <p>{pr.answer}</p>
@@ -171,7 +149,6 @@ export default async function GuidePage({ params }: { params: Promise<{ handle: 
               <p><strong>How to fix it:</strong></p>
               <ol>{pr.fix.map((step) => <li key={step}>{step}</li>)}</ol>
               <ShopLinks label="Helps" handles={pr.products} />
-              <ReviewBar id={`problem-${i}`} label={pr.question} />
             </div>
           ))}
         </section>
@@ -184,7 +161,6 @@ export default async function GuidePage({ params }: { params: Promise<{ handle: 
               <p>{f.a}</p>
             </details>
           ))}
-          <ReviewBar id="faq" label="FAQs" />
         </section>
 
         <section className="pcg-section">
@@ -200,13 +176,10 @@ export default async function GuidePage({ params }: { params: Promise<{ handle: 
               );
             })}
           </div>
-          <ReviewBar id="products" label="Products shown" />
         </section>
-
-        <SendReview title={g.name} parts={parts} />
       </article>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(g)) }} />
-    </ReviewProvider>
+    </>
   );
 }
