@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { baseline, getGuide, getVerification, guides, STAGE_LABEL } from "@/content/guides";
+import { factCheckPrompt } from "@/content/factcheck";
+import CopyPrompt from "./copy-prompt";
 import VerifyForm from "./confirm";
 import "../../guide.css";
 
@@ -40,6 +42,16 @@ export default async function VerifyPage({ params }: { params: Promise<{ handle:
         <li><strong>{corrected.length}</strong> corrected for the UAE</li>
         <li><strong>{local.length}</strong> need PlantsWorld confirmation</li>
       </ul>
+
+      <section className="factcheck">
+        <h2>Fact-check with Perplexity</h2>
+        <p className="lede">
+          These review pages are hidden from search engines, so Perplexity cannot open them by link. Copy the guide and
+          its numbered claims instead, paste them into Perplexity, and send the reply to Claude to compare with the
+          checks below.
+        </p>
+        <CopyPrompt text={factCheckPrompt(g, v)} />
+      </section>
 
       <VerifyForm handle={handle} hash={v.hash} local={local} corrected={corrected} verified={verified} signedOff={!!v.signoff} />
 

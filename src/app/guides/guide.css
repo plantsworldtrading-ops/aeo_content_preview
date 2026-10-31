@@ -67,3 +67,6 @@ body:has(.pcg) { background: #fff; font-family: system-ui, sans-serif; }
 .send .primary:disabled { opacity: .5; cursor: not-allowed; }
 .form-error { color: var(--red); font-weight: 600; }
 .form-ok { color: var(--green); font-weight: 600; }
+.factcheck .actions { align-items: center; }
+.factcheck .actions a:not(.primary) { color: var(--green); font-weight: 600; }
+.preview.prompt { max-height: 420px; overflow: auto; max-width: none; }
