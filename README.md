@@ -8,7 +8,9 @@ Review pages for stakeholders. Reviewers mark each item, add notes, and send the
   (`/pages/plant-care/<handle>`). Each guide is one JSON file in `src/content/guides/`, the same data that is published
   to the Shopify `plant_care_guide` metaobject.
 - `/guides/<handle>/verify` — verification report: every fact checked in general and for UAE/GCC conditions, and the
-  items PlantsWorld staff must confirm (sent on WhatsApp). A guide is signed off before the next one is written.
+  items PlantsWorld staff must confirm. Reviewers submit confirmations and corrections with their name and the team
+  passcode; `/api/corrections` saves them through `supabase/guide_corrections.sql`. Needs the server-only env vars
+  `SUPABASE_URL` and `SUPABASE_ANON_KEY` (ops Supabase project). A guide is signed off before the next one is written.
 
 Everything in `src/content/` is generated: edit the guides in `aeo/content/` and run `python3 aeo/scripts/sync_site.py`.
 

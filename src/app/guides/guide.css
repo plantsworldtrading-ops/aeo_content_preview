@@ -60,3 +60,10 @@ body:has(.pcg) { background: #fff; font-family: system-ui, sans-serif; }
 .conf-high { background: #e3f0e5; color: var(--green); }
 .conf-medium { background: #fbefd6; color: var(--amber); }
 .conf-low { background: #f6e3e0; color: var(--red); }
+.claim textarea { margin-top: 10px; font-size: .92rem; }
+.claim.has-note { border-color: var(--amber); }
+.send-fields { display: flex; flex-wrap: wrap; gap: 12px; margin: 12px 0 4px; }
+.send-fields .name { margin: 0; flex: 1 1 220px; }
+.send .primary:disabled { opacity: .5; cursor: not-allowed; }
+.form-error { color: var(--red); font-weight: 600; }
+.form-ok { color: var(--green); font-weight: 600; }
