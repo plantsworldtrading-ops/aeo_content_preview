@@ -18,7 +18,8 @@ export async function POST(req: Request) {
 
   const res = await fetch(`${url}/rest/v1/rpc/submit_guide_correction`, {
     method: "POST",
-    headers: { apikey: key, Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
+    // Legacy anon keys are JWTs and also go in Authorization; new sb_publishable_ keys must only be sent as apikey.
+    headers: { apikey: key, ...(key.startsWith("eyJ") && { Authorization: `Bearer ${key}` }), "Content-Type": "application/json" },
     body: JSON.stringify({
       p_passcode: passcode,
       p_guide_handle: guide_handle,
@@ -33,5 +34,6 @@ export async function POST(req: Request) {
   const err = await res.json().catch(() => ({}));
   if (err.code === "28P01") return NextResponse.json({ error: "Wrong passcode." }, { status: 401 });
   console.error("submit_guide_correction failed", res.status, err);
-  return NextResponse.json({ error: "Could not save. Please try again." }, { status: 502 });
+  // The code (e.g. PGRST202, 42501) says what is wrong without exposing anything sensitive.
+  return NextResponse.json({ error: "Could not save. Please try again.", code: err.code ?? res.status }, { status: 502 });
 }
