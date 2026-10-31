@@ -10,27 +10,27 @@
     "نبتة الثعبان"
   ],
   "question_title": "How do you care for a snake plant in the UAE?",
-  "quick_answer": "Snake plant (Dracaena trifasciata, also sold as Sansevieria) is one of the easiest plants for UAE homes and offices. Give it bright indirect light; it also copes with dim corners. Water only when the soil is fully dry: every 2–3 weeks in summer under AC, every 4–6 weeks in winter. Use a pot with drainage holes. Overwatering kills most snake plants.",
+  "quick_answer": "Snake plant (Dracaena trifasciata, also sold as Sansevieria) is one of the easiest plants for UAE homes and offices. Give it bright indirect light; it also copes with dim corners. Water only when the soil is fully dry, often every 2–3 weeks in summer under AC and every 4–6 weeks in winter. Use a pot with drainage holes. Overwatering kills most snake plants.",
   "quick_facts": [
     {
       "label": "Light",
-      "value": "Low to bright indirect. No direct summer sun."
+      "value": "Bright indirect is best; copes with low light. Gentle morning sun is fine, harsh summer sun is not."
     },
     {
       "label": "Water, Apr–Oct",
-      "value": "Every 2–3 weeks, only when soil is fully dry"
+      "value": "When the soil is fully dry: often every 2–3 weeks under AC"
     },
     {
       "label": "Water, Nov–Mar",
-      "value": "Every 4–6 weeks"
+      "value": "When the soil is fully dry: often every 4–6 weeks"
     },
     {
       "label": "Temperature",
-      "value": "15–32 °C ideal. Protect from below 10 °C."
+      "value": "Prefers 15–24 °C. Copes with summer heat in shade if the soil dries out. Protect from below 10 °C."
     },
     {
       "label": "Humidity",
-      "value": "Any. Copes with dry or humid AC rooms."
+      "value": "Prefers lower humidity. In humid coastal homes, water less often."
     },
     {
       "label": "AC tolerance",
@@ -42,7 +42,7 @@
     },
     {
       "label": "Pets",
-      "value": "Mildly toxic to cats and dogs if chewed"
+      "value": "Toxic to cats and dogs if chewed; keep away from young children"
     },
     {
       "label": "Difficulty",
@@ -74,9 +74,10 @@
       "id": "watering",
       "heading": "How often should you water a snake plant in Dubai?",
       "paragraphs": [
-        "Water only when the soil is completely dry all the way down. Push a finger or a wooden skewer into the pot: if any soil feels damp, wait. Indoors under AC this usually means every 2–3 weeks from April to October and every 4–6 weeks from November to March.",
+        "Water only when the soil is completely dry all the way down. Push a finger or a wooden skewer into the pot: if any soil feels damp, wait. Indoors under AC this is often every 2–3 weeks from April to October and every 4–6 weeks from November to March, but treat these as starting points, not a schedule. Small or terracotta pots in a warm, bright spot dry much faster; large pots in a dim AC room stay dry for longer.",
+        "In humid coastal homes and after rain, soil dries slowly, so water less often. Inland, dry heat and hot wind dry pots quickly, so check outdoor pots more often in summer.",
         "When you water, water thoroughly until it runs out of the drainage hole, then empty the saucer after 15 minutes. Never leave the pot standing in water.",
-        "UAE tap water is desalinated and then remineralised, so it is often hard and leaves mineral salts in the soil, which show up as a white crust on the pot and brown leaf tips. Every 3 months, flush the pot with plenty of water to wash the salts out, or use filtered water."
+        "UAE tap water is desalinated and then remineralised, and its mineral content varies by area and building. If you see a white crust on the soil or pot, or brown leaf tips, flush the pot with plenty of water to wash the salts out, or switch to filtered water."
       ],
       "tips": [
         "Water the soil, not into the centre of the leaf rosette. Water sitting there can rot the base.",
@@ -127,7 +128,8 @@
       "heading": "Where should you place a snake plant at home or in the office?",
       "paragraphs": [
         "Snake plants suit bedrooms, living-room corners, office desks and reception areas because they tolerate lower light and AC rooms year-round. A bathroom with a window works well too.",
-        "Avoid spots directly under an AC vent, next to a sunny glass wall, or on a balcony in summer without shade. Tall varieties make good floor plants beside a sofa or TV unit; compact types like 'Hahnii' and the starfish snake plant suit shelves and desks."
+        "Avoid spots directly under an AC vent, next to a sunny glass wall, or on a balcony in summer without shade. Tall varieties make good floor plants beside a sofa or TV unit; compact types like 'Hahnii' and the starfish snake plant suit shelves and desks.",
+        "When moving a plant between an AC room and the outdoors, do it gradually over a week or two (a few hours in shade at first), and never straight from AC into full summer heat or sun."
       ]
     }
   ],
@@ -135,17 +137,17 @@
     {
       "season": "Summer",
       "months": "May–Sep",
-      "care": "Indoors under AC it keeps growing slowly: water every 2–3 weeks. Keep it out of direct sun through glass. Outdoor plants need full shade and checking every 7–10 days, because heat dries pots fast."
+      "care": "Indoors under AC it keeps growing slowly: water when the soil is dry, often every 2–3 weeks. Keep it out of direct sun through glass. Outdoor plants need full shade; check the soil every few days in heatwaves, especially small or terracotta pots."
     },
     {
       "season": "Autumn",
       "months": "Oct–Nov",
-      "care": "Best time to repot, divide and move plants back to balconies and terraces. Feed once a month until the end of October."
+      "care": "Best time to repot, divide and move plants back to balconies and terraces (gradually, starting in shade). Feed once a month until the end of October."
     },
     {
       "season": "Winter",
       "months": "Dec–Feb",
-      "care": "Growth slows down. Water every 4–6 weeks and stop feeding. Coastal winter nights are mild enough. Inland (Al Ain, desert areas) and in Riyadh or Kuwait, nights can fall below 10 °C: move outdoor plants to a sheltered spot or indoors on cold nights. Make sure outdoor pots drain after rain."
+      "care": "Growth slows down. Water less, often every 4–6 weeks, and stop feeding. Coastal winter nights are mild enough. Inland (Al Ain, desert areas) and in Riyadh or Kuwait, nights can fall below 10 °C: move outdoor plants to a sheltered spot or indoors on cold nights. Make sure outdoor pots drain after rain."
     },
     {
       "season": "Spring",
@@ -248,7 +250,7 @@
   "faqs": [
     {
       "q": "How often should I water a snake plant in Dubai?",
-      "a": "Indoors under AC, water every 2–3 weeks from April to October and every 4–6 weeks from November to March. Always check first: water only when the soil is completely dry all the way down."
+      "a": "Water only when the soil is completely dry. Indoors under AC that is often every 2–3 weeks from April to October and every 4–6 weeks from November to March, but check the soil first: small pots and warm, bright spots dry faster, big pots in dim AC rooms slower."
     },
     {
       "q": "Is a snake plant good for the bedroom?",
@@ -256,15 +258,15 @@
     },
     {
       "q": "Is a snake plant safe for cats and dogs?",
-      "a": "No. Snake plants contain saponins, which can cause nausea, vomiting and diarrhoea if a pet chews the leaves. Symptoms are usually mild, but keep the plant out of reach and call your vet if your pet eats some."
+      "a": "No. Snake plants contain saponins, which can cause nausea, vomiting and diarrhoea if a pet chews the leaves. Keep the plant out of reach of pets and young children, and call your vet if your pet eats any."
     },
     {
       "q": "Can a snake plant live outside in the UAE?",
-      "a": "Yes, in shade. Outdoors it grows well from October to April. From May to September keep it in full shade, out of the midday and afternoon sun, and check the soil every 7–10 days, because pots dry out fast in the heat. In winter it is happy on the coast, but inland and in colder GCC cities protect it from nights below 10 °C."
+      "a": "Yes, in shade. Outdoors it grows well from October to April. From May to September keep it in full shade, out of the midday and afternoon sun, and check the soil every few days in heatwaves, because pots dry out fast. Move it outside gradually, not straight from an AC room. In winter it is happy on the coast, but inland and in colder GCC cities protect it from nights below 10 °C."
     },
     {
       "q": "Can a snake plant grow in water?",
-      "a": "Yes. A snake plant can live in a glass of water with only the roots submerged. Change the water every week and keep the leaves dry. It grows more slowly than in soil."
+      "a": "It can be kept in water with only the roots submerged, and leaf cuttings root in water. Change the water every week and keep the leaves dry. In water it grows more slowly and less reliably than in free-draining soil, so pot it up if it starts to struggle."
     },
     {
       "q": "Does a snake plant need sunlight?",
@@ -276,7 +278,7 @@
     },
     {
       "q": "How long does a snake plant live?",
-      "a": "With basic care a snake plant easily lives 10 years or more, and it keeps producing new shoots that you can divide into new plants."
+      "a": "With basic care a snake plant lives for many years, and it keeps producing new shoots that you can divide into new plants."
     },
     {
       "q": "Why is a snake plant a popular gift in the UAE?",

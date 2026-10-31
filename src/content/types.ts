@@ -20,7 +20,10 @@ export type Guide = {
 export type Product = { title: string; image?: string };
 
 type Check = { verdict: string; note?: string; sources?: string[] };
-export type Claim = { id: string; where: string; claim: string; g: Check; u: Check; status: string; change?: string };
+type PerplexityCheck = { verdict: string; gcc: string; note?: string; sources?: string[] };
+export type Claim = {
+  id: string; where: string; claim: string; g: Check; u: Check; p?: PerplexityCheck; status: string; change?: string;
+};
 export type Stage = "draft" | "checked" | "fact-checked" | "signed-off";
 export type Verification = {
   handle: string;

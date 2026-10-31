@@ -21,13 +21,19 @@ const VERDICT_LABEL: Record<string, string> = {
 const PASSCODE = "pw-review-passcode";
 
 function ClaimDetails({ c }: { c: Claim }) {
-  const sources = [...(c.g.sources ?? []), ...(c.u.sources ?? [])];
+  const sources = [...new Set([...(c.g.sources ?? []), ...(c.u.sources ?? []), ...(c.p?.sources ?? [])])];
   return (
     <dl>
       <dt>General check</dt>
       <dd>{VERDICT_LABEL[c.g.verdict]}{c.g.note ? ` · ${c.g.note}` : ""}</dd>
       <dt>UAE/GCC check</dt>
       <dd>{VERDICT_LABEL[c.u.verdict]}{c.u.note ? ` · ${c.u.note}` : ""}</dd>
+      {c.p && (
+        <>
+          <dt>Perplexity check</dt>
+          <dd>{c.p.verdict} · GCC: {c.p.gcc}{c.p.note ? ` · ${c.p.note}` : ""}</dd>
+        </>
+      )}
       {c.change && (<><dt>What we changed</dt><dd>{c.change}</dd></>)}
       <dt>Where on the page</dt>
       <dd>{c.where}</dd>

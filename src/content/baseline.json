@@ -6,33 +6,50 @@
       "id": "summer-heat",
       "fact": "Dubai summer (Jun–Sep) average highs about 41–42 °C, average lows about 29–32 °C: nights do not cool down. Outdoor plants get no night-time relief.",
       "confidence": "medium",
-      "sources": ["https://weathermonth.com/en/dubai-weather-in-august", "https://bayut.com/mybayut/average-temperature-dubai"],
+      "sources": [
+        "https://weathermonth.com/en/dubai-weather-in-august",
+        "https://bayut.com/mybayut/average-temperature-dubai"
+      ],
       "note": "Third-party climate sites; NCM normals not retrieved. Check ncm.ae when possible."
     },
     {
       "id": "coastal-winter",
       "fact": "Coastal UAE (Dubai, Abu Dhabi, Sharjah) January average lows about 14–16 °C. Cold damage to tropical plants is rare on the coast.",
       "confidence": "medium",
-      "sources": ["https://weathermonth.com/en/average-temperature-dubai", "https://bayut.com/mybayut/average-temperature-dubai"]
+      "sources": [
+        "https://weathermonth.com/en/average-temperature-dubai",
+        "https://bayut.com/mybayut/average-temperature-dubai"
+      ]
     },
     {
       "id": "inland-winter",
       "fact": "Inland and mountain UAE get much colder winter nights: Raknah (Al Ain) recorded -2 °C in Jan 2021, Jebel Jais -5.7 °C in Feb 2017; lows of 3–5 °C are reported most winters. Outdoor tropical plants in Al Ain, Liwa, desert villas and RAK mountains can get cold damage.",
       "confidence": "high",
-      "sources": ["https://whatson.ae/2021/01/temperatures-reached-below-freezing-in-the-uae-over-the-weekend/", "https://gulfnews.com/going-out/uae-weather-is-this-winter-really-the-coldest-one-yet-1.1610268605021", "https://en.aletihad.ae/amp/news/uae/4638165/ncm-records-4-7-daily-low-in-al-ain-on-monday"]
+      "sources": [
+        "https://whatson.ae/2021/01/temperatures-reached-below-freezing-in-the-uae-over-the-weekend/",
+        "https://gulfnews.com/going-out/uae-weather-is-this-winter-really-the-coldest-one-yet-1.1610268605021",
+        "https://en.aletihad.ae/amp/news/uae/4638165/ncm-records-4-7-daily-low-in-al-ain-on-monday"
+      ]
     },
     {
       "id": "gcc-winter",
       "fact": "Elsewhere in the GCC, winter is colder than coastal UAE: Riyadh and Kuwait January lows about 7–10 °C with colder spells; Doha about 11–16 °C; Muscat mild. Advice about 'winter is no problem' must be limited to coastal UAE.",
       "confidence": "low",
-      "sources": ["https://weathermonth.com/en/riyadh-weather-in-january", "https://www.weatherapi.com/history/january/q/doha-1385249", "https://www.gulf-times.com/story/379762/get-set-for-more-rain"],
+      "sources": [
+        "https://weathermonth.com/en/riyadh-weather-in-january",
+        "https://www.weatherapi.com/history/january/q/doha-1385249",
+        "https://www.gulf-times.com/story/379762/get-set-for-more-rain"
+      ],
       "note": "Sources disagree; use ranges, not single numbers."
     },
     {
       "id": "indoor-ac",
       "fact": "Homes and offices are air-conditioned most of the year (design target about 22–24 °C). Indoor humidity under AC is NOT reliably dry: a Sharjah workspace study measured average 60.7% RH at 21.6 °C. Some homes feel dry, others humid. Do not claim 'dry AC air' as a general UAE fact.",
       "confidence": "medium",
-      "sources": ["https://www.citedrive.com/en/discovery/indoor-environmental-air-quality-assessment-of-university-workspaces-in-sharjah-united-arab-emirates/", "https://gulfnews.com/best-buys/home-and-kitchen/is-your-ac-making-the-air-too-dry-heres-what-helps-1.500704189"],
+      "sources": [
+        "https://www.citedrive.com/en/discovery/indoor-environmental-air-quality-assessment-of-university-workspaces-in-sharjah-united-arab-emirates/",
+        "https://gulfnews.com/best-buys/home-and-kitchen/is-your-ac-making-the-air-too-dry-heres-what-helps-1.500704189"
+      ],
       "note": "Workspaces, not homes. No measured home study found."
     },
     {
@@ -44,10 +61,13 @@
     },
     {
       "id": "tap-water",
-      "fact": "UAE tap water is desalinated (mostly reverse osmosis / thermal), then remineralised with calcium and magnesium. Secondary lab tests report Dubai tap water hardness often 150–250 mg/L as CaCO3, which is hard. Salt and mineral crust on pots is plausible from tap water and fertiliser.",
-      "confidence": "medium",
-      "sources": ["https://www.thisdaylive.com/2026/05/01/why-hard-water-is-quietly-killing-dubais-smart-appliances-and-what-engineers-recommend/", "https://www.dewa.gov.ae/en/about-us/media-publications/latest-news/2023/08/dewas-central-lab"],
-      "note": "No DEWA primary figure found; varies by emirate and building tank."
+      "fact": "UAE tap water is desalinated (mostly reverse osmosis / thermal), then remineralised with calcium and magnesium. Hardness is disputed and varies by emirate, source and building tank: one secondary source reports 150–250 mg/L as CaCO3 (hard), another 40–120 mg/L (soft). Do not call it 'hard' in general; tie flushing advice to visible salt crust or brown tips.",
+      "confidence": "low",
+      "sources": [
+        "https://www.thisdaylive.com/2026/05/01/why-hard-water-is-quietly-killing-dubais-smart-appliances-and-what-engineers-recommend/",
+        "https://www.dewa.gov.ae/en/about-us/media-publications/latest-news/2023/08/dewas-central-lab"
+      ],
+      "note": "No DEWA primary figure found. Perplexity check 2026-10-31 flagged the \"often hard\" wording."
     },
     {
       "id": "sun-through-glass",
@@ -60,7 +80,10 @@
       "id": "seasons",
       "fact": "Gardening season in the UAE is about October to April. May to September outdoor plants need shade and more frequent watering; most planting and repotting is done in the cooler months.",
       "confidence": "medium",
-      "sources": ["https://www.thenationalnews.com/lifestyle/home-garden/2024/05/05/gardening-uae-summer-plants/", "https://www.khaleejtimes.com/uae/uae-plants-dying-in-summer-heat-heres-what-they-need-to-survive"]
+      "sources": [
+        "https://www.thenationalnews.com/lifestyle/home-garden/2024/05/05/gardening-uae-summer-plants/",
+        "https://www.khaleejtimes.com/uae/uae-plants-dying-in-summer-heat-heres-what-they-need-to-survive"
+      ]
     },
     {
       "id": "rain",
