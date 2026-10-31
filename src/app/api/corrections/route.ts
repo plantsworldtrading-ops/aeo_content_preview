@@ -3,8 +3,8 @@ import { NextResponse } from "next/server";
 // Saves a reviewer's corrections through the passcode-checked database function (supabase/guide_corrections.sql).
 // SUPABASE_URL and SUPABASE_ANON_KEY are server-only env vars; the anon key can do nothing but call that function.
 export async function POST(req: Request) {
-  const url = process.env.SUPABASE_URL;
-  const key = process.env.SUPABASE_ANON_KEY;
+  const url = process.env.SUPABASE_URL?.trim().replace(/\/+$/, "");
+  const key = process.env.SUPABASE_ANON_KEY?.trim().replace(/^["']|["']$/g, "");
   if (!url || !key) return NextResponse.json({ error: "Saving is not set up yet." }, { status: 503 });
 
   const body = await req.json().catch(() => null);
@@ -35,5 +35,5 @@ export async function POST(req: Request) {
   if (err.code === "28P01") return NextResponse.json({ error: "Wrong passcode." }, { status: 401 });
   console.error("submit_guide_correction failed", res.status, err);
   // The code (e.g. PGRST202, 42501) says what is wrong without exposing anything sensitive.
-  return NextResponse.json({ error: "Could not save. Please try again.", code: err.code ?? res.status }, { status: 502 });
+  return NextResponse.json({ error: "Could not save. Please try again.", code: err.code ?? res.status, detail: err.message ?? err.msg }, { status: 502 });
 }
