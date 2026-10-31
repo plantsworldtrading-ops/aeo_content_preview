@@ -1,0 +1,316 @@
+{
+  "handle": "snake-plant",
+  "stage": "fact-checked",
+  "hash": "461bc9232d7bf017",
+  "content_errors": [],
+  "ledger_errors": [],
+  "signoff": null,
+  "claims": [
+    {
+      "id": "c01",
+      "where": "botanical_name",
+      "claim": "Accepted name Dracaena trifasciata; Sansevieria trifasciata is a synonym.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:540541-1",
+          "https://www.ipni.org/n/77164235-1"
+        ]
+      },
+      "u": {
+        "verdict": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c02",
+      "where": "other_names",
+      "claim": "Arabic names لسان الحماة and نبتة الثعبان are used for this plant.",
+      "g": {
+        "verdict": "unverified",
+        "note": "No Arabic-language source found in search."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "An Arabic-speaking team member should confirm what UAE customers call it (and add any Gulf names)."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c03",
+      "where": "quick_facts.Light, care_sections.light",
+      "claim": "Best in bright indirect light; survives low light but grows slowly; a room with no window is too dark.",
+      "g": {
+        "verdict": "supported",
+        "note": "Consistent across care literature."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline sun-through-glass: tinted tower glazing lowers indoor light, so 'bright indirect' near a window is right."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c04",
+      "where": "care_sections.light, problems[4]",
+      "claim": "Afternoon summer sun through west/south glass and unshaded outdoor summer sun scorch the leaves; damage is permanent.",
+      "g": {
+        "verdict": "supported",
+        "note": "Sunscorch on Sansevieria is well documented; scorched tissue does not recover."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline summer-heat, sun-through-glass. Local nurseries recommend shade cloth outdoors.",
+        "sources": [
+          "https://growhub.ae/blogs/blog/snake-plant-in-direct-sun-vs-indirect-light-in-uae-conditions"
+        ]
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c05",
+      "where": "quick_answer, quick_facts.Water, care_sections.watering, uae_year, faqs[0]",
+      "claim": "Under AC, water every 2–3 weeks Apr–Oct and every 4–6 weeks Nov–Mar, only when the soil is fully dry.",
+      "g": {
+        "verdict": "supported",
+        "note": "General guidance is 'when fully dry', typically every 2–4 weeks in growth, monthly or less in winter."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "The exact intervals for UAE AC homes are our estimate. Nursery staff to confirm from customer experience."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c06",
+      "where": "care_sections.watering",
+      "claim": "UAE tap water is desalinated then remineralised, often hard, and leaves mineral salts; flush every 3 months or use filtered water.",
+      "g": {
+        "verdict": "supported",
+        "note": "Salt build-up from hard water and fertiliser causes brown tips in many houseplants."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline tap-water (medium confidence: secondary lab figures 150–250 mg/L CaCO3). Wording kept as 'often hard'."
+      },
+      "status": "corrected",
+      "change": "Was 'UAE tap water is hard'. Now says it is desalinated and remineralised, so it is often hard."
+    },
+    {
+      "id": "c07",
+      "where": "care_sections.soil",
+      "claim": "Use fast-draining cactus/succulent mix or potting soil with perlite/sand 1:1; pot must have a drainage hole; terracotta dries faster.",
+      "g": {
+        "verdict": "supported"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Linked products exist in the store."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c08",
+      "where": "care_sections.fertiliser, uae_year",
+      "claim": "Feed a balanced fertiliser at half strength monthly Mar–Oct; none Nov–Feb.",
+      "g": {
+        "verdict": "supported",
+        "note": "Light feeding in the growing season is standard."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Indoor AC plants grow through the UAE summer, so the long feeding window fits."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c09",
+      "where": "care_sections.repotting, uae_year",
+      "claim": "Repot every 2–3 years, one size up; best Oct–Nov or Feb–Apr; wait a week before watering.",
+      "g": {
+        "verdict": "supported"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline seasons: repotting in the cooler months."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c10",
+      "where": "care_sections.propagation",
+      "claim": "Division is easiest; leaf cuttings root in 4–8 weeks; cuttings from yellow-edged varieties usually grow back plain green, only division keeps the edge.",
+      "g": {
+        "verdict": "supported",
+        "note": "Laurentii is a periclinal chimera; leaf cuttings revert. Division keeps the whole plant, so the edge carries over.",
+        "sources": [
+          "https://llifle.com/Encyclopedia/SUCCULENTS/Family/Dracaenaceae/19029/Sansevieria_laurentii"
+        ]
+      },
+      "u": {
+        "verdict": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c11",
+      "where": "quick_facts.Temperature, uae_year.Winter, faqs[3]",
+      "claim": "Ideal 15–32 °C; protect from below 10 °C. Coastal winter is fine; inland UAE, Riyadh and Kuwait nights can fall below 10 °C.",
+      "g": {
+        "verdict": "supported",
+        "note": "50 °F / 10 °C is the widely cited minimum.",
+        "sources": [
+          "https://www.homesandgardens.com/gardens/are-snake-plants-cold-tolerant"
+        ]
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline inland-winter (Raknah -2 °C, Jebel Jais -5.7 °C) and gcc-winter."
+      },
+      "status": "corrected",
+      "change": "Added inland UAE and GCC cold-night warning to the winter card, the outdoor fact and the 'live outside' FAQ. The draft said winter was no problem anywhere."
+    },
+    {
+      "id": "c12",
+      "where": "quick_facts.Humidity, care_sections.placement, faqs[1]",
+      "claim": "Tolerates any humidity, dry or humid AC rooms.",
+      "g": {
+        "verdict": "supported",
+        "note": "Succulent, tolerant of low humidity."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline indoor-ac: UAE AC rooms are not reliably dry (Sharjah study 60.7% RH)."
+      },
+      "status": "corrected",
+      "change": "Removed 'dry AC air' as a UAE fact in three places."
+    },
+    {
+      "id": "c13",
+      "where": "quick_facts.AC tolerance, care_sections.placement, problems[1]",
+      "claim": "Keep about 1 m from a direct AC vent; cold draughts cause brown tips.",
+      "g": {
+        "verdict": "supported",
+        "note": "Cold draughts damage tropical foliage."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Baseline ac-vents is low confidence (no source). Staff to confirm the 1 m distance is sensible."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c14",
+      "where": "quick_facts.Outdoors, uae_year.Summer, faqs[3]",
+      "claim": "Can live outdoors in shade; full shade May–Sep; check outdoor pots every 7–10 days in summer.",
+      "g": {
+        "verdict": "supported"
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Shade outdoors is supported by local nurseries; the 7–10 day check interval is our estimate for 41–42 °C days. Staff to confirm."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c15",
+      "where": "quick_facts.Pets, faqs[2]",
+      "claim": "Toxic to cats and dogs (saponins); nausea, vomiting, diarrhoea; usually mild.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snake-plant"
+        ]
+      },
+      "u": {
+        "verdict": "n/a"
+      },
+      "status": "corrected",
+      "change": "Removed 'drooling', which ASPCA does not list; signs now match ASPCA."
+    },
+    {
+      "id": "c16",
+      "where": "faqs[1]",
+      "claim": "Takes in carbon dioxide at night (CAM); one plant will not noticeably change the air in a room.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://sljfa.sljol.info/articles/70",
+          "https://drexel.edu/engineering/news-events/news/archive/2019/november/potted-plants-dont-improve-air-quality"
+        ]
+      },
+      "u": {
+        "verdict": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c17",
+      "where": "faqs[6]",
+      "claim": "Mature, pot-bound plants occasionally flower; small fragrant greenish-white flowers that open in the evening.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Dracaena_trifasciata"
+        ]
+      },
+      "u": {
+        "verdict": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c18",
+      "where": "faqs[4]",
+      "claim": "Can grow in water with roots submerged; change water weekly; grows slower than in soil.",
+      "g": {
+        "verdict": "supported"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "PlantsWorld sells it as a water plant."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c19",
+      "where": "faqs[7], quick_facts.Size, quick_facts.Growth",
+      "claim": "Lives 10+ years; 30–120 cm indoors by variety; slow growth.",
+      "g": {
+        "verdict": "supported"
+      },
+      "u": {
+        "verdict": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c20",
+      "where": "problems[0..7]",
+      "claim": "Problem causes and fixes: root rot from overwatering, brown tips from salts/irregular watering/drafts, wrinkling from thirst or root damage, flopping from overwatering/low light, mealybugs (alcohol + neem), fungus gnats from wet soil, slow growth normal.",
+      "g": {
+        "verdict": "supported",
+        "note": "Standard diagnoses for Sansevieria."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Staff to confirm these are the problems UAE customers actually report, and add any missing ones (e.g. from WhatsApp chats)."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c21",
+      "where": "faqs[8]",
+      "claim": "Popular housewarming, Eid and corporate gift in the UAE; in feng shui seen as protective.",
+      "g": {
+        "verdict": "supported",
+        "note": "Feng shui framed as a belief ('seen as')."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "PlantsWorld sells Eid, corporate and Mother's Day snake plant gifts; it is the top-selling plant."
+      },
+      "status": "verified"
+    }
+  ]
+}

@@ -1,30 +1,23 @@
-import snakePlant from "./guides/snake-plant.json";
 import products from "./products.json";
+import baselineFile from "./baseline.json";
+import { guideList } from "./index.generated";
+import type { Product } from "./types";
 
-export type Guide = {
-  handle: string;
-  name: string;
-  botanical_name: string;
-  other_names: string[];
-  question_title: string;
-  quick_answer: string;
-  quick_facts: { label: string; value: string }[];
-  care_sections: { id: string; heading: string; paragraphs: string[]; tips?: string[]; products?: string[] }[];
-  uae_year: { season: string; months: string; care: string }[];
-  problems: { question: string; answer: string; signs: string; fix: string[]; products?: string[] }[];
-  faqs: { q: string; a: string }[];
-  product_handles: string[];
-  image_url?: string;
-  seo_title: string;
-  seo_description: string;
-  updated_on: string;
-};
+export type { Guide, Product, Claim, Stage, Verification } from "./types";
 
-export type Product = { title: string; image?: string };
-
-// One JSON file per plant, the same data that is published to the Shopify plant_care_guide metaobject.
-export const guides: Guide[] = [snakePlant];
+// One JSON file per plant (the data published to the Shopify plant_care_guide metaobject) plus its verification
+// report. Both are copied in by aeo/scripts/sync_site.py.
+export const guides = guideList.map((x) => x.guide);
 export const productsByHandle: Record<string, Product> = products;
+export const baseline = baselineFile.facts;
 
 export const SITE = "https://plantsworld.ae";
-export const getGuide = (handle: string) => guides.find((g) => g.handle === handle);
+export const getGuide = (handle: string) => guideList.find((x) => x.guide.handle === handle)?.guide;
+export const getVerification = (handle: string) => guideList.find((x) => x.guide.handle === handle)?.verification;
+
+export const STAGE_LABEL = {
+  draft: "Draft",
+  checked: "Checked",
+  "fact-checked": "Fact-checked, awaiting sign-off",
+  "signed-off": "Signed off",
+} as const;

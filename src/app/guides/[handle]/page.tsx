@@ -179,6 +179,10 @@ export default async function GuidePage({ params }: { params: Promise<{ handle: 
         </section>
       </article>
 
+      <p className="verify-link">
+        Draft for review · <a href={`/guides/${g.handle}/verify`}>Verify the facts in this guide →</a>
+      </p>
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(g)) }} />
     </>
   );
