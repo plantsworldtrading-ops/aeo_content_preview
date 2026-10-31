@@ -30,4 +30,5 @@ export type Verification = {
   ledger_errors: string[];
   signoff: { by: string; on: string; confirmed_local: string[]; notes: string } | null;
   claims: Claim[];
+  factcheck_prompt: string;
 };
