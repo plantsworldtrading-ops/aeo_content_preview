@@ -40,6 +40,7 @@ export default async function VerifyPage({ params }: { params: Promise<{ handle:
         <li><strong>{verified.length}</strong> verified</li>
         <li><strong>{corrected.length}</strong> corrected for the UAE</li>
         <li><strong>{local.length}</strong> need PlantsWorld confirmation</li>
+        <li><strong>{g.faqs.length}</strong> customer questions answered</li>
       </ul>
 
       <section className="factcheck">
@@ -47,12 +48,12 @@ export default async function VerifyPage({ params }: { params: Promise<{ handle:
         <p className="lede">
           These review pages are hidden from search engines, so Perplexity cannot open them by link. Copy the guide and
           its numbered claims instead, paste them into Perplexity, and send the reply to Claude. It is the same prompt the automated
-          check will use later, with the guide's UAE/GCC conditions and every numbered claim.
+          check will use later, with the guide&apos;s UAE/GCC conditions and every numbered claim.
         </p>
         <CopyPrompt text={v.factcheck_prompt} />
       </section>
 
-      <VerifyForm handle={handle} hash={v.hash} local={local} corrected={corrected} verified={verified} signedOff={!!v.signoff} />
+      <VerifyForm handle={handle} hash={v.hash} faqs={g.faqs} local={local} corrected={corrected} verified={verified} signedOff={!!v.signoff} />
 
       <section>
         <h2>UAE/GCC conditions every guide is checked against</h2>

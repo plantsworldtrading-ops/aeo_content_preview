@@ -70,3 +70,8 @@ body:has(.pcg) { background: #fff; font-family: system-ui, sans-serif; }
 .factcheck .actions { align-items: center; }
 .factcheck .actions a:not(.primary) { color: var(--green); font-weight: 600; }
 .preview.prompt { max-height: 420px; overflow: auto; max-width: none; }
+.faq-group { margin: 22px 0 8px; font-size: 1.05rem; }
+.new-faq { max-width: 680px; margin: 12px 0; display: flex; flex-direction: column; gap: 10px; }
+.new-faq label { display: flex; flex-direction: column; font-weight: 600; font-size: .92rem; }
+.new-faq input { margin-top: 6px; }
+.new-faq button.link { align-self: flex-start; background: none; border: 0; padding: 0; color: var(--red); font-weight: 600; cursor: pointer; }

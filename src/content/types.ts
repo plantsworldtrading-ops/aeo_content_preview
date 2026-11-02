@@ -9,7 +9,8 @@ export type Guide = {
   care_sections: { id: string; heading: string; paragraphs: string[]; tips?: string[]; products?: string[] }[];
   uae_year: { season: string; months: string; care: string }[];
   problems: { question: string; answer: string; signs: string; fix: string[]; products?: string[] }[];
-  faqs: { q: string; a: string }[];
+  // group: "care" (plant facts) or "buying" (PlantsWorld policy, sourced from the support KB entries in kb).
+  faqs: { id?: string; group?: string; kb?: string[]; q: string; a: string }[];
   product_handles: string[];
   image_url?: string;
   seo_title: string;

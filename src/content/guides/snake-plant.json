@@ -249,40 +249,144 @@
   ],
   "faqs": [
     {
+      "id": "watering-dubai",
+      "group": "care",
       "q": "How often should I water a snake plant in Dubai?",
       "a": "Water only when the soil is completely dry. Indoors under AC that is often every 2–3 weeks from April to October and every 4–6 weeks from November to March, but check the soil first: small pots and warm, bright spots dry faster, big pots in dim AC rooms slower."
     },
     {
+      "id": "bedroom",
+      "group": "care",
       "q": "Is a snake plant good for the bedroom?",
       "a": "Yes. It copes with low light and AC rooms, needs little care, and unlike most plants it takes in carbon dioxide at night. One plant will not noticeably change the air in a room, but it is one of the most practical bedroom plants."
     },
     {
+      "id": "pets",
+      "group": "care",
       "q": "Is a snake plant safe for cats and dogs?",
       "a": "No. Snake plants contain saponins, which can cause nausea, vomiting and diarrhoea if a pet chews the leaves. Keep the plant out of reach of pets and young children, and call your vet if your pet eats any."
     },
     {
+      "id": "outdoors",
+      "group": "care",
       "q": "Can a snake plant live outside in the UAE?",
       "a": "Yes, in shade. Outdoors it grows well from October to April. From May to September keep it in full shade, out of the midday and afternoon sun, and check the soil every few days in heatwaves, because pots dry out fast. Move it outside gradually, not straight from an AC room. In winter it is happy on the coast, but inland and in colder GCC cities protect it from nights below 10 °C."
     },
     {
+      "id": "water-only",
+      "group": "care",
       "q": "Can a snake plant grow in water?",
       "a": "It can be kept in water with only the roots submerged, and leaf cuttings root in water. Change the water every week and keep the leaves dry. In water it grows more slowly and less reliably than in free-draining soil, so pot it up if it starts to struggle."
     },
     {
+      "id": "sunlight",
+      "group": "care",
       "q": "Does a snake plant need sunlight?",
       "a": "It needs some daylight, but not direct sun. Bright indirect light is best; it survives in dim corners but grows very slowly. Direct summer sun in the UAE burns the leaves."
     },
     {
+      "id": "flower",
+      "group": "care",
       "q": "Does a snake plant flower?",
       "a": "Occasionally. Mature plants that have been pot-bound for a while can send up a stalk of small, fragrant, greenish-white flowers that open in the evening. It is a sign of a healthy, slightly root-bound plant."
     },
     {
+      "id": "lifespan",
+      "group": "care",
       "q": "How long does a snake plant live?",
       "a": "With basic care a snake plant lives for many years, and it keeps producing new shoots that you can divide into new plants."
     },
     {
+      "id": "gift",
+      "group": "care",
       "q": "Why is a snake plant a popular gift in the UAE?",
       "a": "It is almost impossible to kill, looks good in modern homes and offices, and in feng shui it is seen as protective and bringing good energy. That makes it a common housewarming, Eid and corporate gift."
+    },
+    {
+      "id": "no-window",
+      "group": "care",
+      "q": "Can a snake plant live in a room with no window?",
+      "a": "Only with good artificial light. Under bright LED or office lighting that is on most of the day it survives, but grows very slowly. In a room that stays dark it slowly weakens, so give it a few weeks near a window from time to time."
+    },
+    {
+      "id": "air",
+      "group": "care",
+      "q": "Does a snake plant clean the air?",
+      "a": "Not noticeably in a normal room. Studies that found snake plants removing chemicals were done in small sealed chambers, and a home would need far more plants than anyone keeps to match fresh air from ventilation. Buy it because it looks good and is easy to keep, not as an air filter."
+    },
+    {
+      "id": "mist",
+      "group": "care",
+      "q": "Should I mist my snake plant?",
+      "a": "No. Snake plants do not need misting, and water that collects in the centre of the leaves can rot the base. Instead, wipe dust off the leaves with a damp cloth every month or two so they can take in light."
+    },
+    {
+      "id": "varieties",
+      "group": "care",
+      "q": "What is the difference between the snake plant varieties?",
+      "a": "They all need the same care. 'Laurentii' has yellow leaf edges. 'Zeylanica' has dark green leaves with lighter grey-green bands and no yellow edge. 'Hahnii' is a compact rosette for desks and shelves. The starfish snake plant (Sansevieria cylindrica 'Starfish') has thick, round leaves that fan out like a starfish."
+    },
+    {
+      "id": "which-size",
+      "group": "buying",
+      "kb": [
+        "KB006",
+        "KB008"
+      ],
+      "q": "Which snake plant size should I buy?",
+      "a": "PlantsWorld measures height from the bottom of the nursery pot to the tip of the tallest leaf. A mini or starfish snake plant suits desks and shelves, a 50–80 cm plant suits side tables and consoles, and a tall plant of 100 cm or more works as a floor plant in a corner or beside a sofa."
+    },
+    {
+      "id": "which-pot",
+      "group": "buying",
+      "kb": [
+        "KB009",
+        "KB010",
+        "KB011"
+      ],
+      "q": "Should I order my snake plant in the nursery pot or a decorative pot?",
+      "a": "The plant is the same. Choose the black nursery pot if you want the lowest price or will repot into your own planter. Choose a decorative pot if you want it ready to display: it arrives fully potted with soil mix, perlite and a drainage layer at the base."
+    },
+    {
+      "id": "decorative-pot-watering",
+      "group": "buying",
+      "kb": [
+        "KB010",
+        "KB013"
+      ],
+      "q": "How do I water a snake plant that came in a PlantsWorld decorative pot?",
+      "a": "Water only when the soil is fully dry, as with any snake plant. If the pot has a drainage hole, water until it runs out and empty the saucer. If it has no hole, give less water each time so it never collects at the bottom; the drainage layer gives a little room, but it does not replace a hole."
+    },
+    {
+      "id": "arrival",
+      "group": "buying",
+      "kb": [
+        "KB053",
+        "KB054",
+        "KB072"
+      ],
+      "q": "What should I do when my snake plant arrives?",
+      "a": "Put it in bright indirect light, away from direct sun and AC vents, and leave it in one spot. Check the soil before watering; it often does not need water for the first week or two. Do not repot for a few weeks. If the plant or pot arrived damaged, send a photo with your order number on WhatsApp within 24 hours."
+    },
+    {
+      "id": "heat-delivery",
+      "group": "buying",
+      "kb": [
+        "KB053",
+        "KB054"
+      ],
+      "q": "Will my snake plant survive delivery in the UAE summer heat?",
+      "a": "Yes. PlantsWorld delivers in air-conditioned vans, and snake plants are among the toughest plants to transport. If anything arrives damaged, report it with a photo within 24 hours and our Transit Guarantee covers a free replacement or credit."
+    },
+    {
+      "id": "photo-before",
+      "group": "buying",
+      "kb": [
+        "KB001",
+        "KB003"
+      ],
+      "q": "Will my snake plant look exactly like the photo?",
+      "a": "You get the same variety and size from our UAE nursery, but every plant grows differently, so leaf count, height within the size range and markings vary a little. Add the note 'Please send plant photo before delivery' at checkout, or message us on WhatsApp with your order number, and we will send a photo of your plant before it leaves."
     }
   ],
   "product_handles": [
@@ -300,5 +404,5 @@
   "image_url": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/SnakePlant-Indoor-Sansevieria2.jpg?v=1651253483",
   "seo_title": "Snake Plant Care Guide UAE: Watering, Light & Problems",
   "seo_description": "How to care for a snake plant in the UAE: how often to water under AC, the right light, soil and pot, and how to fix yellow leaves, brown tips and root rot.",
-  "updated_on": "2026-10-31"
+  "updated_on": "2026-11-02"
 }
