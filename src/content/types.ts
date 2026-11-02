@@ -21,9 +21,8 @@ export type Guide = {
 export type Product = { title: string; image?: string };
 
 type Check = { verdict: string; note?: string; sources?: string[] };
-type PerplexityCheck = { verdict: string; gcc: string; note?: string; sources?: string[] };
 export type Claim = {
-  id: string; where: string; claim: string; g: Check; u: Check; p?: PerplexityCheck; status: string; change?: string;
+  id: string; where: string; claim: string; g: Check; u: Check; status: string; change?: string;
 };
 export type Stage = "draft" | "checked" | "fact-checked" | "signed-off";
 export type Verification = {
@@ -34,5 +33,20 @@ export type Verification = {
   ledger_errors: string[];
   signoff: { by: string; on: string; confirmed_local: string[]; notes: string } | null;
   claims: Claim[];
-  factcheck_prompt: string;
+};
+
+export type KbStatus = "verified" | "corrected" | "new" | "team" | "decision";
+export type KbEntry = {
+  id: string; section: string; q: string; a: string; route: string; source: string; status: KbStatus;
+  evidence: string[]; note: string; original_a?: string; original_route?: string;
+};
+export type Kb = {
+  handle: string; name: string; updated_on: string;
+  store: Record<string, { value: string; note: string }>;
+  sources: Record<string, string>;
+  entries: KbEntry[];
+};
+export type KbVerification = {
+  handle: string; stage: Stage; hash: string; content_errors: string[]; ledger_errors: string[];
+  signoff: { by: string; on: string; confirmed_team: string[]; notes: string } | null;
 };

@@ -75,3 +75,21 @@ body:has(.pcg) { background: #fff; font-family: system-ui, sans-serif; }
 .new-faq label { display: flex; flex-direction: column; font-weight: 600; font-size: .92rem; }
 .new-faq input { margin-top: 6px; }
 .new-faq button.link { align-self: flex-start; background: none; border: 0; padding: 0; color: var(--red); font-weight: 600; cursor: pointer; }
+.verdicts.three { grid-template-columns: repeat(3, 1fr); }
+.kb-grid { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+.kb-card { display: flex; flex-direction: column; gap: 8px; padding: 12px 14px; }
+.kb-card h3 { margin: 0; font-size: 1rem; }
+.kb-answer { margin: 0; }
+.kb-was { margin: 0; font-size: .88rem; color: var(--muted); background: #f6f2e8; border-radius: 8px; padding: 8px 10px; text-decoration-color: var(--red); }
+.kb-card .note { margin: 0; }
+.kb-more summary { cursor: pointer; font-size: .85rem; color: var(--muted); }
+.kb-more .kb-was { margin-top: 6px; }
+.kb-evidence { margin: 0; padding-left: 18px; font-size: .82rem; color: var(--muted); }
+.kb-evidence a { color: var(--green); }
+.kb-route { display: flex; flex-direction: column; gap: 4px; font-size: .82rem; font-weight: 600; color: var(--muted); }
+.kb-route select { font: inherit; font-weight: 400; color: var(--ink); padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); }
+.kb-status { border-radius: 6px; padding: 1px 6px; text-transform: none; letter-spacing: 0; }
+.kb-verified, .kb-new { background: #e3f0e5; color: var(--green); }
+.kb-corrected { background: #fbefd6; color: var(--amber); }
+.kb-team, .kb-decision { background: #f6e3e0; color: var(--red); }
+@media (max-width: 420px) { .kb-grid { grid-template-columns: 1fr; } .verdicts.three { grid-template-columns: 1fr; } }

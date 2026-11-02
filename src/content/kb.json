@@ -1,0 +1,1523 @@
+{
+  "handle": "support-kb",
+  "name": "Support knowledge base",
+  "updated_on": "2026-11-02",
+  "store": {
+    "whatsapp": {
+      "value": "+971 4 294 1422",
+      "note": "From the published Shipping and Refund policies. It is an 04 landline number listed as 'WhatsApp / phone': confirm WhatsApp works on it."
+    },
+    "email": {
+      "value": "sales@plantsworld.ae",
+      "note": "Published policies and Shopify store email."
+    },
+    "hours": {
+      "value": "Every day, 8 AM to 8 PM (UAE time)",
+      "note": "Published policies."
+    }
+  },
+  "sources": {
+    "https://plantsworld.ae/policies/shipping-policy": "Shipping policy (published on plantsworld.ae)",
+    "https://plantsworld.ae/policies/refund-policy": "Returns, Replacements & Refunds policy (published on plantsworld.ae)",
+    "https://plantsworld.ae/policies/terms-of-service": "Terms of service (published on plantsworld.ae)",
+    "shopify:discounts": "Shopify admin › Discounts, active discounts read 2 Nov 2026",
+    "shopify:shipping": "Shopify admin › Shipping and delivery rates, read 2 Nov 2026",
+    "catalog": "PlantsWorld product catalog (catalogue/placements/products_categorised.csv)",
+    "aeo/verification/uae_gcc_baseline.json": "UAE/GCC baseline used for the care guides",
+    "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants": "ASPCA toxic and non-toxic plant list",
+    "https://doi.org/10.1038/s41370-019-0175-9": "Cummings & Waring 2019, potted plants and indoor air"
+  },
+  "entries": [
+    {
+      "id": "KB001",
+      "section": "Product, Photos & Pots",
+      "q": "Can I see an actual photo of my plant before it's delivered?",
+      "a": "Yes. Our catalog photos are taken at our local UAE nursery, and each plant is individual, so small variations occur. Add the note 'Please send plant photo before delivery' at checkout, or message us on WhatsApp with your Order # and we'll send a pre-dispatch photo.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "team",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Pre-dispatch photos are not in any published policy. Refund policy 3.1 says photos are representative and plants come from trusted growers, so 'taken at our local UAE nursery' needs confirming."
+    },
+    {
+      "id": "KB002",
+      "section": "Product, Photos & Pots",
+      "q": "I already placed my order. How do I get a photo?",
+      "a": "Message us on WhatsApp at +971 4 294 1422 with your Order # and ask for a pre-dispatch photo. We'll send you a picture of your plant before it leaves.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "team",
+      "evidence": [],
+      "note": "Pre-dispatch photo service: team to confirm."
+    },
+    {
+      "id": "KB003",
+      "section": "Product, Photos & Pots",
+      "q": "Will my plant look exactly like the website photo?",
+      "a": "You'll receive the variety and size you ordered, but every plant grows individually, so leaf count, shape and shade can differ from the photo, which is representative. For peace of mind, ask for a pre-dispatch photo at checkout or on WhatsApp.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "You'll receive the same plant variety from the same nursery. Every plant grows individually, so leaf count, shape and shade can differ slightly from the photo. For peace of mind, request a pre-dispatch photo at checkout or on WhatsApp.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Variation part matches Refund policy 3.1. Removed 'from the same nursery' (policy: trusted growers). Pre-dispatch photo: team to confirm."
+    },
+    {
+      "id": "KB004",
+      "section": "Product, Photos & Pots",
+      "q": "Are your photos real?",
+      "a": "Yes. Catalog photos are shot at our local UAE nursery. Because each plant is individual, yours may vary a little in fullness or leaf shape. You can request a photo of your own plant before delivery.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "team",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Policy says photos are representative and plants come from trusted growers; confirm whether catalog photos are shot at your own nursery."
+    },
+    {
+      "id": "KB005",
+      "section": "Product, Photos & Pots",
+      "q": "Do I get the exact plant in the photo?",
+      "a": "Photos show our nursery stock, but plants are individual, so you may receive a slightly different plant of the same variety and size. To see yours first, add the note 'Please send plant photo before delivery' at checkout.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "team",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Variation matches Refund policy 3.1; photo note at checkout needs confirming."
+    },
+    {
+      "id": "KB006",
+      "section": "Product, Photos & Pots",
+      "q": "How is plant size measured?",
+      "a": "Size is measured from the bottom of the nursery pot to the top tip of the highest leaf. A plant listed as 50-60 CM stands in that range measured this way.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "team",
+      "evidence": [],
+      "note": "Measuring method is not in any policy; team to confirm."
+    },
+    {
+      "id": "KB007",
+      "section": "Product, Photos & Pots",
+      "q": "My plant looks a little shorter or taller than the listing. Why?",
+      "a": "Sizes are ranges because each plant grows naturally; we measure from the base of the nursery pot to the tip of the highest leaf. Small differences from the photo or listing are normal for live plants. If it looks clearly outside the listed range, send a photo with your order number on WhatsApp (+971 4 294 1422) and we'll check.",
+      "route": "AI_THEN_HUMAN",
+      "source": "POLICY",
+      "original_a": "Sizes are listed as ranges because each plant grows naturally. We measure from the base of the nursery pot to the tip of the highest leaf. If your plant seems outside the range, send a photo with your Order # on WhatsApp and we'll check.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Refund policy 3.1: size differences within normal variation are not grounds for a return. The answer should not suggest otherwise."
+    },
+    {
+      "id": "KB008",
+      "section": "Product, Photos & Pots",
+      "q": "Which size should I choose?",
+      "a": "For desks and shelves, 20-40 CM plants suit well. For side tables and consoles, 50-80 CM. For floor corners and statement spots, 100 CM and above. Tell me the space and I'll suggest a size.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "status": "verified",
+      "evidence": [],
+      "note": "General sizing advice; no conflict."
+    },
+    {
+      "id": "KB009",
+      "section": "Product, Photos & Pots",
+      "q": "What pot does a standard order arrive in?",
+      "a": "Standard orders arrive in sturdy black nursery pots. It's the most economical option, and works well if you plan to repot into your own planter.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "team",
+      "evidence": [],
+      "note": "Pot contents are internal practice; team to confirm."
+    },
+    {
+      "id": "KB010",
+      "section": "Product, Photos & Pots",
+      "q": "What does a decorative pot order include?",
+      "a": "Decorative pot selections arrive 100% fully potted. The pot is filled with premium soil mix and perlite, with a drainage layer at the base, so it's ready to display on arrival.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "team",
+      "evidence": [],
+      "note": "Pot contents are internal practice; team to confirm."
+    },
+    {
+      "id": "KB011",
+      "section": "Product, Photos & Pots",
+      "q": "Which pot option should I choose, nursery or decorative?",
+      "a": "Choose the nursery pot for the lowest price or if you already have a planter. Choose a decorative pot for a ready-to-display plant that arrives fully potted with soil mix, perlite and a drainage layer. The plant itself is the same.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "team",
+      "evidence": [],
+      "note": "Pot contents are internal practice; team to confirm."
+    },
+    {
+      "id": "KB012",
+      "section": "Product, Photos & Pots",
+      "q": "Can I change my pot choice after ordering?",
+      "a": "I'll pass this to our team so they can check whether your order has already been prepared. Please message +971 4 294 1422 with your Order # and the pot you'd prefer.",
+      "route": "HUMAN",
+      "source": "HANDOFF",
+      "status": "team",
+      "evidence": [],
+      "note": "Not covered by policy."
+    },
+    {
+      "id": "KB013",
+      "section": "Product, Photos & Pots",
+      "q": "Do the decorative pots have drainage holes?",
+      "a": "Decorative pot orders include a drainage layer at the base, with premium soil mix and perlite. For specific details on a particular pot model, send us the product link and our team will confirm.",
+      "route": "AI_THEN_HUMAN",
+      "source": "HANDOFF",
+      "status": "team",
+      "evidence": [],
+      "note": "Whether decorative pots have holes is not in any policy; team to confirm per pot range."
+    },
+    {
+      "id": "KB014",
+      "section": "Product, Photos & Pots",
+      "q": "Are your plants real or artificial?",
+      "a": "Our plants are live unless the product says otherwise: artificial items have 'Artificial' or 'Faux' in the product name. If you're unsure about a listing, send me the link.",
+      "route": "AI",
+      "source": "CATALOG",
+      "original_a": "Listings titled 'Live' or showing plant care details are real plants. Artificial plants are clearly labelled 'Artificial' in the product title or tags. If you're unsure about a listing, send me the link.",
+      "status": "corrected",
+      "evidence": [
+        "catalog"
+      ],
+      "note": "Catalog check: 44 artificial products, titled either 'Artificial' or 'Faux'. Nothing is titled 'Live'."
+    },
+    {
+      "id": "KB015",
+      "section": "Product, Photos & Pots",
+      "q": "Do you have plants taller than 2 metres?",
+      "a": "Yes, we supply large trees and palms. They are custom orders: our team sends a proposal with the price, delivery fee and timing for your location before the order is confirmed. Share the plant, size and delivery emirate and I'll pass it on.",
+      "route": "HUMAN",
+      "source": "HANDOFF",
+      "original_a": "Yes, we have large specimen plants. Because they need special handling and delivery planning, our team handles these personally. Please share the plant, size and delivery emirate and I'll pass it on.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Shipping policy 7: large trees, palms and bulk orders are custom orders agreed in a proposal."
+    },
+    {
+      "id": "KB016",
+      "section": "Product, Photos & Pots",
+      "q": "Is the plant healthy on arrival? Can I check first?",
+      "a": "Plants are guaranteed to arrive healthy. Check your plant with the delivery agent: if it's damaged or not what you ordered, you can refuse it on the spot. If you find damage after unpacking, send photos and your order number on WhatsApp (+971 4 294 1422) or email sales@plantsworld.ae within 24 hours and we'll replace it free. You can also ask for a pre-dispatch photo.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "You can request a pre-dispatch photo to check your plant before it leaves. If anything looks wrong on arrival, report it with a photo within 24 hours and our Transit Guarantee covers a replacement or credit for damage.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Refund policy 3.2–4: inspect with the delivery agent and refuse on the spot, or report within 24 hours; damaged items are replaced free. There is no 'Transit Guarantee' or 'credit' in the policy."
+    },
+    {
+      "id": "KB017",
+      "section": "Pricing & Discounts",
+      "q": "Do you offer discounts for buying several plants?",
+      "a": "Current offers are shown on our website and applied at checkout, where you see your final price before paying. For large orders, our team can prepare a quote.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Yes, volume discounts apply automatically at checkout on standard catalog items: 3-4 units get 5% OFF, 5-9 units get 10% OFF, and 10 or more units get 15% OFF. No code needed.",
+      "status": "decision",
+      "evidence": [
+        "shopify:discounts"
+      ],
+      "note": "Shopify has no automatic quantity discount (no 3/5/10-unit tiers). Either create it in Shopify before launch or use the new answer."
+    },
+    {
+      "id": "KB018",
+      "section": "Pricing & Discounts",
+      "q": "Do I need a code for the volume discount?",
+      "a": "Any automatic offer is applied at checkout without a code, and your final price is shown before you pay.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "No. Volume discounts are applied automatically once your cart reaches the quantity. Your reduced total is shown at checkout before you pay.",
+      "status": "decision",
+      "evidence": [
+        "shopify:discounts"
+      ],
+      "note": "No volume discount exists in Shopify. Decide with KB017."
+    },
+    {
+      "id": "KB019",
+      "section": "Pricing & Discounts",
+      "q": "What is the GREENMIX5 code?",
+      "a": "I don't have that code on file. Current offers are shown on our website, and checkout tells you if a code is valid before you pay.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "GREENMIX5 gives 5% off when you buy 5 or more mixed plants. Enter it at checkout. Retail discounts never total more than 15%, and your final price is shown before you pay.",
+      "status": "decision",
+      "evidence": [
+        "shopify:discounts"
+      ],
+      "note": "Code GREENMIX5 does not exist in Shopify. Create it or drop this answer."
+    },
+    {
+      "id": "KB020",
+      "section": "Pricing & Discounts",
+      "q": "Do different plants count together for the discount?",
+      "a": "Checkout shows exactly which discount applies to your cart before you pay.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "For GREENMIX5, yes: 5 or more mixed plants qualify. For the automatic volume discounts, checkout shows the discount applied to your cart before you pay.",
+      "status": "decision",
+      "evidence": [
+        "shopify:discounts"
+      ],
+      "note": "Depends on GREENMIX5 and volume discounts, neither exists in Shopify."
+    },
+    {
+      "id": "KB021",
+      "section": "Pricing & Discounts",
+      "q": "Do you have a first-order discount?",
+      "a": "Current offers are shown on our website. If you have a code, enter it at checkout and your discount is shown before you pay.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Yes. Use code WELCOME10 for 10% off your first order over AED 150. Enter it at checkout.",
+      "status": "decision",
+      "evidence": [
+        "shopify:discounts"
+      ],
+      "note": "Code WELCOME10 does not exist in Shopify. Active 10% codes are WCBACK10 (no minimum), PWSO10 (no minimum), FC10 (min AED 100) and AC10 (min AED 200). Pick one to publish, create WELCOME10, or use the new answer."
+    },
+    {
+      "id": "KB022",
+      "section": "Pricing & Discounts",
+      "q": "Do I get anything free with a bigger order?",
+      "a": "Current offers, including any free gifts, are shown on our website.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Yes. Orders over AED 250 include a free 100ml Organic Plant Food sample. Orders over AED 500 include a free Mini Plant gift.",
+      "status": "decision",
+      "evidence": [
+        "shopify:discounts"
+      ],
+      "note": "No free plant food or mini plant gift is set up in Shopify. The only 'free plant over AED 250' offer has expired."
+    },
+    {
+      "id": "KB023",
+      "section": "Pricing & Discounts",
+      "q": "What's the maximum discount I can get?",
+      "a": "Your final price, with any discount, is shown at checkout before you pay.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Our retail discount cap is 15%. That's the maximum combined discount on a standard retail order.",
+      "status": "decision",
+      "evidence": [
+        "shopify:discounts"
+      ],
+      "note": "Contradicted by Shopify: active automatic 'SUMMER GREEN SALE' gives 50% off orders over AED 500, and codes CODE20 (20%), BMO25 and MYBBMO25 (25%) are active. Decide the cap, then fix Shopify or this answer. The summer sale may be left over from summer."
+    },
+    {
+      "id": "KB024",
+      "section": "Pricing & Discounts",
+      "q": "Can I combine promo codes and volume discounts?",
+      "a": "Usually one discount applies per order; checkout shows which one is used and your final price before you pay.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Discounts can be applied at checkout, but the total on a retail order never exceeds our 15% cap. Your final total is displayed before you pay.",
+      "status": "decision",
+      "evidence": [
+        "shopify:discounts"
+      ],
+      "note": "In Shopify most codes are set not to combine with other discounts. The 15% cap is not set anywhere."
+    },
+    {
+      "id": "KB025",
+      "section": "Pricing & Discounts",
+      "q": "I'm buying more than 15 plants. Can I get a better price?",
+      "a": "For orders over 15 units, our team prepares a tailored quote. I'll pass your details to them. Please share the plants, quantity, delivery emirate and your phone number.",
+      "route": "HUMAN",
+      "source": "POLICY",
+      "status": "team",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Shipping policy 7: bulk orders are custom orders with a proposal. The 15-unit threshold is not in any policy."
+    },
+    {
+      "id": "KB026",
+      "section": "Pricing & Discounts",
+      "q": "I need a quote for a company or project over AED 2,000.",
+      "a": "Commercial quotes over AED 2,000 are handled by our team. Please share what you need, the quantity, delivery emirate and your phone number, and they'll come back to you.",
+      "route": "HUMAN",
+      "source": "POLICY",
+      "status": "team",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Custom proposals match Shipping policy 7; the AED 2,000 threshold is not in any policy."
+    },
+    {
+      "id": "KB027",
+      "section": "Pricing & Discounts",
+      "q": "Can you give me an extra discount?",
+      "a": "Our prices and current offers are as shown on the website. For large or commercial orders, our team can prepare a quote.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Our prices and offers are as listed, and retail discounts are capped at 15%. For large or commercial orders, our team can review a quote with you.",
+      "status": "decision",
+      "evidence": [
+        "shopify:discounts"
+      ],
+      "note": "Mentions the 15% cap; decide with KB023."
+    },
+    {
+      "id": "KB028",
+      "section": "Pricing & Discounts",
+      "q": "Do volume discounts apply to gifts, services or branded orders?",
+      "a": "Customised gifts, corporate branding and maintenance services are quoted by our team.",
+      "route": "AI_THEN_HUMAN",
+      "source": "POLICY",
+      "original_a": "Volume discounts apply to standard catalog items. Customised gifts, corporate branding and maintenance services are quoted by our team.",
+      "status": "decision",
+      "evidence": [
+        "shopify:discounts"
+      ],
+      "note": "Depends on volume discounts (KB017)."
+    },
+    {
+      "id": "KB029",
+      "section": "Pricing & Discounts",
+      "q": "Do you match competitor prices?",
+      "a": "Our prices are as listed on the site. For larger orders, our team can review your requirements and prepare a quote.",
+      "route": "AI",
+      "source": "HANDOFF",
+      "status": "verified",
+      "evidence": [],
+      "note": "No conflict."
+    },
+    {
+      "id": "KB030",
+      "section": "Pricing & Discounts",
+      "q": "Why do prices change with the pot option?",
+      "a": "The plant is the same size. A decorative pot adds the pot, premium soil mix, perlite and drainage layer, so it costs more than a nursery pot.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "status": "team",
+      "evidence": [],
+      "note": "Depends on pot contents (KB010)."
+    },
+    {
+      "id": "KB031",
+      "section": "Pricing & Discounts",
+      "q": "Are prices in AED and do they include VAT?",
+      "a": "Yes. All prices are in AED and include VAT. Delivery fees are shown separately at checkout before you pay. For a tax invoice, message us on WhatsApp (+971 4 294 1422) with your order number; for corporate orders that need an invoice, contact us before ordering.",
+      "route": "AI",
+      "source": "HANDOFF",
+      "original_a": "All prices are in AED, and your full total is shown at checkout. For a tax invoice or VAT details, message our team with your Order #.",
+      "original_route": "AI_THEN_HUMAN",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/terms-of-service",
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Terms 3 and Shipping policy 9: prices are in AED and include VAT; delivery fees are shown separately."
+    },
+    {
+      "id": "KB032",
+      "section": "Pricing & Discounts",
+      "q": "Do you have a sale or seasonal offer right now?",
+      "a": "Current offers are shown on our website and applied at checkout.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Current offers are shown on our website. Right now you can use volume discounts, GREENMIX5 and WELCOME10, and get free gifts on larger orders.",
+      "status": "decision",
+      "evidence": [
+        "shopify:discounts"
+      ],
+      "note": "Names WELCOME10 and GREENMIX5 (not in Shopify), volume discounts and free gifts (not set up)."
+    },
+    {
+      "id": "KB033",
+      "section": "Payment & Checkout",
+      "q": "What payment methods do you accept?",
+      "a": "You can pay by credit or debit card or Apple Pay at checkout, split the payment into 4 interest-free instalments with Tabby or Tamara, or pay by cash or card on delivery. Bank transfer is also possible: contact us for the details.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "We accept Visa, Mastercard and Apple Pay. You can also pay with Tabby in 4 interest-free installments, or choose Cash on Delivery anywhere in the UAE.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy",
+        "https://plantsworld.ae/policies/terms-of-service"
+      ],
+      "note": "Refund policy 9 and Terms 7 list: card, Apple Pay, Card on Delivery, Tabby or Tamara, Cash on Delivery, bank transfer."
+    },
+    {
+      "id": "KB034",
+      "section": "Payment & Checkout",
+      "q": "Can I pay in installments?",
+      "a": "Yes. Choose Tabby or Tamara at checkout to split your payment into 4 interest-free instalments. Eligibility and the minimum and maximum amounts are set by the provider.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Yes. Tabby lets you split your payment into 4 interest-free installments. Choose Tabby at checkout and follow the steps to complete approval.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Policy names Tabby and Tamara; eligibility and limits are set by the provider."
+    },
+    {
+      "id": "KB035",
+      "section": "Payment & Checkout",
+      "q": "Is Tabby really interest free?",
+      "a": "Yes, Tabby and Tamara split your payment into 4 instalments with zero interest. Approval, limits and due dates are set by the provider and shown at checkout.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Yes, Tabby offers 4 interest-free installments. Approval is handled by Tabby at checkout.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy",
+        "https://plantsworld.ae/policies/terms-of-service"
+      ],
+      "note": "Policy: zero interest; eligibility, limits and due dates are set by the provider."
+    },
+    {
+      "id": "KB036",
+      "section": "Payment & Checkout",
+      "q": "Do you accept Apple Pay?",
+      "a": "Yes. Select Apple Pay at checkout for a quick, secure payment from your device.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "verified",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Apple Pay is listed in Refund policy 9."
+    },
+    {
+      "id": "KB037",
+      "section": "Payment & Checkout",
+      "q": "Can I pay with Cash on Delivery?",
+      "a": "Yes. Cash on Delivery is available across the UAE with no order-value limit, and you can also pay by card on delivery.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Yes. Cash on Delivery is available across the UAE, with an AED 15 courier handling fee.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Policy: Cash on Delivery with no order-value limit, and Card on Delivery. The AED 15 fee is not in any policy; see KB038."
+    },
+    {
+      "id": "KB038",
+      "section": "Payment & Checkout",
+      "q": "How much is the Cash on Delivery fee?",
+      "a": "COD has an AED 15 courier handling fee. Paying by card, Apple Pay or Tabby has no COD fee.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "team",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy",
+        "https://plantsworld.ae/policies/terms-of-service"
+      ],
+      "note": "An AED 15 COD fee is not in any published policy or Shopify shipping rate. Confirm whether it is charged; if not, delete this answer."
+    },
+    {
+      "id": "KB039",
+      "section": "Payment & Checkout",
+      "q": "Do I pay delivery fees as well with COD?",
+      "a": "Delivery follows your emirate's rates, and COD adds the AED 15 handling fee. Your full total is shown at checkout.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "team",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Delivery rates are per Shipping policy 3; the COD fee is unconfirmed (KB038)."
+    },
+    {
+      "id": "KB040",
+      "section": "Payment & Checkout",
+      "q": "Is checkout secure?",
+      "a": "Yes. Card and Apple Pay payments are processed through secure payment services at checkout. If you have any trouble paying, tell me what you see and I'll help.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "verified",
+      "evidence": [
+        "https://plantsworld.ae/policies/terms-of-service"
+      ],
+      "note": "Terms 7: card details are processed by the payment provider; Plantsworld does not store full card details."
+    },
+    {
+      "id": "KB041",
+      "section": "Payment & Checkout",
+      "q": "Do you accept bank transfer, Amex or Google Pay?",
+      "a": "Yes to bank transfer: contact us for the bank details and confirmation. For cards, the card types and wallets accepted are shown at checkout; you can also use Apple Pay, Tabby, Tamara, or pay by cash or card on delivery.",
+      "route": "AI",
+      "source": "HANDOFF",
+      "original_a": "Our available payment methods are Visa, Mastercard, Apple Pay, Tabby and Cash on Delivery. For another method, message our team.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Bank transfer IS accepted (Refund policy 9). The site footer shows Amex and Google Pay among accepted cards; checkout decides."
+    },
+    {
+      "id": "KB042",
+      "section": "Payment & Checkout",
+      "q": "My payment failed. What should I do?",
+      "a": "Please try again, or choose another method such as Apple Pay, Tabby, Tamara, or cash or card on delivery. If the payment still fails, send me a screenshot and I'll pass it to our team.",
+      "route": "AI_THEN_HUMAN",
+      "source": "GENERAL_KNOWLEDGE",
+      "original_a": "Please try again, or choose another method such as Apple Pay, Tabby or Cash on Delivery. If the payment still fails, send me a screenshot and I'll pass it to our team.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Updated to list Tamara and card on delivery (Refund policy 9)."
+    },
+    {
+      "id": "KB043",
+      "section": "Payment & Checkout",
+      "q": "I was charged but didn't get an order confirmation.",
+      "a": "I'm sorry about that. Please message our team at +971 4 294 1422 with the payment time, amount and the email you used, and we'll check your order straight away.",
+      "route": "HUMAN",
+      "source": "HANDOFF",
+      "status": "verified",
+      "evidence": [],
+      "note": "Placeholder filled."
+    },
+    {
+      "id": "KB044",
+      "section": "Payment & Checkout",
+      "q": "Can I get an invoice or receipt?",
+      "a": "Our team can send this. Please message +971 4 294 1422 with your Order #.",
+      "route": "HUMAN",
+      "source": "HANDOFF",
+      "status": "verified",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Placeholder filled."
+    },
+    {
+      "id": "KB045",
+      "section": "Delivery & Damaged Items",
+      "q": "How fast is delivery in Dubai?",
+      "a": "In Dubai you can choose Same Day Delivery (AED 50, order before 2:00 PM), Next-Day Express (AED 30), or standard delivery in 2–3 working days, free on orders of AED 100 and above (AED 10 below).",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Orders placed before 12:00 PM (GST) are delivered the same day. Orders placed after 12:00 PM are delivered the next day.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy",
+        "shopify:shipping"
+      ],
+      "note": "KB said same day before 12:00 PM, free. Policy and Shopify: Same Day AED 50 before 2 PM, Next-Day Express AED 30, standard 2–3 working days."
+    },
+    {
+      "id": "KB046",
+      "section": "Delivery & Damaged Items",
+      "q": "Is delivery free in Dubai?",
+      "a": "Yes, standard delivery in Dubai is free on orders of AED 100 and above, and AED 10 below that. Same Day (AED 50) and Next-Day Express (AED 30) are also available.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Yes, on orders over AED 150. For orders below AED 150, delivery is AED 20.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy",
+        "shopify:shipping"
+      ],
+      "note": "KB said free over AED 150, AED 20 below. Policy and Shopify: free from AED 100, AED 10 below."
+    },
+    {
+      "id": "KB047",
+      "section": "Delivery & Damaged Items",
+      "q": "Do you deliver to Sharjah, and is it free?",
+      "a": "Yes. Sharjah has the same terms as Dubai: free standard delivery from AED 100 (AED 10 below), plus Same Day (AED 50, order before 2 PM) and Next-Day Express (AED 30).",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Yes. Sharjah has the same terms as Dubai: free delivery over AED 150, and AED 20 below AED 150.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy",
+        "shopify:shipping"
+      ],
+      "note": "Thresholds corrected as KB046."
+    },
+    {
+      "id": "KB048",
+      "section": "Delivery & Damaged Items",
+      "q": "Which emirates do you deliver to?",
+      "a": "We deliver to all seven emirates: Dubai, Sharjah, Ajman, Abu Dhabi (including Al Ain), Ras Al Khaimah, Fujairah and Umm Al Quwain. Same Day and Next-Day Express are available in Dubai, Sharjah and Ajman; elsewhere standard delivery takes 2–3 working days.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "We deliver to Dubai, Sharjah, Abu Dhabi, Ajman, Umm Al Quwain, Ras Al Khaimah and Fujairah. Dubai and Sharjah offer same-day or next-day delivery, and the other emirates take 24-48 hours.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy",
+        "shopify:shipping"
+      ],
+      "note": "Policy: all 7 emirates; Same Day and Express only in Dubai, Sharjah and Ajman; others 2–3 working days."
+    },
+    {
+      "id": "KB049",
+      "section": "Delivery & Damaged Items",
+      "q": "How much is delivery to Abu Dhabi?",
+      "a": "Delivery to Abu Dhabi and Al Ain is free on orders of AED 100 and above, and AED 10 below that. It takes 2–3 working days.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Delivery to Abu Dhabi is free on orders over AED 250. Below AED 250 it's AED 35. Delivery takes 24-48 hours.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy",
+        "shopify:shipping"
+      ],
+      "note": "KB said free over AED 250, AED 35 below. Policy and Shopify: free from AED 100, AED 10 below."
+    },
+    {
+      "id": "KB050",
+      "section": "Delivery & Damaged Items",
+      "q": "What are the shipping rates for Ajman, UAQ, RAK and Fujairah?",
+      "a": "Ajman has the same rates as Dubai: free from AED 100 (AED 10 below), with Same Day and Express available. Ras Al Khaimah, Fujairah and Umm Al Quwain are free from AED 150, and AED 20 below; delivery takes 2–3 working days.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "These emirates are free over AED 250, and AED 35 below AED 250. Delivery takes 24-48 hours.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy",
+        "shopify:shipping"
+      ],
+      "note": "Ajman is in the Dubai/Sharjah zone. RAK, Fujairah and UAQ: free from AED 150, AED 20 below (KB said 250/35)."
+    },
+    {
+      "id": "KB051",
+      "section": "Delivery & Damaged Items",
+      "q": "What does 'GST' mean for the 12:00 PM cutoff?",
+      "a": "The Same Day cut-off is 2:00 PM UAE time (GST, Gulf Standard Time). Order before then for same-day delivery in Dubai, Sharjah or Ajman.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "GST means Gulf Standard Time, the UAE local time. Order before 12:00 PM UAE time for same-day delivery in Dubai.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Cut-off is 2:00 PM, not 12:00 PM."
+    },
+    {
+      "id": "KB052",
+      "section": "Delivery & Damaged Items",
+      "q": "Is the free shipping threshold based on my total after discounts?",
+      "a": "Your delivery fee is shown at checkout before you pay. If you're close to the free delivery amount, I can suggest a plant to add.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "verified",
+      "evidence": [
+        "shopify:shipping"
+      ],
+      "note": "Shopify checks the cart total; checkout shows the fee."
+    },
+    {
+      "id": "KB053",
+      "section": "Delivery & Damaged Items",
+      "q": "Will my plant be safe in the UAE heat during delivery?",
+      "a": "Yes. Our own delivery team brings your order, not a third-party courier. In extreme summer heat (June to September) we may move deliveries to farther emirates to a cooler day and agree the new day with you. If anything arrives damaged, we replace it free.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Yes. All orders travel in temperature-controlled, air-conditioned vans, so your plant stays comfortable from our nursery to your door.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Shipping policy says Plantsworld's own team delivers and may reschedule farther-emirate deliveries in June–September heat. 'Temperature-controlled, air-conditioned vans' is not in any policy: team to confirm before the assistant says it."
+    },
+    {
+      "id": "KB054",
+      "section": "Delivery & Damaged Items",
+      "q": "What if my plant or pot arrives damaged?",
+      "a": "We're sorry if that happens. Plants are guaranteed to arrive healthy: refuse a damaged item with the delivery agent, or send photos and your order number on WhatsApp (+971 4 294 1422) or to sales@plantsworld.ae within 24 hours. We replace it free, with no pick-up or restocking fee. If it's out of stock, you can choose another item of equal value or get a refund.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "We're sorry if that happens. Our Transit Guarantee gives you a 100% free replacement or full credit for any plant or pot that arrives damaged, when reported with a photo within 24 hours.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Refund policy 3.2–4: refuse at the door or report within 24 hours; free replacement with no pick-up or restocking fee; if out of stock, an item of equal value or a refund. No 'Transit Guarantee' or 'credit'."
+    },
+    {
+      "id": "KB055",
+      "section": "Delivery & Damaged Items",
+      "q": "How do I report a damaged item?",
+      "a": "Within 24 hours of delivery, send your order number and clear photos of the plant or pot on WhatsApp (+971 4 294 1422) or to sales@plantsworld.ae. Photos on WhatsApp count as a formal claim. Our team replies within 1–2 business days and arranges a pick-up and a free replacement.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Take a clear photo of the plant or pot and message us on WhatsApp at [WhatsApp number] within 24 hours of delivery, with your Order #. We'll arrange your replacement or credit.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Refund policy 3.3 and 11: WhatsApp or email; photos on WhatsApp count as a formal claim; reply within 1–2 business days."
+    },
+    {
+      "id": "KB056",
+      "section": "Delivery & Damaged Items",
+      "q": "I'm reporting damage after 24 hours. Can you still help?",
+      "a": "Damage claims are accepted within 24 hours of delivery. If your plant has pests or a fungal problem within 7 days of delivery, we treat it free of charge, on-site or at our facility. Send your order number and photos on WhatsApp (+971 4 294 1422) and our team will review it.",
+      "route": "AI_THEN_HUMAN",
+      "source": "POLICY",
+      "original_a": "The Transit Guarantee covers damage reported with a photo within 24 hours. I'll pass your case to our team so they can review it. Please send your Order # and photos.",
+      "original_route": "HUMAN",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Refund policy 3.3–3.4: damage reported after 24 hours is not accepted, except pests or disease within 7 days, which are treated free."
+    },
+    {
+      "id": "KB057",
+      "section": "Delivery & Damaged Items",
+      "q": "My plant arrived with a few drooping or yellow leaves. Is that normal?",
+      "a": "Yes, that's normal. A few drooping, bent or yellow leaves are a common reaction to the journey and a new spot, and plants usually recover within a few days. Keep it in bright indirect light and check the soil before watering. If the plant or pot is actually damaged, send photos within 24 hours.",
+      "route": "AI_THEN_HUMAN",
+      "source": "POLICY",
+      "original_a": "A few drooping leaves can happen after a journey, and plants usually settle within days. If a plant or pot is damaged, report it with a photo within 24 hours and our Transit Guarantee applies.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Refund policy 3.1: slight drooping, bent leaves and minor yellowing from the move are normal and not damage; they recover within days."
+    },
+    {
+      "id": "KB058",
+      "section": "Delivery & Damaged Items",
+      "q": "Can I choose a delivery time slot?",
+      "a": "You'll get a call, SMS or WhatsApp with an estimated delivery window once your order is ready. For speed, choose Same Day or Next-Day Express in Dubai, Sharjah or Ajman. For a specific time, message us on WhatsApp (+971 4 294 1422) with your order number and our team will check.",
+      "route": "AI_THEN_HUMAN",
+      "source": "HANDOFF",
+      "original_a": "Delivery follows our schedule for your emirate. For a specific time request, please message [WhatsApp number] with your Order # and our team will check.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Policy: a confirmation message gives an estimated window; Same Day and Express exist in Dubai, Sharjah and Ajman."
+    },
+    {
+      "id": "KB059",
+      "section": "Delivery & Damaged Items",
+      "q": "Do you deliver on weekends and public holidays?",
+      "a": "Yes, we deliver every day of the week, including Fridays and weekends. Same Day and Next-Day Express also run on public holidays. If a standard delivery falls on a public holiday, our team will confirm the date with you.",
+      "route": "AI",
+      "source": "HANDOFF",
+      "original_a": "Our team can confirm availability for your date. Please message [WhatsApp number] with your emirate and preferred day.",
+      "original_route": "HUMAN",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Shipping policy 2: delivery every day including Fridays and weekends; Same Day and Express also run on public holidays."
+    },
+    {
+      "id": "KB060",
+      "section": "Delivery & Damaged Items",
+      "q": "Can I get my order delivered to an office, villa or hotel?",
+      "a": "Yes, add the building, floor, landmark and a reachable phone number at checkout so the courier can find you easily. For hotels, include the guest name and room details.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "status": "verified",
+      "evidence": [],
+      "note": "No conflict."
+    },
+    {
+      "id": "KB061",
+      "section": "Delivery & Damaged Items",
+      "q": "What if I'm not home during delivery?",
+      "a": "Add a reachable phone number at checkout; our driver may call to confirm access. If no one is available, we'll contact you to arrange redelivery at no extra charge. You can also message us on WhatsApp (+971 4 294 1422) with your order number.",
+      "route": "AI_THEN_HUMAN",
+      "source": "HANDOFF",
+      "original_a": "Please add a reachable phone number at checkout. If you won't be available, message [WhatsApp number] with your Order # and we'll arrange the best option.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Shipping policy 6: we contact you to arrange redelivery, free."
+    },
+    {
+      "id": "KB062",
+      "section": "Delivery & Damaged Items",
+      "q": "Can I change my delivery address after ordering?",
+      "a": "Yes, up to the day before your delivery date. Send your order number and the new address on WhatsApp (+971 4 294 1422) or to sales@plantsworld.ae.",
+      "route": "AI_THEN_HUMAN",
+      "source": "HANDOFF",
+      "original_a": "Please message [WhatsApp number] right away with your Order # and the new address. Our team will check if it can still be updated.",
+      "original_route": "HUMAN",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Shipping policy 6: address can be changed up to the day before delivery."
+    },
+    {
+      "id": "KB063",
+      "section": "Delivery & Damaged Items",
+      "q": "Where is my order? Can I track it?",
+      "a": "Once your order is confirmed and ready, we send a call, SMS or WhatsApp message with your estimated delivery window. For an update, message us on WhatsApp (+971 4 294 1422) with your order number.",
+      "route": "AI_THEN_HUMAN",
+      "source": "HANDOFF",
+      "original_a": "Please message [WhatsApp number] with your Order # and our team will share your delivery update.",
+      "original_route": "HUMAN",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Shipping policy 5: confirmation by call, SMS or WhatsApp with a delivery window."
+    },
+    {
+      "id": "KB064",
+      "section": "Delivery & Damaged Items",
+      "q": "Do you deliver outside the UAE, or to Al Ain?",
+      "a": "We deliver to Al Ain at Abu Dhabi rates: free from AED 100 (AED 10 below), in 2–3 working days. We don't ship outside the UAE.",
+      "route": "AI",
+      "source": "HANDOFF",
+      "original_a": "We deliver across the emirates listed above. For Al Ain or any location outside the UAE, please message [WhatsApp number] and our team will advise.",
+      "original_route": "HUMAN",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy",
+        "shopify:shipping"
+      ],
+      "note": "Al Ain IS delivered (Abu Dhabi & Al Ain zone). No international shipping (Shipping policy 8)."
+    },
+    {
+      "id": "KB065",
+      "section": "Delivery & Damaged Items",
+      "q": "How do you deliver very large plants?",
+      "a": "Large trees and palms are custom orders. Our team sends a proposal with the price, delivery fee and timing for your location. Share the plant and your delivery emirate and I'll pass it on.",
+      "route": "HUMAN",
+      "source": "HANDOFF",
+      "original_a": "Large specimen plants over 2 metres need special delivery planning, so our team handles them directly. Please share the plant and your delivery emirate and I'll pass it on.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Shipping policy 7: custom orders with a proposal."
+    },
+    {
+      "id": "KB066",
+      "section": "Plant Care & Pet Safety",
+      "q": "How much light do indoor plants need in the UAE?",
+      "a": "Most indoor plants like bright, indirect light. Avoid direct midday sun through glass, which can scorch leaves. Low-light options such as Snake Plant, ZZ Plant and Pothos cope well in dimmer rooms.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "status": "verified",
+      "evidence": [
+        "aeo/verification/uae_gcc_baseline.json"
+      ],
+      "note": "Matches guide research and baseline sun-through-glass."
+    },
+    {
+      "id": "KB067",
+      "section": "Plant Care & Pet Safety",
+      "q": "How often should I water my plant?",
+      "a": "Water when the top of the soil feels dry, then let excess drain. Needs vary by plant: succulents like Snake and ZZ need less water than leafy plants. Overwatering is the most common cause of plant problems.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "status": "verified",
+      "evidence": [
+        "aeo/verification/uae_gcc_baseline.json"
+      ],
+      "note": "Matches guide research (check soil, not calendar)."
+    },
+    {
+      "id": "KB068",
+      "section": "Plant Care & Pet Safety",
+      "q": "My plant has yellow leaves. What's wrong?",
+      "a": "Yellow leaves are most often caused by overwatering or poor drainage. Let the soil dry out, check the drainage, and remove yellow leaves. A few yellow leaves after delivery are normal. If it continues, send a photo with the plant name.",
+      "route": "AI_THEN_HUMAN",
+      "source": "GENERAL_KNOWLEDGE",
+      "original_a": "Yellow leaves are most often caused by overwatering or poor drainage. Let the soil dry out, check the drainage, and remove yellow leaves. If it continues, send a photo with the plant name.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Added that a few yellow leaves after delivery are normal (Refund policy 3.1)."
+    },
+    {
+      "id": "KB069",
+      "section": "Plant Care & Pet Safety",
+      "q": "Why are the leaf tips turning brown?",
+      "a": "Brown tips usually come from uneven watering, cold air blowing straight from an AC vent, or salt build-up from fertiliser or tap water. Keep watering steady, move the plant out of direct AC airflow, flush the soil with plenty of water now and then, and trim the brown tips.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "original_a": "Brown tips usually come from dry air, such as constant air conditioning, or uneven watering. Keep watering consistent, trim the tips, and avoid placing the plant directly in the AC airflow.",
+      "status": "corrected",
+      "evidence": [
+        "aeo/verification/uae_gcc_baseline.json"
+      ],
+      "note": "Baseline indoor-ac: UAE AC rooms are not reliably dry (Sharjah study: about 61% RH). Cold AC draughts and uneven watering are the common causes."
+    },
+    {
+      "id": "KB070",
+      "section": "Plant Care & Pet Safety",
+      "q": "Why is my plant drooping?",
+      "a": "Drooping can mean thirst or overwatering. Check the soil: if dry, water well; if wet, hold off and check drainage. Moving a plant to a new spot can also cause temporary drooping.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "status": "verified",
+      "evidence": [],
+      "note": "No conflict."
+    },
+    {
+      "id": "KB071",
+      "section": "Plant Care & Pet Safety",
+      "q": "My plant is dropping leaves after arrival. Should I worry?",
+      "a": "Some leaf drop is normal as a plant adjusts to new light and temperature, especially Fiddle Leaf Fig. Keep it in one spot, avoid frequent moves, and keep watering steady.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "status": "verified",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Matches Refund policy 3.1 (adjustment leaf drop is normal)."
+    },
+    {
+      "id": "KB072",
+      "section": "Plant Care & Pet Safety",
+      "q": "Do I need to repot my plant when it arrives?",
+      "a": "Not immediately. Let it settle for a few weeks first, and note that a repotted plant can't be returned or replaced, so check it's healthy before you repot. Plants in decorative pots arrive fully potted. Repot only when roots fill the pot or growth stops.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "original_a": "Not immediately. Let it settle for a few weeks. Plants in decorative pots arrive fully potted. Repot only when roots fill the pot or growth stops.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Refund policy 3.2 and 6: repotted plants cannot be returned or replaced, so customers should not repot until they are sure."
+    },
+    {
+      "id": "KB073",
+      "section": "Plant Care & Pet Safety",
+      "q": "I see tiny flying insects around my plant.",
+      "a": "These are often fungus gnats, caused by constantly damp soil. Let the soil dry between waterings and avoid leaving water in the saucer. If they persist, send a photo and our team will advise.",
+      "route": "AI_THEN_HUMAN",
+      "source": "GENERAL_KNOWLEDGE",
+      "status": "verified",
+      "evidence": [],
+      "note": "No conflict."
+    },
+    {
+      "id": "KB074",
+      "section": "Plant Care & Pet Safety",
+      "q": "Which plants are easiest for beginners?",
+      "a": "Snake Plant, ZZ Plant and Golden Pothos are very forgiving. They handle low light and occasional missed waterings well.",
+      "route": "AI",
+      "source": "CATALOG",
+      "status": "verified",
+      "evidence": [
+        "catalog"
+      ],
+      "note": "All three are in the catalog."
+    },
+    {
+      "id": "KB075",
+      "section": "Plant Care & Pet Safety",
+      "q": "Which plants are safe for cats and dogs?",
+      "a": "Areca Palm, Money Tree (Pachira) and Chinese Money Plant are generally considered non-toxic to cats and dogs. Even safe plants can upset a pet's stomach if chewed, so supervise curious pets.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "status": "verified",
+      "evidence": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants"
+      ],
+      "note": "ASPCA lists areca palm and Pachira aquatica as non-toxic; Pilea peperomioides is not listed by name but related Pilea are non-toxic."
+    },
+    {
+      "id": "KB076",
+      "section": "Plant Care & Pet Safety",
+      "q": "Which plants are toxic to pets?",
+      "a": "Snake Plant, Peace Lily, ZZ Plant, Pothos, Rubber Plant and Fiddle Leaf Fig can irritate pets if chewed. Keep them out of reach, or choose pet-friendly options such as Areca Palm.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "status": "verified",
+      "evidence": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants"
+      ],
+      "note": "Snake plant, peace lily, pothos, rubber plant and fiddle leaf fig are on ASPCA's toxic list; ZZ contains calcium oxalate."
+    },
+    {
+      "id": "KB077",
+      "section": "Plant Care & Pet Safety",
+      "q": "My pet chewed my plant. What should I do?",
+      "a": "Please contact your vet or a 24-hour animal emergency clinic right away and tell them the plant name. Don't wait for symptoms.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "status": "verified",
+      "evidence": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants"
+      ],
+      "note": "No conflict."
+    },
+    {
+      "id": "KB078",
+      "section": "Plant Care & Pet Safety",
+      "q": "Which plants can I keep on a balcony in summer?",
+      "a": "UAE summer sun is intense, and many indoor plants burn outdoors. Choose plants from our Outdoor category for balconies, and keep indoor plants away from direct midday sun.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "status": "verified",
+      "evidence": [
+        "aeo/verification/uae_gcc_baseline.json"
+      ],
+      "note": "Matches baseline summer-heat."
+    },
+    {
+      "id": "KB079",
+      "section": "Plant Care & Pet Safety",
+      "q": "Do plants really purify the air?",
+      "a": "Not noticeably in a normal room. Lab studies were done in small sealed chambers; a home would need far more plants than anyone keeps to match ordinary ventilation. Plants are great for greenery and wellbeing, but they don't replace ventilation or an air purifier.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "original_a": "Plants can modestly support a fresher indoor feel, but they don't replace ventilation or air filtration. We recommend them mainly for greenery and wellbeing.",
+      "status": "corrected",
+      "evidence": [
+        "https://doi.org/10.1038/s41370-019-0175-9"
+      ],
+      "note": "Cummings & Waring 2019: 10–1,000 plants per m² would be needed to match normal ventilation. 'Modestly support a fresher indoor feel' overstates it; matches the Snake Plant guide now."
+    },
+    {
+      "id": "KB080",
+      "section": "Plant Care & Pet Safety",
+      "q": "What plants work in an office with no window?",
+      "a": "Low-light plants such as ZZ Plant, Snake Plant and Golden Pothos cope best. In a windowless room, bright artificial light still helps, and growth will be slow.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "status": "verified",
+      "evidence": [],
+      "note": "Matches Snake Plant guide research (c22)."
+    },
+    {
+      "id": "KB081",
+      "section": "Plant Care & Pet Safety",
+      "q": "Do I need plant food?",
+      "a": "Plants benefit from feeding in their growing season, roughly March to October in the UAE. Follow the label for dosage and don't feed a stressed or newly delivered plant.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Plants benefit from feeding in their growing season. Our free Organic Plant Food sample comes with orders over AED 250. Follow the label for dosage and avoid feeding stressed plants.",
+      "status": "decision",
+      "evidence": [
+        "shopify:discounts"
+      ],
+      "note": "The free plant food sample is not set up in Shopify (see KB022)."
+    },
+    {
+      "id": "KB082",
+      "section": "Orders, Changes & Escalations",
+      "q": "Can I cancel my order?",
+      "a": "Yes. Cancel before your delivery date for a full refund; on the delivery day a 10% restocking fee applies. Customised and occasion or gift orders can't be cancelled once confirmed. Email sales@plantsworld.ae (or WhatsApp +971 4 294 1422) with your order number as early as possible.",
+      "route": "AI_THEN_HUMAN",
+      "source": "HANDOFF",
+      "original_a": "Please message [WhatsApp number] right away with your Order #. Our team will check if the order can still be cancelled.",
+      "original_route": "HUMAN",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Refund policy 7: full refund before the delivery date; 10% restocking fee on the delivery day; customised and gift orders cannot be cancelled. Cancellations by email."
+    },
+    {
+      "id": "KB083",
+      "section": "Orders, Changes & Escalations",
+      "q": "Can I change items in my order?",
+      "a": "Please message +971 4 294 1422 with your Order # and the change you'd like. Our team will check if it's still possible.",
+      "route": "HUMAN",
+      "source": "HANDOFF",
+      "status": "team",
+      "evidence": [],
+      "note": "Not covered by policy."
+    },
+    {
+      "id": "KB084",
+      "section": "Orders, Changes & Escalations",
+      "q": "I received the wrong plant.",
+      "a": "We're sorry about that. You can refuse it with the delivery agent, or send photos and your order number on WhatsApp (+971 4 294 1422) or to sales@plantsworld.ae within 24 hours of delivery, and our team will put it right.",
+      "route": "HUMAN",
+      "source": "HANDOFF",
+      "original_a": "We're sorry about that. Please send a photo and your Order # on WhatsApp at [WhatsApp number] within 24 hours of delivery, and our team will resolve it.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Refund policy 3.2–3.3: refuse at the door or report within 24 hours."
+    },
+    {
+      "id": "KB085",
+      "section": "Orders, Changes & Escalations",
+      "q": "My plant died after a few weeks. Can I get a refund?",
+      "a": "I'm sorry to hear that. If a plant shows pests or disease within 7 days of delivery, we treat it free. After that we can't take responsibility for decline linked to placement, watering or care, but our team is happy to advise. Send photos and your order number on WhatsApp (+971 4 294 1422).",
+      "route": "AI_THEN_HUMAN",
+      "source": "POLICY",
+      "original_a": "I'm sorry to hear that. Our Transit Guarantee covers damage in delivery reported within 24 hours. For other cases, send a photo and your Order # and our team will review it with you.",
+      "original_route": "HUMAN",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Refund policy 1 and 3.4: pests and disease are treated free within 7 days; after that, decline linked to placement or care is not covered, but the team will advise."
+    },
+    {
+      "id": "KB086",
+      "section": "Orders, Changes & Escalations",
+      "q": "What is your return or refund policy?",
+      "a": "Damaged items: refuse them at the door or report them within 24 hours with photos, and we replace them free. Change of mind on a plant: approved returns have an AED 15 pick-up fee and a 10% restocking fee, and delivery fees aren't refunded. Planters and accessories can be returned within 2 days if unused and in original packaging. Customised, gift, repotted, sale and clearance items aren't returnable. Approved refunds start within 10 working days.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "For items that arrive damaged, our Transit Guarantee offers a 100% free replacement or full credit when reported with a photo within 24 hours. For any other request, our team will review it with you.",
+      "original_route": "HUMAN",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Summary of the Refund policy."
+    },
+    {
+      "id": "KB087",
+      "section": "Orders, Changes & Escalations",
+      "q": "Can I send a plant as a gift to someone?",
+      "a": "Yes. Enter the recipient's address and phone number at checkout. Decorative pot options arrive fully potted, ready to display. Gift orders can't be returned or cancelled for change of mind, but if a gift arrives damaged we replace it free.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "original_a": "Yes. Enter the recipient's address and phone number at checkout. Decorative pot options arrive fully potted, so they're ready to display.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Refund policy 6: gift orders are final sale for change of mind; a damaged gift is replaced free."
+    },
+    {
+      "id": "KB088",
+      "section": "Orders, Changes & Escalations",
+      "q": "Can I add a gift message or card?",
+      "a": "Our team can help with gift messages. Please message +971 4 294 1422 with your Order # and your message.",
+      "route": "HUMAN",
+      "source": "HANDOFF",
+      "status": "team",
+      "evidence": [],
+      "note": "Not covered by policy."
+    },
+    {
+      "id": "KB089",
+      "section": "Orders, Changes & Escalations",
+      "q": "I want customised or branded gifts for my company.",
+      "a": "Customised and corporate gifting is handled by our team. Please share the quantity, plant, branding needs, delivery emirate and date, and I'll pass it on.",
+      "route": "HUMAN",
+      "source": "HANDOFF",
+      "status": "verified",
+      "evidence": [],
+      "note": "No conflict."
+    },
+    {
+      "id": "KB090",
+      "section": "Orders, Changes & Escalations",
+      "q": "Do you offer monthly plant maintenance for my villa or office?",
+      "a": "Yes, our team handles maintenance services. Please share your location, the number of plants and the type of space, and I'll pass it on for a quote.",
+      "route": "HUMAN",
+      "source": "HANDOFF",
+      "status": "team",
+      "evidence": [],
+      "note": "Services exist on the site; terms are agreed per customer (Refund policy 6)."
+    },
+    {
+      "id": "KB091",
+      "section": "Orders, Changes & Escalations",
+      "q": "Do you do landscaping or outdoor projects?",
+      "a": "Yes. Landscape and plant scaping projects are handled by our team after a site review. Please share your location, scope and any photos.",
+      "route": "HUMAN",
+      "source": "HANDOFF",
+      "status": "team",
+      "evidence": [],
+      "note": "Plant scaping is on the site; team to confirm the site-review process."
+    },
+    {
+      "id": "KB092",
+      "section": "Orders, Changes & Escalations",
+      "q": "I want to speak to a person.",
+      "a": "Of course. You can reach our team on WhatsApp or phone at +971 4 294 1422, or by email at sales@plantsworld.ae, every day, 8 AM to 8 PM (UAE time). Please include your order number if you have one.",
+      "route": "HUMAN",
+      "source": "HANDOFF",
+      "original_a": "Of course. You can reach our team on WhatsApp at [WhatsApp number]. Please include your Order # if you have one. Our hours: [business hours].",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Placeholders filled from the published policies."
+    },
+    {
+      "id": "KB093",
+      "section": "Orders, Changes & Escalations",
+      "q": "I'd like to make a complaint.",
+      "a": "I'm sorry for the trouble. Please share your Order # and what happened, and I'll pass it to our team right away, or message +971 4 294 1422.",
+      "route": "HUMAN",
+      "source": "HANDOFF",
+      "status": "verified",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Placeholder filled."
+    },
+    {
+      "id": "KB094",
+      "section": "Orders, Changes & Escalations",
+      "q": "I didn't receive my order confirmation email.",
+      "a": "Please check your spam folder first; we also confirm orders by call, SMS or WhatsApp. If you haven't heard from us, message us on WhatsApp (+971 4 294 1422) with your phone number or email and our team will check.",
+      "route": "AI_THEN_HUMAN",
+      "source": "HANDOFF",
+      "original_a": "Please check your spam folder first. If it's not there, message [WhatsApp number] with your phone number or email and our team will check.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Shipping policy 5: confirmation also comes by call, SMS or WhatsApp."
+    },
+    {
+      "id": "KB095",
+      "section": "Helping Customers Choose & Buy",
+      "q": "What's a good gift plant?",
+      "a": "Peace Lily, ZZ Plant and Money Tree are popular gifts. Choose a decorative pot so the plant arrives fully potted and ready to display.",
+      "route": "AI",
+      "source": "CATALOG",
+      "status": "verified",
+      "evidence": [
+        "catalog"
+      ],
+      "note": "All in the catalog."
+    },
+    {
+      "id": "KB096",
+      "section": "Helping Customers Choose & Buy",
+      "q": "What plants suit a living room?",
+      "a": "Rubber Plant, Fiddle Leaf Fig, Areca Palm and Money Tree add height and greenery. Choose 100 CM and above for floor corners.",
+      "route": "AI",
+      "source": "CATALOG",
+      "status": "verified",
+      "evidence": [
+        "catalog"
+      ],
+      "note": "All in the catalog."
+    },
+    {
+      "id": "KB097",
+      "section": "Helping Customers Choose & Buy",
+      "q": "What plants work for a desk?",
+      "a": "Snake Plant Mini, Golden Pothos, ZZ Plant and Money Tree are good compact options in the 20-40 CM range.",
+      "route": "AI",
+      "source": "CATALOG",
+      "status": "verified",
+      "evidence": [
+        "catalog"
+      ],
+      "note": "All in the catalog."
+    },
+    {
+      "id": "KB098",
+      "section": "Helping Customers Choose & Buy",
+      "q": "How do I place an order?",
+      "a": "Choose your plant, size and pot option on the product page, then add it to your cart. Add the photo note if you'd like one, apply any code, and check out with your preferred payment method.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "team",
+      "evidence": [],
+      "note": "Depends on the photo note (KB001)."
+    },
+    {
+      "id": "KB099",
+      "section": "Helping Customers Choose & Buy",
+      "q": "Is this plant in stock?",
+      "a": "Availability is shown live on each product page at checkout. If an option is unavailable, tell me the plant and size and I'll suggest the closest alternative.",
+      "route": "AI",
+      "source": "GENERAL_KNOWLEDGE",
+      "status": "verified",
+      "evidence": [],
+      "note": "No conflict."
+    },
+    {
+      "id": "KB100",
+      "section": "Helping Customers Choose & Buy",
+      "q": "How can I get free shipping?",
+      "a": "Standard delivery is free from AED 100 in Dubai, Sharjah, Ajman, Abu Dhabi and Al Ain, and from AED 150 in Ras Al Khaimah, Fujairah and Umm Al Quwain. Tell me what's in your cart and I can suggest an add-on to reach it.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Dubai and Sharjah orders over AED 150 ship free. Abu Dhabi, Ajman, UAQ, RAK and Fujairah orders over AED 250 ship free. Tell me what's in your cart and I can suggest an add-on to reach it.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy",
+        "shopify:shipping"
+      ],
+      "note": "Thresholds corrected (KB said 150 and 250)."
+    },
+    {
+      "id": "KB101",
+      "section": "Helping Customers Choose & Buy",
+      "q": "Is there anything I could add to get a better offer?",
+      "a": "Current offers are shown on our website. Tell me what's in your cart and I can suggest an add-on to reach free delivery.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Yes. 3 plants gives 5% OFF, 5 gives 10% OFF, and 10 gives 15% OFF. Orders over AED 250 include a free Organic Plant Food sample, and over AED 500 a free Mini Plant gift.",
+      "status": "decision",
+      "evidence": [
+        "shopify:discounts"
+      ],
+      "note": "Volume tiers and free gifts are not set up in Shopify (KB017, KB022)."
+    },
+    {
+      "id": "KB102",
+      "section": "Helping Customers Choose & Buy",
+      "q": "Is a decorative pot worth the extra cost?",
+      "a": "If you want a ready-to-display plant, yes. It arrives 100% fully potted with premium soil mix, perlite and a drainage layer. If you have your own planter, the nursery pot saves money.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "team",
+      "evidence": [],
+      "note": "Depends on pot contents (KB010)."
+    },
+    {
+      "id": "KB103",
+      "section": "Helping Customers Choose & Buy",
+      "q": "Why should I buy from PlantsWorld?",
+      "a": "Our own delivery team brings every order, seven days a week, with same-day delivery in Dubai, Sharjah and Ajman. Plants are guaranteed to arrive healthy: damage reported within 24 hours is replaced free, and pests or disease within 7 days are treated free.",
+      "route": "AI",
+      "source": "POLICY",
+      "original_a": "Our plants come from our local UAE nursery and travel in air-conditioned vans. You can request a photo before dispatch, and our Transit Guarantee covers damage reported within 24 hours.",
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy",
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Removed 'local UAE nursery', 'air-conditioned vans' and 'Transit Guarantee' (none are in the policies; team can add them back once confirmed)."
+    },
+    {
+      "id": "KB104",
+      "section": "Orders, Changes & Escalations",
+      "q": "Can I return a plant if I change my mind?",
+      "a": "Contact us with your order number. Approved plant returns have an AED 15 pick-up fee and a 10% restocking fee, and the original delivery fee isn't refunded. Plants must not be repotted and need their original packaging. Customised, gift, sale and clearance items can't be returned.",
+      "route": "AI_THEN_HUMAN",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Missing from the KB; taken from the published policy."
+    },
+    {
+      "id": "KB105",
+      "section": "Orders, Changes & Escalations",
+      "q": "Can I return a pot or accessory?",
+      "a": "Yes, within 2 days of delivery if it's unused, undamaged and in its original packaging with tags. Return shipping is paid by the customer, and shipping fees aren't refunded.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Missing from the KB; taken from the published policy."
+    },
+    {
+      "id": "KB106",
+      "section": "Orders, Changes & Escalations",
+      "q": "How long does a refund take?",
+      "a": "Approved refunds start within 10 working days, to your original payment method where possible. Cash on Delivery orders are refunded by bank transfer to an account in the name on the order. Your bank may take a few more days.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Missing from the KB; taken from the published policy."
+    },
+    {
+      "id": "KB107",
+      "section": "Plant Care & Pet Safety",
+      "q": "My plant has bugs or spots a few days after delivery. Is that covered?",
+      "a": "Yes, within 7 days of delivery we treat airborne pests or fungal problems free of charge, on-site or at our facility. Send photos and your order number on WhatsApp (+971 4 294 1422); our team may ask about placement and watering to diagnose it.",
+      "route": "AI_THEN_HUMAN",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Missing from the KB; taken from the published policy."
+    },
+    {
+      "id": "KB108",
+      "section": "Delivery & Damaged Items",
+      "q": "Can I collect my order or visit your shop?",
+      "a": "Our Dubai address is a transit location, so it can't receive visits or returns. We deliver to all seven emirates, every day of the week.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Missing from the KB; taken from the published policy."
+    },
+    {
+      "id": "KB109",
+      "section": "Delivery & Damaged Items",
+      "q": "Should I check my plant when it's delivered?",
+      "a": "Yes, please inspect it with the delivery agent. If it's damaged, wilted or not what you ordered, you can refuse it on the spot, as long as it hasn't been repotted or unpacked from its pot. Keep your order confirmation as proof of purchase.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Missing from the KB; taken from the published policy."
+    },
+    {
+      "id": "KB110",
+      "section": "Delivery & Damaged Items",
+      "q": "Will summer heat delay my delivery?",
+      "a": "Sometimes. From June to September we may move deliveries to farther emirates to a cooler day to protect the plants. If that affects your order, we'll contact you and agree a new day.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Missing from the KB; taken from the published policy."
+    },
+    {
+      "id": "KB111",
+      "section": "Payment & Checkout",
+      "q": "Can I pay by card when the order arrives?",
+      "a": "Yes, Card on Delivery is available, as well as Cash on Delivery.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy",
+        "https://plantsworld.ae/policies/terms-of-service"
+      ],
+      "note": "Missing from the KB; taken from the published policy."
+    },
+    {
+      "id": "KB112",
+      "section": "Orders, Changes & Escalations",
+      "q": "What are your customer service hours?",
+      "a": "Our team is available every day, 8 AM to 8 PM (UAE time) on WhatsApp or phone at +971 4 294 1422, and by email at sales@plantsworld.ae.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy",
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Missing from the KB; taken from the published policy."
+    }
+  ]
+}

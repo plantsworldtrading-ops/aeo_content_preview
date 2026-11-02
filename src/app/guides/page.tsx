@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getVerification, guides, STAGE_LABEL } from "@/content/guides";
+import { getVerification, guides, kb, kbVerification, STAGE_LABEL } from "@/content/guides";
 import "./guide.css";
 
 export const metadata: Metadata = {
@@ -16,7 +16,7 @@ export default function GuidesIndex() {
         <h1>Care guide review</h1>
         <p className="lede">
           Draft care guides for plantsworld.ae, shown exactly as they will look on the site. Each guide is fact-checked for
-          UAE and GCC conditions and signed off before the next one is written.
+          UAE and GCC conditions and signed off before the next one is written. The support knowledge base is reviewed the same way.
         </p>
       </header>
       <ul className="guide-list">
@@ -34,6 +34,15 @@ export default function GuidesIndex() {
             </li>
           );
         })}
+        <li>
+          <Link href="/kb">
+            <strong>{kb.name}</strong>
+            <span>{kb.entries.length} answers the website assistant gives on orders, delivery, payment, returns and care</span>
+          </Link>
+          <Link className={`stage stage-${kbVerification.stage}`} href="/kb">
+            {STAGE_LABEL[kbVerification.stage]} · verify →
+          </Link>
+        </li>
       </ul>
     </main>
   );
