@@ -39,12 +39,17 @@ export type KbStatus = "verified" | "corrected" | "new" | "team" | "decision";
 export type KbEntry = {
   id: string; section: string; q: string; a: string; route: string; source: string; status: KbStatus;
   evidence: string[]; note: string; original_a?: string; original_route?: string;
+  // Set when an entry was changed or added in a policy re-check; recheck_was is the answer before that check.
+  recheck?: { on: string; note: string }; recheck_was?: string;
 };
+export type PolicyIssue = { id: string; title: string; detail: string; fix: string; where: string[] };
 export type Kb = {
   handle: string; name: string; updated_on: string;
   store: Record<string, { value: string; note: string }>;
   sources: Record<string, string>;
   entries: KbEntry[];
+  policy_check?: { checked_on: string; snapshot: string; policies: { url: string; title: string; dated: string }[] };
+  policy_issues?: PolicyIssue[];
 };
 export type KbVerification = {
   handle: string; stage: Stage; hash: string; content_errors: string[]; ledger_errors: string[];

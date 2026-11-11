@@ -18,9 +18,9 @@ export default function KbPage() {
       <p className={`stage stage-${v.stage}`}>{STAGE_LABEL[v.stage]}{v.signoff ? ` by ${v.signoff.by} on ${v.signoff.on}` : ""}</p>
       <p className="lede">
         These {kb.entries.length} answers are what the website assistant will tell customers about photos, pots, prices,
-        payment, delivery, returns and plant care. Every answer was checked on 2 Nov 2026 against the published Shipping,
-        Refund and Terms pages and against Shopify&apos;s live discounts and delivery rates. Many delivery answers in the KB were
-        out of date and have been corrected. Work through sections 1 to 3 first; they need your decision.
+        payment, delivery, returns and plant care. Every answer was checked on 2 Nov 2026 against the published policies
+        and Shopify&apos;s live discounts and delivery rates, and checked again on 11 Nov 2026 against the updated Shipping,
+        Refund, Terms, Privacy and Contact pages. Work through sections 1 to 4 first; they need your decision.
       </p>
       <ul className="tally">
         <li><strong>{count("decision")}</strong> decisions</li>
@@ -28,6 +28,7 @@ export default function KbPage() {
         <li><strong>{count("corrected")}</strong> corrected</li>
         <li><strong>{count("verified")}</strong> match the policies</li>
         <li><strong>{count("new")}</strong> new from the policies</li>
+        {kb.policy_issues && <li><strong>{kb.policy_issues.length}</strong> problems on the website policies</li>}
       </ul>
       <KbForm kb={kb} hash={v.hash} signedOff={!!v.signoff} />
     </main>

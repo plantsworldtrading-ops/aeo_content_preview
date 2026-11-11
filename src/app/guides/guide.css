@@ -92,4 +92,10 @@ body:has(.pcg) { background: #fff; font-family: system-ui, sans-serif; }
 .kb-verified, .kb-new { background: #e3f0e5; color: var(--green); }
 .kb-corrected { background: #fbefd6; color: var(--amber); }
 .kb-team, .kb-decision { background: #f6e3e0; color: var(--red); }
+.kb-recheck { background: #e4ecf6; color: #2f5d8a; }
+.kb-recheck-note { border-left: 3px solid #2f5d8a; padding-left: 8px; }
+.kb-card { scroll-margin-top: 16px; }
+.kb-card:target { outline: 2px solid #2f5d8a; outline-offset: 2px; }
+.kb-changed { margin: 0 0 8px; padding-left: 18px; display: grid; gap: 4px; font-size: .92rem; }
+.kb-changed a { color: var(--green); font-weight: 600; }
 @media (max-width: 420px) { .kb-grid { grid-template-columns: 1fr; } .verdicts.three { grid-template-columns: 1fr; } }

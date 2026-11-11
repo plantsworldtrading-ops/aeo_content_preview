@@ -1,11 +1,11 @@
 {
   "handle": "support-kb",
   "name": "Support knowledge base",
-  "updated_on": "2026-11-02",
+  "updated_on": "2026-11-11",
   "store": {
     "whatsapp": {
       "value": "+971 4 294 1422",
-      "note": "From the published Shipping and Refund policies. It is an 04 landline number listed as 'WhatsApp / phone': confirm WhatsApp works on it."
+      "note": "All five policies list +971 4 294 1422 as 'WhatsApp / phone'. It is an 04 landline number: confirm WhatsApp works on it."
     },
     "email": {
       "value": "sales@plantsworld.ae",
@@ -13,7 +13,11 @@
     },
     "hours": {
       "value": "Every day, 8 AM to 8 PM (UAE time)",
-      "note": "Published policies."
+      "note": "Shipping, Refund and Terms say every day, 8 AM to 8 PM. The Contact information page says Sunday to Thursday, standard UAE business hours. Confirm the real hours; the website must then say one thing (issue P1)."
+    },
+    "address": {
+      "value": "L-14, Shop No. 8, Greece Cluster, International City, Dubai, UAE (no visits or returns)",
+      "note": "Published on the Contact, Shipping, Refund and Terms pages. Refund policy 11: it is a transit location and cannot receive visits or returns."
     }
   },
   "sources": {
@@ -25,7 +29,9 @@
     "catalog": "PlantsWorld product catalog (catalogue/placements/products_categorised.csv)",
     "aeo/verification/uae_gcc_baseline.json": "UAE/GCC baseline used for the care guides",
     "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants": "ASPCA toxic and non-toxic plant list",
-    "https://doi.org/10.1038/s41370-019-0175-9": "Cummings & Waring 2019, potted plants and indoor air"
+    "https://doi.org/10.1038/s41370-019-0175-9": "Cummings & Waring 2019, potted plants and indoor air",
+    "https://plantsworld.ae/policies/privacy-policy": "Privacy policy (published on plantsworld.ae)",
+    "https://plantsworld.ae/policies/contact-information": "Contact information (published on plantsworld.ae)"
   },
   "entries": [
     {
@@ -427,7 +433,7 @@
         "https://plantsworld.ae/policies/terms-of-service",
         "https://plantsworld.ae/policies/shipping-policy"
       ],
-      "note": "Terms 3 and Shipping policy 9: prices are in AED and include VAT; delivery fees are shown separately."
+      "note": "Terms 5 and Shipping policy 9: prices are in AED and include VAT; delivery fees are shown separately. Refund policy 9: invoices for corporate orders before ordering."
     },
     {
       "id": "KB032",
@@ -545,14 +551,21 @@
       "id": "KB040",
       "section": "Payment & Checkout",
       "q": "Is checkout secure?",
-      "a": "Yes. Card and Apple Pay payments are processed through secure payment services at checkout. If you have any trouble paying, tell me what you see and I'll help.",
+      "a": "Yes. Card and Apple Pay payments are processed by our payment provider at checkout, and we never store your full card number. If you have any trouble paying, tell me what you see and I'll help.",
       "route": "AI",
       "source": "POLICY",
-      "status": "verified",
+      "status": "corrected",
       "evidence": [
-        "https://plantsworld.ae/policies/terms-of-service"
+        "https://plantsworld.ae/policies/terms-of-service",
+        "https://plantsworld.ae/policies/privacy-policy"
       ],
-      "note": "Terms 7: card details are processed by the payment provider; Plantsworld does not store full card details."
+      "note": "Terms 7: card details are processed by the payment provider; Plantsworld does not store full card details.",
+      "original_a": "Yes. Card and Apple Pay payments are processed through secure payment services at checkout. If you have any trouble paying, tell me what you see and I'll help.",
+      "recheck_was": "Yes. Card and Apple Pay payments are processed through secure payment services at checkout. If you have any trouble paying, tell me what you see and I'll help.",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Added from Terms 7 and the Privacy policy: PlantsWorld does not store full card details."
+      }
     },
     {
       "id": "KB041",
@@ -827,12 +840,20 @@
       "id": "KB060",
       "section": "Delivery & Damaged Items",
       "q": "Can I get my order delivered to an office, villa or hotel?",
-      "a": "Yes, add the building, floor, landmark and a reachable phone number at checkout so the courier can find you easily. For hotels, include the guest name and room details.",
+      "a": "Yes. Add the building, floor, landmark and a reachable phone number at checkout so our delivery team can find you. For hotels, include the guest name and room details.",
       "route": "AI",
       "source": "GENERAL_KNOWLEDGE",
-      "status": "verified",
-      "evidence": [],
-      "note": "No conflict."
+      "status": "corrected",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "No conflict.",
+      "original_a": "Yes, add the building, floor, landmark and a reachable phone number at checkout so the courier can find you easily. For hotels, include the guest name and room details.",
+      "recheck_was": "Yes, add the building, floor, landmark and a reachable phone number at checkout so the courier can find you easily. For hotels, include the guest name and room details.",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Shipping policy 1 and 10: PlantsWorld's own delivery team delivers, not a courier. 'Courier' is replaced."
+      }
     },
     {
       "id": "KB061",
@@ -1119,7 +1140,7 @@
       "id": "KB082",
       "section": "Orders, Changes & Escalations",
       "q": "Can I cancel my order?",
-      "a": "Yes. Cancel before your delivery date for a full refund; on the delivery day a 10% restocking fee applies. Customised and occasion or gift orders can't be cancelled once confirmed. Email sales@plantsworld.ae (or WhatsApp +971 4 294 1422) with your order number as early as possible.",
+      "a": "Yes. Cancel before your delivery date for a full refund. If you cancel on the delivery day (the order is already out for delivery), a 10% restocking fee of the order value applies. Customised and occasion or gift orders can't be cancelled once confirmed. Email sales@plantsworld.ae with your order number and your cancellation request as early as possible. Approved refunds start within 10 working days.",
       "route": "AI_THEN_HUMAN",
       "source": "HANDOFF",
       "original_a": "Please message [WhatsApp number] right away with your Order #. Our team will check if the order can still be cancelled.",
@@ -1128,7 +1149,12 @@
       "evidence": [
         "https://plantsworld.ae/policies/refund-policy"
       ],
-      "note": "Refund policy 7: full refund before the delivery date; 10% restocking fee on the delivery day; customised and gift orders cannot be cancelled. Cancellations by email."
+      "note": "Refund policy 7: full refund before the delivery date; 10% restocking fee on the delivery day; customised and gift orders cannot be cancelled. Cancellations by email.",
+      "recheck_was": "Yes. Cancel before your delivery date for a full refund; on the delivery day a 10% restocking fee applies. Customised and occasion or gift orders can't be cancelled once confirmed. Email sales@plantsworld.ae (or WhatsApp +971 4 294 1422) with your order number as early as possible.",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Refund policy 7 names email as the way to cancel and says refunds start within 10 working days. The old answer also offered WhatsApp, which the policy does not mention for cancellations (issue P5)."
+      }
     },
     {
       "id": "KB083",
@@ -1174,16 +1200,21 @@
       "id": "KB086",
       "section": "Orders, Changes & Escalations",
       "q": "What is your return or refund policy?",
-      "a": "Damaged items: refuse them at the door or report them within 24 hours with photos, and we replace them free. Change of mind on a plant: approved returns have an AED 15 pick-up fee and a 10% restocking fee, and delivery fees aren't refunded. Planters and accessories can be returned within 2 days if unused and in original packaging. Customised, gift, repotted, sale and clearance items aren't returnable. Approved refunds start within 10 working days.",
+      "a": "Damaged or wrong items: refuse them at the door or report them within 24 hours with photos, and we replace them free. Other plant returns must be reported within 24 hours of delivery; approved returns have an AED 15 pick-up fee and a 10% restocking fee, and delivery fees aren't refunded. Planters and accessories can be returned within 2 days if unused and in original packaging. Customised, gift, repotted, sale and clearance items aren't returnable. Approved refunds start within 10 working days.",
       "route": "AI",
       "source": "POLICY",
       "original_a": "For items that arrive damaged, our Transit Guarantee offers a 100% free replacement or full credit when reported with a photo within 24 hours. For any other request, our team will review it with you.",
       "original_route": "HUMAN",
-      "status": "corrected",
+      "status": "team",
       "evidence": [
         "https://plantsworld.ae/policies/refund-policy"
       ],
-      "note": "Summary of the Refund policy."
+      "note": "Summary of the Refund policy.",
+      "recheck_was": "Damaged items: refuse them at the door or report them within 24 hours with photos, and we replace them free. Change of mind on a plant: approved returns have an AED 15 pick-up fee and a 10% restocking fee, and delivery fees aren't refunded. Planters and accessories can be returned within 2 days if unused and in original packaging. Customised, gift, repotted, sale and clearance items aren't returnable. Approved refunds start within 10 working days.",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Refund policy 3.3: returns reported more than 24 hours after delivery are not accepted. The old answer gave no time limit for plant returns. Whether change-of-mind plant returns are accepted at all is unclear in the policy (issue P3)."
+      }
     },
     {
       "id": "KB087",
@@ -1251,24 +1282,36 @@
       "route": "HUMAN",
       "source": "HANDOFF",
       "original_a": "Of course. You can reach our team on WhatsApp at [WhatsApp number]. Please include your Order # if you have one. Our hours: [business hours].",
-      "status": "corrected",
+      "status": "team",
       "evidence": [
-        "https://plantsworld.ae/policies/shipping-policy"
+        "https://plantsworld.ae/policies/shipping-policy",
+        "https://plantsworld.ae/policies/contact-information"
       ],
-      "note": "Placeholders filled from the published policies."
+      "note": "Placeholders filled from the published policies.",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Hours conflict between the Contact page and the other policies (issue P1). Confirm with store detail 'hours'."
+      }
     },
     {
       "id": "KB093",
       "section": "Orders, Changes & Escalations",
       "q": "I'd like to make a complaint.",
-      "a": "I'm sorry for the trouble. Please share your Order # and what happened, and I'll pass it to our team right away, or message +971 4 294 1422.",
+      "a": "I'm sorry for the trouble. Please share your order number and what happened, and I'll pass it to our team right away. You can also email sales@plantsworld.ae or message +971 4 294 1422.",
       "route": "HUMAN",
       "source": "HANDOFF",
-      "status": "verified",
+      "status": "corrected",
       "evidence": [
-        "https://plantsworld.ae/policies/refund-policy"
+        "https://plantsworld.ae/policies/refund-policy",
+        "https://plantsworld.ae/policies/terms-of-service"
       ],
-      "note": "Placeholder filled."
+      "note": "Placeholder filled.",
+      "original_a": "I'm sorry for the trouble. Please share your Order # and what happened, and I'll pass it to our team right away, or message +971 4 294 1422.",
+      "recheck_was": "I'm sorry for the trouble. Please share your Order # and what happened, and I'll pass it to our team right away, or message +971 4 294 1422.",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Terms 18: complaints go to sales@plantsworld.ae first. Email added."
+      }
     },
     {
       "id": "KB094",
@@ -1404,14 +1447,20 @@
       "id": "KB104",
       "section": "Orders, Changes & Escalations",
       "q": "Can I return a plant if I change my mind?",
-      "a": "Contact us with your order number. Approved plant returns have an AED 15 pick-up fee and a 10% restocking fee, and the original delivery fee isn't refunded. Plants must not be repotted and need their original packaging. Customised, gift, sale and clearance items can't be returned.",
+      "a": "Tell us within 24 hours of delivery, with your order number, on WhatsApp (+971 4 294 1422) or at sales@plantsworld.ae. Approved plant returns have an AED 15 pick-up fee and a 10% restocking fee, and the original delivery fee isn't refunded. The plant must not be repotted and needs its original packaging. Customised, gift, sale and clearance items can't be returned.",
       "route": "AI_THEN_HUMAN",
       "source": "POLICY",
-      "status": "new",
+      "status": "team",
       "evidence": [
         "https://plantsworld.ae/policies/refund-policy"
       ],
-      "note": "Missing from the KB; taken from the published policy."
+      "note": "Missing from the KB; taken from the published policy.",
+      "original_a": "Contact us with your order number. Approved plant returns have an AED 15 pick-up fee and a 10% restocking fee, and the original delivery fee isn't refunded. Plants must not be repotted and need their original packaging. Customised, gift, sale and clearance items can't be returned.",
+      "recheck_was": "Contact us with your order number. Approved plant returns have an AED 15 pick-up fee and a 10% restocking fee, and the original delivery fee isn't refunded. Plants must not be repotted and need their original packaging. Customised, gift, sale and clearance items can't be returned.",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Refund policy 3.3 and 3.5: the 24-hour window applies, and it 'covers genuine damage or health issues'. The policy does not say clearly if a plant can be returned for change of mind (issue P3). Team to confirm."
+      }
     },
     {
       "id": "KB105",
@@ -1430,14 +1479,20 @@
       "id": "KB106",
       "section": "Orders, Changes & Escalations",
       "q": "How long does a refund take?",
-      "a": "Approved refunds start within 10 working days, to your original payment method where possible. Cash on Delivery orders are refunded by bank transfer to an account in the name on the order. Your bank may take a few more days.",
+      "a": "Approved refunds start within 10 working days, to your original payment method where possible. Cash on Delivery orders are refunded by bank transfer to an account in the name on the order; Card on Delivery orders by bank transfer or card transfer. Your bank may take a few more days.",
       "route": "AI",
       "source": "POLICY",
-      "status": "new",
+      "status": "corrected",
       "evidence": [
         "https://plantsworld.ae/policies/refund-policy"
       ],
-      "note": "Missing from the KB; taken from the published policy."
+      "note": "Missing from the KB; taken from the published policy.",
+      "original_a": "Approved refunds start within 10 working days, to your original payment method where possible. Cash on Delivery orders are refunded by bank transfer to an account in the name on the order. Your bank may take a few more days.",
+      "recheck_was": "Approved refunds start within 10 working days, to your original payment method where possible. Cash on Delivery orders are refunded by bank transfer to an account in the name on the order. Your bank may take a few more days.",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Refund policy 8: Card on Delivery refunds go by bank transfer or card transfer. Added."
+      }
     },
     {
       "id": "KB107",
@@ -1456,14 +1511,21 @@
       "id": "KB108",
       "section": "Delivery & Damaged Items",
       "q": "Can I collect my order or visit your shop?",
-      "a": "Our Dubai address is a transit location, so it can't receive visits or returns. We deliver to all seven emirates, every day of the week.",
+      "a": "No. Our address (L-14, Shop No. 8, Greece Cluster, International City, Dubai) is a transit location, so it can't receive visits, collections or returns. We deliver to all seven emirates, every day of the week.",
       "route": "AI",
       "source": "POLICY",
-      "status": "new",
+      "status": "corrected",
       "evidence": [
-        "https://plantsworld.ae/policies/refund-policy"
+        "https://plantsworld.ae/policies/refund-policy",
+        "https://plantsworld.ae/policies/contact-information"
       ],
-      "note": "Missing from the KB; taken from the published policy."
+      "note": "Missing from the KB; taken from the published policy.",
+      "original_a": "Our Dubai address is a transit location, so it can't receive visits or returns. We deliver to all seven emirates, every day of the week.",
+      "recheck_was": "Our Dubai address is a transit location, so it can't receive visits or returns. We deliver to all seven emirates, every day of the week.",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "The address is now published on the Contact, Shipping, Refund and Terms pages. Refund policy 11: no visits or returns there."
+      }
     },
     {
       "id": "KB109",
@@ -1509,15 +1571,266 @@
       "id": "KB112",
       "section": "Orders, Changes & Escalations",
       "q": "What are your customer service hours?",
-      "a": "Our team is available every day, 8 AM to 8 PM (UAE time) on WhatsApp or phone at +971 4 294 1422, and by email at sales@plantsworld.ae.",
+      "a": "Our team is available on WhatsApp or phone at +971 4 294 1422 and by email at sales@plantsworld.ae, every day from 8 AM to 8 PM (UAE time).",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "team",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy",
+        "https://plantsworld.ae/policies/refund-policy",
+        "https://plantsworld.ae/policies/contact-information"
+      ],
+      "note": "Missing from the KB; taken from the published policy.",
+      "original_a": "Our team is available every day, 8 AM to 8 PM (UAE time) on WhatsApp or phone at +971 4 294 1422, and by email at sales@plantsworld.ae.",
+      "recheck_was": "Our team is available every day, 8 AM to 8 PM (UAE time) on WhatsApp or phone at +971 4 294 1422, and by email at sales@plantsworld.ae.",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Shipping, Refund and Terms say every day, 8 AM to 8 PM. The Contact page says Sunday to Thursday, standard business hours (issue P1). Team to confirm the real hours."
+      }
+    },
+    {
+      "id": "KB113",
+      "section": "Payment & Checkout",
+      "q": "Do I need an account to order?",
+      "a": "No, an account is optional. You can create one to track your orders and save your details.",
       "route": "AI",
       "source": "POLICY",
       "status": "new",
       "evidence": [
-        "https://plantsworld.ae/policies/shipping-policy",
+        "https://plantsworld.ae/policies/terms-of-service"
+      ],
+      "note": "Missing from the KB; taken from the published policy (Terms 10: the account is optional.).",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Added in the 11 Nov check from Terms 10: the account is optional."
+      }
+    },
+    {
+      "id": "KB114",
+      "section": "Orders, Changes & Escalations",
+      "q": "What happens if a price on the website was wrong?",
+      "a": "If we find a pricing or listing error after you order, we contact you before we go ahead. You can then cancel for a full refund.",
+      "route": "AI_THEN_HUMAN",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/terms-of-service"
+      ],
+      "note": "Missing from the KB; taken from the published policy (Terms 5.).",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Added in the 11 Nov check from Terms 5."
+      }
+    },
+    {
+      "id": "KB115",
+      "section": "Orders, Changes & Escalations",
+      "q": "Can PlantsWorld cancel my order?",
+      "a": "Only in a few cases: an item is out of stock, there is a payment or fraud concern, the address is outside our delivery area, or there was a pricing error. We tell you, and refund anything you already paid.",
+      "route": "AI_THEN_HUMAN",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/terms-of-service"
+      ],
+      "note": "Missing from the KB; taken from the published policy (Terms 6.).",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Added in the 11 Nov check from Terms 6."
+      }
+    },
+    {
+      "id": "KB116",
+      "section": "Delivery & Damaged Items",
+      "q": "My area isn't in your delivery list. Can you still deliver?",
+      "a": "We deliver across all seven emirates. If your area is outside our standard zones, our team contacts you before dispatch to confirm we can deliver and any extra charge.",
+      "route": "AI_THEN_HUMAN",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Missing from the KB; taken from the published policy (Shipping policy 7.).",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Added in the 11 Nov check from Shipping policy 7."
+      }
+    },
+    {
+      "id": "KB117",
+      "section": "Delivery & Damaged Items",
+      "q": "My delivery is delayed. Can I cancel?",
+      "a": "We're sorry for the wait. Delays from weather, traffic or busy periods don't by themselves make a free cancellation possible, but our team will agree a new delivery date with you and discuss options. Message us on WhatsApp (+971 4 294 1422) with your order number.",
+      "route": "AI_THEN_HUMAN",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
         "https://plantsworld.ae/policies/refund-policy"
       ],
-      "note": "Missing from the KB; taken from the published policy."
+      "note": "Missing from the KB; taken from the published policy (Refund policy 10.).",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Added in the 11 Nov check from Refund policy 10."
+      }
+    },
+    {
+      "id": "KB118",
+      "section": "Orders, Changes & Escalations",
+      "q": "Can I return a gift card, a rental or a completed service?",
+      "a": "No. Gift cards, landscaping materials, completed services, rentals and leases can't be returned. Terms for services, rentals and leases are agreed with each customer.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ],
+      "note": "Missing from the KB; taken from the published policy (Refund policy 6.).",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Added in the 11 Nov check from Refund policy 6."
+      }
+    },
+    {
+      "id": "KB119",
+      "section": "Orders, Changes & Escalations",
+      "q": "How do I stop marketing messages?",
+      "a": "Click 'unsubscribe' in any marketing email, reply STOP to a marketing SMS, or tell us on WhatsApp or at sales@plantsworld.ae. You still get messages about orders you place, such as delivery updates.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/privacy-policy"
+      ],
+      "note": "Missing from the KB; taken from the published policy (Privacy policy 11.).",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Added in the 11 Nov check from Privacy policy 11."
+      }
+    },
+    {
+      "id": "KB120",
+      "section": "Orders, Changes & Escalations",
+      "q": "How can I see, correct or delete my personal data?",
+      "a": "Email sales@plantsworld.ae with your request. We may ask you to confirm your identity first. We never sell your data.",
+      "route": "AI_THEN_HUMAN",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/privacy-policy"
+      ],
+      "note": "Missing from the KB; taken from the published policy (Privacy policy 10 and 'At a glance'.).",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Added in the 11 Nov check from Privacy policy 10 and 'At a glance'."
+      }
+    },
+    {
+      "id": "KB121",
+      "section": "Delivery & Damaged Items",
+      "q": "Which courier delivers my order?",
+      "a": "No courier: our own PlantsWorld delivery team delivers every order, so we stay responsible for it until it reaches you.",
+      "route": "AI",
+      "source": "POLICY",
+      "status": "new",
+      "evidence": [
+        "https://plantsworld.ae/policies/shipping-policy"
+      ],
+      "note": "Missing from the KB; taken from the published policy (Shipping policy 'At a glance' and 10.).",
+      "recheck": {
+        "on": "2026-11-11",
+        "note": "Added in the 11 Nov check from Shipping policy 'At a glance' and 10."
+      }
+    }
+  ],
+  "policy_check": {
+    "checked_on": "2026-11-11",
+    "snapshot": "aeo/kb/policies/2026-11-11/",
+    "policies": [
+      {
+        "url": "https://plantsworld.ae/policies/shipping-policy",
+        "title": "Shipping policy",
+        "dated": "Effective 30 October 2026"
+      },
+      {
+        "url": "https://plantsworld.ae/policies/refund-policy",
+        "title": "Returns, Replacements & Refunds policy",
+        "dated": "Effective 30 October 2026"
+      },
+      {
+        "url": "https://plantsworld.ae/policies/terms-of-service",
+        "title": "Terms of service",
+        "dated": "Last updated 30 October 2026"
+      },
+      {
+        "url": "https://plantsworld.ae/policies/privacy-policy",
+        "title": "Privacy policy",
+        "dated": "Last updated 30 October 2026"
+      },
+      {
+        "url": "https://plantsworld.ae/policies/contact-information",
+        "title": "Contact information",
+        "dated": "No date"
+      }
+    ]
+  },
+  "policy_issues": [
+    {
+      "id": "P1",
+      "title": "Two different support hours",
+      "detail": "The Contact information page says 'Sunday–Thursday, standard UAE business hours'. The Shipping, Refund and Terms pages say 'Every day, 8 AM to 8 PM (UAE time)'.",
+      "fix": "Choose the real hours and use the same words on all pages.",
+      "where": [
+        "https://plantsworld.ae/policies/contact-information",
+        "https://plantsworld.ae/policies/shipping-policy"
+      ]
+    },
+    {
+      "id": "P2",
+      "title": "Internal advice is published on the live policies",
+      "detail": "Three pages show notes that were meant for PlantsWorld, not for customers: Privacy 3.3 ('Recommended next step: if the Website does not yet show a cookie-consent banner…'), Privacy 15, Refund 12 and Terms 19 ('we recommend … be reviewed by a UAE-licensed legal advisor', the Arabic-version note).",
+      "fix": "Delete these sentences from the pages. Add a cookie-consent banner if the site has none.",
+      "where": [
+        "https://plantsworld.ae/policies/privacy-policy",
+        "https://plantsworld.ae/policies/refund-policy",
+        "https://plantsworld.ae/policies/terms-of-service"
+      ]
+    },
+    {
+      "id": "P3",
+      "title": "Change-of-mind returns for plants are unclear",
+      "detail": "Refund 3.5 sets fees for 'approved plant returns', but 3.3 says the 24-hour window 'covers genuine damage or health issues' and later reports are not accepted. A customer cannot tell if a healthy plant can be returned because they changed their mind.",
+      "fix": "Say clearly whether change-of-mind plant returns are accepted, and within what time.",
+      "where": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ]
+    },
+    {
+      "id": "P4",
+      "title": "Couriers and customs in the delay section",
+      "detail": "Refund 10 lists 'customs or regulatory processes, courier delays' as causes of delay. The Shipping policy says your own team delivers and customs do not apply.",
+      "fix": "Remove 'customs' and 'courier' from Refund 10.",
+      "where": [
+        "https://plantsworld.ae/policies/refund-policy",
+        "https://plantsworld.ae/policies/shipping-policy"
+      ]
+    },
+    {
+      "id": "P5",
+      "title": "Cancellations by email only",
+      "detail": "Refund 7 says 'To cancel, email sales@plantsworld.ae'. Every other request (damage, address change, returns) also accepts WhatsApp.",
+      "fix": "Decide if a WhatsApp message counts as a cancellation and say so in Refund 7.",
+      "where": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ]
+    },
+    {
+      "id": "P6",
+      "title": "Yellow leaves in the Refund FAQ",
+      "detail": "The FAQ 'My plant has yellow leaves or small bugs after a few days — is that covered?' answers only for pests and disease. Section 3.1 says minor yellowing is normal and not covered.",
+      "fix": "Change the question to 'My plant has bugs or leaf spots after a few days — is that covered?'.",
+      "where": [
+        "https://plantsworld.ae/policies/refund-policy"
+      ]
     }
   ]
 }
