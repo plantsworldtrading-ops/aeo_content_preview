@@ -1,16 +1,226 @@
 {
-  "snake-plant-indoor-sansevieria-plants-online-in-dubai-uae": { "title": "Snake Plant – Sansevieria Live Indoor Plant", "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/SnakePlant-Indoor-Sansevieria2.jpg?v=1651253483" },
-  "snake-plant-mini-sansevieria-plants-online-in-dubai-uae": { "title": "Snake Plant Mini - Sansevieria", "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/SnakePlantMini-Sansevieria_WhiteCeramic_10_20_cm.jpg?v=1649581962" },
-  "snake-plant-indoor-sansevieria-office-corner-plant-in-tall-pot": { "title": "Snake Plant – Sansevieria Trifasciata Live Office & Indoor Plant", "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/54.jpg?v=1648718898" },
-  "snake-plant-indoor-in-rectangular-pot": { "title": "Snake Plant Indoor In Rectangular Pot", "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/SnakePlantIndoorSansevieriaRectangula_Whitepot_01.jpg?v=1660569861" },
-  "snake-plant-water-plant": { "title": "Snake Plant - Sansevieria Trifasciata", "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/Snake_Plant_-_Sansevieria_Trifasciata_0.jpg?v=1792666344" },
-  "sansevieria-zeylanica-snake-plants": { "title": "Sansevieria Zeylanica - Snake Plant", "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/SansevieriaZeylanica-Snakeplant_WhiteCeramicPot_50_60_cm.jpg?v=1655727676" },
-  "starfish-snake-plant-sansevieria-cylindrica-starfish": { "title": "Starfish Snake Plant - Sansevieria Cylindrica 'Starfish'", "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/STAR_FISH.jpg?v=1768042894" },
-  "snake-plant-with-wrap-easter-day-gift": { "title": "Snake Plant – Easter Gift Wrap", "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/Easter-Gift_03.jpg?v=1711457476" },
-  "wellness-snake-snake-plant-return-gift": { "title": "Wellness Snake – Corporate Return Gift", "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/WELLNESSSNAKE-SNAKEPLANTRETURNGIFT.jpg?v=1777979109" },
-  "snake-plant-with-flower-bouquet-flower-with-plant": { "title": "Snake Plant With Flower Bouquet", "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/SnakePlant-Indoor-Sansevieria.jpg?v=1643643053" },
-  "succulent-and-cactus-potting-soil-mix-indoor-plant-soil": { "title": "Succulent & Cactus Soil Mix" },
-  "shalimar-perlite-water-saver-10-ltr-potting-mix-plant-care": { "title": "Shalimar Perlite - Water Saver 10 LTR" },
-  "blaukorn-blue-n-p-k-fertilizer-12-12-17-2-te-plant-care": { "title": "Blaukorn NPK Fertiliser 12-12-17" },
-  "neem-shield-herbal-fertilizer-pesticide-qty-250ml-500ml-1000ml-plant-care": { "title": "Neem Shield – Herbal Pesticide" }
+  "snake-plant-indoor-sansevieria-plants-online-in-dubai-uae": {
+    "title": "Snake Plant – Sansevieria Live Indoor Plant",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/SnakePlant-Indoor-Sansevieria2.jpg?v=1651253483",
+    "price": 26.0
+  },
+  "snake-plant-mini-sansevieria-plants-online-in-dubai-uae": {
+    "title": "Snake Plant Mini - Sansevieria",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/SnakePlantMini-Sansevieria_WhiteCeramic_10_20_cm.jpg?v=1649581962",
+    "price": 25.0
+  },
+  "snake-plant-indoor-sansevieria-office-corner-plant-in-tall-pot": {
+    "title": "Snake Plant – Sansevieria Trifasciata Live Office & Indoor Plant",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/54.jpg?v=1648718898",
+    "price": 349.0
+  },
+  "snake-plant-indoor-in-rectangular-pot": {
+    "title": "Snake Plant Indoor In Rectangular Pot",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/SnakePlantIndoorSansevieriaRectangula_Whitepot_01.jpg?v=1660569861",
+    "price": 149.0
+  },
+  "snake-plant-water-plant": {
+    "title": "Snake Plant - Sansevieria Trifasciata",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/Snake_Plant_-_Sansevieria_Trifasciata_0.jpg?v=1792666344",
+    "price": 35.0
+  },
+  "sansevieria-zeylanica-snake-plants": {
+    "title": "Sansevieria Zeylanica - Snake Plant",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/SansevieriaZeylanica-Snakeplant_WhiteCeramicPot_50_60_cm.jpg?v=1655727676",
+    "price": 126.0
+  },
+  "starfish-snake-plant-sansevieria-cylindrica-starfish": {
+    "title": "Starfish Snake Plant - Sansevieria Cylindrica 'Starfish'",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/STAR_FISH.jpg?v=1768042894",
+    "price": 82.0
+  },
+  "snake-plant-with-wrap-easter-day-gift": {
+    "title": "Snake Plant – Easter Gift Wrap",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/Easter-Gift_03.jpg?v=1711457476",
+    "price": 99.0
+  },
+  "wellness-snake-snake-plant-return-gift": {
+    "title": "Wellness Snake – Corporate Return Gift",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/WELLNESSSNAKE-SNAKEPLANTRETURNGIFT.jpg?v=1777979109",
+    "price": 99.0
+  },
+  "snake-plant-with-flower-bouquet-flower-with-plant": {
+    "title": "Snake Plant With Flower Bouquet",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/SnakePlant-Indoor-Sansevieria.jpg?v=1643643053",
+    "price": 299.0
+  },
+  "succulent-and-cactus-potting-soil-mix-indoor-plant-soil": {
+    "title": "Succulent & Cactus Soil Mix",
+    "price": 20.0
+  },
+  "shalimar-perlite-water-saver-10-ltr-potting-mix-plant-care": {
+    "title": "Shalimar Perlite - Water Saver 10 LTR",
+    "price": 22.0
+  },
+  "blaukorn-blue-n-p-k-fertilizer-12-12-17-2-te-plant-care": {
+    "title": "Blaukorn NPK Fertiliser 12-12-17",
+    "price": 20.0
+  },
+  "neem-shield-herbal-fertilizer-pesticide-qty-250ml-500ml-1000ml-plant-care": {
+    "title": "Neem Shield – Herbal Pesticide",
+    "price": 60.0
+  },
+  "zamioculcas-zamiifolia-zz-plant-online-in-dubai-uae": {
+    "title": "ZZ Plant – Zamioculcas Zamiifolia Live Indoor Plant",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/ZamioculcasZamiifolia-ZZplant-aroidpalm_WhiteCeramicPot_40_60cm.jpg?v=1651255610",
+    "price": 49.0
+  },
+  "devils-ivy-golden-pothos": {
+    "title": "Golden Pothos - Epipremnum Aureum",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/GoldenPothos-ScindapsusAureus-Devil_sivy_WhiteCeramicPot_30_40cm.jpg?v=1649580411",
+    "price": 32.0
+  },
+  "peace-lily-plants-indoor-flowering-plant": {
+    "title": "Peace Lily – Spathiphyllum Wallisii Live Indoor Plant",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/PeaceLily-Spathiphyllum_WhiteCeramicPot_30_40_cm.jpg?v=1651224779",
+    "price": 49.0
+  },
+  "chrysalidocarpus-lutescens-areca-palm-small-plant": {
+    "title": "Areca Palm Small - Chrysalidocarpus Lutescens",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/ArecaPalmSmall-ChrysalidocarpusLutescens30-40Cm.jpg?v=1649577883",
+    "price": 39.0
+  },
+  "bamboo-palm-chamaedorea-elegans": {
+    "title": "Bamboo Palm - Chamaedorea Elegans",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/BambooPalm-ChamaedoreaElegansOrParlourPalm_WhiteCeramicPot_30_40.jpg?v=1649577950",
+    "price": 39.0
+  },
+  "bamboo-palm-chamaedorea-elegans-bushy": {
+    "title": "Bamboo Palm - Chamaedorea Elegans - Bushy",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/bamboo-palm.jpg?v=1768044956",
+    "price": 49.0
+  },
+  "valentines-day-gift-bamboo-palm": {
+    "title": "Bamboo Palm – Valentine's Day Gift",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/BambooPalm-ChamaedoreaElegansOrParlourPalm_WhiteCeramicPot_Valentine_sDay_Gift.jpg?v=1707822176",
+    "price": 99.0
+  },
+  "bamboo-palm-with-flower-bouquet-flower-with-plant": {
+    "title": "Bamboo Palm With Flower Bouquet - Flower With Plant",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/BambooPalm-ChamaedoreaElegans-IndoorPalmPlant.jpg?v=1643641572",
+    "price": 129.0
+  },
+  "universal-potting-soil-holland-plant-care-soil": {
+    "title": "Universal Potting Soil – Holland",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/Holland_Soil.jpg?v=1775811733",
+    "price": 85.0
+  },
+  "perlite-amorphous-volcanic-glass-plant-care": {
+    "title": "Perlite – Amorphous Volcanic Glass",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/Perlite.jpg?v=1666193345",
+    "price": 10.0
+  },
+  "kentia-palm-howea-forsteriana-plant": {
+    "title": "Kentia Palm - Howea Forsteriana",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/KentiaPalm-HoweaForsteriana_WhiteCeramicPot_100-120cm.jpg?v=1652378359",
+    "price": 749.0
+  },
+  "rhapis-excelsa-lady-palm": {
+    "title": "Rhapis Excelsa - Lady Palm",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/Rhapis_Excelsa_-_Lady_Palm.jpg?v=1792391554",
+    "price": 80.0
+  },
+  "peace-lily-spathiphyllum-in-rectangular-pot": {
+    "title": "Peace Lily - Spathiphyllum Wallisii -In Rectangular Pot",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/WhatsApp_Image_2026-03-30_at_3.43.36_PM.jpg?v=1774871215",
+    "price": 159.0
+  },
+  "peace-lily-spathiphyllum-office-tall-plant": {
+    "title": "Peace Lily - Spathiphyllum Wallisii -Office Plant",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/PeaceLilly.jpg?v=1651170523",
+    "price": 589.0
+  },
+  "peace-lily-spathiphyllum-water-plant": {
+    "title": "Peace Lily - Spathiphyllum Wallisii -Water Plant",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/Peace_Lily_-_Spathiphyllum-Water_Plant.jpg?v=1747828334",
+    "price": 69.0
+  },
+  "mini-peace-lily-with-boxed": {
+    "title": "Mini Peace Lilly With Boxed",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/PeaceLillyWithBox_3938c941-b371-4b43-9a59-586dff8f49d5.jpg?v=1742283888",
+    "price": 54.0
+  },
+  "mini-peace-lily-with-kraft-bag": {
+    "title": "Mini Peace Lilly With Kraft Bag",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/MinipeaceLillywithbag.jpg?v=1742283618",
+    "price": 79.0
+  },
+  "peace-lily-mothers-day-womans-day": {
+    "title": "Emerald Queen Peace Lily – Elegant Indoor Plant",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/IMG-20240229-WA0069_01.jpg?v=1709207033",
+    "price": 89.0
+  },
+  "agro-organic-potting-soil-50l-premium-plant-soil-uae": {
+    "title": "Agro Organic Potting Soil – 50L",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/AgroSoil.jpg?v=1775808939",
+    "price": 30.0
+  },
+  "naturwin-garden-organic-based-all-purpose-indoor-plant-food-liquid-fertilizer-blue": {
+    "title": "Naturwin Garden Organic Based All Purpose Indoor Plant Food Liquid Fertilizer (Blue)",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/NaturwinGardenOrganicBasedAllPurposeIndoorPlantFoodLiquidFertilizer500m.jpg?v=1691123917",
+    "price": 60.0
+  },
+  "_note": {
+    "title": "prices: catalogue/placements/products_categorised.csv (26 Oct 2026); the live page reads Shopify"
+  },
+  "chrysalidocarpus-lutescens-areca-palm-plant": {
+    "title": "Areca Palm – Live Indoor Palm Plant",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/ArecaPalm-Chrysalidocarpus_WhiteCeramicPot_150_180_cm.jpg?v=1651221166",
+    "price": 219.0
+  },
+  "areca-palm-indoor-office-tall-plant": {
+    "title": "Areca Palm - Dypsis Lutescens - Office Plant",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/ArecaPalm-Chrysalidocarpus_WhiteCeramicPot_100_120_cm.jpg?v=1651136167",
+    "price": 499.0
+  },
+  "areca-plam-outdoor-plant-dypsis-lutescens-outdoor-fruit-plant-online": {
+    "title": "Areca Palm - Dypsis Lutescens - Outdoor",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/Areca_Palm_-_Dypsis_Lutescens_-_Outdoor_nursury_Pot.jpg?v=1792669262",
+    "price": 329.0
+  },
+  "friendship-day-gift-plant-areca-palm-small-indoor-plant": {
+    "title": "Friendship Day Gift Plant - Areca Palm Small - Indoor Plant",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/FriendshipDay_Card_ArecaPalmSmall-ChrysalidocarpusLutescen.jpg?v=1651776901",
+    "price": 69.0
+  },
+  "spider-plant-chlorophytum-plants-online-dubai-uae": {
+    "title": "Spider Plant - Chlorophytum",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/SpiderPlant-Chlorophytum_WhiteCeramicPot_30_40_cm.jpg?v=1652204104",
+    "price": 47.0
+  },
+  "zamioculcas-zamiifolia-raven-zz-plant-online-in-dubai-uae": {
+    "title": "Raven ZZ (BLACK) - Zamioculcas Zamiifolia",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/RavenZZ-Zamioculcaszamiifolia_WhiteCeramicPot_70_90_cm.jpg?v=1655727155",
+    "price": 199.0
+  },
+  "zamioculcas-zamiifolia-zz-plant-in-tall-pot": {
+    "title": "ZZ Plant - Zamioculcas Zamiifolia  - Office Plant",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/zzplant_6d1576b2-6c5b-4df2-8568-fef65c9be804.jpg?v=1706681445",
+    "price": 449.0
+  },
+  "zamioculcas-zamiifolia-mothers-day-womans-day": {
+    "title": "Mother's Day Gift - ZZ Plant - Zamioculcas Zamiifolia",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/files/IMG-20240229-WA0058.jpg?v=1709207100",
+    "price": 89.0
+  },
+  "aglaonema-silver-queen-chinese-evergreen-plant": {
+    "title": "Silver Queen - Aglaonema Commutatum 'Silver Queen'",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/aglaonema-silver-queen-plants-online-in-dubai-uae_WhiteCeramic_30_40_cm_ce938c5a-f6c2-4bcf-876d-79a15fcb9c62.jpg?v=1645102319",
+    "price": 46.0
+  },
+  "cast-iron-plant-aspidistra-elatior-table-top-plant-1": {
+    "title": "Cast Iron Plant - Aspidistra Elatior",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/CastIronPlant-Aspidistraelatior-TableTopPlant_WhiteCeramicPot_60-80Cm.jpg?v=1649578390",
+    "price": 249.0
+  },
+  "decorative-pebble-stones-for-plants-garden-decor-uae": {
+    "title": "Pebble Stones",
+    "image": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/PeebleslStone_13.jpg?v=1666185245",
+    "price": 45.0
+  }
 }

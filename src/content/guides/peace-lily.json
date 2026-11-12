@@ -1,0 +1,584 @@
+{
+  "format": 2,
+  "handle": "peace-lily",
+  "name": "Peace Lily",
+  "botanical_name": "Spathiphyllum (species and hybrid cultivars)",
+  "other_names": [
+    "Spathiphyllum",
+    "Spathe flower",
+    "White sails",
+    "زنبق السلام",
+    "الأشرعة البيضاء"
+  ],
+  "entity_ids": {
+    "wikidata": "Q132632",
+    "powo": "urn:lsid:ipni.org:names:30003632-2"
+  },
+  "primary_keyword": "peace lily care",
+  "secondary_keywords": [
+    "peace lily care UAE",
+    "how often to water a peace lily",
+    "peace lily drooping",
+    "peace lily yellow leaves",
+    "peace lily brown tips",
+    "peace lily not flowering",
+    "is peace lily toxic to cats",
+    "repot peace lily"
+  ],
+  "question_title": "How do you care for a peace lily in the UAE?",
+  "quick_answer": "Peace lily care in the UAE comes down to three things: bright indirect light with no direct sun, soil that stays moist but never soggy, and a spot out of the airflow of AC vents. A peace lily (Spathiphyllum) shows thirst clearly: its leaves droop. Water when the top of the soil feels dry, before the plant wilts.",
+  "quick_facts": [
+    {
+      "label": "Light",
+      "value": "Bright indirect light is best. Tolerates low light but flowers less there. No direct sun."
+    },
+    {
+      "label": "Water",
+      "value": "Keep the soil moist, not soggy. Water when the top of the soil feels dry. Drooping leaves mean the plant is thirsty."
+    },
+    {
+      "label": "Temperature",
+      "value": "Prefers 20–29 °C by day (NC State, Clemson). Growth slows at about 10 °C; some cultivars are injured at 7 °C (UF/IFAS)."
+    },
+    {
+      "label": "Humidity",
+      "value": "Low humidity is one cause of brown leaf tips (NC State). Humidity under AC varies from home to home."
+    },
+    {
+      "label": "AC",
+      "value": "Keep it out of the direct airflow of AC and heater vents (Clemson)."
+    },
+    {
+      "label": "Soil",
+      "value": "Potting mix high in organic matter, in a pot with a drainage hole."
+    },
+    {
+      "label": "Feeding",
+      "value": "Very little: quarter-strength liquid fertiliser in the warm months (NC State, Clemson)."
+    },
+    {
+      "label": "Flowers",
+      "value": "White spathes that turn pale green as they age. In Florida production, most cultivars flower naturally from January to August (UF/IFAS)."
+    },
+    {
+      "label": "Pets",
+      "value": "Toxic to cats and dogs if chewed (ASPCA). Keep away from young children."
+    },
+    {
+      "label": "Size indoors",
+      "value": "Most grow 30 cm to 1.2 m tall; large cultivars such as 'Sensation' grow bigger."
+    },
+    {
+      "label": "Outdoors in UAE",
+      "value": "Best kept indoors. UAE summer heat is far above the range it prefers."
+    }
+  ],
+  "fit": {
+    "good_if": [
+      "You want a plant that flowers indoors without a sunny window.",
+      "Your home or office has medium light and runs AC for most of the year.",
+      "You prefer a plant that shows you when it needs water.",
+      "You want a flowering plant for a gift, a desk or a living room."
+    ],
+    "think_twice": [
+      "A cat, a dog or a young child in your home chews plants: peace lilies are toxic if eaten.",
+      "You travel for long periods and nobody can water: a peace lily tolerates drought only a little.",
+      "Your only free spot gets direct sun through a window."
+    ]
+  },
+  "care_sections": [
+    {
+      "id": "light",
+      "heading": "How much light does a peace lily need?",
+      "paragraphs": [
+        "A peace lily grows best in bright, indirect light and must not stand in direct sun. Clemson Extension notes that peace lilies tolerate low light and are one of the few foliage plants that flower in low light, but a peace lily in a dim spot grows and flowers less.",
+        "Too much light damages a peace lily. Direct sun scorches the leaves, and UF/IFAS reports that excess light bleaches the leaves pale, which people often mistake for a nutrient problem. In the UAE, keep a peace lily back from west- and south-facing glass, or put a sheer curtain on the window."
+      ],
+      "products": [
+        "peace-lily-plants-indoor-flowering-plant"
+      ]
+    },
+    {
+      "id": "watering",
+      "heading": "How often should you water a peace lily in the UAE?",
+      "paragraphs": [
+        "Water a peace lily when the top of the soil feels dry, and do not let the pot dry out completely. NC State Extension and Clemson Extension both say to keep the soil moist but not soggy and to let it dry between waterings; Clemson says to let it dry slightly. There is no fixed schedule, because the right timing depends on your home.",
+        "Test the soil before you water: Clemson Extension advises pushing a finger into the mix up to the first joint. If it feels dry at your fingertip, water; if it feels damp, wait and check again later. You can also lift the pot: a dry pot feels much lighter than a freshly watered one.",
+        "Clemson Extension lists what changes the timing: a plant in a small pot, a porous clay (terracotta) pot or a warm, dry, sunny spot needs water more often; one in a large or plastic pot or a cool, dim room needs it less often. In the UAE, humid coastal homes and winter also slow drying. Check the soil, not the calendar.",
+        "When you water a peace lily, water thoroughly until water runs out of the drainage hole, then empty the saucer. Clemson Extension warns that a pot left standing in water leads to root rot. NC State Extension notes that watering from below also works very well for peace lilies.",
+        "UF/IFAS lists the peace lily as not salt tolerant. UAE tap water is desalinated and then remineralised, and its mineral content varies by area and building. Clemson Extension says a white to grey crust on the soil or pot rim is a sign of salt build-up. If you see it, or brown leaf tips, flush the pot with plenty of water, scrape off the crust and add fresh potting mix."
+      ],
+      "tips": [
+        "A peace lily that droops with dry soil usually stands up again within hours of a thorough watering (UF/IFAS). Do not let it reach that point often: UF/IFAS notes that frequent drooping leads to brown tips and edges.",
+        "Clemson Extension recommends water at room temperature."
+      ]
+    },
+    {
+      "id": "temperature",
+      "heading": "What temperature does a peace lily like, and how does it cope with AC?",
+      "paragraphs": [
+        "A peace lily prefers 20–29 °C during the day with nights a little cooler, according to NC State Extension and Clemson Extension. Most AC homes and offices in the UAE are kept within that range, so a peace lily suits indoor rooms year-round.",
+        "For a peace lily, cold air is the risk, not AC itself. Clemson Extension advises against placing a peace lily where heating or AC vents blow directly on it, because hot, cold or drafty air damages the plant. UF/IFAS lists cold drafts as a cause of stunted growth and black areas on the leaves that start at the tips.",
+        "Sources give different lower temperature limits for a peace lily. Clemson Extension advises avoiding temperatures below about 16 °C. UF/IFAS found chilling injury in some cultivars at about 7 °C and slower growth after five days at about 11 °C. NC State Extension says long periods below about 4 °C damage leaves, stems and roots.",
+        "UAE summer days outdoors are far above the range a peace lily prefers. UF/IFAS lists light and heat above about 32 °C as a cause of curled, pale, burnt leaves and sparse flowering, so a peace lily belongs indoors in the UAE summer."
+      ]
+    },
+    {
+      "id": "humidity",
+      "heading": "Does a peace lily need humidity?",
+      "paragraphs": [
+        "Humidity matters for a peace lily: low humidity is one of the causes of brown leaf tips, together with direct sun and underwatering (NC State Extension). Low humidity is not the only cause, so check light and watering first.",
+        "AC rooms in the UAE are not always dry: humidity under AC varies from home to home and between coastal and inland areas. To know the real humidity near a peace lily, use a simple hygrometer rather than guessing."
+      ]
+    },
+    {
+      "id": "soil",
+      "heading": "What soil and pot does a peace lily need, and when should you repot?",
+      "paragraphs": [
+        "Use a potting mix high in organic matter that holds moisture but still drains well, such as a peat- or bark-based bagged potting soil (NC State Extension, UF/IFAS). Always use a pot with a drainage hole, or lift the inner pot out of a decorative cover pot to drain.",
+        "A peace lily likes to be slightly pot-bound. Clemson Extension says to repot when roots grow through the drainage holes or circle on top of the soil, and to choose a pot only 2.5–5 cm (one to two inches) wider than the old one, because a much larger pot keeps the mix too wet and leads to root rot.",
+        "NC State Extension recommends repotting in February or March; Clemson Extension says repotting works at any time of year, but the plant recovers faster in the growing season. In the UAE, February and March also avoid the summer heat."
+      ],
+      "steps": [
+        "Choose a pot 2.5–5 cm wider than the old one, with a drainage hole, and fresh potting mix high in organic matter.",
+        "Ease the peace lily out of the old pot.",
+        "Gently loosen the root ball so the roots can grow out into the new mix.",
+        "Set the plant at the same depth as before (Clemson Extension: do not add mix above the old soil level) and fill around it with fresh mix.",
+        "Water well until water drains out of the pot (Clemson Extension)."
+      ],
+      "products": [
+        "agro-organic-potting-soil-50l-premium-plant-soil-uae"
+      ]
+    },
+    {
+      "id": "fertiliser",
+      "heading": "Should you fertilise a peace lily?",
+      "paragraphs": [
+        "Yes, but a peace lily needs very little fertiliser. Clemson Extension recommends a balanced liquid houseplant fertiliser at one-quarter of the label strength every six to eight weeks in spring and summer. UF/IFAS suggests a low dose of liquid fertiliser three times a year.",
+        "Too much fertiliser burns a peace lily's leaf tips and roots. NC State Extension advises flushing the soil with plain water between feeds so salts do not build up."
+      ],
+      "products": [
+        "naturwin-garden-organic-based-all-purpose-indoor-plant-food-liquid-fertilizer-blue"
+      ]
+    },
+    {
+      "id": "flowering",
+      "heading": "How do you get a peace lily to flower again?",
+      "paragraphs": [
+        "Give a peace lily brighter indirect light and time. Clemson Extension says lack of flowering usually happens when plants are less than a year old or grow in too little light.",
+        "Many peace lilies are sold in flower because growers widely use a plant-hormone spray (gibberellic acid) to make them bloom, according to UF/IFAS. Without it, most cultivars in Florida production flower only between January and August, so a plant bought in flower may not bloom again on the same schedule.",
+        "A peace lily flower is a white spathe that turns pale green as it ages, which is normal. NC State Extension says the blooms stay white for about 10 days and then stay attractive for at least another month. UF/IFAS advises trimming dead flowers and leaves as soon as you can."
+      ]
+    },
+    {
+      "id": "propagation",
+      "heading": "How do you propagate a peace lily?",
+      "paragraphs": [
+        "Division is the recommended way to propagate a peace lily at home (NC State Extension). UF/IFAS notes that the shoots that grow from the base can be separated from the parent plant and potted on their own. Divide when you repot."
+      ],
+      "steps": [
+        "Take the peace lily out of its pot and shake off the loose soil.",
+        "Pull or cut the clump apart so each piece has leaves and its own roots.",
+        "Pot each piece in its own pot of fresh potting mix, with a drainage hole.",
+        "Water thoroughly and keep the new plants in bright indirect light."
+      ]
+    },
+    {
+      "id": "placement",
+      "heading": "Where should you place a peace lily at home or in the office?",
+      "paragraphs": [
+        "A peace lily suits living rooms, bedrooms, office desks and reception areas with bright indirect light. Large cultivars make floor plants; small ones suit desks and shelves.",
+        "Do not put a peace lily directly in the airflow of an AC vent, next to a sunny glass wall, or on a balcony in summer. NC State Extension and UF/IFAS recommend wiping the wide leaves with a damp cloth to remove dust and some pests."
+      ],
+      "products": [
+        "peace-lily-spathiphyllum-office-tall-plant",
+        "peace-lily-spathiphyllum-in-rectangular-pot"
+      ]
+    }
+  ],
+  "varieties": [
+    {
+      "name": "'Sensation'",
+      "look": "Very large, dark green, ribbed leaves",
+      "care": "Same care; needs a large floor pot",
+      "best_for": "Floor corners in offices and living rooms"
+    },
+    {
+      "name": "'Mauna Loa Supreme'",
+      "look": "Medium size with glossy, lance-shaped leaves",
+      "care": "Same care",
+      "best_for": "Living rooms and side tables"
+    },
+    {
+      "name": "'Domino'",
+      "look": "Dark green leaves streaked with white",
+      "care": "Same care",
+      "best_for": "A patterned leaf when the plant is not in flower"
+    },
+    {
+      "name": "'Wallisii' and other compact types",
+      "look": "Small, compact plants with smaller flowers",
+      "care": "Same care; small pots dry out faster",
+      "best_for": "Desks, shelves and gifts"
+    }
+  ],
+  "first_week": {
+    "intro": "A move to a new home is a big change for a plant, and Clemson Extension notes that plants react to a large change in their surroundings. Some drooping after delivery is a common reaction to the journey and a new spot.",
+    "steps": [
+      "Put the plant in bright indirect light, away from direct sun and out of the airflow of AC vents.",
+      "Check the soil. If the top feels dry, water thoroughly and empty the saucer; if it feels damp, wait.",
+      "Leave it in one spot so it can adjust.",
+      "Do not repot while the plant is in flower or still drooping: Clemson Extension advises against repotting stressed plants or plants that are starting to flower. Repot later, when roots grow through the drainage hole."
+    ]
+  },
+  "uae_year": [
+    {
+      "season": "Summer",
+      "months": "May–Sep",
+      "care": "Keep a peace lily indoors, out of direct sun through glass. Most AC rooms stay within the 20–29 °C it prefers. Pots in warm, bright rooms dry out faster, so check the soil more often. Late-day drooping in a bright, warm room can be normal if the soil is still moist (UF/IFAS)."
+    },
+    {
+      "season": "Autumn",
+      "months": "Oct–Nov",
+      "care": "Keep checking a peace lily's soil before you water. As rooms cool, pots usually stay moist for longer. Trim dead flowers and leaves (UF/IFAS)."
+    },
+    {
+      "season": "Winter",
+      "months": "Dec–Feb",
+      "care": "In cooler rooms a peace lily grows more slowly and its pot stays moist longer. Water only when the top of the soil is dry, and stop feeding. Coastal homes stay warm enough; inland (Al Ain, desert areas) and in colder GCC cities, keep the plant away from cold windows, doors and cold air from vents at night. February is a good month to repot or divide."
+    },
+    {
+      "season": "Spring",
+      "months": "Mar–Apr",
+      "care": "Repot or divide a peace lily in March if roots grow through the drainage hole. Start light feeding again. Many peace lilies flower in spring."
+    }
+  ],
+  "problems": [
+    {
+      "question": "Why is my peace lily drooping?",
+      "symptom": "Drooping or collapsed leaves",
+      "cause": "Usually thirst; sometimes waterlogged roots",
+      "answer": "A drooping peace lily is usually thirsty: UF/IFAS names underwatering as the most common problem, and a dry peace lily can wilt right down to the soil. Waterlogged soil can also make the leaves wilt, so feel the soil before you water.",
+      "signs": "Dry, light pot (thirst), or wet soil, dark root tips and brown leaf edges (too much water).",
+      "fix": [
+        "Push a finger into the soil.",
+        "If the soil is dry, water thoroughly until water runs out of the drainage hole. UF/IFAS says the plant usually stands up again within hours.",
+        "If the soil is wet, do not water. Let the pot drain and the soil dry a little, and check that the drainage hole is not blocked.",
+        "If the plant droops only late in the day in a bright, warm room and the soil is moist, this can be normal (UF/IFAS)."
+      ]
+    },
+    {
+      "question": "Why are my peace lily leaves turning yellow?",
+      "symptom": "Yellow leaves",
+      "cause": "Soil too dry, too wet, or a nutrient problem",
+      "answer": "Yellow peace lily leaves usually come from watering problems. Clemson Extension says soil that dries out too much makes the leaves and edges turn yellow, and that root and stem diseases from overwatering are the most common peace lily problem. Yellow between green veins can point to a magnesium deficiency.",
+      "signs": "Check the soil: bone dry, or wet for days. Yellowing between green veins suggests a nutrient problem.",
+      "fix": [
+        "Feel the soil and correct the watering: water thoroughly if it is dry, let it dry a little if it is wet.",
+        "Check that the pot drains and that no water stands in the saucer.",
+        "Trim dead leaves at the base with clean scissors. UF/IFAS advises removing dead leaves as soon as you can.",
+        "If only the areas between the veins are yellow, use a houseplant fertiliser that lists magnesium (Mg) on the label, at quarter strength, in the warm months. UF/IFAS notes that magnesium additives are needed for this type of yellowing."
+      ]
+    },
+    {
+      "question": "Why are my peace lily leaf tips turning brown?",
+      "symptom": "Brown leaf tips or edges",
+      "cause": "Direct sun, underwatering, low humidity or salt build-up",
+      "answer": "NC State Extension lists direct sun, underwatering and low humidity as causes of brown peace lily leaf tips. Too much fertiliser and salt build-up burn the tips as well, and UF/IFAS notes that frequent drooping from thirst leads to brown tips and edges.",
+      "signs": "Crispy brown tips, sometimes with a white crust on the soil or pot rim.",
+      "fix": [
+        "Move the plant out of direct sun.",
+        "Water before the plant wilts, not after.",
+        "Flush the pot with plenty of water and let it drain. If a white crust keeps coming back, scrape it off and add fresh potting mix (Clemson Extension).",
+        "Feed less: quarter strength, in the warm months only."
+      ]
+    },
+    {
+      "question": "Why are my peace lily leaves pale or scorched?",
+      "symptom": "Pale, bleached or scorched leaves",
+      "cause": "Too much light or direct sun",
+      "answer": "Pale, bleached peace lily leaves are a sign of too much light, and direct sun scorches the leaves. UF/IFAS notes that the pale colour is often mistaken for a nutrient deficiency. In the UAE this often happens near west- or south-facing glass.",
+      "signs": "Pale or scorched patches on the side that faces the window.",
+      "fix": [
+        "Move the plant to bright indirect light, or add a sheer curtain.",
+        "Trim leaves that have died back at the base with clean scissors (UF/IFAS)."
+      ]
+    },
+    {
+      "question": "Why is my peace lily not flowering?",
+      "symptom": "No flowers",
+      "cause": "A young plant or too little light",
+      "answer": "A peace lily usually does not flower because it is less than a year old or gets too little light (Clemson Extension). Shop plants are often brought into flower by the grower, so they may not flower again until their natural season.",
+      "signs": "Healthy leaves but no new flower stalks.",
+      "fix": [
+        "Move the plant to brighter indirect light, but not into direct sun.",
+        "Feed lightly in spring and summer.",
+        "Be patient. In Florida production, most cultivars flower naturally between January and August (UF/IFAS)."
+      ]
+    },
+    {
+      "question": "Why does my peace lily have black patches after cold air?",
+      "symptom": "Black patches and stunted growth",
+      "cause": "Cold drafts or chilling",
+      "answer": "Black areas on peace lily leaves that start at the tips and spread inwards, with stunted growth, are a sign of cold damage. UF/IFAS links them to cold drafts and long periods below about 7 °C; older leaves are more sensitive than new ones.",
+      "signs": "Black or dark patches on leaves facing an AC vent, a cold window or an open door.",
+      "fix": [
+        "Move the plant out of the airflow of vents and away from cold windows and doors.",
+        "Trim dead leaves at the base with clean scissors (UF/IFAS).",
+        "In inland areas and colder GCC cities, keep the plant away from windows on cold winter nights."
+      ]
+    },
+    {
+      "question": "What is the white cotton on my peace lily?",
+      "symptom": "White cotton on leaves or stems",
+      "cause": "Mealybugs",
+      "answer": "White, cottony clusters on a peace lily are mealybugs, which NC State Extension calls probably the most common insect on peace lilies indoors. Clemson Extension also lists spider mites, scale and fungus gnats as possible pests.",
+      "signs": "White fluff on the undersides of leaves and where leaves join the stems, sticky residue, slow growth.",
+      "fix": [
+        "Move the plant away from other plants until the pests are gone (Clemson Extension).",
+        "Wipe the leaves, including the undersides, with a damp cloth. Clemson Extension advises wiping each mealybug off with a cotton bud dipped in rubbing alcohol.",
+        "For a heavier infestation, Clemson Extension suggests an insecticidal soap spray, often more than once. Use only a product whose label allows indoor use on houseplants, and follow the label exactly."
+      ],
+      "products": [
+        "neem-shield-herbal-fertilizer-pesticide-qty-250ml-500ml-1000ml-plant-care"
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Watering on a fixed weekly schedule",
+      "instead": "Water when the top of the soil feels dry. Check with a fingertip first."
+    },
+    {
+      "mistake": "Waiting until the plant collapses every time",
+      "instead": "Water before it wilts. Frequent drooping leads to brown tips and edges (UF/IFAS)."
+    },
+    {
+      "mistake": "Leaving the pot standing in a saucer of water",
+      "instead": "Empty the saucer after watering. Standing water leads to root rot (Clemson Extension)."
+    },
+    {
+      "mistake": "Direct sun through a west- or south-facing window",
+      "instead": "Bright indirect light, or a sheer curtain on the window."
+    },
+    {
+      "mistake": "A spot in the direct airflow of an AC vent",
+      "instead": "A spot where the vent does not blow on the plant."
+    },
+    {
+      "mistake": "Repotting into a much bigger pot",
+      "instead": "Go up only 2.5–5 cm in width (Clemson Extension). Peace lilies like a snug pot."
+    },
+    {
+      "mistake": "Feeding at full strength",
+      "instead": "Quarter-strength liquid fertiliser in the warm months, and flush the soil between feeds."
+    }
+  ],
+  "myths": [
+    {
+      "myth": "A peace lily is a true lily.",
+      "fact": "A peace lily is not a true lily. It belongs to the arum family (Araceae), with anthuriums and callas (Clemson Extension)."
+    },
+    {
+      "myth": "Because it is not a true lily, a peace lily is safe for cats.",
+      "fact": "A peace lily is toxic to cats and dogs. Its calcium oxalate crystals cause intense mouth irritation, drooling and vomiting (ASPCA). True lilies are a different risk: the ASPCA lists kidney failure in cats from Easter lily."
+    },
+    {
+      "myth": "Green flowers mean the plant is sick.",
+      "fact": "Peace lily flowers turn pale green as they age. That is normal (NC State Extension, Clemson Extension)."
+    },
+    {
+      "myth": "A bigger pot makes a peace lily grow and flower more.",
+      "fact": "A pot much larger than the roots keeps the mix too wet and leads to root rot. Peace lilies like to be slightly pot-bound (Clemson Extension)."
+    }
+  ],
+  "pet_safety": {
+    "status": "toxic",
+    "summary": "No, a peace lily is not safe for cats and dogs: the ASPCA lists it as toxic to both. The plant contains insoluble calcium oxalate crystals, which cause intense burning and irritation of the mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. NC State Extension also lists the peace lily as a problem for children. Keep the plant out of reach of pets and young children.",
+    "emergency": "Call your vet or a 24-hour animal emergency clinic straight away and tell them the plant name. If a child chews a leaf, contact a doctor straight away.",
+    "sources": [
+      "aspca",
+      "ncsu"
+    ]
+  },
+  "alternatives": [
+    {
+      "name": "Snake Plant",
+      "guide": "snake-plant",
+      "product": "snake-plant-indoor-sansevieria-plants-online-in-dubai-uae",
+      "light": "Bright indirect; copes with low light",
+      "water": "When the soil is fully dry",
+      "pets": "Toxic if chewed (ASPCA)",
+      "why": "You forget to water and do not need flowers"
+    },
+    {
+      "name": "Golden Pothos",
+      "guide": "pothos",
+      "product": "devils-ivy-golden-pothos",
+      "light": "Bright indirect; survives lower light",
+      "water": "Let the mix dry out between waterings (NC State)",
+      "pets": "Toxic if chewed (ASPCA)",
+      "why": "You want a trailing plant for a shelf or a hanging pot"
+    },
+    {
+      "name": "Bamboo Palm",
+      "guide": "bamboo-palm",
+      "product": "bamboo-palm-chamaedorea-elegans-bushy",
+      "light": "Bright indirect",
+      "water": "Let the soil dry slightly between waterings (NC State)",
+      "pets": "Non-toxic to cats and dogs (ASPCA)",
+      "why": "You have pets and want a leafy indoor plant"
+    },
+    {
+      "name": "Areca Palm",
+      "guide": "areca-palm",
+      "product": "chrysalidocarpus-lutescens-areca-palm-small-plant",
+      "light": "Bright indirect",
+      "water": "Keep moist, not soggy, in the growing season",
+      "pets": "Non-toxic to cats and dogs (ASPCA)",
+      "why": "You have pets and a bright room with space for a taller plant"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "low-light",
+      "group": "care",
+      "q": "Can a peace lily live in low light?",
+      "a": "Yes. A peace lily tolerates low light and is one of the few foliage plants that can flower there (Clemson Extension). It grows best in bright indirect light, and in a dim spot it grows slowly and flowers less."
+    },
+    {
+      "id": "air",
+      "group": "care",
+      "q": "Does a peace lily clean the air?",
+      "a": "A peace lily does not noticeably clean the air in a normal room. The studies that found plants removing chemicals were done in small sealed chambers. A 2019 review by Cummings and Waring concluded that a home would need far more plants than anyone keeps to match normal ventilation. Buy a peace lily for its flowers and leaves, not as an air filter."
+    },
+    {
+      "id": "outdoors",
+      "group": "care",
+      "q": "Can a peace lily live outside in the UAE?",
+      "a": "A peace lily is best kept indoors in the UAE. It must not get direct sun, it is not salt tolerant, and UAE summer days are far above the 20–29 °C it prefers. A fully shaded, sheltered spot in the cooler months is possible on the coast, but bring it in before summer and before cold inland nights."
+    },
+    {
+      "id": "real-lily",
+      "group": "care",
+      "q": "Is a peace lily a real lily?",
+      "a": "No. A peace lily (Spathiphyllum) is not a true lily but a member of the arum family, Araceae (Clemson Extension). The white 'flower' is a spathe, a modified leaf around a spike of tiny true flowers."
+    },
+    {
+      "id": "green-flowers",
+      "group": "care",
+      "q": "Why are my peace lily flowers turning green?",
+      "a": "Peace lily flowers turn pale green as they age. NC State Extension says the blooms stay white for about 10 days and then stay attractive for at least another month. UF/IFAS advises trimming dead flowers as soon as possible."
+    },
+    {
+      "id": "cut-flowers",
+      "group": "care",
+      "q": "Should you cut off old peace lily flowers?",
+      "a": "Yes. UF/IFAS advises trimming dead peace lily flowers and leaves as soon as possible. Use clean scissors."
+    },
+    {
+      "id": "size",
+      "group": "care",
+      "q": "How big does a peace lily get?",
+      "a": "Most peace lilies grow 30 cm to 1.2 m tall and wide (Clemson Extension), and indoors they typically reach about 90 cm (NC State Extension). Large cultivars such as 'Sensation' can grow much bigger, and dwarf types stay small."
+    }
+  ],
+  "kb_faqs": [
+    "KB057",
+    "KB016",
+    "KB013",
+    "KB011",
+    "KB006",
+    "KB053",
+    "KB087"
+  ],
+  "product_handles": [
+    "peace-lily-plants-indoor-flowering-plant",
+    "peace-lily-spathiphyllum-in-rectangular-pot",
+    "peace-lily-spathiphyllum-office-tall-plant",
+    "peace-lily-spathiphyllum-water-plant",
+    "peace-lily-mothers-day-womans-day",
+    "mini-peace-lily-with-boxed",
+    "mini-peace-lily-with-kraft-bag"
+  ],
+  "collection_handle": "indoor-flowering-plants",
+  "sources": [
+    {
+      "id": "ncsu",
+      "title": "Spathiphyllum (Peace Lily, Spathe Flower, White Sails)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/spathiphyllum/"
+    },
+    {
+      "id": "clemson",
+      "title": "Peace Lily (HGIC 1512)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/peace-lily/"
+    },
+    {
+      "id": "ufifas-care",
+      "title": "Florida Foliage House Plant Care: Spathiphyllum (ENH1216)",
+      "publisher": "UF/IFAS Extension, University of Florida",
+      "url": "https://edis.ifas.ufl.edu/publication/EP477"
+    },
+    {
+      "id": "ufifas-culture",
+      "title": "Cultural Guidelines for Commercial Production of Interiorscape Spathiphyllum (ENH958)",
+      "publisher": "UF/IFAS Extension, University of Florida",
+      "url": "https://edis.ifas.ufl.edu/publication/EP161"
+    },
+    {
+      "id": "aspca",
+      "title": "Toxic and Non-toxic Plants: Peace Lily",
+      "publisher": "ASPCA Animal Poison Control",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily"
+    },
+    {
+      "id": "cummings2019",
+      "title": "Potted plants do not improve indoor air quality: a review and analysis of reported VOC removal efficiencies",
+      "publisher": "Cummings & Waring, Journal of Exposure Science & Environmental Epidemiology (2019)",
+      "url": "https://doi.org/10.1038/s41370-019-0175-9"
+    },
+    {
+      "id": "clemson-water",
+      "title": "Indoor Plants – Watering (HGIC 1459)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-watering/"
+    },
+    {
+      "id": "clemson-repot",
+      "title": "Indoor Plants – Transplanting & Repotting (HGIC 1458)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/"
+    },
+    {
+      "id": "clemson-pests",
+      "title": "Common Houseplant Insects & Related Pests (HGIC 2252)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/"
+    },
+    {
+      "id": "clemson-disorders",
+      "title": "Houseplant Diseases & Disorders (HGIC 2251)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/"
+    }
+  ],
+  "author": "PlantsWorld team",
+  "version_log": [
+    {
+      "version": "1.0",
+      "date": "2026-11-12",
+      "change": "First version in format v2, written from NC State, Clemson and UF/IFAS Extension, ASPCA and Cummings & Waring (2019). Waiting for the fact check."
+    },
+    {
+      "version": "1.1",
+      "date": "2026-11-12",
+      "change": "Fact check: genus name and ids; Florida limit on flowering months; unsourced steps removed or sourced to Clemson Extension (repotting, mealybugs, salt crust); first-week wait time replaced by a rule."
+    }
+  ],
+  "image_url": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/PeaceLily-Spathiphyllum_WhiteCeramicPot_30_40_cm.jpg?v=1651224779",
+  "seo_title": "Peace Lily Care UAE: Water, Light & Fixes | PlantsWorld",
+  "seo_description": "Peace lily care in the UAE: when to water under AC, the right light and pot, why it droops or will not flower, and how to fix yellow leaves and brown tips.",
+  "updated_on": "2026-11-12"
+}

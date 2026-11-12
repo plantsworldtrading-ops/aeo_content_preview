@@ -1,4 +1,5 @@
 {
+  "format": 2,
   "handle": "snake-plant",
   "name": "Snake Plant",
   "botanical_name": "Dracaena trifasciata (syn. Sansevieria trifasciata)",
@@ -9,32 +10,47 @@
     "لسان الحماة",
     "نبتة الثعبان"
   ],
+  "entity_ids": {
+    "wikidata": "Q65936984",
+    "powo": "urn:lsid:ipni.org:names:77164235-1"
+  },
+  "primary_keyword": "snake plant care",
+  "secondary_keywords": [
+    "snake plant care Dubai",
+    "how often to water a snake plant",
+    "snake plant yellow leaves",
+    "snake plant brown tips",
+    "repot snake plant",
+    "is snake plant toxic to cats",
+    "snake plant outdoors UAE",
+    "snake plant in bedroom"
+  ],
   "question_title": "How do you care for a snake plant in the UAE?",
-  "quick_answer": "Snake plant (Dracaena trifasciata, also sold as Sansevieria) is one of the easiest plants for UAE homes and offices. Give it bright indirect light; it also copes with dim corners. Water only when the soil is fully dry, often every 2–3 weeks in summer under AC and every 4–6 weeks in winter. Use a pot with drainage holes. Overwatering kills most snake plants.",
+  "quick_answer": "Snake plant care in the UAE is simple: give the plant bright indirect light, water only when the soil is dry to the bottom of the pot, and use a pot with a drainage hole. Under AC the soil dries slowly, so test it before every watering. Overwatering, which leads to root rot, is the main reason a snake plant (Dracaena trifasciata) fails.",
   "quick_facts": [
     {
       "label": "Light",
       "value": "Bright indirect is best; copes with low light. Gentle morning sun is fine, harsh summer sun is not."
     },
     {
-      "label": "Water, Apr–Oct",
-      "value": "When the soil is fully dry: often every 2–3 weeks under AC"
+      "label": "Water, Mar–Oct",
+      "value": "When the soil is dry to the bottom of the pot. Test it with a skewer first."
     },
     {
-      "label": "Water, Nov–Mar",
-      "value": "When the soil is fully dry: often every 4–6 weeks"
+      "label": "Water, Nov–Feb",
+      "value": "Less often, as growth slows. NC State Extension: every one to two months in winter."
     },
     {
       "label": "Temperature",
-      "value": "Prefers 15–24 °C. Copes with summer heat in shade if the soil dries out. Protect from below 10 °C."
+      "value": "Grows well at normal room temperature. Copes with summer heat in shade if the soil dries out. Protect from cold below about 10–13 °C."
     },
     {
       "label": "Humidity",
-      "value": "Prefers lower humidity. In humid coastal homes, water less often."
+      "value": "Tolerates low humidity. In humid coastal homes the soil dries more slowly, so water less often."
     },
     {
       "label": "AC tolerance",
-      "value": "High. Keep 1 m away from a direct vent."
+      "value": "High, but keep it out of the direct stream of cold air from a vent."
     },
     {
       "label": "Outdoors in UAE",
@@ -42,54 +58,66 @@
     },
     {
       "label": "Pets",
-      "value": "Toxic to cats and dogs if chewed; keep away from young children"
-    },
-    {
-      "label": "Difficulty",
-      "value": "Easy, good for beginners"
+      "value": "Toxic to cats and dogs if chewed; keep away from young children."
     },
     {
       "label": "Size indoors",
-      "value": "30–120 cm depending on variety"
+      "value": "About 15 cm ('Hahnii') to 120 cm (tall types)."
     },
     {
       "label": "Growth",
-      "value": "Slow"
+      "value": "Slow indoors, slower in low light."
     }
   ],
+  "fit": {
+    "good_if": [
+      "You are new to plants, or you travel and sometimes forget to water.",
+      "Your room has medium or low light, such as a bedroom, a hallway or an office corner.",
+      "Your home or office runs AC for most of the year.",
+      "You want a plant that grows slowly and keeps its size for years."
+    ],
+    "think_twice": [
+      "A cat, a dog or a young child in your home chews plants: snake plants are toxic if eaten.",
+      "You like to water often, or your pots have no drainage hole.",
+      "You want fast growth or regular flowers."
+    ]
+  },
   "care_sections": [
     {
       "id": "light",
       "heading": "How much light does a snake plant need?",
       "paragraphs": [
-        "A snake plant grows best in bright, indirect light, such as 1–2 metres from an east- or north-facing window. It also survives in low light (a dim hallway, an office corner, a bedroom with curtains), but it grows very slowly there and the leaf colour fades.",
-        "In the UAE, the risk is too much sun, not too little. Afternoon sun through west- or south-facing glass in summer burns the leaves and leaves pale or brown dry patches that never recover. A sheer curtain is enough to stop it."
+        "A snake plant grows best in bright, indirect light, such as near an east-facing window (Clemson Extension: bright indirect light in the mornings). It also survives in low light (a dim hallway, an office corner, a bedroom with curtains), but it grows very slowly there and the leaf colour fades.",
+        "In the UAE, the main risk for a snake plant is too much sun, not too little. Afternoon sun through west- or south-facing glass in summer burns the leaves and causes pale or brown dry patches that never recover. Filter that sun with a sheer curtain, or move the plant back from the glass."
       ],
-      "tips": [
-        "Turn the pot a quarter turn every month so the leaves grow straight.",
-        "A room with no window at all is too dark, even for a snake plant."
+      "products": [
+        "snake-plant-indoor-sansevieria-plants-online-in-dubai-uae"
       ]
     },
     {
       "id": "watering",
       "heading": "How often should you water a snake plant in Dubai?",
       "paragraphs": [
-        "Water only when the soil is completely dry all the way down. Push a finger or a wooden skewer into the pot: if any soil feels damp, wait. Indoors under AC this is often every 2–3 weeks from April to October and every 4–6 weeks from November to March, but treat these as starting points, not a schedule. Small or terracotta pots in a warm, bright spot dry much faster; large pots in a dim AC room stay dry for longer.",
-        "In humid coastal homes and after rain, soil dries slowly, so water less often. Inland, dry heat and hot wind dry pots quickly, so check outdoor pots more often in summer.",
-        "When you water, water thoroughly until it runs out of the drainage hole, then empty the saucer after 15 minutes. Never leave the pot standing in water.",
+        "Water a snake plant only when the soil is dry all the way to the bottom of the pot, not on a schedule. To test, push a wooden skewer to the bottom of the pot and pull it out. If the skewer comes out damp or with soil stuck to it, wait and test again later.",
+        "How fast snake plant soil dries depends on the pot, the room and the season. Small and terracotta pots in a warm, bright spot dry fastest; large plastic or glazed pots in a dim AC room stay damp longest. In humid coastal homes and after rain, snake plant soil dries slowly, so the test will tell you to water less often. Inland, dry heat and hot wind dry pots quickly, so test outdoor snake plants more often in summer.",
+        "In the cooler months snake plant growth slows and the soil takes longer to dry. NC State Extension says to water only every one to two months in winter, and University of Illinois Extension says to give just enough water in winter to stop the leaves from shrivelling.",
+        "When you water a snake plant, water thoroughly until water runs out of the drainage hole, then empty the saucer once the pot stops dripping. Never leave the pot standing in water.",
         "UAE tap water is desalinated and then remineralised, and its mineral content varies by area and building. If you see a white crust on the soil or pot, or brown leaf tips, flush the pot with plenty of water to wash the salts out, or switch to filtered water."
       ],
       "tips": [
         "Water the soil, not into the centre of the leaf rosette. Water sitting there can rot the base.",
-        "When in doubt, wait another week. A thirsty snake plant recovers; a waterlogged one often does not."
+        "When in doubt, wait and test the soil again. A thirsty snake plant recovers; a waterlogged one often does not."
+      ],
+      "products": [
+        "shalimar-perlite-water-saver-10-ltr-potting-mix-plant-care"
       ]
     },
     {
       "id": "soil",
       "heading": "What soil and pot does a snake plant need?",
       "paragraphs": [
-        "Use a fast-draining mix: a cactus and succulent soil, or regular potting soil mixed half and half with perlite or coarse sand. Heavy, water-holding garden soil keeps the roots wet and leads to rot.",
-        "Always use a pot with a drainage hole. Decorative pots without holes are fine as an outer cover, as long as you lift the inner pot out to drain. Terracotta and cement pots dry faster than plastic or glazed ceramic, which helps prevent overwatering."
+        "Use a fast-draining mix for a snake plant: a cactus and succulent soil, or regular potting soil with plenty of perlite or coarse sand mixed in. Heavy, water-holding garden soil keeps the roots wet and leads to rot.",
+        "Always give a snake plant a pot with a drainage hole. Decorative pots without holes are fine as an outer cover, as long as you lift the inner pot out to drain. Terracotta and cement pots dry faster than plastic or glazed ceramic, which helps prevent overwatering."
       ],
       "products": [
         "succulent-and-cactus-potting-soil-mix-indoor-plant-soil",
@@ -100,8 +128,7 @@
       "id": "fertiliser",
       "heading": "Should you fertilise a snake plant?",
       "paragraphs": [
-        "Snake plants need very little feeding. From March to October, give a balanced fertiliser at half the strength on the label once a month. Do not feed from November to February, when growth slows down.",
-        "Too much fertiliser causes brown leaf tips and salt build-up, so less is better than more."
+        "Yes, but snake plants need very little feeding. Penn State Extension advises an all-purpose fertiliser at half strength once a month in the growing season: in the UAE, from March to October. Do not feed from November to February, when growth slows down. Too much fertiliser causes brown leaf tips and salt build-up on a snake plant, so less is better than more."
       ],
       "products": [
         "blaukorn-blue-n-p-k-fertilizer-12-12-17-2-te-plant-care"
@@ -109,64 +136,124 @@
     },
     {
       "id": "repotting",
-      "heading": "When should you repot a snake plant?",
+      "heading": "When and how should you repot a snake plant?",
       "paragraphs": [
-        "Repot every 2–3 years, or when roots come out of the drainage hole or the pot starts to bulge or crack. Snake plants like a snug pot, so go up only one size (about 3–5 cm wider).",
-        "The best time in the UAE is October–November or February–April. After repotting, wait about a week before watering so any damaged roots can heal."
+        "Repot a snake plant only when the roots fill the pot: roots come out of the drainage hole, the pot bulges or cracks, or water runs straight through. Penn State Extension says about every 5 years, and every 3 years for the compact 'Hahnii', because snake plants grow slowly and like a snug pot.",
+        "When you repot a snake plant, go up only one pot size: Colorado State University Extension advises a pot one to two inches (about 2.5–5 cm) wider. A pot that is much bigger than the roots holds wet soil the roots cannot use, and that leads to rot. In the UAE the best months are October–November and February–April. Avoid the summer peak, and let a new plant settle before you repot it."
+      ],
+      "steps": [
+        "Choose a pot about 2.5–5 cm wider than the old one, with a drainage hole, and fresh fast-draining succulent mix.",
+        "Ease the plant out of the old pot. Squeeze or tap a plastic pot to loosen the root ball.",
+        "Shake off the loose old soil and cut away any black, soft roots with clean scissors.",
+        "Set the plant at the same depth as before, fill around it with the new mix and press it down gently.",
+        "Do not water straight away. Give any cut or broken roots time to dry and seal first; wait longer if you cut many roots or the room is cool."
       ]
     },
     {
       "id": "propagation",
       "heading": "How do you propagate a snake plant?",
       "paragraphs": [
-        "Division is the easiest and fastest method: take the plant out of the pot, cut through the root mass so each piece has leaves and roots, and pot each piece separately.",
-        "You can also root leaf cuttings. Cut a leaf into 8–10 cm sections, let them dry for 2–3 days, then stand them upright (bottom end down) in damp succulent soil or in water. Roots take 4–8 weeks. Note that cuttings from yellow-edged varieties usually grow back plain green; only division keeps the yellow edge."
+        "Division is the easiest and fastest way to propagate a snake plant, and it is the only way to keep a yellow leaf edge. Leaf cuttings also root, but slowly: University of Arkansas Extension says they take about three months to root and send up a new shoot, and cuttings from yellow-edged varieties grow back plain green.",
+        "To take snake plant leaf cuttings, cut a leaf into 5–8 cm sections. Make the lower cut slanted so you know which end goes down, and let the cut ends dry until they form a dry skin. Then stand them upright, bottom end down, in barely damp succulent soil, because they rot if kept too wet. They also root in water if you change the water often."
+      ],
+      "steps": [
+        "Take the plant out of its pot and shake off the loose soil.",
+        "Cut through the root mass with a clean knife so each piece has leaves and its own roots.",
+        "Pot each piece in its own small pot of succulent mix.",
+        "Let the cut surfaces dry before the first watering, then care for each piece as a normal snake plant."
       ]
     },
     {
       "id": "placement",
       "heading": "Where should you place a snake plant at home or in the office?",
       "paragraphs": [
-        "Snake plants suit bedrooms, living-room corners, office desks and reception areas because they tolerate lower light and AC rooms year-round. A bathroom with a window works well too.",
-        "Avoid spots directly under an AC vent, next to a sunny glass wall, or on a balcony in summer without shade. Tall varieties make good floor plants beside a sofa or TV unit; compact types like 'Hahnii' and the starfish snake plant suit shelves and desks.",
-        "When moving a plant between an AC room and the outdoors, do it gradually over a week or two (a few hours in shade at first), and never straight from AC into full summer heat or sun."
+        "Snake plants suit bedrooms, living-room corners, office desks and reception areas because they tolerate lower light and AC rooms year-round.",
+        "Do not put a snake plant directly under an AC vent, next to a sunny glass wall, or on a balcony in summer without shade. Tall snake plants make good floor plants beside a sofa or TV unit; compact types like 'Hahnii' and the starfish snake plant suit shelves and desks.",
+        "Move a snake plant between an AC room and the outdoors gradually: start with short spells in full shade and leave it outside for longer step by step. Watch the leaves: if pale or bleached patches appear, move it back into deeper shade and go more slowly. Go more slowly in the hottest months and with a plant that comes from a dim room. Never move it straight from AC into full summer heat or sun."
+      ],
+      "products": [
+        "snake-plant-indoor-sansevieria-office-corner-plant-in-tall-pot",
+        "starfish-snake-plant-sansevieria-cylindrica-starfish"
       ]
     }
   ],
+  "varieties": [
+    {
+      "name": "Laurentii",
+      "look": "Tall, upright leaves with yellow edges",
+      "care": "Same care. Divide it to keep the yellow edge; leaf cuttings grow back green.",
+      "best_for": "Floor corners and side tables"
+    },
+    {
+      "name": "Zeylanica",
+      "look": "Dark green leaves with lighter grey-green bands, no yellow edge",
+      "care": "Same care",
+      "best_for": "A plain green, upright look",
+      "products": [
+        "sansevieria-zeylanica-snake-plants"
+      ]
+    },
+    {
+      "name": "Hahnii",
+      "look": "A short, compact rosette",
+      "care": "Same care. Needs repotting more often than tall types.",
+      "best_for": "Desks and shelves"
+    },
+    {
+      "name": "Starfish (Sansevieria cylindrica 'Starfish')",
+      "look": "Thick, round leaves that fan out like a starfish",
+      "care": "Same care",
+      "best_for": "Desks, shelves and gifts",
+      "products": [
+        "starfish-snake-plant-sansevieria-cylindrica-starfish"
+      ]
+    }
+  ],
+  "first_week": {
+    "intro": "A new snake plant needs time to settle in. The main risk in the first week is too much care, not too little.",
+    "steps": [
+      "Put the plant in bright indirect light, away from direct sun and from AC vents.",
+      "Leave it in one spot. Moving it again and again slows the settling in.",
+      "Test the soil with a skewer before the first watering, and water only when it is dry to the bottom of the pot.",
+      "Do not repot straight away. Let the plant settle in its delivery pot first, and repot only when the roots fill the pot."
+    ]
+  },
   "uae_year": [
     {
       "season": "Summer",
       "months": "May–Sep",
-      "care": "Indoors under AC it keeps growing slowly: water when the soil is dry, often every 2–3 weeks. Keep it out of direct sun through glass. Outdoor plants need full shade; check the soil every few days in heatwaves, especially small or terracotta pots."
+      "care": "Indoors under AC a snake plant keeps growing slowly: water when the soil tests dry to the bottom of the pot. Keep it out of direct sun through glass. Outdoor plants need full shade; test the soil more often in heatwaves, because small and terracotta pots dry fastest."
     },
     {
       "season": "Autumn",
       "months": "Oct–Nov",
-      "care": "Best time to repot, divide and move plants back to balconies and terraces (gradually, starting in shade). Feed once a month until the end of October."
+      "care": "Autumn is the best time to repot and divide a snake plant, and to move plants back to balconies and terraces (gradually, starting in shade). Feed once a month until the end of October. From November growth slows and the soil takes longer to dry."
     },
     {
       "season": "Winter",
       "months": "Dec–Feb",
-      "care": "Growth slows down. Water less, often every 4–6 weeks, and stop feeding. Coastal winter nights are mild enough. Inland (Al Ain, desert areas) and in Riyadh or Kuwait, nights can fall below 10 °C: move outdoor plants to a sheltered spot or indoors on cold nights. Make sure outdoor pots drain after rain."
+      "care": "Snake plant growth slows down. Water less: the soil takes longer to dry, so test it before each watering (NC State Extension: every one to two months in winter). Stop feeding. Coastal winter nights are mild enough. Inland (Al Ain, desert areas) and in Riyadh or Kuwait, nights can fall below about 10–13 °C, the lowest a snake plant tolerates: move outdoor plants to a sheltered spot or indoors on cold nights. Make sure outdoor pots drain after rain."
     },
     {
       "season": "Spring",
       "months": "Mar–Apr",
-      "care": "Start feeding again once a month. A good second window for repotting. Move outdoor plants into shade before May."
+      "care": "Start to feed a snake plant again once a month. Spring is a good second window for repotting. Move outdoor plants into shade before May."
     }
   ],
   "problems": [
     {
-      "question": "Why are my snake plant leaves turning yellow and soft?",
-      "answer": "Yellow, soft or mushy leaves almost always mean overwatering and root rot. The soil stays wet, the roots suffocate and begin to rot from the base upward.",
+      "question": "Why are my snake plant leaves turning yellow and soft, and how do I save it from root rot?",
+      "symptom": "Yellow, soft or mushy leaves",
+      "cause": "Overwatering and root rot",
+      "answer": "Yellow, soft or mushy snake plant leaves almost always mean overwatering and root rot. The soil stays wet, and the roots suffocate and begin to rot from the base upward.",
       "signs": "Soil still damp days after watering, a soft or dark base, a sour smell from the pot.",
       "fix": [
         "Stop watering.",
         "Take the plant out of the pot and remove all soil.",
         "Cut off every black, mushy root and any rotten leaves with clean scissors.",
-        "Let the plant dry in the shade for 1–2 days.",
+        "Leave the plant out of the pot, in the shade, until the cut root ends look dry.",
         "Repot in fresh, dry succulent soil in a pot with a drainage hole.",
-        "Wait one week before the first watering."
+        "Do not water straight away. Give the cut roots time to seal, then water only when the soil tests dry."
       ],
       "products": [
         "succulent-and-cactus-potting-soil-mix-indoor-plant-soil"
@@ -174,28 +261,33 @@
     },
     {
       "question": "Why are my snake plant leaf tips turning brown?",
-      "answer": "Brown, dry tips usually come from salt and mineral build-up from hard tap water or too much fertiliser. Long dry spells followed by heavy watering, or cold air blowing from an AC vent, cause it too.",
+      "symptom": "Crispy brown leaf tips",
+      "cause": "Salt build-up from tap water or fertiliser",
+      "answer": "Brown, dry tips on a snake plant usually come from salt and mineral build-up in the soil, from the minerals in tap water or from too much fertiliser. The salts stay behind in the pot as the water dries out.",
       "signs": "Crispy brown tips, sometimes with a white crust on the soil or pot rim.",
       "fix": [
         "Flush the soil with plenty of water and let it drain fully.",
-        "Switch to filtered water, or let tap water stand overnight.",
+        "Switch to filtered water if the crust keeps coming back.",
         "Cut fertiliser to half strength, March–October only.",
-        "Move the plant away from AC vents.",
         "Trim the brown tips with clean scissors, following the natural leaf shape. Cut tips do not grow back."
       ]
     },
     {
       "question": "Why are my snake plant leaves wrinkled or curling?",
-      "answer": "Wrinkled, thin or curling leaves mean the plant is not getting enough water. Either the soil has been bone dry for too long, or rotten roots can no longer take water up.",
+      "symptom": "Wrinkled or curling leaves",
+      "cause": "Thirst, or roots damaged by rot",
+      "answer": "Wrinkled, thin or curling leaves mean the snake plant is not getting enough water. Either the soil has been bone dry for too long, or rotten roots can no longer take water up.",
       "signs": "Dry soil pulling away from the pot edge (thirst), or wet soil with a soft base (root damage).",
       "fix": [
-        "If the soil is dry, water thoroughly. Leaves should firm up within a week.",
-        "If the soil is wet, check the roots and treat as root rot (see above)."
+        "If the soil is dry, water thoroughly. If the leaves do not firm up afterwards, check the roots.",
+        "If the soil is wet, check the roots and follow the root rot fix for yellow, soft leaves."
       ]
     },
     {
       "question": "Why is my snake plant falling over?",
-      "answer": "Leaves that bend, flop or fall outward are weak from overwatering or from too little light, which makes them grow tall and thin. A top-heavy plant in a light plastic pot can also tip over.",
+      "symptom": "Leaves bending or falling over",
+      "cause": "Overwatering, low light or a light pot",
+      "answer": "Snake plant leaves that bend, flop or fall outward are weak from overwatering or from too little light, which makes them grow tall and thin. A top-heavy plant in a light plastic pot can also tip over.",
       "signs": "Leaves bend at the base, look stretched, or the whole plant leans.",
       "fix": [
         "Check that the soil dries between waterings.",
@@ -206,8 +298,10 @@
     },
     {
       "question": "What are the pale or brown dry patches on my snake plant?",
-      "answer": "Pale, bleached or brown papery patches are sunburn. This is common in the UAE when a plant sits in afternoon sun behind glass, or outdoors in summer without shade.",
-      "signs": "Dry patches on the side facing the window or the sun, appearing within a few days of a move.",
+      "symptom": "Pale or brown dry patches",
+      "cause": "Sunburn behind glass or outdoors",
+      "answer": "Pale, bleached or brown papery patches on a snake plant are sunburn. This is common in the UAE when a plant sits in afternoon sun behind glass, or outdoors in summer without shade.",
+      "signs": "Dry patches on the side facing the window or the sun, often soon after a move to a sunnier spot.",
       "fix": [
         "Move the plant out of direct sun or add a sheer curtain.",
         "The damaged patches will not heal. Leave them, or remove badly burnt leaves at the base."
@@ -215,12 +309,14 @@
     },
     {
       "question": "What is the white cotton at the base of my snake plant leaves?",
-      "answer": "White, cottony clusters between the leaves are mealybugs, a sap-sucking pest. They hide deep in the leaf base and spread to nearby plants.",
+      "symptom": "White cotton at the leaf base",
+      "cause": "Mealybugs",
+      "answer": "White, cottony clusters between snake plant leaves are mealybugs, a sap-sucking pest. They hide deep in the leaf base and spread to nearby plants.",
       "signs": "White fluff, sticky residue, slow growth, yellowing spots.",
       "fix": [
         "Move the plant away from other plants.",
         "Wipe off the bugs with a cotton bud dipped in rubbing alcohol.",
-        "Spray the whole plant, especially the leaf bases, with a neem-based spray once a week for 3–4 weeks."
+        "Spray the whole plant, especially the leaf bases, with a houseplant spray such as a neem-based product. Follow the label and repeat as it allows until no new mealybugs appear."
       ],
       "products": [
         "neem-shield-herbal-fertilizer-pesticide-qty-250ml-500ml-1000ml-plant-care"
@@ -228,67 +324,159 @@
     },
     {
       "question": "Why are there tiny flies around my snake plant?",
-      "answer": "Small black flies around the soil are fungus gnats. They breed in soil that stays wet, so they are a sign of overwatering.",
+      "symptom": "Tiny flies around the soil",
+      "cause": "Fungus gnats in wet soil",
+      "answer": "Small black flies around snake plant soil are fungus gnats. They breed in soil that stays wet, so they are a sign of overwatering.",
       "signs": "Tiny flies rising from the soil when you touch the pot.",
       "fix": [
         "Let the soil dry out completely before watering again.",
-        "Cover the soil with a 1–2 cm layer of sand or small pebbles.",
         "Yellow sticky traps catch the adults."
       ]
     },
     {
       "question": "Why is my snake plant not growing?",
+      "symptom": "No new growth for months",
+      "cause": "Low light or the winter rest (normal)",
       "answer": "Snake plants are naturally slow, and in low light or in winter they can stop growing for months. That is normal and not a sign of a problem as long as the leaves stay firm and green.",
       "signs": "No new leaves for several months, but healthy-looking existing leaves.",
       "fix": [
         "Move it to brighter indirect light.",
         "Feed once a month from March to October.",
-        "Be patient. New shoots usually appear in spring and autumn."
+        "Be patient. Growth starts again when the plant gets more light."
       ]
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Watering on a fixed weekly schedule",
+      "instead": "Water only when the soil is dry all the way down. Test it with a skewer before each watering."
+    },
+    {
+      "mistake": "A pot with no drainage hole, or a saucer left full of water",
+      "instead": "Use a pot with a hole, or lift the inner pot out of a cover pot to drain. Empty the saucer once the pot stops dripping."
+    },
+    {
+      "mistake": "Pouring water into the centre of the leaves",
+      "instead": "Water the soil around the plant. Water that sits in the leaf centre can rot the base."
+    },
+    {
+      "mistake": "Summer afternoon sun behind a west- or south-facing window",
+      "instead": "Bright indirect light, or a sheer curtain on the window."
+    },
+    {
+      "mistake": "A spot right under an AC vent",
+      "instead": "Keep the plant out of the direct stream of cold air. With the AC on, hold your hand next to the leaves: if you feel the air moving, move the plant further away or turn the louvres away from it."
+    },
+    {
+      "mistake": "Repotting into a much bigger pot",
+      "instead": "Go up one pot size only. Colorado State University Extension advises a pot about 2.5–5 cm wider."
+    },
+    {
+      "mistake": "Feeding in winter or at full strength",
+      "instead": "Half-strength all-purpose fertiliser once a month, March to October only."
+    }
+  ],
+  "myths": [
+    {
+      "myth": "A snake plant needs water every week.",
+      "fact": "A snake plant needs water only when the soil is dry to the bottom of the pot. Under AC the soil dries slowly, so test it with a skewer instead of following a calendar."
+    },
+    {
+      "myth": "Misting helps a snake plant under AC.",
+      "fact": "Snake plants do not need misting, and water that collects in the leaf centre can rot the base. Wipe the dust off the leaves instead."
+    },
+    {
+      "myth": "A bigger pot makes a snake plant grow faster.",
+      "fact": "A pot much bigger than the roots stays wet and causes root rot. Snake plants grow best in a snug pot."
+    },
+    {
+      "myth": "A leaf cutting from a yellow-edged snake plant keeps its yellow edge.",
+      "fact": "Leaf cuttings from yellow-edged varieties usually grow back plain green. Only division keeps the yellow edge."
+    }
+  ],
+  "pet_safety": {
+    "status": "toxic",
+    "summary": "No. The ASPCA lists the snake plant as toxic to cats and dogs. The leaves contain saponins, which can cause nausea, vomiting and diarrhoea if a pet chews them. Keep the plant out of reach of pets and young children.",
+    "emergency": "Call your vet or a 24-hour animal emergency clinic straight away and tell them the plant name. Do not wait for symptoms.",
+    "sources": [
+      "aspca",
+      "ncsu"
+    ]
+  },
+  "alternatives": [
+    {
+      "name": "ZZ Plant",
+      "guide": "zz-plant",
+      "product": "zamioculcas-zamiifolia-zz-plant-online-in-dubai-uae",
+      "light": "Bright indirect; copes with low light",
+      "water": "When the soil is fully dry",
+      "pets": "Toxic if chewed",
+      "why": "You want glossy leaves and the same easy care"
+    },
+    {
+      "name": "Golden Pothos",
+      "guide": "pothos",
+      "product": "devils-ivy-golden-pothos",
+      "light": "Bright indirect; survives low light",
+      "water": "When the soil has dried out",
+      "pets": "Toxic if chewed",
+      "why": "You want a trailing plant for a shelf or a hanging pot"
+    },
+    {
+      "name": "Peace Lily",
+      "guide": "peace-lily",
+      "product": "peace-lily-plants-indoor-flowering-plant",
+      "light": "Shade to medium light, no direct sun",
+      "water": "Keep moist, not soggy",
+      "pets": "Toxic if chewed",
+      "why": "You want white flowers and do not mind watering more often"
+    },
+    {
+      "name": "Areca Palm",
+      "guide": "areca-palm",
+      "product": "chrysalidocarpus-lutescens-areca-palm-small-plant",
+      "light": "Bright indirect",
+      "water": "Keep moist, not soggy, in the growing season",
+      "pets": "Non-toxic (ASPCA)",
+      "why": "You have pets and a bright room"
     }
   ],
   "faqs": [
     {
-      "id": "watering-dubai",
+      "id": "no-window",
       "group": "care",
-      "q": "How often should I water a snake plant in Dubai?",
-      "a": "Water only when the soil is completely dry. Indoors under AC that is often every 2–3 weeks from April to October and every 4–6 weeks from November to March, but check the soil first: small pots and warm, bright spots dry faster, big pots in dim AC rooms slower."
+      "q": "Can a snake plant live in a room with no window?",
+      "a": "A snake plant can live in a room with no window only under good electric light, because it needs some light to make its food. Under bright LED or office lighting that is on for long hours, a snake plant survives but grows very slowly. In a room that stays dark it uses up its stored reserves and dies, so move it to a window if it stops growing, fades or leans."
     },
     {
-      "id": "bedroom",
+      "id": "air",
       "group": "care",
-      "q": "Is a snake plant good for the bedroom?",
-      "a": "Yes. It copes with low light and AC rooms, needs little care, and unlike most plants it takes in carbon dioxide at night. One plant will not noticeably change the air in a room, but it is one of the most practical bedroom plants."
-    },
-    {
-      "id": "pets",
-      "group": "care",
-      "q": "Is a snake plant safe for cats and dogs?",
-      "a": "No. Snake plants contain saponins, which can cause nausea, vomiting and diarrhoea if a pet chews the leaves. Keep the plant out of reach of pets and young children, and call your vet if your pet eats any."
+      "q": "Does a snake plant clean the air?",
+      "a": "A snake plant does not noticeably clean the air in a normal room. Studies that found snake plants removing chemicals were done in small sealed chambers, and a home would need far more plants than anyone keeps to match fresh air from ventilation. Buy it because it looks good and is easy to keep, not as an air filter."
     },
     {
       "id": "outdoors",
       "group": "care",
       "q": "Can a snake plant live outside in the UAE?",
-      "a": "Yes, in shade. Outdoors it grows well from October to April. From May to September keep it in full shade, out of the midday and afternoon sun, and check the soil every few days in heatwaves, because pots dry out fast. Move it outside gradually, not straight from an AC room. In winter it is happy on the coast, but inland and in colder GCC cities protect it from nights below 10 °C."
+      "a": "Yes, a snake plant can live outside in the UAE in shade, and it grows well outdoors from October to April. From May to September keep it in full shade, out of the midday and afternoon sun, and test the soil more often in heatwaves, because pots dry out fast. Move it outside gradually, not straight from an AC room. In winter it is happy on the coast, but inland and in colder GCC cities protect it from nights below about 10–13 °C."
+    },
+    {
+      "id": "bedroom",
+      "group": "care",
+      "q": "Is a snake plant good for the bedroom?",
+      "a": "Yes, a snake plant is a practical bedroom plant. It copes with low light and AC rooms, needs little care, and unlike most plants it takes in carbon dioxide at night. One snake plant will not noticeably change the air in a room."
     },
     {
       "id": "water-only",
       "group": "care",
       "q": "Can a snake plant grow in water?",
-      "a": "It can be kept in water with only the roots submerged, and leaf cuttings root in water. Change the water every week and keep the leaves dry. In water it grows more slowly and less reliably than in free-draining soil, so pot it up if it starts to struggle."
-    },
-    {
-      "id": "sunlight",
-      "group": "care",
-      "q": "Does a snake plant need sunlight?",
-      "a": "It needs some daylight, but not direct sun. Bright indirect light is best; it survives in dim corners but grows very slowly. Direct summer sun in the UAE burns the leaves."
+      "a": "A snake plant can be kept in water with only the roots submerged, and leaf cuttings root in water. Change the water often to keep it clean (UConn Extension advises daily for rooting cuttings) and keep the leaves dry. In water it grows more slowly and less reliably than in free-draining soil, so pot it up if it starts to struggle."
     },
     {
       "id": "flower",
       "group": "care",
       "q": "Does a snake plant flower?",
-      "a": "Occasionally. Mature plants that have been pot-bound for a while can send up a stalk of small, fragrant, greenish-white flowers that open in the evening. It is a sign of a healthy, slightly root-bound plant."
+      "a": "A snake plant flowers only occasionally, and snake plants kept indoors rarely flower. Older plants sometimes send up a stalk of small, fragrant, greenish-white to cream flowers."
     },
     {
       "id": "lifespan",
@@ -300,94 +488,16 @@
       "id": "gift",
       "group": "care",
       "q": "Why is a snake plant a popular gift in the UAE?",
-      "a": "It is almost impossible to kill, looks good in modern homes and offices, and in feng shui it is seen as protective and bringing good energy. That makes it a common housewarming, Eid and corporate gift."
-    },
-    {
-      "id": "no-window",
-      "group": "care",
-      "q": "Can a snake plant live in a room with no window?",
-      "a": "Only with good artificial light. Under bright LED or office lighting that is on most of the day it survives, but grows very slowly. In a room that stays dark it slowly weakens, so give it a few weeks near a window from time to time."
-    },
-    {
-      "id": "air",
-      "group": "care",
-      "q": "Does a snake plant clean the air?",
-      "a": "Not noticeably in a normal room. Studies that found snake plants removing chemicals were done in small sealed chambers, and a home would need far more plants than anyone keeps to match fresh air from ventilation. Buy it because it looks good and is easy to keep, not as an air filter."
-    },
-    {
-      "id": "mist",
-      "group": "care",
-      "q": "Should I mist my snake plant?",
-      "a": "No. Snake plants do not need misting, and water that collects in the centre of the leaves can rot the base. Instead, wipe dust off the leaves with a damp cloth every month or two so they can take in light."
-    },
-    {
-      "id": "varieties",
-      "group": "care",
-      "q": "What is the difference between the snake plant varieties?",
-      "a": "They all need the same care. 'Laurentii' has yellow leaf edges. 'Zeylanica' has dark green leaves with lighter grey-green bands and no yellow edge. 'Hahnii' is a compact rosette for desks and shelves. The starfish snake plant (Sansevieria cylindrica 'Starfish') has thick, round leaves that fan out like a starfish."
-    },
-    {
-      "id": "which-size",
-      "group": "buying",
-      "kb": [
-        "KB006",
-        "KB008"
-      ],
-      "q": "Which snake plant size should I buy?",
-      "a": "PlantsWorld measures height from the bottom of the nursery pot to the tip of the tallest leaf. A mini or starfish snake plant suits desks and shelves, a 50–80 cm plant suits side tables and consoles, and a tall plant of 100 cm or more works as a floor plant in a corner or beside a sofa."
-    },
-    {
-      "id": "which-pot",
-      "group": "buying",
-      "kb": [
-        "KB009",
-        "KB010",
-        "KB011"
-      ],
-      "q": "Should I order my snake plant in the nursery pot or a decorative pot?",
-      "a": "The plant is the same. Choose the black nursery pot if you want the lowest price or will repot into your own planter. Choose a decorative pot if you want it ready to display: it arrives fully potted with soil mix, perlite and a drainage layer at the base."
-    },
-    {
-      "id": "decorative-pot-watering",
-      "group": "buying",
-      "kb": [
-        "KB010",
-        "KB013"
-      ],
-      "q": "How do I water a snake plant that came in a PlantsWorld decorative pot?",
-      "a": "Water only when the soil is fully dry, as with any snake plant. If the pot has a drainage hole, water until it runs out and empty the saucer. If it has no hole, give less water each time so it never collects at the bottom; the drainage layer gives a little room, but it does not replace a hole."
-    },
-    {
-      "id": "arrival",
-      "group": "buying",
-      "kb": [
-        "KB053",
-        "KB054",
-        "KB072"
-      ],
-      "q": "What should I do when my snake plant arrives?",
-      "a": "Put it in bright indirect light, away from direct sun and AC vents, and leave it in one spot. Check the soil before watering; it often does not need water for the first week or two. Do not repot for a few weeks. If the plant or pot arrived damaged, send a photo with your order number on WhatsApp within 24 hours."
-    },
-    {
-      "id": "heat-delivery",
-      "group": "buying",
-      "kb": [
-        "KB053",
-        "KB054"
-      ],
-      "q": "Will my snake plant survive delivery in the UAE summer heat?",
-      "a": "Yes. Our own delivery team brings your order, not a third-party courier, and snake plants are among the toughest plants to transport. In extreme summer heat (June to September) we may move deliveries to farther emirates to a cooler day, and we agree the new day with you. If it arrives damaged, refuse it at the door or send photos with your order number on WhatsApp within 24 hours, and we replace it free."
-    },
-    {
-      "id": "photo-before",
-      "group": "buying",
-      "kb": [
-        "KB001",
-        "KB003"
-      ],
-      "q": "Will my snake plant look exactly like the photo?",
-      "a": "You get the variety and size you ordered, but every plant grows differently, so leaf count, height within the size range and markings vary a little; product photos are representative. Add the note 'Please send plant photo before delivery' at checkout, or message us on WhatsApp with your order number, and we will send a photo of your plant before it leaves."
+      "a": "A snake plant forgives missed waterings and looks good in modern homes and offices. That makes it a common housewarming, Eid and corporate gift."
     }
+  ],
+  "kb_faqs": [
+    "KB006",
+    "KB011",
+    "KB013",
+    "KB016",
+    "KB053",
+    "KB003"
   ],
   "product_handles": [
     "snake-plant-indoor-sansevieria-plants-online-in-dubai-uae",
@@ -401,8 +511,101 @@
     "wellness-snake-snake-plant-return-gift",
     "snake-plant-with-flower-bouquet-flower-with-plant"
   ],
+  "collection_handle": "low-light-plants",
+  "sources": [
+    {
+      "id": "ncsu",
+      "title": "Dracaena trifasciata (Snake Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/"
+    },
+    {
+      "id": "psu",
+      "title": "Snake Plant: A Forgiving, Low-maintenance Houseplant",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant"
+    },
+    {
+      "id": "csu",
+      "title": "Snake Plant (PlantTalk Colorado 1337)",
+      "publisher": "Colorado State University Extension",
+      "url": "https://planttalk.colostate.edu/topics/houseplants/1337-snake-plant/"
+    },
+    {
+      "id": "clemson",
+      "title": "Exciting Houseplant Selections for Beginners",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/"
+    },
+    {
+      "id": "aspca",
+      "title": "Toxic and Non-toxic Plants: Snake Plant",
+      "publisher": "ASPCA Animal Poison Control",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snake-plant"
+    },
+    {
+      "id": "cummings2019",
+      "title": "Potted plants do not improve indoor air quality: a review and analysis of reported VOC removal efficiencies",
+      "publisher": "Cummings & Waring, Journal of Exposure Science & Environmental Epidemiology (2019)",
+      "url": "https://doi.org/10.1038/s41370-019-0175-9"
+    },
+    {
+      "id": "uiuc",
+      "title": "Mother-in-law's Tongue",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/mother-law-tongue"
+    },
+    {
+      "id": "uaex",
+      "title": "Mother-in-Law's Tongue (Plant of the Week)",
+      "publisher": "University of Arkansas Cooperative Extension Service",
+      "url": "https://www.uaex.uada.edu/yard-garden/resource-library/plant-week/mother-in-law-tongue.aspx"
+    },
+    {
+      "id": "uconn",
+      "title": "Sensational Sansevieria",
+      "publisher": "UConn Home & Garden Education Center",
+      "url": "https://homegarden.cahnr.uconn.edu/2024/03/28/sensational-sansevieria"
+    },
+    {
+      "id": "csu_repot",
+      "title": "Houseplants: Repotting (PlantTalk Colorado 1316)",
+      "publisher": "Colorado State University Extension",
+      "url": "https://planttalk.colostate.edu/topics/houseplants/1316-houseplants-repotting/"
+    },
+    {
+      "id": "csu_salts",
+      "title": "Leaching Salts from Potting Mixes (PlantTalk Colorado 1339)",
+      "publisher": "Colorado State University Extension",
+      "url": "https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/"
+    },
+    {
+      "id": "csu_pests",
+      "title": "Managing Houseplant Pests",
+      "publisher": "Colorado State University Extension",
+      "url": "https://extension.colostate.edu/resource/managing-houseplant-pests"
+    }
+  ],
+  "author": "PlantsWorld team",
+  "version_log": [
+    {
+      "version": "1.0",
+      "date": "2026-11-02",
+      "change": "First version, fact-checked against general and UAE/GCC sources."
+    },
+    {
+      "version": "2.0",
+      "date": "2026-11-11",
+      "change": "Format v2: fit lists, repotting and division steps, varieties, first week, troubleshooting, mistakes, myths, pet safety, similar plants and visible sources. Store answers now come from the support KB. SEO and AEO edit with the plant-guide-seo subagent."
+    },
+    {
+      "version": "2.1",
+      "date": "2026-11-12",
+      "change": "Fact check: watering, AC distance, heat checks and wait times rewritten as rule, test and what changes it (numbers only where a named extension service gives them). Temperature, pot size, flowers, brown tips and pest fixes corrected to the sources; feng shui, sand top layer and unsourced timings removed. SEO follow-up: one cold limit (about 10–13 °C) on every block; watering and feeding use one season split (growth Mar–Oct, slower Nov–Feb); 'all-purpose' fertiliser (Penn State); east-facing window sourced to Clemson Extension; north-facing window, 'sheer curtain is enough' and bathroom line removed or softened."
+    }
+  ],
   "image_url": "https://cdn.shopify.com/s/files/1/0418/6131/6759/products/SnakePlant-Indoor-Sansevieria2.jpg?v=1651253483",
-  "seo_title": "Snake Plant Care Guide UAE: Watering, Light & Problems",
-  "seo_description": "How to care for a snake plant in the UAE: how often to water under AC, the right light, soil and pot, and how to fix yellow leaves, brown tips and root rot.",
-  "updated_on": "2026-11-02"
+  "seo_title": "Snake Plant Care UAE: Water, Light & Fixes | PlantsWorld",
+  "seo_description": "Snake plant care in the UAE: how often to water under AC, the right light and pot, repotting steps, and fixes for yellow leaves and brown tips.",
+  "updated_on": "2026-11-12"
 }

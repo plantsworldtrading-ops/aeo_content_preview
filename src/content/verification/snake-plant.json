@@ -1,7 +1,7 @@
 {
   "handle": "snake-plant",
   "stage": "fact-checked",
-  "hash": "4742eda560847336",
+  "hash": "611132ef8ea05b35",
   "content_errors": [],
   "ledger_errors": [],
   "signoff": null,
@@ -13,9 +13,11 @@
       "g": {
         "verdict": "supported",
         "sources": [
-          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:540541-1",
-          "https://www.ipni.org/n/77164235-1"
-        ]
+          "https://api.gbif.org/v1/species/match?name=Sansevieria%20trifasciata",
+          "https://www.wikidata.org/wiki/Q65936984",
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/"
+        ],
+        "note": "12 Nov: POWO blocked automated access (403). GBIF backbone: 'Sansevieria trifasciata Prain' status SYNONYM, accepted species Dracaena trifasciata. Wikidata Q65936984 gives POWO id urn:lsid:ipni.org:names:77164235-1. NC State: former name Sansevieria trifasciata."
       },
       "u": {
         "verdict": "n/a"
@@ -28,35 +30,50 @@
       "claim": "Arabic names لسان الحماة and نبتة الثعبان are used for this plant.",
       "g": {
         "verdict": "unverified",
-        "note": "No Arabic-language source found in search."
+        "note": "12 Nov: Wikidata Arabic label is the botanical 'ذلب ثلاثي الأحزمة'; no source for the two common names on the page."
       },
       "u": {
         "verdict": "needs_local",
-        "note": "An Arabic-speaking team member should confirm what UAE customers call it (and add any Gulf names)."
+        "note": "Owner: confirm what UAE customers call it in Arabic (لسان الحماة, نبتة الثعبان or others)."
       },
       "status": "needs_local"
     },
     {
       "id": "c03",
-      "where": "quick_facts.Light, care_sections.light",
-      "claim": "Best in bright indirect light; survives low light but grows slowly; a room with no window is too dark.",
+      "where": "quick_facts.Light, care_sections.light, care_sections.placement, fit",
+      "claim": "Best in bright indirect light, such as near an east-facing window (Clemson: bright indirect light in the mornings); survives low light but grows slowly and colour fades; suits bedrooms, living-room corners, offices and reception areas.",
       "g": {
         "verdict": "supported",
-        "note": "Consistent across care literature."
+        "sources": [
+          "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
+          "https://planttalk.colostate.edu/topics/houseplants/1337-snake-plant/",
+          "https://www.uaex.uada.edu/yard-garden/resource-library/plant-week/mother-in-law-tongue.aspx",
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+          "https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/"
+        ],
+        "note": "PSU: 'enjoys bright indirect light but tolerates low-light areas very well'. CSU: 'medium to bright indirect light but will adapt to low light'; variegation less pronounced in low light. UA: survives very low light but may not grow. 12 Nov (SEO follow-up): Clemson HGIC (opened): snake plant 'ideal lighting ... bright, indirect'; window breakdown: east-facing 'Bright indirect light in the mornings', north-facing 'Lowest levels of light. No direct sun is present all day'. No snake plant source names a north window or a bathroom."
       },
       "u": {
         "verdict": "supported",
         "note": "Baseline sun-through-glass: tinted tower glazing lowers indoor light, so 'bright indirect' near a window is right."
       },
-      "status": "verified"
+      "status": "corrected",
+      "change": "12 Nov: 'east- or north-facing window' changed to 'east-facing window', named to Clemson Extension (north = lowest light, not bright indirect). 'A bathroom with a window works well too' removed: no source opened (NC State, PSU, CSU, Illinois, UConn, Clemson, UGA) mentions bathrooms."
     },
     {
       "id": "c04",
-      "where": "care_sections.light, problems[4]",
-      "claim": "Bright indirect light; gentle morning sun is fine; avoid harsh midday/afternoon summer sun.",
+      "where": "care_sections.light, problems[4], mistakes[3]",
+      "claim": "Bright indirect light; gentle morning sun is fine; avoid harsh midday/afternoon summer sun through west- or south-facing glass; filter it with a sheer curtain or move the plant back from the glass.",
       "g": {
         "verdict": "supported",
-        "note": "Sunscorch on Sansevieria is well documented; scorched tissue does not recover."
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+          "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
+          "https://hgic.clemson.edu/exciting-houseplant-selections-for-beginners/",
+          "https://fieldreport.caes.uga.edu/publications/B1318/",
+          "https://hort.extension.wisc.edu/articles/boston-fern-nephrolepis-exaltata-bostoniensis/"
+        ],
+        "note": "NC State: direct sun 'only part of the day, 2 to 6 hours' (so gentle sun is fine). PSU: keep out of direct sun, 'it can burn'. 12 Nov (SEO follow-up): Clemson: 'Avoid direct and hot sunlight on the plant as this can lead to burning of the leaves'. UGA B1318: southern exposure gives the largest variation of light and heat; 'Southern and western exposures are interchangeable'. Wisconsin Extension (general houseplant light advice): medium bright light 'such as in an east facing window', or a sheer curtain or distance from the glass in south and west windows. No source says a curtain alone is 'enough', so the page no longer says it."
       },
       "u": {
         "verdict": "supported",
@@ -66,164 +83,214 @@
         ]
       },
       "status": "corrected",
-      "change": "Light fact now allows gentle morning sun (RHS, Missouri Botanical Garden)."
+      "change": "Light fact allows gentle morning sun (NC State: some direct sun is tolerated). 12 Nov: sunburn signs no longer give 'within a few days' (our estimate). 12 Nov (SEO follow-up): 'A sheer curtain on the window is enough to stop the sunburn' (overstated) changed to 'Filter that sun with a sheer curtain, or move the plant back from the glass' (Wisconsin Extension)."
     },
     {
       "id": "c05",
-      "where": "quick_answer, quick_facts.Water, care_sections.watering, uae_year, faqs[0]",
-      "claim": "Water only when the soil is fully dry; under AC often every 2–3 weeks Apr–Oct and 4–6 weeks Nov–Mar, as starting points adjusted for pot size, material, light and coastal vs inland.",
+      "where": "quick_answer, quick_facts.Water, care_sections.watering, uae_year, mistakes, myths, first_week, faqs.outdoors",
+      "claim": "Water only when the soil is dry to the bottom of the pot; test with a skewer before each watering; small/terracotta pots in warm bright spots dry faster, large plastic pots in dim AC rooms slower, coastal humidity slower, inland heat faster; less in the cool months (NC State: every one to two months in winter; Illinois: just enough to stop the leaves shrivelling). Overwatering and root rot are the main reason it fails.",
       "g": {
         "verdict": "supported",
-        "note": "General guidance is 'when fully dry', typically every 2–4 weeks in growth, monthly or less in winter."
+        "sources": [
+          "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+          "https://extension.illinois.edu/houseplants/mother-law-tongue",
+          "https://planttalk.colostate.edu/topics/houseplants/1337-snake-plant/"
+        ],
+        "note": "PSU: 'Water only when it is dry'; 'You can kill it by overwatering'; root rot 'a common affliction'. NC State: 'In winter only water every one to two months'. Illinois: 'allow the soil to dry completely between watering'; winter 'just enough to keep the foliage from shriveling'; 'Over-watering is the main reason for failure'. CSU is softer in winter (keep the soil from drying out completely); the skewer test covers both. Month labels: sources give no months, only 'winter' (NC State, Illinois) and 'fall and winter when active growth slows' (CSU). The page uses one UAE split for watering and feeding: growth Mar–Oct, slower Nov–Feb (see c08)."
       },
       "u": {
-        "verdict": "needs_local",
-        "note": "The exact intervals for UAE AC homes are our estimate. Nursery staff to confirm from customer experience."
+        "verdict": "supported",
+        "note": "No UAE interval is stated any more. The rule and test work in any home; drying factors match baseline indoor-ac (not reliably dry) and summer-heat."
       },
-      "status": "needs_local",
-      "change": "Intervals reframed as starting points; added coastal vs inland drying and pot-size guidance (RHS: check the soil, not the calendar)."
+      "status": "corrected",
+      "change": "12 Nov: removed our intervals (every 2–3 weeks Apr–Oct, 4–6 weeks Nov–Mar) from the quick answer, quick facts, watering section, summer and winter cards, mistakes and myths, and 'wait another week'. Now rule + skewer test + what changes it, with the NC State winter figure named. 'Most often dies from overwatering' now 'main reason it fails' (Illinois). 12 Nov (SEO follow-up): quick-facts labels 'Apr–Oct' / 'Nov–Mar' changed to 'Mar–Oct' / 'Nov–Feb' to match the feeding months; autumn card now says growth slows from November."
     },
     {
       "id": "c06",
       "where": "care_sections.watering",
-      "claim": "UAE tap water is desalinated and remineralised; mineral content varies. Flush if crust or brown tips appear, or use filtered water.",
+      "claim": "UAE tap water is desalinated and remineralised; mineral content varies. A white crust or brown tips mean salts: flush the pot with plenty of water, or use filtered water.",
       "g": {
         "verdict": "supported",
-        "note": "Salt build-up from hard water and fertiliser causes brown tips in many houseplants."
+        "sources": [
+          "https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/"
+        ],
+        "note": "CSU 1339: brown leaf tips and a whitish crust on the pot or soil are signs of salts from water and fertiliser; flush by filling the pot with water a couple of times."
       },
       "u": {
         "verdict": "supported",
-        "note": "Baseline tap-water (medium confidence: secondary lab figures 150–250 mg/L CaCO3). Wording kept as 'often hard'."
+        "note": "Baseline tap-water (low confidence; hardness disputed). The page does not call the water hard."
       },
       "status": "corrected",
-      "change": "Was 'UAE tap water is hard'. Now says it is desalinated and remineralised, so it is often hard. 'Often hard' removed: sources conflict (40–120 vs 150–250 mg/L). Flushing now tied to symptoms."
+      "change": "Was 'UAE tap water is hard'. Now desalinated and remineralised, mineral content varies; flushing tied to symptoms. 12 Nov: ledger note corrected (no 'often hard' on the page)."
     },
     {
       "id": "c07",
-      "where": "care_sections.soil",
-      "claim": "Use fast-draining cactus/succulent mix or potting soil with perlite/sand 1:1; pot must have a drainage hole; terracotta dries faster.",
+      "where": "care_sections.soil, care_sections.repotting.steps, mistakes",
+      "claim": "Fast-draining cactus/succulent mix or potting soil with plenty of perlite or coarse sand; pot with a drainage hole; terracotta and cement dry faster than plastic.",
       "g": {
-        "verdict": "supported"
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
+          "https://planttalk.colostate.edu/topics/houseplants/1337-snake-plant/"
+        ],
+        "note": "PSU: 'cactus potting mix or one with perlite'; 'only containers with drainage holes'. CSU: often grown in clay pots for stability."
       },
       "u": {
         "verdict": "supported",
         "note": "Linked products exist in the store."
       },
-      "status": "verified"
+      "status": "corrected",
+      "change": "12 Nov: 'half and half with perlite' (no source for the ratio) changed to 'plenty of perlite or coarse sand'."
     },
     {
       "id": "c08",
-      "where": "care_sections.fertiliser, uae_year",
-      "claim": "Feed a balanced fertiliser at half strength monthly Mar–Oct; none Nov–Feb.",
+      "where": "care_sections.fertiliser, uae_year, mistakes",
+      "claim": "Half-strength all-purpose fertiliser once a month in the growing season (Mar–Oct in the UAE); none Nov–Feb; too much fertiliser causes brown tips and salt build-up.",
       "g": {
         "verdict": "supported",
-        "note": "Light feeding in the growing season is standard."
+        "sources": [
+          "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
+          "https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/"
+        ],
+        "note": "PSU: 'fertilize monthly during the growing season with an all-purpose fertilizer at half strength'. CSU 1339: over-applied salt-based fertiliser causes brown tips. Months: PSU says only 'growing season'; NC State 'spring to autumn' vs 'winter'; CSU growth slows in 'fall and winter'. The page maps this to one UAE split, used for both watering and feeding: growth Mar–Oct, slower Nov–Feb (quick facts, fertiliser section, autumn/winter/spring cards, problems, mistakes)."
       },
       "u": {
         "verdict": "supported",
-        "note": "Indoor AC plants grow through the UAE summer, so the long feeding window fits."
+        "note": "Baseline seasons: growth season to Oct–Apr outdoors; indoor AC plants grow through summer, so Mar–Oct fits. Nov–Feb is the coolest part of the year on the coast (baseline coastal-winter: January lows about 14–16 °C; inland-winter colder). It is a calendar mapping of 'winter', not a plant interval."
       },
-      "status": "verified"
+      "status": "corrected",
+      "change": "12 Nov: the monthly figure now names Penn State Extension in the fertiliser section. 12 Nov (SEO follow-up): mistakes[6] 'balanced fertiliser' changed to 'all-purpose fertiliser' (Penn State wording); watering labels aligned to the same Mar–Oct / Nov–Feb split."
     },
     {
       "id": "c09",
-      "where": "care_sections.repotting, uae_year",
-      "claim": "Repot every 2–3 years, one size up; best Oct–Nov or Feb–Apr; wait a week before watering.",
+      "where": "care_sections.repotting (paragraphs and steps), uae_year.Autumn, mistakes, myths",
+      "claim": "Repot only when roots fill the pot (PSU: about every 5 years, 'Hahnii' every 3); go up one pot size (CSU: 1–2 in, about 2.5–5 cm wider); a much larger pot holds wet soil; best Oct–Nov or Feb–Apr, not the summer peak; let a new plant settle first; do not water straight away after cutting roots.",
       "g": {
-        "verdict": "supported"
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
+          "https://planttalk.colostate.edu/topics/houseplants/1316-houseplants-repotting/",
+          "https://www.pubs.ext.vt.edu/426/426-002/426-002.html"
+        ],
+        "note": "PSU: repot 'every 5 years or so'; 'Hahnii' 'every 3 years'. CSU 1316: pot 'only one to two inches larger in diameter'; roots growing out of the bottom mean repot. VT: succulent cuttings 'will rot if kept too moist' (basis for letting cut roots seal). CSU 1316 says to soak general houseplants after repotting, so the page ties the wait only to cut roots, with no number."
       },
       "u": {
         "verdict": "supported",
         "note": "Baseline seasons: repotting in the cooler months."
       },
-      "status": "verified"
+      "status": "corrected",
+      "change": "v1 'every 2–3 years' changed to the PSU figures. 12 Nov: '3–5 cm wider' (our figure) changed to CSU 1–2 in (2.5–5 cm), named; 'wait about a week before watering' and 'first few weeks after arrival' (our wait times) changed to rules."
     },
     {
       "id": "c10",
-      "where": "care_sections.propagation",
-      "claim": "Division is easiest; leaf cuttings root in 4–8 weeks; cuttings from yellow-edged varieties usually grow back plain green, only division keeps the edge.",
+      "where": "care_sections.propagation (paragraphs and steps), varieties.Laurentii, myths",
+      "claim": "Division is easiest and keeps a yellow edge; leaf cuttings: 5–8 cm sections, slanted lower cut, let the cut ends dry, upright in barely damp soil (rot if too wet) or in water; about three months to root and shoot (University of Arkansas, named); yellow-edged cuttings grow back green.",
       "g": {
         "verdict": "supported",
-        "note": "Laurentii is a periclinal chimera; leaf cuttings revert. Division keeps the whole plant, so the edge carries over.",
         "sources": [
-          "https://llifle.com/Encyclopedia/SUCCULENTS/Family/Dracaenaceae/19029/Sansevieria_laurentii"
-        ]
+          "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
+          "https://www.pubs.ext.vt.edu/426/426-002/426-002.html",
+          "https://www.uaex.uada.edu/yard-garden/resource-library/plant-week/mother-in-law-tongue.aspx",
+          "https://web.archive.org/web/2023/https://mrec.ifas.ufl.edu/foliage/folnotes/sansevie.htm",
+          "https://homegarden.cahnr.uconn.edu/2024/03/28/sensational-sansevieria"
+        ],
+        "note": "PSU: 'most easily propagated by division'. VT: '2-inch sections', 'lower cut slanted', variegated shoots lose variegation, rot if too moist. UA: 'three-inch long segments'; 'In about three months, the plants will root and send up a new shoot'. UF/IFAS (archived): 'Laurentii' must be propagated by division to keep variegation (periclinal chimeras). UConn: cuttings root in water."
       },
       "u": {
         "verdict": "n/a"
       },
-      "status": "verified"
+      "status": "corrected",
+      "change": "v2.0 had 8–10 cm, dry 2–3 days, 4–8 weeks. Now 5–8 cm (VT, UA). 12 Nov: 'dry a day or two' and 'wait about a week' (our wait times; no primary source opened) changed to 'until the cut ends form a dry skin'; three months now names UA Extension."
     },
     {
       "id": "c11",
-      "where": "quick_facts.Temperature, uae_year.Winter, faqs[3]",
-      "claim": "Prefers 15–24 °C; copes with summer heat in shade if the soil dries; protect below 10 °C, especially inland and in colder GCC cities.",
+      "where": "quick_facts.Temperature, uae_year.Winter, faqs.outdoors",
+      "claim": "Grows well at normal room temperature; copes with summer heat in shade if the soil dries; protect from cold below about 10–13 °C, especially inland and in colder GCC cities.",
       "g": {
         "verdict": "supported",
-        "note": "50 °F / 10 °C is the widely cited minimum.",
         "sources": [
-          "https://www.homesandgardens.com/gardens/are-snake-plants-cold-tolerant"
-        ]
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+          "https://homegarden.cahnr.uconn.edu/2024/03/28/sensational-sansevieria",
+          "https://web.archive.org/web/2023/https://mrec.ifas.ufl.edu/foliage/folnotes/sansevie.htm",
+          "https://extension.illinois.edu/houseplants/mother-law-tongue"
+        ],
+        "note": "NC State: tolerates 'cool temperatures around 50 degrees' (10 °C). UConn: 'avoid anything below 55 degrees F' (13 °C). UF/IFAS: chilling damage, keep at 45 °F or above. Illinois: 'moderate to warm temperatures'. 15–24 °C (said to be RHS) could not be found: RHS page 404. 12 Nov (SEO follow-up) re-opened: NC State 'tolerates ... cool temperatures around 50 degrees'; UConn 'avoid anything below 55 degrees F'. The range 10–13 °C covers both."
       },
       "u": {
         "verdict": "supported",
-        "note": "Baseline inland-winter (Raknah -2 °C, Jebel Jais -5.7 °C) and gcc-winter."
+        "note": "Baseline inland-winter and gcc-winter; summer-heat for outdoor shade. Winter card and outdoors FAQ: inland lows of 3–5 °C and Riyadh/Kuwait lows of 7–10 °C fall below this range; coastal lows (14–16 °C) do not."
       },
       "status": "corrected",
-      "change": "Added inland UAE and GCC cold-night warning to the winter card, the outdoor fact and the 'live outside' FAQ. The draft said winter was no problem anywhere. Ideal range 15–32 °C replaced by RHS 15–24 °C preferred."
+      "change": "Inland/GCC cold warning added (v2). 12 Nov: 'Prefers 15–24 °C' removed (source not found); 'below 10 °C' widened to 'about 10–13 °C' (NC State, UConn). 12 Nov (SEO follow-up): uae_year Winter and faqs.outdoors 'below 10 °C' changed to 'below about 10–13 °C' to match quick facts and the sources."
     },
     {
       "id": "c12",
-      "where": "quick_facts.Humidity, care_sections.placement, faqs[1]",
-      "claim": "Prefers lower humidity; in humid coastal homes water less often.",
+      "where": "quick_facts.Humidity, care_sections.placement, faqs.bedroom",
+      "claim": "Tolerates low humidity; in humid coastal homes the soil dries more slowly, so water less often.",
       "g": {
         "verdict": "supported",
-        "note": "Succulent, tolerant of low humidity."
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+          "https://extension.illinois.edu/houseplants/mother-law-tongue"
+        ],
+        "note": "NC State: 'tolerates low humidity'. Illinois: 'low humidity'."
       },
       "u": {
         "verdict": "supported",
         "note": "Baseline indoor-ac: UAE AC rooms are not reliably dry (Sharjah study 60.7% RH)."
       },
       "status": "corrected",
-      "change": "Removed 'dry AC air' as a UAE fact in three places. 'Any humidity' overstated (RHS: dislikes high humidity with wet soil). Coastal advice added."
+      "change": "Removed 'dry AC air' and 'any humidity'. 12 Nov: 'Prefers lower humidity' changed to 'Tolerates low humidity' (NC State wording)."
     },
     {
       "id": "c13",
-      "where": "quick_facts.AC tolerance, care_sections.placement, problems[1]",
-      "claim": "Keep about 1 m from a direct AC vent; cold draughts cause brown tips.",
-      "g": {
-        "verdict": "supported",
-        "note": "Cold draughts damage tropical foliage."
-      },
-      "u": {
-        "verdict": "needs_local",
-        "note": "Baseline ac-vents is low confidence (no source). Staff to confirm the 1 m distance is sensible."
-      },
-      "status": "needs_local"
-    },
-    {
-      "id": "c14",
-      "where": "quick_facts.Outdoors, uae_year.Summer, faqs[3]",
-      "claim": "Outdoors in shade; full shade May–Sep; check pots every few days in heatwaves; move between AC and outdoors gradually.",
-      "g": {
-        "verdict": "supported"
-      },
-      "u": {
-        "verdict": "needs_local",
-        "note": "Shade outdoors is supported by local nurseries; the 7–10 day check interval is our estimate for 41–42 °C days. Staff to confirm."
-      },
-      "status": "needs_local",
-      "change": "7–10 day check replaced by 'every few days in heatwaves'; acclimatisation advice added."
-    },
-    {
-      "id": "c15",
-      "where": "quick_facts.Pets, faqs[2]",
-      "claim": "Toxic to cats and dogs (saponins); nausea, vomiting, diarrhoea; keep away from pets and young children; call a vet after ingestion.",
+      "where": "quick_facts.AC tolerance, care_sections.placement, first_week, mistakes",
+      "claim": "Keep the plant out of the direct stream of cold air from an AC vent; test: with the AC on, hold a hand next to the leaves; if the air moves, move the plant or turn the louvres.",
       "g": {
         "verdict": "supported",
         "sources": [
-          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snake-plant"
-        ]
+          "https://web.archive.org/web/2023/https://mrec.ifas.ufl.edu/foliage/folnotes/sansevie.htm"
+        ],
+        "note": "UF/IFAS (archived): cold injury; 'Prevent plant exposure to cold air or cold water'. No source gives a safe distance, so none is given. Cold draughts as a cause of brown tips is not in any primary source and was removed from the brown tips card."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Baseline ac-vents is low confidence (nursery experience). Owner: confirm that AC draughts damage snake plants in customers' homes and that the hand test is good advice."
+      },
+      "status": "needs_local",
+      "change": "12 Nov: '1 m from a direct vent' (our estimate) removed from quick facts and mistakes; replaced by the rule and a hand test. AC draught removed as a brown-tip cause and fix."
+    },
+    {
+      "id": "c14",
+      "where": "quick_facts.Outdoors, uae_year.Summer, care_sections.placement, faqs.outdoors",
+      "claim": "Outdoors in full shade May–Sep; test the soil more often in heatwaves (small and terracotta pots dry fastest); move between AC and outdoors gradually, short spells in full shade first, slower in the hottest months and from a dim room; pale patches mean go back into shade. Grows well outdoors October to April.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/"
+        ],
+        "note": "PSU: direct sun 'can burn'. NC State: some direct sun tolerated. Gradual acclimatisation is standard practice to prevent sunscorch; no source gives a time, so none is given."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Baseline summer-heat and seasons. Owner: confirm from PlantsWorld experience that shaded outdoor snake plants survive UAE summers and that customers grow them outdoors Oct–Apr."
+      },
+      "status": "needs_local",
+      "change": "12 Nov: 'check every few days in heatwaves' and 'over a week or two, a few hours in shade' (our estimates) removed; now rule + what to watch + what changes it."
+    },
+    {
+      "id": "c15",
+      "where": "quick_facts.Pets, pet_safety, fit.think_twice",
+      "claim": "Toxic to cats and dogs (ASPCA); saponins; nausea, vomiting, diarrhoea; keep away from pets and young children; call a vet or 24-hour clinic straight away if chewed.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snake-plant",
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/"
+        ],
+        "note": "ASPCA (opened 12 Nov): 'Toxic to Dogs, Toxic to Cats'; toxic principle 'Saponins'; signs 'Nausea, vomiting, diarrhea'. NC State lists children as affected."
       },
       "u": {
         "verdict": "n/a"
@@ -233,14 +300,15 @@
     },
     {
       "id": "c16",
-      "where": "faqs[1]",
+      "where": "faqs.bedroom",
       "claim": "Takes in carbon dioxide at night (CAM); one plant will not noticeably change the air in a room.",
       "g": {
         "verdict": "supported",
         "sources": [
           "https://sljfa.sljol.info/articles/70",
-          "https://drexel.edu/engineering/news-events/news/archive/2019/november/potted-plants-dont-improve-air-quality"
-        ]
+          "https://drexel.edu/news/archive/2019/November/potted-plants-do-not-improve-air-quality"
+        ],
+        "note": "Karunananda & Abeysinghe 2019 (SLJFA): S. trifasciata showed net CO2 decrease in darkness; stomata open at night (CAM). Drexel/Cummings: plants do not measurably change room air."
       },
       "u": {
         "verdict": "n/a"
@@ -249,103 +317,132 @@
     },
     {
       "id": "c17",
-      "where": "faqs[6]",
-      "claim": "Mature, pot-bound plants occasionally flower; small fragrant greenish-white flowers that open in the evening.",
+      "where": "faqs.flower, fit.think_twice",
+      "claim": "Older plants occasionally flower: small, fragrant, greenish-white to cream flowers; indoor plants rarely flower.",
       "g": {
         "verdict": "supported",
         "sources": [
-          "https://en.wikipedia.org/wiki/Dracaena_trifasciata"
-        ]
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+          "https://www.uaex.uada.edu/yard-garden/resource-library/plant-week/mother-in-law-tongue.aspx"
+        ],
+        "note": "NC State: flowers 'greenish-white to cream-colored, sticky, and fragrant'; 'rarely blooms' as a houseplant. UA: 'Old plants occasionally flower'. 'Open in the evening' only on Wikipedia (fragrant at night); 'sign of a root-bound plant' had no source."
       },
       "u": {
         "verdict": "n/a"
       },
-      "status": "verified"
+      "status": "corrected",
+      "change": "12 Nov: removed 'open in the evening' and 'a sign of a healthy, slightly root-bound plant'; added 'indoor plants rarely flower' (NC State)."
     },
     {
       "id": "c18",
-      "where": "faqs[4]",
-      "claim": "Can be kept in water and leaf cuttings root in water; grows slower and less reliably than in soil.",
+      "where": "faqs.water-only, care_sections.propagation",
+      "claim": "Can be kept in water (roots only) and leaf cuttings root in water; change the water often (UConn: daily for rooting cuttings); grows slower and less reliably than in soil.",
       "g": {
-        "verdict": "supported"
+        "verdict": "supported",
+        "sources": [
+          "https://homegarden.cahnr.uconn.edu/2024/03/28/sensational-sansevieria",
+          "https://sfyl.ifas.ufl.edu/media/sfylifasufledu/santa-rosa/docs/pdfs/demo-garden-5/Snake-Plant-revised.pdf"
+        ],
+        "note": "UConn: 'place the cuttings in water to take root (change the water daily for best results)'. UF/IFAS Santa Rosa (search result): best grown in a soil-based potting mix. Long-term water culture is anecdotal, so the page says 'less reliably'."
       },
       "u": {
         "verdict": "supported",
         "note": "PlantsWorld sells it as a water plant."
       },
       "status": "corrected",
-      "change": "Softened long-term water culture claim."
+      "change": "Softened long-term water culture claim. 12 Nov: 'change the water every week' (our interval) replaced by 'often', with the UConn figure named."
     },
     {
       "id": "c19",
-      "where": "faqs[7], quick_facts.Size, quick_facts.Growth",
-      "claim": "Lives for many years; 30–120 cm indoors by variety; slow growth.",
+      "where": "faqs.lifespan, quick_facts.Size, quick_facts.Growth, fit.good_if",
+      "claim": "Lives for many years; about 15 cm ('Hahnii') to 120 cm (tall types) indoors; slow growth indoors, slower in low light.",
       "g": {
-        "verdict": "supported"
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
+          "https://www.uaex.uada.edu/yard-garden/resource-library/plant-week/mother-in-law-tongue.aspx",
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/"
+        ],
+        "note": "PSU: species 'up to 4 feet tall', 'Hahnii' 'only 6 inches'. UA: 'slow growth'. NC State lists growth rate as medium (outdoor attribute), so the page says 'slow indoors'. Many years: PSU repot interval of 5 years implies a long-lived pot plant."
       },
       "u": {
         "verdict": "n/a"
       },
       "status": "corrected",
-      "change": "'10+ years' removed: no authoritative source."
+      "change": "'10+ years' removed. 12 Nov: size '30–120 cm' corrected to 15–120 cm (PSU); growth 'Slow' to 'Slow indoors, slower in low light'."
     },
     {
       "id": "c20",
-      "where": "problems[0..7]",
-      "claim": "Problem causes and fixes: root rot from overwatering, brown tips from salts/irregular watering/drafts, wrinkling from thirst or root damage, flopping from overwatering/low light, mealybugs (alcohol + neem), fungus gnats from wet soil, slow growth normal.",
+      "where": "problems (summary table and cards)",
+      "claim": "Problem causes and fixes: root rot from overwatering (remove soil, cut black roots, let cut ends dry, repot dry, water only when the soil tests dry); brown tips from salts in tap water or fertiliser (flush, filtered water, less fertiliser, trim tips that do not regrow); wrinkling from thirst or root damage (water; if leaves do not firm up, check roots); flopping from overwatering, low light or a light pot (heavier pot); sunburn patches do not heal; slow growth is normal in low light and winter.",
       "g": {
         "verdict": "supported",
-        "note": "Standard diagnoses for Sansevieria."
+        "sources": [
+          "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
+          "https://extension.illinois.edu/houseplants/mother-law-tongue",
+          "https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/",
+          "https://planttalk.colostate.edu/topics/houseplants/1337-snake-plant/",
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/"
+        ],
+        "note": "PSU: root rot from overwatering; heavy pot for tall plants. Illinois: winter water just enough to stop shrivelling (thirst causes wrinkling). CSU 1339: brown tips and crust from salts; flush. CSU: plants get top heavy, grown in clay pots for stability."
       },
       "u": {
         "verdict": "needs_local",
-        "note": "Staff to confirm these are the problems UAE customers actually report, and add any missing ones (e.g. from WhatsApp chats)."
+        "note": "Owner: confirm these are the problems UAE customers report (WhatsApp chats) and add any missing ones."
       },
-      "status": "needs_local"
+      "status": "needs_local",
+      "change": "12 Nov: removed our timings ('dry 1–2 days', 'wait one week', 'firm up within a week', 'within a few days of a move', 'new shoots in spring and autumn'); 'hard tap water' changed to 'minerals in tap water'; uneven watering and AC draughts removed as brown-tip causes (no primary source)."
     },
     {
       "id": "c21",
-      "where": "faqs[8]",
-      "claim": "Popular housewarming, Eid and corporate gift in the UAE; in feng shui seen as protective.",
+      "where": "faqs.gift",
+      "claim": "A snake plant is a common housewarming, Eid and corporate gift in the UAE because it forgives missed waterings and suits modern homes and offices.",
       "g": {
         "verdict": "supported",
-        "note": "Feng shui framed as a belief ('seen as')."
+        "sources": [
+          "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant"
+        ],
+        "note": "PSU: forgiving, low-maintenance; tolerates going a month without water. Feng shui claim: only lifestyle sources, and they disagree (some call it bad feng shui), so removed."
       },
       "u": {
-        "verdict": "supported",
-        "note": "PlantsWorld sells Eid, corporate and Mother's Day snake plant gifts; it is the top-selling plant."
+        "verdict": "needs_local",
+        "note": "Owner: confirm from PlantsWorld sales that customers buy it for housewarming, Eid and corporate gifts."
       },
-      "status": "verified"
+      "status": "needs_local",
+      "change": "12 Nov: removed 'in feng shui it is seen as protective and bringing good energy' (no reliable source; sources disagree)."
     },
     {
       "id": "c22",
-      "where": "faqs[9] no-window",
-      "claim": "A snake plant survives in a windowless room only under bright artificial light that is on most of the day, growing very slowly; in a dark room it weakens.",
+      "where": "faqs.no-window",
+      "claim": "In a windowless room it survives only under bright electric light that is on for long hours, growing very slowly; in a dark room it uses up its reserves and dies.",
       "g": {
         "verdict": "supported",
-        "note": "Horticultural and office-plant sources agree it survives under fluorescent/LED office light placed close to the plant, growing slowly; no light at all fails. Mostly secondary sources.",
         "sources": [
-          "https://gardeningknowhow.com/houseplants/hpgen/windowless-houseplants.htm",
-          "https://www.ourhouseplants.com/questions/plants-for-rooms-without-windows"
-        ]
+          "https://homegarden.cahnr.uconn.edu/2024/03/28/sensational-sansevieria",
+          "https://lancaster.unl.edu/let-there-be-light-your-houseplants",
+          "https://www.uaex.uada.edu/yard-garden/resource-library/plant-week/mother-in-law-tongue.aspx"
+        ],
+        "note": "UConn: plants 'do need some light to photosynthesize'; in dark corners they 'hang on for a few months, but then eventually run out of stored resources and die'. UNL Extension: 12 to 16 hours of supplemental light daily. UA: survives very low light but may not grow."
       },
       "u": {
         "verdict": "supported",
         "note": "Fits UAE offices and flats with interior rooms lit most of the day."
       },
-      "status": "verified"
+      "status": "corrected",
+      "change": "12 Nov: 'give it a few weeks near a window from time to time' (our interval) replaced by 'move it to a window if it stops growing, fades or leans'."
     },
     {
       "id": "c23",
-      "where": "faqs[10] air",
+      "where": "faqs.air",
       "claim": "A snake plant does not noticeably clean the air of a normal room; the sealed-chamber results do not scale to homes.",
       "g": {
         "verdict": "supported",
-        "note": "Cummings & Waring 2019 review of 196 chamber results: 10–1,000 plants per square metre would be needed to match normal building ventilation.",
         "sources": [
           "https://doi.org/10.1038/s41370-019-0175-9",
-          "https://drexel.edu/news/archive/2019/November/potted-plants-do-not-improve-air-quality"
-        ]
+          "https://drexel.edu/news/archive/2019/November/potted-plants-do-not-improve-air-quality",
+          "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41370-019-0175-9&resultType=core&format=json"
+        ],
+        "note": "12 Nov re-check (abstract opened, Europe PMC, PMID 31695112): 12 chamber studies, 196 results; median single-plant CADR 0.023 m3/h, 'necessitating the placement of 10-1000 plants/m2 of a building's floor space' to match outdoor-to-indoor air exchange in typical buildings (~1 h-1). Primary-source figure: 10-1,000 plants per m2. The Drexel news release (opened 12 Nov) says 'between 100 and 1,000 plants per square meter'; that is the press office's rounding, not the paper. Use the paper's figure if a number is shown. The guide gives no number. Earlier note said 100-1,000 (Drexel) and called 10-1,000 wrong; that correction was itself wrong and is reverted. Drexel also: 'reviewed a dozen studies, spanning 30 years'."
       },
       "u": {
         "verdict": "n/a",
@@ -355,15 +452,15 @@
     },
     {
       "id": "c24",
-      "where": "faqs[11] mist",
+      "where": "care_sections.watering.tips, mistakes, myths",
       "claim": "Snake plants do not need misting; water left in the leaf centre can rot the base; wipe dust off with a damp cloth.",
       "g": {
         "verdict": "supported",
-        "note": "Care sources agree: no misting needed, water standing in the rosette can cause crown rot, wipe dust with a damp cloth.",
         "sources": [
-          "https://www.ohiotropics.com/?p=21774",
-          "https://www.backyardboss.net/misting-your-snake-plant/"
-        ]
+          "https://planttalk.colostate.edu/topics/houseplants/1337-snake-plant/",
+          "https://homegarden.cahnr.uconn.edu/2024/03/28/sensational-sansevieria"
+        ],
+        "note": "CSU: 'Care should be taken to not pour water into the center of the rosette.' UConn: 'dust them manually'. No source recommends misting."
       },
       "u": {
         "verdict": "supported",
@@ -373,15 +470,16 @@
     },
     {
       "id": "c25",
-      "where": "faqs[12] varieties",
-      "claim": "Laurentii has yellow edges; Zeylanica is dark green with grey-green bands and no yellow edge; Hahnii is a compact rosette; starfish (S. cylindrica 'Starfish') has thick round leaves fanning out; all need the same care.",
+      "where": "varieties",
+      "claim": "Laurentii has yellow edges; Zeylanica is dark green with grey-green bands and no yellow edge; Hahnii is a compact rosette; starfish (S. cylindrica 'Starfish') has thick round leaves fanning out; all need the same care. 'Hahnii' needs repotting more often than tall types (Penn State: every 3 years).",
       "g": {
         "verdict": "supported",
-        "note": "UF/IFAS: 'Laurentii' has golden margins; 'Hahnii' is the dwarf bird's-nest rosette. Many plants sold as 'Zeylanica' are S. trifasciata; the trade description (dark green, grey-green bands, no yellow edge) is what customers receive. Starfish is a selection of S. cylindrica (now Dracaena angolensis).",
         "sources": [
-          "https://mrec.ifas.ufl.edu/foliage/folnotes/sansevie.htm",
+          "https://web.archive.org/web/2023/https://mrec.ifas.ufl.edu/foliage/folnotes/sansevie.htm",
+          "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
           "https://llifle.com/Encyclopedia/SUCCULENTS/Family/Dracaenaceae/29939/Sansevieria_cv._Hahnii"
-        ]
+        ],
+        "note": "UF/IFAS (archived; live URL now 404): 'Laurentii' 'showy golden yellow leaf margin'; 'Hahnii' birdnest rosette; 'Most plants sold as Sansevieria zeylanica are S. trifasciata'. PSU: 'Hahnii' repot every 3 years; Dracaena angolensis (cylindrica)."
       },
       "u": {
         "verdict": "n/a"
@@ -389,95 +487,84 @@
       "status": "verified"
     },
     {
-      "id": "c26",
-      "where": "faqs[13] which-size",
-      "claim": "Height is measured from the bottom of the nursery pot to the tip of the tallest leaf; mini/starfish for desks, 50–80 cm for side tables, 100 cm+ as a floor plant.",
-      "g": {
-        "verdict": "unverified"
-      },
-      "u": {
-        "verdict": "needs_local",
-        "note": "PlantsWorld store policy from the support KB (KB006, KB008); research cannot check it."
-      },
-      "status": "needs_local"
-    },
-    {
-      "id": "c27",
-      "where": "faqs[14] which-pot",
-      "claim": "The plant is the same in both options; the nursery pot is cheapest; a decorative pot arrives fully potted with soil mix, perlite and a drainage layer.",
-      "g": {
-        "verdict": "unverified"
-      },
-      "u": {
-        "verdict": "needs_local",
-        "note": "PlantsWorld store policy from the support KB (KB009–KB011); research cannot check it."
-      },
-      "status": "needs_local"
-    },
-    {
-      "id": "c28",
-      "where": "faqs[15] decorative-pot-watering",
-      "claim": "In a decorative pot without a drainage hole, give less water each time so it never collects at the bottom; the drainage layer does not replace a hole.",
-      "g": {
-        "verdict": "unverified"
-      },
-      "u": {
-        "verdict": "needs_local",
-        "note": "PlantsWorld store policy from the support KB (KB010, KB013); research cannot check it."
-      },
-      "status": "needs_local"
-    },
-    {
       "id": "c29",
-      "where": "faqs[16] arrival",
-      "claim": "On arrival: bright indirect light, no direct sun or AC vent, leave it in one spot, check soil before watering (often not needed for 1–2 weeks), don't repot for a few weeks; report damage with a photo on WhatsApp within 24 hours.",
+      "where": "first_week",
+      "claim": "On arrival: bright indirect light away from direct sun and AC vents; leave it in one spot; test the soil before the first watering; do not repot straight away, only when roots fill the pot.",
       "g": {
-        "verdict": "unverified"
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
+          "https://planttalk.colostate.edu/topics/houseplants/1316-houseplants-repotting/"
+        ],
+        "note": "Restates c03, c05, c09 and c13. 'Moving it again and again slows the settling in' is general practice; low risk."
       },
       "u": {
         "verdict": "supported",
-        "note": "Matches the published Refund policy 3.3: report damage within 24 hours with photos and order number on WhatsApp (+971 4 294 1422) or email. Repotted plants cannot be returned (6), so waiting before repotting also keeps the guarantee.",
+        "note": "Same checks as c05 and c13. Store facts (damage reports) are in the KB (KB016), not on the page."
+      },
+      "status": "corrected",
+      "change": "12 Nov: 'often does not need water for the first week or two', 'do not repot for a few weeks' and 'needs a few days' (our wait times) replaced by the soil test and rules. Ledger claim no longer mentions the WhatsApp/24 h store fact, which is not on the page."
+    },
+    {
+      "id": "c32",
+      "where": "alternatives",
+      "claim": "ZZ plant: bright indirect light, copes with low light, water when soil fully dry, toxic (calcium oxalate). Golden pothos: bright indirect, survives low light, let soil dry between waterings, toxic. Peace lily: partial to deep shade, no direct sun, moist not soggy, toxic. Areca palm: bright indirect light, moist not soggy in the growing season, non-toxic to cats and dogs (ASPCA).",
+      "g": {
+        "verdict": "supported",
         "sources": [
-          "https://plantsworld.ae/policies/refund-policy"
-        ]
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm"
+        ],
+        "note": "Opened 12 Nov. NC State: ZZ bright indirect, tolerates very low light, soil dry between waterings, calcium oxalate. Pothos: bright indirect, survives low light, dry between watering. Peace lily: 'partial to deep shade', 'moist, but not soggy'. Areca: bright indirect, moist not soggy in the growing season. ASPCA: pothos and peace lily toxic (calcium oxalates); areca non-toxic to cats, dogs and horses. NC State tags areca non-toxic too but warns about the terminal bud; the page says 'Non-toxic (ASPCA)'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Indoor light and watering rules apply under UAE AC, as for the snake plant (baseline indoor-ac, sun-through-glass)."
       },
       "status": "verified"
     },
     {
-      "id": "c30",
-      "where": "faqs[17] heat-delivery",
-      "claim": "Our own delivery team delivers (no third-party courier); farther-emirate deliveries may move to a cooler day in June–September; damaged items refused at the door or reported with photos within 24 hours are replaced free.",
+      "id": "c33",
+      "where": "fit",
+      "claim": "Fit lists: forgiving of missed waterings, copes with low light and AC rooms, slow growth; toxic if chewed; needs drainage and infrequent watering; rarely flowers.",
       "g": {
-        "verdict": "contradicted",
-        "note": "The old answer promised air-conditioned vans, a 'Transit Guarantee' and 'replacement or credit'. The published policies name none of these: the Shipping policy says Plantsworld's own team delivers and may reschedule in extreme heat; the Refund policy guarantees healthy arrival and free replacement (equal-value item or refund if out of stock).",
+        "verdict": "supported",
         "sources": [
-          "https://plantsworld.ae/policies/shipping-policy",
-          "https://plantsworld.ae/policies/refund-policy"
-        ]
+          "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/"
+        ],
+        "note": "Each item restates c03, c05, c15, c17 and c19. PSU: tolerates going 'a month or so' without water. Illinois: over-watering is the main reason for failure."
       },
       "u": {
         "verdict": "supported",
-        "note": "Answer now matches the published Shipping (4, 10) and Refund (3.2, 3.3, 4) policies."
+        "note": "Same UAE checks as c05 and c13."
       },
-      "status": "corrected",
-      "change": "Removed 'air-conditioned vans' (not in any policy; KB053 asks the team to confirm) and 'Transit Guarantee … or credit'; now states own delivery team, summer rescheduling, refuse at door or report within 24 hours, free replacement."
+      "status": "verified"
     },
     {
-      "id": "c31",
-      "where": "faqs[18] photo-before",
-      "claim": "Plants vary from the photo (photos are representative); customers can ask for a pre-dispatch photo via the checkout note or WhatsApp with the order number.",
+      "id": "c34",
+      "where": "problems (mealybugs, fungus gnats)",
+      "claim": "White cotton at the leaf base is mealybugs (sap-sucking); isolate the plant, dab with an alcohol-soaked cotton bud, spray with a houseplant product such as neem as the label directs. Tiny flies are fungus gnats from wet soil: let the soil dry, use yellow sticky traps.",
       "g": {
         "verdict": "supported",
-        "note": "Refund policy 3.1: photos are representative, natural variation is not damage. 'From our UAE nursery' removed: the policy says plants come from trusted growers.",
         "sources": [
-          "https://plantsworld.ae/policies/refund-policy"
-        ]
+          "https://extension.colostate.edu/resource/managing-houseplant-pests",
+          "https://yardandgarden.extension.iastate.edu/faq/how-do-i-control-mealybugs-houseplant",
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/"
+        ],
+        "note": "CSU: mealybugs 'suck sap'; 'Swabbing individual mealybugs with alcohol'; quarantine new plants; neem 'may suppress'; fungus gnats favoured by 'excessively moist soil', let the surface dry, 'captured on sticky cards'. ISU: 'dab each one with an alcohol-soaked cotton swab'; sprays incl. neem; 'follow label directions'. NC State: monitor for mealybugs. Sand top layer: no source opened gives it, removed."
       },
       "u": {
-        "verdict": "needs_local",
-        "note": "The pre-dispatch photo service is not in any published policy. Staff to confirm it is offered and how customers ask for it."
+        "verdict": "supported",
+        "note": "Not climate-dependent; neem product sold in the store."
       },
-      "status": "needs_local"
+      "status": "corrected",
+      "change": "12 Nov: split from c20. 'Neem once a week for 3–4 weeks' (our interval) replaced by 'as the label directs, until no new mealybugs appear'; 1–2 cm sand or pebble layer removed (no primary source)."
     }
   ]
 }

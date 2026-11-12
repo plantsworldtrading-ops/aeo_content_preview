@@ -11,14 +11,20 @@ export type Guide = {
   problems: { question: string; answer: string; signs: string; fix: string[]; products?: string[] }[];
   // group: "care" (plant facts) or "buying" (PlantsWorld policy, sourced from the support KB entries in kb).
   faqs: { id?: string; group?: string; kb?: string[]; q: string; a: string }[];
+  // Format v2 (aeo/content/FORMAT.md). Only the fields the review site reads are typed here.
+  format?: number;
+  kb_faqs?: string[];
   product_handles: string[];
   image_url?: string;
   seo_title: string;
   seo_description: string;
   updated_on: string;
+  sources?: { id: string; title: string; publisher?: string; url: string }[];
 };
 
-export type Product = { title: string; image?: string };
+export type Product = { title: string; image?: string; price?: number };
+// The guide page as aeo/scripts/preview.py renders it (copied by sync_site.py).
+export type Rendered = { css: string; jsonld: string; body: string };
 
 type Check = { verdict: string; note?: string; sources?: string[] };
 export type Claim = {

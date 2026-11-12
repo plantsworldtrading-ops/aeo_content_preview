@@ -1,0 +1,646 @@
+{
+  "handle": "zz-plant",
+  "stage": "fact-checked",
+  "hash": "3b31c6e9d3304660",
+  "content_errors": [],
+  "ledger_errors": [],
+  "signoff": null,
+  "claims": [
+    {
+      "id": "c01",
+      "where": "botanical_name, entity_ids",
+      "claim": "Accepted name Zamioculcas zamiifolia (Lodd.) Engl., family Araceae; Wikidata Q15312475; POWO/IPNI id urn:lsid:ipni.org:names:89402-1.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.ipni.org/n/89402-1",
+          "https://api.gbif.org/v1/species/match?name=Zamioculcas%20zamiifolia",
+          "https://www.wikidata.org/wiki/Q15312475",
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/"
+        ],
+        "note": "12 Nov: POWO returned HTTP 403 again. GBIF backbone: 'Zamioculcas zamiifolia (G.Lodd.) Engl.' status ACCEPTED, family Araceae. IPNI 89402-1 opened: (Lodd.) Engl. 1905, Araceae. Wikidata Q15312475 P5037 = urn:lsid:ipni.org:names:89402-1. NC State: family Araceae."
+      },
+      "u": {
+        "verdict": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c02",
+      "where": "other_names",
+      "claim": "Common names Zanzibar gem, aroid palm, emerald palm, eternity plant, zuzu plant; Arabic name زاميوكولكاس.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant",
+          "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+          "https://www.wikidata.org/wiki/Q15312475"
+        ],
+        "note": "12 Nov: NC State lists Aroid Palm, Emerald Palm, Eternity Plant, Zanzibar Gem, Zuzu Plant. UConn: Zanzibar gem, Zuzu plant, Emerald palm. Iowa State: aroid palm, eternity plant. Arabic label 'زاميوكولكاس' is only the Wikidata label (a transliteration of the genus), not proof of customer use."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Owner: confirm what UAE customers call it in Arabic (زاميوكولكاس, 'نبات ZZ' or other)."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c03",
+      "where": "quick_answer, care_sections.watering, myths[3]",
+      "claim": "ZZ plant stores water in thick underground rhizomes and is highly drought tolerant; too much water, not too little, causes most problems.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/",
+          "https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant",
+          "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant"
+        ],
+        "note": "12 Nov: NC State: 'bulbous fleshy rhizomes ... make it highly drought tolerant'; 'wet feet are not tolerated'. Clemson: 'bulbous rhizomes that store water'. UConn: 'Overwatering is just about the only factor that leads to the demise of this tough houseplant.'"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline indoor-ac: AC homes do not change this."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c04",
+      "where": "quick_answer, quick_facts.Light, care_sections.light, fit, faqs.no-window, faqs.office",
+      "claim": "Best in bright indirect light; tolerates deep shade and fluorescent/office light; grows more slowly in low light; a room that stays dark weakens it.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant",
+          "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it"
+        ],
+        "note": "12 Nov: NC State: 'grow in very low levels of light, even in areas with only fluorescent light, they do best with bright indirect sunlight'; light: deep shade. UConn: 'suited for a windowless office as long as exposed to fluorescent lights for several hours each day'; 'growth is much slower in lower light'. The writer's 'a room that stays dark slowly weakens' had no source. | 12 Nov loop 1: light paragraph said 'In low light a ZZ plant stays healthy but grows even more slowly'; 'stays healthy' is not in NC State, Clemson, UConn or Iowa State (they say it tolerates / grows in low light, and UConn: 'growth is much slower in lower light')."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline sun-through-glass: tinted glazing lowers indoor light."
+      },
+      "status": "corrected",
+      "change": "faqs.no-window: 'electric light for much of the day ... a room that stays dark slowly weakens' (no source) -> UConn's 'fluorescent light for several hours a day' and NC State's 'grows very slowly'. | care_sections.light.paragraphs[0]: 'In low light a ZZ plant stays healthy but grows even more slowly than usual' -> 'A ZZ plant tolerates low light, but UConn notes that it grows much more slowly there' (NC State, UConn)."
+    },
+    {
+      "id": "c05",
+      "where": "care_sections.light, problems[1], mistakes[2]",
+      "claim": "Direct sun scalds ZZ leaves (whitening or browning, curling); keep out of afternoon sun behind west- or south-facing glass; a sheer curtain or a spot back from the window prevents scorch; scalded patches do not heal.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant",
+          "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+          "https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants",
+          "https://extension.umd.edu/resource/lighting-indoor-plants"
+        ],
+        "note": "12 Nov: UConn: 'Too much direct light will cause scalding (a whitening) of leaves and leaves may curl'; 'will not tolerate direct sunlight except perhaps an eastern exposure during the winter'. NC State: 'Scalding and browning'. Iowa State: 'Direct, afternoon sun may actually damage the plant's foliage'. Iowa State houseplants: 'curtains and sheers can greatly reduce the amount of light'. UMD: light intensity 'decreases rapidly with increasing distance'. No source says scalded patches heal or not."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline sun-through-glass, summer-heat."
+      },
+      "status": "corrected",
+      "change": "problems[1].fix: 'The scalded patches do not heal' (no source) removed; now 'Leave the marked leaves, or cut badly damaged leaves off'."
+    },
+    {
+      "id": "c06",
+      "where": "care_sections.light.tips",
+      "claim": "Hand-shadow test: a sharp shadow means direct sun, a soft shadow means bright indirect light.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants"
+        ],
+        "note": "12 Nov: Iowa State 'How to Care for Houseplants': bright indirect light is 'bright enough to cast a distinctive shadow but does not have sun rays hitting the foliage directly'. The writer's sharp-versus-soft shadow rule had no primary source (only blogs)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Test works in any home; tinted glass is covered by the test itself."
+      },
+      "status": "corrected",
+      "change": "Tip rewritten to Iowa State's definition (distinct shadow, no sun rays on the leaves); source iastate-houseplants added to the page."
+    },
+    {
+      "id": "c07",
+      "where": "quick_facts.Water, care_sections.watering, mistakes[0], myths[3], uae_year",
+      "claim": "Water only when the soil is completely dry to the bottom of the pot; no fixed schedule; test with a wooden skewer or by lifting the pot; water thoroughly until it drains, let it drain fully, never leave it standing in water.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/",
+          "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+          "https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant",
+          "https://homegarden.cahnr.uconn.edu/factsheets/houseplant-watering-recommendations",
+          "https://extension.umd.edu/resource/watering-indoor-plants"
+        ],
+        "note": "12 Nov: NC State: 'only if the soil has dried out completely'. Clemson: 'only after the potting medium has completely dried ... Do not allow the plant to sit in water ... fully drained before setting it in a decorative pot'. Iowa State: 'water plants thoroughly. Some water should flow out the bottom ... Discard any excess water'. UMD: 'lift the plant, pot and all ... dry potting medium will weigh much less'. UConn watering: 'Instead of watering plants by the calendar, check them'. The skewer test is the FORMAT.md reader test (a deeper form of the extension finger test). UConn ZZ is more lenient ('dry slightly'); the page follows the stricter NC State/Clemson rule."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Rule and test replace any interval. Baseline indoor-ac."
+      },
+      "status": "corrected",
+      "change": "watering tip: 'A dry ZZ plant recovers quickly; a plant with rotten rhizomes often does not' (no source) -> UConn: err on the dry side; overwatering is just about the only thing that kills it."
+    },
+    {
+      "id": "c08",
+      "where": "care_sections.watering",
+      "claim": "What changes drying speed: small, terracotta pots, bright and warm spots dry faster; large plastic or glazed pots, dim rooms, cool AC rooms and humid coastal homes dry slower; slower in winter.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://homegarden.cahnr.uconn.edu/factsheets/houseplant-watering-recommendations",
+          "https://extension.illinois.edu/houseplants/watering",
+          "https://extension.umd.edu/resource/potting-and-repotting-indoor-plants",
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/"
+        ],
+        "note": "12 Nov: UConn watering: light, temperature and humidity 'all affect the rate at which a plant will use water'; 'Unglazed clay pots dry out quicker than plastic or glazed pots'; pots too big 'often exhibit symptoms of overwatering'; 'more water during periods of active growth'. Illinois: 'temperature, humidity, light, pot size ... influence the frequency of watering'. UMD: glazed ceramic 'retain moisture longer'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline indoor-ac: humidity under AC varies, so the page gives factors, not a number."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c09",
+      "where": "care_sections.watering",
+      "claim": "NC State Extension: water about twice a month in summer and about once a month in winter, only if the soil has dried out completely.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/",
+          "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it"
+        ],
+        "note": "12 Nov: NC State: 'Water it only once a month in winter months when it is not actively growing. Water twice monthly in the summer, but only if the soil has dried out completely.' Named in the text. Note: Clemson gives '1-2 times a month' and Iowa State 'every 7 to 14 days'; the page names only NC State and tells the reader to use the soil test."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "The text says to use the test, not the number."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c10",
+      "where": "quick_facts.Soil, care_sections.soil, care_sections.repotting.steps",
+      "claim": "Coarse, fast-draining mix; Clemson: half peat/coir potting soil, a quarter perlite, a quarter sand; cactus/succulent soil or potting soil with perlite also drains well; pot must have a drainage hole; cover pot fine if the inner pot drains.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/",
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant",
+          "https://extension.umd.edu/resource/potting-and-repotting-indoor-plants"
+        ],
+        "note": "12 Nov: Clemson: 'A coarse, well-draining mix. 50% peat moss or coir-based potting soil, 25% perlite, and 25% sand'. NC State: 'can be treated in much the same way as cactus and other succulent plants'. UMD: add perlite to potting soil to loosen it; glazed ceramic pots 'can be used with a clay or plastic pot inside to allow for drainage'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Linked soil and perlite products exist. Note for the owner: KB013 says decorative pots use a drainage layer, not always a hole."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c11",
+      "where": "quick_facts.Feeding, care_sections.fertiliser, uae_year, mistakes[5], problems[4]",
+      "claim": "Very little fertiliser; sources differ: NC State once or twice a year, Clemson once or twice in the growing season, Iowa State and Illinois dilute once or twice a month in spring and summer, UConn half strength; feed at half strength only while making new stems, none when growth stops.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/",
+          "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+          "https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant"
+        ],
+        "note": "12 Nov: NC State: 'once or twice a year'. Clemson: 'only once or twice during the growing season'. UConn: 'During the growing season plants can be fertilized once or twice. Use a balanced houseplant fertilizer diluted to half-strength'. Iowa State: 'once or twice a month with a dilute fertilizer solution'. Illinois: 'light supply of balanced fertilizer once or twice a month'. The draft grouped UConn wrongly (only 'half strength')."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Feeding is tied to new stems, a sign the reader sees, so AC homes with year-round growth are covered."
+      },
+      "status": "corrected",
+      "change": "UConn moved to the 'once or twice in the growing season, half strength' group; 'feeding often or at full strength' mistake -> 'feeding often at full strength' (UConn allows full strength every six months); low-light note now cites UConn."
+    },
+    {
+      "id": "c12",
+      "where": "quick_facts.Temperature, faqs.outdoors, uae_year.Winter",
+      "claim": "Keep above 60 °F, about 16 °C (Clemson); UConn range about 13–27 °C (55–80 °F); NC State: bring indoors below 60 °F; sensitive to cold.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant",
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/"
+        ],
+        "note": "12 Nov: Clemson: 'sensitive to cold and should be kept above 60 °F' = 15.6 °C, so 'about 16 °C', not 15. UConn: 'Keep ZZ plants between 55°F and 80° F' = 12.8–26.7 °C. NC State: bring in 'once the temperature falls below 60 degrees F'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline indoor-ac: 22–24 °C AC rooms are inside the range."
+      },
+      "status": "corrected",
+      "change": "'about 15 °C' -> 'above 60 °F, about 16 °C' in quick_facts, uae_year.Winter and faqs.outdoors (60 °F is 15.6 °C)."
+    },
+    {
+      "id": "c13",
+      "where": "quick_facts.Outdoors in UAE, faqs.outdoors, mistakes[6], uae_year.Summer, care_sections.placement",
+      "claim": "Treat a ZZ plant as an indoor plant in the UAE all year: summer heat and sun exceed its comfort range and inland/GCC winter nights are too cold.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant",
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/",
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/"
+        ],
+        "note": "12 Nov: Derived from the ranges in c12 (UConn 55–80 °F, Clemson above 60 °F) and direct-sun damage (c05). NC State: outdoors in containers only until the temperature falls below 60 °F. No source covers UAE outdoor growing."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Owner: confirm from nursery experience that ZZ plants do badly outdoors in the UAE (shaded patios on the coast in winter)."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c14",
+      "where": "quick_facts.Humidity",
+      "claim": "Adapts to normal/variable indoor humidity; no misting needed.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant",
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/"
+        ],
+        "note": "12 Nov: Illinois: 'adapts to variable humidity levels'. Clemson: 'acclimated to arid conditions and will thrive with regular indoor humidity levels' (so no misting needed)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline indoor-ac."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c15",
+      "where": "care_sections.placement, mistakes[3], first_week, faqs.office",
+      "claim": "Keep out of the direct cold airflow from AC vents; in winter keep away from cold windows and doors in inland homes.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://homegarden.cahnr.uconn.edu/factsheets/growing-houseplants",
+          "https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants",
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/"
+        ],
+        "note": "12 Nov: UConn 'Growing Houseplants': 'Avoid placing plants near cold air sources like air conditioning units and keep them away from drafty doors or windows ... Do not allow foliage to touch cold glass'. Iowa State houseplants: 'Keep indoor plants away from drafts'. Clemson: ZZ 'sensitive to cold'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Consistent with baseline ac-vents and inland-winter; the page gives no distance (no number)."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c16",
+      "where": "care_sections.placement, faqs.office",
+      "claim": "Suits bedrooms, hallways, offices and reception areas; widely used in commercial interiors.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant"
+        ],
+        "note": "12 Nov: NC State: 'seen frequently in commercial interiorscapes'. Clemson: 'can be easily grown in darker rooms'. UConn: suited for a windowless office with fluorescent light."
+      },
+      "u": {
+        "verdict": "supported"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c17",
+      "where": "quick_facts.Size indoors, quick_facts.Growth, faqs.growth, problems[4], fit",
+      "claim": "Slow growing; about 60–120 cm tall (2–4 ft); 'Zenzi' about 25–30 cm (10–12 in).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/",
+          "https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant",
+          "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant"
+        ],
+        "note": "12 Nov: NC State: slow growth rate, 2 to 4 feet. Clemson: 2 to 4 feet; 'Zenzi' 10 to 12 inches. Illinois: 'With time ... up to four feet'. Iowa State: 'grows rather slowly ... in spurts'. UConn: much slower in lower light. 'Over several years' had no source."
+      },
+      "u": {
+        "verdict": "supported"
+      },
+      "status": "corrected",
+      "change": "faqs.growth: 'over several years' -> 'Over time', with Iowa State (spurts) and UConn (slower in low light)."
+    },
+    {
+      "id": "c18",
+      "where": "varieties",
+      "claim": "Raven: new leaves lime green turning almost black, up to about 75 cm (2.5 ft); Chameleon: new leaves golden yellow turning dark green; Zenzi: dwarf; species has glossy dark green leaves on upright stems.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant"
+        ],
+        "note": "12 Nov: NC State: Raven 'Dowon' 'Lime green new growth that turns a dramatic purple-black'; 'Chameleon' 'golden-yellow and then transition to dark green'. Clemson: Raven 'maximum height of 2.5 feet' (76 cm); 'Zenzi' dwarf 10–12 in; species dark green, upright."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Raven and green ZZ products are live."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c19",
+      "where": "care_sections.repotting, problems[4].fix",
+      "claim": "Repot when rhizomes and roots fill the pot (bulging pot, stems pushing against the sides, water running straight through); ZZ plants left too long can crack their pots; go only slightly wider; a much larger pot holds wet soil.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant",
+          "https://homegarden.cahnr.uconn.edu/factsheets/houseplant-watering-recommendations",
+          "https://extension.illinois.edu/houseplants/repotting"
+        ],
+        "note": "12 Nov: UConn ZZ: stems 'push out and eventually crack the sides of pots'. Illinois repotting signs: 'Roots begin to grow through the drainage holes ... The soil mass is filled with roots ... The plant wilts between normal waterings'. UConn watering: 'transplanted in to the next size larger pot'; pots too big 'often exhibit symptoms of overwatering'. 'Water runs straight through' and 'pot bulges' had no primary source."
+      },
+      "u": {
+        "verdict": "supported"
+      },
+      "status": "corrected",
+      "change": "Signs now follow Illinois and UConn (roots out of the hole, stems against the sides, soil dries much faster); 'slightly wider' -> 'next pot size up' with the UConn reason."
+    },
+    {
+      "id": "c20",
+      "where": "care_sections.repotting, uae_year.Autumn, uae_year.Spring",
+      "claim": "Repot while the plant is actively growing; in the UAE autumn (Oct–Nov) and spring (Mar–Apr); a new plant needs repotting only when it shows the signs.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.illinois.edu/houseplants/repotting",
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/"
+        ],
+        "note": "12 Nov: Illinois: 'Re-potting is best accomplished when the plant is actively growing'. NC State: not actively growing in winter. 'Let a new plant settle for a few weeks' was our own wait time (subjective-value rule)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline seasons: repotting in the cooler months; autumn and spring avoid summer heat and the winter slowdown."
+      },
+      "status": "corrected",
+      "change": "'October to April' -> autumn (Oct–Nov) and spring (Mar–Apr) while the plant is growing; 'settle for a few weeks' removed -> repot only when it shows the signs."
+    },
+    {
+      "id": "c21",
+      "where": "care_sections.repotting.steps, problems[0].fix",
+      "claim": "Rot fix and repotting steps: remove wet soil, cut away soft brown rhizomes/roots/stems, let cuts dry and seal, repot in dry fast-draining mix, water again only when the new soil is dry.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/",
+          "https://extension.umd.edu/resource/diagnose-indoor-plant-problems",
+          "https://extension.umd.edu/resource/potting-and-repotting-indoor-plants",
+          "https://extension.illinois.edu/houseplants/repotting",
+          "https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant"
+        ],
+        "note": "12 Nov: Clemson diseases: 'If only a few roots are infected, cut out these roots and repot the plant in sterile soil'; 'Use sterilized soil and pots'. UMD: 'Remove diseased plants from their pots, cut out portions (rotten), and replant remaining healthy sections. Take cuttings'. UMD repotting: 'Remove any dead, brown roots'. Illinois repotting: 'same depth it was grown in the old pot'. Illinois and UConn: let cut ZZ tissue callus to reduce rot."
+      },
+      "u": {
+        "verdict": "supported"
+      },
+      "status": "corrected",
+      "change": "Rot fix: 'dry in the shade' -> 'dry and seal'; 'clean pot' added; new last step from UMD (start new plants from healthy leaves); repot step 3 'or smell bad' removed (no source)."
+    },
+    {
+      "id": "c22",
+      "where": "care_sections.propagation, faqs.cutting-time",
+      "claim": "Division is the most common and fastest method; leaf cuttings give more plants but are slow: rhizomes in about a month in a greenhouse, up to nine months indoors (UConn); apical leaf cuttings gave the most rhizomes and a leafless stem piece did not root (Illinois); let cuts callus a few hours to a few days; warm, bright spot; roots first, then a rhizome.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant",
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/"
+        ],
+        "note": "12 Nov: Illinois: 'Division is the most common and fastest way'; 'Allow the cutting to callus for a few days'; 'Roots will emerge first, followed by the development of a small rhizome'; apical leaf cuttings 'produced the most new rhizomes'; a stem cutting without a leaf 'did not callus or develop roots'. UConn: callus 'for a few hours'; 'in about a month' in a greenhouse, 'up to 9 months' indoors."
+      },
+      "u": {
+        "verdict": "supported"
+      },
+      "status": "corrected",
+      "change": "Callus time now names its sources (UConn: hours; Illinois: days); 'then the first new stem' (no source) removed from faqs.cutting-time."
+    },
+    {
+      "id": "c23",
+      "where": "problems[0], faqs",
+      "claim": "Yellow leaves with soft stems at the base are the usual sign of overwatering and rhizome rot; signs: damp soil long after watering, soft dark stem bases, soft brown rhizomes, sour smell.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant",
+          "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/",
+          "https://homegarden.cahnr.uconn.edu/factsheets/houseplant-watering-recommendations"
+        ],
+        "note": "12 Nov: UConn ZZ: 'Signs of overwatering are yellow leaves and rotting rhizomes'. Clemson diseases: 'Stems may be girdled at or near soil level by a ring of brown or black tissue. Infected roots are brown to black and may be soft'. 'Sour smell' had no primary source."
+      },
+      "u": {
+        "verdict": "supported"
+      },
+      "status": "corrected",
+      "change": "problems[0].signs: 'a sour smell from the pot' removed; stem sign rewritten to Clemson's 'ring of soft brown or black tissue'."
+    },
+    {
+      "id": "c24",
+      "where": "problems[2], myths[2]",
+      "claim": "Dark spots on firm ZZ stems are normal; soft, mushy dark stems at the soil line are rot.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/"
+        ],
+        "note": "12 Nov: Clemson: 'Black spots on the stems are normal.' 'A stem with normal black spots indicates a typical, healthy ZZ plant.'"
+      },
+      "u": {
+        "verdict": "supported"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c25",
+      "where": "problems[3]",
+      "claim": "Pests: few problems, but scale, mealybugs, aphids, thrips and whiteflies can occur; isolate, wipe off, then a houseplant pest spray such as neem, following the label.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://extension.illinois.edu/blogs/good-growing/2026-01-09-houseplant-spotlight-zz-plant",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant",
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/",
+          "https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/"
+        ],
+        "note": "12 Nov: NC State: 'watch for scale insects'. Illinois: 'aphids, mealy bugs, thrips, and whiteflies'. Clemson pests: mealybugs 'look cottony'; scales 'small and immobile ... on stems and the undersides of leaves'; soft scales and mealybugs excrete honeydew; 'isolate any plant suspected'; 'Use a cotton swab dipped in rubbing alcohol to wipe off ... mealybugs. Scale insects may need to be scraped off with a fingernail'; insecticidal soap or neem; 'often takes more than one treatment'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Neem product is live in the store."
+      },
+      "status": "corrected",
+      "change": "Fix steps: 'wipe with a damp cloth' -> Clemson's fingernail (scale) and rubbing-alcohol cotton bud (mealybugs); insecticidal soap added; repeat treatment."
+    },
+    {
+      "id": "c26",
+      "where": "problems[4]",
+      "claim": "No new stems for months is normal in low light or winter if stems are firm; brighter indirect light speeds growth.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant",
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/",
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/"
+        ],
+        "note": "12 Nov: Iowa State: 'grows rather slowly. When it grows, it tends to grow in spurts.' UConn: 'growth is much slower in lower light'. Clemson: 'bright, indirect light will help speed up their very slow growth rate'. 'For months' was not stated by a source."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Page tells the reader to judge by firm stems and green leaves, so it does not depend on UAE winter behaviour."
+      },
+      "status": "corrected",
+      "change": "problems[4]: 'no new stems for months' -> 'for a long time', answer now cites Iowa State (spurts) and UConn (low light)."
+    },
+    {
+      "id": "c27",
+      "where": "faqs.flower",
+      "claim": "Rarely flowers; cream or brown spadix inside a light green spathe, low near the base of the stems.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant"
+        ],
+        "note": "12 Nov: NC State: 'Rarely flowers. Sheath-like green spathe surrounds a white spadix'; photo captions 'Spathe & spadix on a short stalk among the petiole bases'. Clemson: 'light green spathe and a brown spadix'. UConn: 'Sometimes in late summer small brownish to yellow flowers appear'. 'Easy to miss' had no source."
+      },
+      "u": {
+        "verdict": "n/a"
+      },
+      "status": "corrected",
+      "change": "faqs.flower: 'easy to miss' removed; position from NC State ('short stalk among the leaf-stem bases'); UConn late-summer note added."
+    },
+    {
+      "id": "c28",
+      "where": "pet_safety, quick_facts.Pets, fit, faqs.touch, myths[1], alternatives",
+      "claim": "Toxic to cats and dogs if chewed: ASPCA lists ZZ plant (Zamioculcas spp.) among insoluble calcium oxalate plants (drooling, retching, nausea, vomiting, diarrhoea, pawing at the mouth); NC State: medium severity, calcium oxalate, vomiting and diarrhoea if eaten in quantity, does not cause contact dermatitis; keep away from pets and young children.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.aspca.org/news/these-houseplants-can-cause-trouble-your-pets",
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant",
+          "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/"
+        ],
+        "note": "12 Nov: ASPCA (13 Oct 2025) lists 'ZZ plant (Zamioculcas spp.)' among insoluble calcium oxalate plants: 'drooling, retching, nausea, loss of appetite, vomiting and diarrhea ... pawing at the mouth'; 'Rarely, with large exposures ... swelling in the back of the throat, leading to breathing difficulty'; 'the severity is low'; 'contact your veterinarian'; trouble swallowing or breathing: 'bring your pet directly to a veterinary hospital'. NC State: 'Poison Severity: Medium', 'Causes Contact Dermatitis: No'. No dedicated ASPCA database entry for ZZ."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Emergency step matches KB077."
+      },
+      "status": "corrected",
+      "change": "pet_safety: ASPCA 'severity is low' added beside NC State 'medium' (the draft gave only 'medium'); rare throat swelling and the breathing/swallowing emergency step added (ASPCA)."
+    },
+    {
+      "id": "c29",
+      "where": "myths[0], faqs.air",
+      "claim": "Potted plants do not noticeably clean room air: chamber studies only; 10–1,000 plants per square metre of floor needed to match normal air exchange (Cummings & Waring 2019).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://doi.org/10.1038/s41370-019-0175-9",
+          "https://pubmed.ncbi.nlm.nih.gov/31695112/",
+          "https://drexel.edu/news/archive/2019/November/potted-plants-do-not-improve-air-quality"
+        ],
+        "note": "12 Nov: Abstract (Europe PMC, PMID 31695112): chamber studies 'in small, sealed chambers'; '10-1000 plants/m2 of a building's floor space ... to achieve the same removal rate that outdoor-to-indoor air exchange already provides'. UConn's air-quality line is not used (the peer-reviewed review is stronger). The draft myth said plants remove chemicals 'only' in chambers, which overstates the review. | 12 Nov re-check (abstract opened, Europe PMC, PMID 31695112): 12 chamber studies, 196 results; median single-plant CADR 0.023 m3/h, 'necessitating the placement of 10-1000 plants/m2 of a building's floor space' to match outdoor-to-indoor air exchange in typical buildings (~1 h-1). Primary-source figure: 10-1,000 plants per m2. The Drexel news release (opened 12 Nov) says 'between 100 and 1,000 plants per square meter'; that is the press office's rounding, not the paper. Use the paper's figure if a number is shown. The page's '10 to 1,000' matches the paper."
+      },
+      "u": {
+        "verdict": "supported"
+      },
+      "status": "corrected",
+      "change": "myths[0]: 'Potted plants remove chemicals only in small sealed test chambers' -> 'The studies that showed ... used small sealed test chambers'."
+    },
+    {
+      "id": "c30",
+      "where": "alternatives",
+      "claim": "Snake plant: partial shade, tolerates very low light, let soil dry between waterings, toxic (saponins). Golden pothos: bright indirect, survives low light, let soil dry, toxic (calcium oxalate). Aglaonema: diffuse/indirect light and shade, moist spring to autumn, less in winter, toxic (low, calcium oxalate). Cast iron plant: shade, no direct sun, water regularly spring to autumn and sparingly in winter, non-toxic (ASPCA).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+          "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+          "https://plants.ces.ncsu.edu/plants/aglaonema/",
+          "https://plants.ces.ncsu.edu/plants/aspidistra-elatior/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cast-iron-plant",
+          "https://www.aspca.org/news/these-houseplants-can-cause-trouble-your-pets"
+        ],
+        "note": "12 Nov: NC State snake plant: direct sun 2–6 h, 'will tolerate very low light', dry between waterings, saponins. Pothos: 'bright, indirect light ... survives for long periods in low light', dry between waterings, calcium oxalate. Aglaonema: 'diffuse sun or good indirect light', 'moist from spring to fall', less in winter, calcium oxalate. Aspidistra: 'partial to full shade ... intolerant of direct sun', 'Water regularly spring to autumn ... sparingly in winter'. ASPCA cast iron plant: non-toxic to dogs, cats, horses."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "All four products are live."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c31",
+      "where": "first_week",
+      "claim": "New plant: bright indirect light away from sun and AC airflow; skewer test before watering (nursery soil is often still damp); do not repot straight away, only when it shows the repotting signs.",
+      "g": {
+        "verdict": "unverified",
+        "sources": [
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant",
+          "https://homegarden.cahnr.uconn.edu/factsheets/growing-houseplants"
+        ],
+        "note": "12 Nov: UConn: overwatering is the main risk (supports the intro). 'Nursery soil is often still damp' has no source; it is PlantsWorld practice. 'A few days to settle' and 'do not repot for a few weeks' were our own wait times; 'leave it in one spot' had no source."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Owner: confirm that ZZ plants usually arrive with damp soil."
+      },
+      "status": "needs_local",
+      "change": "'needs a few days to settle', 'leave it in one spot' and 'do not repot for a few weeks' removed (our own wait times, no source)."
+    },
+    {
+      "id": "c32",
+      "where": "uae_year.Winter",
+      "claim": "Coastal homes rarely get cold indoors; inland (Al Ain, desert areas) and Riyadh or Kuwait nights can be cold; growth usually slows in winter.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+          "https://homegarden.cahnr.uconn.edu/factsheets/zz-plant"
+        ],
+        "note": "12 Nov: NC State: 'not actively growing' in winter. UConn: 'Plants will grow more rapidly at warmer temperatures'. 'Coastal homes rarely get cold indoors' was an unsourced indoor claim."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline coastal-winter (mild coastal nights), inland-winter, gcc-winter."
+      },
+      "status": "corrected",
+      "change": "uae_year.Winter: 'Coastal homes rarely get cold indoors' -> 'Winter nights on the coast are mild'; growth slowdown cites NC State; feeding tied to new stems; 15 -> 16 °C."
+    }
+  ]
+}

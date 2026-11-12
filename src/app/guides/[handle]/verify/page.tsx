@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { baseline, getGuide, getVerification, guides, STAGE_LABEL } from "@/content/guides";
+import { baseline, getGuide, getVerification, guides, kb, STAGE_LABEL } from "@/content/guides";
 import VerifyForm from "./confirm";
 import "../../guide.css";
 
@@ -22,6 +22,7 @@ export default async function VerifyPage({ params }: { params: Promise<{ handle:
   const local = v.claims.filter((c) => c.status === "needs_local");
   const corrected = v.claims.filter((c) => c.status === "corrected");
   const verified = v.claims.filter((c) => c.status === "verified");
+  const kbFaqs = (g.kb_faqs ?? []).map((id) => kb.entries.find((e) => e.id === id)).filter((e) => e !== undefined);
 
   return (
     <main>
@@ -34,8 +35,9 @@ export default async function VerifyPage({ params }: { params: Promise<{ handle:
         Start with the customer questions: these answers are what the website assistant will tell customers. Mark each one
         right or wrong, and add the questions customers ask that are missing. Every fact on
         the <Link href={`/guides/${handle}`}>guide page</Link> was also checked twice: is it true in general, and is it true
-        for UAE and GCC homes (heat, AC, desalinated tap water, cold inland winter nights). Policy answers were checked
-        against the published Shipping and Refund policies. The next guide is only started once this one is signed off.
+        for UAE and GCC homes (heat, AC, desalinated tap water, cold inland winter nights), and the sources are listed at the
+        end of the guide. Store answers (sizes, pots, delivery, photos) come from the support knowledge base and are
+        reviewed on <Link href="/kb">the KB page</Link>. The next guide is only started once this one is signed off.
       </p>
       <ul className="tally">
         <li><strong>{verified.length}</strong> verified</li>
@@ -45,7 +47,22 @@ export default async function VerifyPage({ params }: { params: Promise<{ handle:
       </ul>
 
 
-      <VerifyForm handle={handle} hash={v.hash} faqs={g.faqs} local={local} corrected={corrected} verified={verified} signedOff={!!v.signoff} />
+      <VerifyForm handle={handle} hash={v.hash} faqs={g.faqs} local={local} corrected={corrected} verified={verified} signedOff={!!v.signoff} sourceMap={Object.fromEntries((g.sources ?? []).map((x) => [x.id, x.url]))} />
+
+      {kbFaqs.length > 0 && (
+        <section>
+          <h2>Store answers shown on this guide</h2>
+          <p className="lede">
+            The guide shows these support KB answers under &ldquo;Ordering from PlantsWorld&rdquo;. Review them on the KB page; a
+            change there changes every guide that shows them.
+          </p>
+          <ul className="kb-changed">
+            {kbFaqs.map((e) => (
+              <li key={e.id}><Link href={`/kb#${e.id}`}>{e.id}</Link> {e.q}</li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section>
         <h2>UAE/GCC conditions every guide is checked against</h2>

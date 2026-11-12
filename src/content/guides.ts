@@ -5,7 +5,7 @@ import kbFile from "./kb.json";
 import kbVerificationFile from "./kb-verification.json";
 import type { Kb, KbVerification, Product } from "./types";
 
-export type { Guide, Product, Claim, Stage, Verification, Kb, KbEntry, KbStatus, KbVerification } from "./types";
+export type { Guide, Product, Claim, Stage, Verification, Kb, KbEntry, KbStatus, KbVerification, Rendered } from "./types";
 
 // One JSON file per plant (the data published to the Shopify plant_care_guide metaobject) plus its verification
 // report. Both are copied in by aeo/scripts/sync_site.py.
@@ -20,6 +20,7 @@ export const kbVerification = kbVerificationFile as KbVerification;
 export const SITE = "https://plantsworld.ae";
 export const getGuide = (handle: string) => guideList.find((x) => x.guide.handle === handle)?.guide;
 export const getVerification = (handle: string) => guideList.find((x) => x.guide.handle === handle)?.verification;
+export const getRendered = (handle: string) => guideList.find((x) => x.guide.handle === handle)?.rendered;
 
 export const STAGE_LABEL = {
   draft: "Draft",

@@ -19,7 +19,18 @@ const VERDICT_LABEL: Record<string, string> = {
   "n/a": "Not UAE-specific",
 };
 
-function ClaimDetails({ c }: { c: Claim }) {
+// Ledger sources are URLs or ids from the guide's visible `sources` (FORMAT.md); internal file paths stay as text.
+type SourceMap = Record<string, string>;
+function SourceLink({ s, map }: { s: string; map: SourceMap }) {
+  const url = map[s] ?? s;
+  try {
+    return <a href={url} target="_blank" rel="noreferrer">{new URL(url).hostname}{map[s] ? ` (${s})` : ""}</a>;
+  } catch {
+    return <code>{s}</code>;
+  }
+}
+
+function ClaimDetails({ c, map }: { c: Claim; map: SourceMap }) {
   const sources = [...new Set([...(c.g.sources ?? []), ...(c.u.sources ?? [])])];
   return (
     <dl>
@@ -34,7 +45,7 @@ function ClaimDetails({ c }: { c: Claim }) {
         <>
           <dt>Evidence (internal, not shown on the page)</dt>
           <dd>
-            <ul>{sources.map((s) => <li key={s}><a href={s} target="_blank" rel="noreferrer">{new URL(s).hostname}</a></li>)}</ul>
+            <ul>{sources.map((s) => <li key={s}><SourceLink s={s} map={map} /></li>)}</ul>
           </dd>
         </>
       )}
@@ -43,8 +54,8 @@ function ClaimDetails({ c }: { c: Claim }) {
 }
 
 // Every claim can be corrected: needs_local claims ask for a verdict, the rest take an optional correction.
-export default function VerifyForm({ handle, hash, faqs, local, corrected, verified, signedOff }: {
-  handle: string; hash: string; faqs: Guide["faqs"]; local: Claim[]; corrected: Claim[]; verified: Claim[]; signedOff: boolean;
+export default function VerifyForm({ handle, hash, faqs, local, corrected, verified, signedOff, sourceMap = {} }: {
+  sourceMap?: SourceMap; handle: string; hash: string; faqs: Guide["faqs"]; local: Claim[]; corrected: Claim[]; verified: Claim[]; signedOff: boolean;
 }) {
   const r = useReview(handle, hash);
   const { answers, mark } = r;
@@ -136,7 +147,7 @@ export default function VerifyForm({ handle, hash, faqs, local, corrected, verif
           {list.map((c) => (
             <details key={c.id} className={`claim ${answers[c.id]?.note ? "has-note" : ""}`}>
               <summary><span className="claim-id">{c.id}</span> {c.claim}</summary>
-              <ClaimDetails c={c} />
+              <ClaimDetails c={c} map={sourceMap} />
               <textarea
                 rows={2}
                 placeholder="Suggest a correction (optional)"

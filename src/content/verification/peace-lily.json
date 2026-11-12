@@ -1,0 +1,789 @@
+{
+  "handle": "peace-lily",
+  "stage": "fact-checked",
+  "hash": "8e5a2db6851052d5",
+  "content_errors": [],
+  "ledger_errors": [],
+  "signoff": null,
+  "claims": [
+    {
+      "id": "c01",
+      "where": "botanical_name",
+      "claim": "The peace lily is the genus Spathiphyllum; plants sold are species and hybrid cultivars.",
+      "g": {
+        "verdict": "contradicted",
+        "sources": [
+          "https://www.gbif.org/species/2869680",
+          "https://www.ipni.org/n/89011-1",
+          "https://www.wikidata.org/wiki/Q761494",
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://edis.ifas.ufl.edu/publication/EP477",
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/"
+        ],
+        "note": "Verifier 12 Nov: No source says plants sold are 'most often S. wallisii'. Clemson: 'Spathiphyllum species', 'many new hybrid cultivars'; dwarf 'Spathiphyllum x 'Wallisii'' gets 12–15 in (30–38 cm). UF EP477: 'Spathiphyllum spp.' GBIF: S. wallisii Regel ACCEPTED (2869680). Genus name now used. | Writer: GBIF backbone: 'Spathiphyllum wallisii Regel', status ACCEPTED (usageKey 2869680). IPNI 89011-1: Regel, Gartenflora, inPowo true. POWO page returned 403 (not opened). Clemson: 'Due to a selective breeding program, many new hybrid cultivars have been introduced'. UF/IFAS EP477: 'Scientific name: Spathiphyllum spp.' NC State lists S. wallisii cultivars and genus-level cultivars. No source says 'most often S. wallisii' directly: wording to check."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 12 Nov: not climate-dependent. The owner question on which cultivars the grower supplies (store titles say 'Wallisii' for 30–150 cm) is in c25."
+      },
+      "status": "corrected",
+      "change": "12 Nov: 'Spathiphyllum (most often S. wallisii and its hybrid cultivars)' → 'Spathiphyllum (species and hybrid cultivars)' (Clemson, UF EP477)."
+    },
+    {
+      "id": "c02",
+      "where": "other_names",
+      "claim": "Other names: Spathe flower, White sails (English); زنبق السلام and الأشرعة البيضاء (Arabic).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://www.wikidata.org/wiki/Q761494",
+          "https://www.wikidata.org/wiki/Q132632"
+        ],
+        "note": "Verifier 12 Nov: NC State common names: Peace Lily, Spathe Flower, White Sails. Wikidata Q761494 (S. wallisii) Arabic label الأشرعة البيضاء; Wikidata Q132632 (genus) Arabic label زنبق السلام, now added. | Writer: NC State common names: Peace Lily, Spathe Flower, White Sails. Wikidata Q761494 Arabic label: الأشرعة البيضاء."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 12 Nov: Owner: confirm which Arabic name UAE customers use (زنبق السلام, الأشرعة البيضاء or another)."
+      },
+      "status": "needs_local",
+      "change": "12 Nov: added زنبق السلام (Wikidata genus label)."
+    },
+    {
+      "id": "c03",
+      "where": "entity_ids",
+      "claim": "Wikidata Q132632 is the genus Spathiphyllum; its POWO id is urn:lsid:ipni.org:names:30003632-2.",
+      "g": {
+        "verdict": "contradicted",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q761494",
+          "https://www.ipni.org/n/89011-1",
+          "https://www.wikidata.org/wiki/Q132632",
+          "https://www.ipni.org/n/30003632-2"
+        ],
+        "note": "Verifier 12 Nov: The guide covers the genus, but the ids were for the species S. wallisii (Q761494, IPNI 89011-1). Wikidata Q132632 = genus Spathiphyllum, P5037 urn:lsid:ipni.org:names:30003632-2; IPNI API: 'Spathiphyllum Schott', rank gen., inPowo true. POWO page itself 403 (not opened). | Writer: Wikidata Q761494: P225 Spathiphyllum wallisii, P5037 (POWO) urn:lsid:ipni.org:names:89011-1, P961 (IPNI) 89011-1, P846 (GBIF) 2869680. The page covers the genus; the ids are for the species most stores name."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 12 Nov: Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "12 Nov: entity_ids Q761494 / 89011-1 (species) → Q132632 / 30003632-2 (genus)."
+    },
+    {
+      "id": "c04",
+      "where": "quick_answer, quick_facts.Light, care_sections.light, fit, faqs.low-light",
+      "claim": "Best in bright indirect light; no direct sun; tolerates low light and is one of the few foliage plants that flower in low light, but grows and flowers less in a dim spot.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://edis.ifas.ufl.edu/publication/EP477"
+        ],
+        "note": "Verifier 12 Nov: Clemson, NC State, UF EP477 quotes confirmed on the pages. | Writer: Clemson: 'will tolerate low light conditions but grow best in bright indirect light. They should not be placed in direct sun as the heat will scorch the foliage'; 'one of the few foliage plants that will flower in low light'; 'Lack of flowering usually occurs when plants are less than a year old or are growing in insufficient light.' NC State: 'prefer partial to deep shade. Do not place plants in direct sun.' UF EP477: 'Bright, indirect light. No direct sun.'"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 12 Nov: Baseline sun-through-glass: tinted glazing lowers light, so a bright indirect spot near a window is right; no-direct-sun rule fits strong UAE sun.",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json"
+        ]
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c05",
+      "where": "care_sections.light, problems[3], mistakes",
+      "claim": "Too much light bleaches the leaves pale (often mistaken for a nutrient deficiency); direct sun scorches them; in the UAE keep the plant back from west- and south-facing glass or use a sheer curtain.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP161",
+          "https://hgic.clemson.edu/factsheet/peace-lily/"
+        ],
+        "note": "Verifier 12 Nov: UF EP161: 'Excessive light bleaches leaves ... often misidentified as a nutrient deficiency'; Table 3 'These plants will sunburn'. Clemson: direct sun heat scorches foliage. 'Scorched patches do not heal' had no source and was removed. | Writer: UF/IFAS ENH958: 'Excessive light bleaches leaves and the resulting pale color is often misidentified as a nutrient deficiency.' Table 3: 'These plants will sunburn... remove the plant from direct sunlight.' Clemson: direct sun heat will scorch the foliage. Scorched patches not healing: no primary source opened."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 12 Nov: Baseline sun-through-glass is low confidence. Owner: confirm that scorch near west- and south-facing glass is what customers report.",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json"
+        ]
+      },
+      "status": "needs_local",
+      "change": "12 Nov: 'Cut off badly scorched leaves at the base. Scorched patches do not heal.' → 'Trim leaves that have died back at the base (UF/IFAS)'."
+    },
+    {
+      "id": "c06",
+      "where": "quick_answer, quick_facts.Water, care_sections.watering, mistakes",
+      "claim": "Water when the top of the soil feels dry; keep the soil moist but not soggy and let it dry slightly between waterings; no fixed schedule. Reader test: fingertip in the top of the soil, or lift the pot. Drying is faster in small or terracotta pots, warm bright rooms and summer; slower in large or plastic pots, cool AC rooms, humid coastal homes and winter.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://edis.ifas.ufl.edu/publication/EP477",
+          "clemson-water",
+          "https://hgic.clemson.edu/factsheet/indoor-plants-watering/"
+        ],
+        "note": "Verifier 12 Nov: Clemson HGIC 1459 (opened): 'no pat answer'; finger in the mix 'up to the first joint'; 'Estimate weight'; clay pot dries faster than plastic; 'A large plant in a small pot needs water more often'; 'warm, dry, sunny location needs more frequent watering than one in a cool, low-light environment'. NC State: 'allow it to dry between waterings' (not 'slightly'; that is Clemson). No number given. | Writer: NC State: 'Keep the soil moist, but not soggy; allow it to dry between waterings.' Clemson: 'Soil should be kept moist but not soggy and allowed to dry out slightly between waterings.' UF EP477: 'Keep moist, but do not allow Spathiphyllum to sit in water.' ENH958: 'keep container substrates moist during periods when temperatures exceed 80°F'. 'Top of the soil' depth, the pot-weight test and the drying factors are general practice, not from these pages. No number given (subjective-value rule)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 12 Nov: Rule, reader test and factors only; humid coastal homes and winter slowing drying follow baseline indoor-ac and seasons. Nothing the owner needs to settle.",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json"
+        ]
+      },
+      "status": "corrected",
+      "change": "12 Nov: attribution fixed ('both say ... dry slightly' → 'dry between waterings (Clemson says slightly)'); reader test and drying factors now sourced to Clemson HGIC 1459."
+    },
+    {
+      "id": "c07",
+      "where": "care_sections.watering, mistakes, first_week",
+      "claim": "Water thoroughly until water runs out of the drainage hole, then empty the saucer; a pot standing in water leads to root rot; watering from below works very well.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://hgic.clemson.edu/factsheet/indoor-plants-watering/"
+        ],
+        "note": "Verifier 12 Nov: Clemson HGIC 1459: 'Apply water until it runs out of the bottom of the pot ... Empty the saucer.' Clemson HGIC 1512: saucer of water leads to root rot. NC State: watering from below works very well. | Writer: Clemson: 'After watering, never let the plant sit in a saucer of excess water, as this will lead to root rot issues.' NC State: 'Watering from below works very well for peace lilies.' 'Until water runs out of the hole' is general practice."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 12 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c08",
+      "where": "care_sections.watering, problems[2]",
+      "claim": "The peace lily is not salt tolerant. UAE tap water is desalinated and remineralised and varies; flush the pot if a white crust or brown tips appear, or use filtered water.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP477",
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "clemson-disorders",
+          "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/"
+        ],
+        "note": "Verifier 12 Nov: UF EP477 HTML: 'Salt tolerant: No.' (indoor and outdoor). Clemson HGIC 2251: 'White to grey crusty deposits on the soil surface or rim of pots is a sign of salt buildup'; 'Drench plants with water periodically to leach some of the salts'; 'Remove salt crusts from the soil surface and add fresh soil'. 'Use filtered water' had no primary source and was removed. | Writer: UF EP477: 'Salt tolerant: No.' NC State: 'flush soil between applications of fertilizer. Over-fertilizing and salt build-up can burn the leaf tips and roots.'"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 12 Nov: Baseline tap-water: hardness varies; advice tied to visible crust or brown tips, as the baseline asks.",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json"
+        ]
+      },
+      "status": "corrected",
+      "change": "12 Nov: 'or use filtered water' (no source) → 'scrape off the crust and add fresh potting mix' (Clemson HGIC 2251), in the watering section and the brown tips fix."
+    },
+    {
+      "id": "c09",
+      "where": "care_sections.watering.tips, problems[0], mistakes",
+      "claim": "Underwatering is the most common problem; a thirsty plant can wilt to the soil and usually recovers within hours of a thorough watering; frequent drooping leads to brown tips and edges; late-day drooping in bright light and warmth with moist soil can be normal.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP161"
+        ],
+        "note": "Verifier 12 Nov: UF EP161 quotes confirmed: underwatering most common problem; 'droops to soil level'; 'resurrect in a matter of hours'; late-day droop above 80–85°F with moist mix is normal; frequent drooping gives brown tips and edges. 'Move it to a slightly less bright spot' had no source and was removed; 'within hours' now names UF/IFAS in the fix step. | Writer: ENH958: 'The most common problem is underwatering which causes the entire plant to severely wilt or... \"crash.\"' Table 3: 'Plants will resurrect in a matter of hours... Plants may droop in the late day if they are in bright light and temperatures are above 80-85°F even though potting mix is moist. This is normal. However, frequent drooping will result in brown tips and edges.' Note: ENH958 is a commercial production guide (interiorscape section)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 12 Nov: Late-day droop is more likely in warm, bright UAE rooms; advice is not climate-limited."
+      },
+      "status": "corrected",
+      "change": "12 Nov: removed 'Move it to a slightly less bright spot.'; fix step now says 'UF/IFAS says the plant usually stands up again within hours'."
+    },
+    {
+      "id": "c10",
+      "where": "care_sections.watering.tips",
+      "claim": "Use water at room temperature.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/peace-lily/"
+        ],
+        "note": "Verifier 12 Nov: Clemson HGIC 1512: 'it is best to use room temperature water.' HGIC 1459: 'Do not water with hot or cold water'. | Writer: Clemson: 'When watering, it is best to use room temperature water.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 12 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c11",
+      "where": "quick_facts.Temperature, care_sections.temperature, faqs.outdoors",
+      "claim": "Prefers 20–29 °C during the day with nights a little cooler; most UAE AC homes and offices are within that range.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://edis.ifas.ufl.edu/publication/EP161"
+        ],
+        "note": "Verifier 12 Nov: NC State 68–85°F, 10-degree night drop; Clemson 68–85°F, nights 10°F cooler; UF EP161 Table 3 68–85°F (20–29.4 °C). 68°F = 20 °C, 85°F = 29.4 °C. | Writer: NC State: 'warm conditions between 68 and 85 degrees F during the day and no more than a 10-degree drop at night.' Clemson: '68 and 85 °F and nighttime temperatures about 10 °F cooler.' ENH958: 'Keep daytime temperatures between 68 and 85°F (20 and 29.4°C) with a 5°F drop at night.' UF EP477: 'Warm, tropical, 75°F–85°F.'"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 12 Nov: Baseline indoor-ac: design target about 22–24 °C, inside the range.",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json"
+        ]
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c12",
+      "where": "quick_facts.Temperature, care_sections.temperature, problems[5]",
+      "claim": "Lower limits differ by source: Clemson, avoid below about 16 °C; UF/IFAS, chilling injury in some cultivars at about 7 °C and slower growth after five days at about 11 °C, growth reduced at or below 10 °C; NC State, long periods below about 4 °C damage leaves, stems and roots.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://edis.ifas.ufl.edu/publication/EP161",
+          "https://edis.ifas.ufl.edu/publication/EP477",
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/"
+        ],
+        "note": "Verifier 12 Nov: Clemson: avoid below 60°F (15.6 °C). UF EP161: 45°F (7.2 °C) chilling injury in some cultivars; 52°F (11.1 °C) for five days delayed growth. UF EP477: active growth reduced at or below 50°F (10 °C); some cultivars injured at 35°F (1.7 °C). NC State: 40–60°F slows growth; extended periods below 40°F (4.4 °C) damage. The guide names each source; the 7 °C quick fact is from EP161. | Writer: Clemson: 'Try to avoid temperatures below 60 °F as cold damage may occur.' ENH958: 'exposure to 45°F could cause chilling injury in some cultivars, and delayed or reduced growth occurred when plants were exposed to 52°F for five days.' EP477: 'active growth is reduced at or below 50°F'; 'some cultivars can be injured at 35°F'. NC State: '40 to 60 degrees F, will slow growth considerably. Extended periods below 40 degrees F can damage leaves, stems and roots.' Conversions: 60°F=15.6 °C, 52°F=11.1 °C, 50°F=10 °C, 45°F=7.2 °C, 40°F=4.4 °C."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 12 Nov: Baseline inland-winter (lows 3–5 °C most winters) and gcc-winter (Riyadh/Kuwait 7–10 °C): the guide limits cold advice to inland and colder GCC homes near cold windows.",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json"
+        ]
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c13",
+      "where": "quick_facts.AC, care_sections.temperature, care_sections.placement, problems[5], mistakes, first_week",
+      "claim": "Keep the plant out of the direct airflow of AC and heater vents; cold drafts cause stunted growth and black areas that start at the leaf tips; mature leaves are more sensitive.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://edis.ifas.ufl.edu/publication/EP161"
+        ],
+        "note": "Verifier 12 Nov: Clemson: vents blowing directly 'hot, cold, or drafty exposures will damage the plant'. UF EP161 Table 3: stunted growth, black areas from tips inward, 'Mature leaves are more sensitive than new leaves'; cause 'Cold and drafts or extended periods below 45°F (7.2°C)'. No distance given. | Writer: Clemson: 'Do not place them where heat or air-conditioning vents blow directly on the plants as hot, cold, or drafty exposures will damage the plant.' ENH958 Table 3: 'Stunted growth, black areas on leaves and death of some roots. Injury usually begins at leaf tips and progresses inward... Mature leaves are more sensitive than new leaves' — cause 'Cold and drafts or extended periods below 45°F'. No distance given (subjective-value rule)."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 12 Nov: Baseline ac-vents is low confidence (nursery experience). Owner: confirm that AC draughts damage peace lilies in customers' homes (same item as snake-plant c13).",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json"
+        ]
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c14",
+      "where": "care_sections.temperature, uae_year.Summer, faqs.outdoors, quick_facts.Outdoors in UAE",
+      "claim": "UAE summer days outdoors are far above the preferred range; UF/IFAS lists light and heat above about 32 °C as a cause of curled, pale, burnt leaves and sparse flowering, so the plant belongs indoors in summer.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP161"
+        ],
+        "note": "Verifier 12 Nov: UF EP161 Table 3: curled, pale, burned margins and tips, sparse flowering; cause 'Excess light or temperature'; reduce temperature to 90°F (32.2 °C) or lower. | Writer: ENH958 Table 3: 'Leaves may be curled, pale, and chlorotic to necrotic. Often leaves have burned margins and tips, and flowering is sparse.' Cause: 'Excess light or temperature.' Treatment: 'reduce... the temperature to 90°F (32.2°C) or lower.'"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 12 Nov: Baseline summer-heat: Dubai Jun–Sep highs about 41–42 °C, lows 29–32 °C, far above 32 °C.",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json"
+        ]
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c15",
+      "where": "quick_facts.Humidity, care_sections.humidity",
+      "claim": "Low humidity is one cause of brown leaf tips, with direct sun and underwatering; humidity under AC varies; a hygrometer shows the real value.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/"
+        ],
+        "note": "Verifier 12 Nov: NC State: 'Brown leaf tips are caused by excessive direct sunlight, underwatering, or low humidity.' Clemson HGIC 2251 also lists hot, dry air. Hygrometer is a reader test. | Writer: NC State: 'Brown leaf tips are caused by excessive direct sunlight, underwatering, or low humidity.' The hygrometer suggestion is a reader test, not from a source."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 12 Nov: Baseline indoor-ac: AC rooms not reliably dry; no 'dry AC air' claim.",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json"
+        ]
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c16",
+      "where": "quick_facts.Soil, care_sections.soil",
+      "claim": "Use a potting mix high in organic matter that holds moisture but drains well, such as peat- or bark-based bagged potting soil, in a pot with a drainage hole.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://edis.ifas.ufl.edu/publication/EP477",
+          "https://hgic.clemson.edu/factsheet/peace-lily/"
+        ],
+        "note": "Verifier 12 Nov: NC State: potting mix high in organic matter; drainage good, moist. UF EP477: 'Rich, organic peat or bark-based, bagged potting soil.' Clemson: well-drained mix. | Writer: NC State: 'Use a potting mix high in organic matter'; attributes: soil drainage 'Good Drainage, Moist', pH acid (<6.0). UF EP477: 'Rich, organic peat or bark-based, bagged potting soil.' Clemson: 'will flourish in almost any well-drained potting mix.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 12 Nov: Not climate-dependent. Product suitability is a store matter, not checked here."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c17",
+      "where": "care_sections.soil (paragraphs and steps), mistakes, myths[3], uae_year",
+      "claim": "Likes to be slightly pot-bound; repot when roots grow through the drainage holes or circle on top of the soil; go up only 2.5–5 cm (1–2 inches); a much larger pot keeps the mix too wet and leads to root rot; loosen the roots gently. NC State: repot in February or March; Clemson: any time, faster recovery in the growing season. Steps: same depth, water thoroughly after.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "clemson-repot",
+          "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/"
+        ],
+        "note": "Verifier 12 Nov: Clemson HGIC 1512 quotes confirmed (slightly pot-bound, roots through holes or circling, 1–2 in larger, too large keeps mix wet, any time but faster recovery in growing season, loosen roots). NC State: Feb or March. Clemson HGIC 1458 (opened): 'Do not add soil above the original level on the rootball'; 'Water well so excess water drains out of the pot.' The two steps were unsourced and now name HGIC 1458. | Writer: Clemson: 'Peace lilies like to be slightly pot-bound, but it is time to repot if roots start growing through the drainage holes or circle on top of the soil surface. Choose a container that is just one to two inches larger... Using too large of a pot may keep the potting mix too wet, leading to root rot. Repotting can be done any time of the year, but the plant will recover quicker if repotted during the growing season. Be sure to loosen the root system gently'. NC State: 'requires a large pot and should be kept somewhat pot-bound... Re-pot, when necessary, in February or March.' 'Same depth' and 'water thoroughly after repotting' are general practice, not from these pages."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 12 Nov: Baseline seasons: repotting in the cooler months; Feb–Mar is before the summer heat.",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json"
+        ]
+      },
+      "status": "corrected",
+      "change": "12 Nov: repot steps 'same depth' and 'water thoroughly' now sourced to Clemson HGIC 1458 in the text; spring card 'if roots fill the pot' → 'if roots grow through the drainage hole' (Clemson's sign)."
+    },
+    {
+      "id": "c18",
+      "where": "quick_facts.Feeding, care_sections.fertiliser, problems, mistakes, uae_year",
+      "claim": "Needs very little fertiliser: Clemson, balanced liquid at one-quarter strength every six to eight weeks in spring and summer; UF/IFAS, low dose three times a year; NC State, flush between feeds; too much burns leaf tips and roots. Stop feeding in winter.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://edis.ifas.ufl.edu/publication/EP477",
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://edis.ifas.ufl.edu/publication/EP161"
+        ],
+        "note": "Verifier 12 Nov: Clemson: balanced liquid 20-20-20 at one-quarter strength every six to eight weeks in spring and summer; overfertilising burns tips and roots. UF EP477: low dose three times per year. NC State: one-quarter strength, flush between feeds. 'Stop feeding in winter' follows Clemson's spring-and-summer window and NC State (pothos/palms) practice of no winter feeding. | Writer: Clemson: 'use a balanced, liquid houseplant fertilizer, such as 20-20-20, every six to eight weeks during the spring and summer growing season. When mixing, use one-quarter of the recommended strength. Overfertilizing... can cause the leaf tips and roots to burn'. EP477: 'Apply a low dose of liquid fertilizer according to manufacturer instructions three times per year.' NC State: 'Fertilize at one-quarter of the recommended strength and flush soil between applications'. ENH958: 'Avoid over-fertilizing, as high soluble salts will burn leaf tips and margins.' 'Stop in winter' is inferred from 'spring and summer'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 12 Nov: Sources' feeding window is followed; no UAE-specific number added. Nothing the owner needs to settle."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c19",
+      "where": "quick_facts.Flowers, care_sections.flowering, problems[4], myths, uae_year.Spring",
+      "claim": "Lack of flowering usually means the plant is under a year old or has too little light; growers widely use gibberellic acid to bring plants into flower; in Florida production most cultivars flower naturally only from January to August; many peace lilies flower in spring.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://edis.ifas.ufl.edu/publication/EP161"
+        ],
+        "note": "Verifier 12 Nov: Clemson: lack of flowering when under a year old or in insufficient light. UF EP161: 'Most Spathiphyllum cultivars only flower from January to August'; GA3 'widely used in flower induction'; Table 3: plants 9–15 months old usually bloom Feb–Apr. EP477: 'Most Spathiphyllum are seen in flower when at market'. These are Florida production data; the guide now says so. | Writer: Clemson: 'Lack of flowering usually occurs when plants are less than a year old or are growing in insufficient light.' ENH958: 'Most Spathiphyllum cultivars only flower from January to August. In order to have a year-round flowering, a foliar spray of gibberellic acid (GA3...) at a concentration of 250 ppm has been widely used in flower induction.' Table 3: 'Plants grown for 9 to 15 months will usually bloom between February and April'. These are Florida production data."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 12 Nov: Owner: UAE indoor flowering season is not known. Confirm whether customers' plants reflower in spring."
+      },
+      "status": "needs_local",
+      "change": "12 Nov: 'Most cultivars flower naturally from January to August (UF/IFAS)' → 'In Florida production, most cultivars ...' in quick facts, flowering section and the not-flowering fix."
+    },
+    {
+      "id": "c20",
+      "where": "quick_facts.Flowers, care_sections.flowering, faqs.green-flowers, faqs.cut-flowers, myths[2]",
+      "claim": "Flowers are white spathes that turn pale green as they age (normal); they stay white for about 10 days and then stay attractive for at least another month; trim dead flowers and leaves as soon as possible; cut the stalk low down with clean scissors.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://edis.ifas.ufl.edu/publication/EP161"
+        ],
+        "note": "Verifier 12 Nov: NC State: white, pale green after 10 days, lovely for at least another month. Clemson: turn pale green as they age. UF EP161: trim dead blooms and leaves as soon as possible. 'Cut the stalk low down' and 'once it turns brown' had no primary source (web search found only blogs) and were removed. | Writer: NC State: 'showy, white blooms that change to pale green after 10 days and then remain lovely for at least another month.' Clemson: 'The long-lasting, pure white flowers will turn a pale green as they age.' ENH958: 'individual blooms may last for a month or so. Trim dead blooms and leaves as soon as possible.' 'Cut the stalk low down' and 'once it turns brown' are general practice, not from these pages."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 12 Nov: Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "12 Nov: FAQ cut-flowers 'Cut the flower stalk low down, near where it comes out of the plant' removed; FAQ green-flowers 'Cut a flower off once it turns brown' → 'UF/IFAS advises trimming dead flowers as soon as possible'."
+    },
+    {
+      "id": "c21",
+      "where": "faqs.real-lily",
+      "claim": "The white 'flower' is a spathe, a modified leaf around a spike (spadix) of tiny true flowers.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://edis.ifas.ufl.edu/publication/EP161"
+        ],
+        "note": "Verifier 12 Nov: NC State: spathe is a modified leaf; inflorescence spadix. UF EP161: 'white, hood-shaped spathe sheltering a cream/white spadix covered with bisexual flowers'; 'tiny true flowers on the spadix'. | Writer: NC State: 'the prominent spathe, which is a modified leaf.' ENH958: 'From an ornamental viewpoint, the spathes and spadices are called flowers rather than the tiny true flowers on the spadix.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 12 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c22",
+      "where": "care_sections.propagation (paragraph and steps)",
+      "claim": "Division is the recommended way to propagate; basal shoots can be separated from the parent and potted; divide when you repot. Steps: remove from pot, separate pieces each with leaves and roots, pot separately, water, bright indirect light.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://edis.ifas.ufl.edu/publication/EP161"
+        ],
+        "note": "Verifier 12 Nov: NC State: recommended propagation 'Division'. UF EP161: 'Basal shoots can be separated from mother plants and potted in container substrates.' Steps restate this. | Writer: NC State: 'Recommended Propagation Strategy: Division'. ENH958: 'Propagation can be accomplished through division, tissue culture, or seed germination. Basal shoots can be separated from mother plants and potted in container substrates.' Step details are general practice."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 12 Nov: Timing follows c17 (Feb–Mar, before summer)."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c23",
+      "where": "care_sections.placement, problems[6]",
+      "claim": "Wipe the wide leaves with a damp cloth to remove dust and some pests.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://edis.ifas.ufl.edu/publication/EP161",
+          "https://hgic.clemson.edu/factsheet/peace-lily/"
+        ],
+        "note": "Verifier 12 Nov: NC State, UF EP161 and Clemson damp-cloth quotes confirmed. | Writer: NC State: 'cleaning the leaves regularly with a damp cloth to remove dust will help its appearance and remove some pests'. ENH958: 'Wipe with a damp cloth to remove dust and the occasional pest.' Clemson: 'wipe leaves regularly with a damp cloth'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 12 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c24",
+      "where": "care_sections.placement, fit",
+      "claim": "Suits living rooms, bedrooms, office desks and reception areas with bright indirect light; large cultivars make floor plants, small ones suit desks and shelves.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://hgic.clemson.edu/factsheet/peace-lily/"
+        ],
+        "note": "Verifier 12 Nov: NC State: specimens or accents in interior groupings; light needs per c04. UF EP477: sizes from 4-inch pots to 7-gallon specimens, so floor and desk sizes exist. | Writer: NC State: popular 'as specimens or accents in interior groupings'. Room list is general."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 12 Nov: Follows c04, c05, c13, c14."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c25",
+      "where": "varieties",
+      "claim": "'Sensation': very large, dark green ribbed leaves; 'Mauna Loa Supreme': medium, glossy lance-shaped leaves; 'Domino': dark green leaves streaked with white; 'Wallisii': small and compact with smaller flowers. Care is the same; small pots dry faster.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://edis.ifas.ufl.edu/publication/EP161",
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/"
+        ],
+        "note": "Verifier 12 Nov: Clemson: 'Sensation' largest, 6 ft, dark green, ribbed; 'Mauna Loa Supreme' medium, 2–3 ft, glossy lance-shaped; 'Domino' dark green, white streaks; 'Wallisii' 12–15 in, 3-inch blooms. UF EP161: 'Sensation' enormous ribbed leaves. 'Same care' is not stated by a source but no source gives different care; 'small pots dry out faster' is Clemson HGIC 1459. | Writer: Clemson: 'Sensation' 'largest of all commercially produced peace lilies... 6 feet... dark green with a tough, ribbed texture'; 'Mauna Loa Supreme' 'medium-sized... 2 to 3 feet... glossy, lance-shaped leaves'; 'Domino' 'shiny, ruffled, dark green leaves speckled with white streaks'; 'Wallisii' 'small, compact... 12 to 15 inches... delicate, 3-inch blooms'. ENH958: 'Sensation' 'Plant can reach 4 feet tall'; NC State: 'over 5 feet tall'. 'Same care' is not stated by any source."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 12 Nov: Owner: which of these cultivars PlantsWorld sells; store titles name 'Wallisii' for plants up to 150 cm, which does not match Clemson's 30–38 cm 'Wallisii'."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c26",
+      "where": "quick_facts.Size indoors, faqs.size",
+      "claim": "Most peace lilies grow 30 cm to 1.2 m tall and wide; indoors they typically reach about 90 cm; large cultivars such as 'Sensation' grow bigger and dwarf types stay small.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/"
+        ],
+        "note": "Verifier 12 Nov: Clemson: most 1–4 ft tall and wide, a few to 6 ft. NC State: typically 3 ft indoors; dwarf cultivars available. | Writer: Clemson: 'Most peace lilies grow between 1 to 4 feet tall and wide, but a few cultivars may get as large as 6 feet'. NC State: 'can grow up to 6 feet tall, they more typically reach 3 feet high and wide in an indoor setting. Dwarf cultivars are available.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 12 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c27",
+      "where": "pet_safety, quick_facts.Pets, fit",
+      "claim": "Toxic to cats and dogs (ASPCA): insoluble calcium oxalates cause oral irritation, intense burning of mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. NC State lists it as a problem for children. Emergency: call a vet; for a child, contact a doctor.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/"
+        ],
+        "note": "Verifier 12 Nov: ASPCA (opened): 'Toxic to Dogs, Toxic to Cats'; 'Insoluble calcium oxalates'; 'Oral irritation, intense burning and irritation of mouth, tongue and lips, excessive drooling, vomiting, difficulty swallowing.' ASPCA: call poison control or your local veterinarian. NC State tags: problem for children. Guide text matches. | Writer: ASPCA: 'Toxic to Dogs, Toxic to Cats'; 'Insoluble calcium oxalates'; clinical signs as quoted. NC State: 'medium severity poison characteristics'; tags problem for cats, dogs, horses, children; 'Leaves poisonous if eaten in large quantities'; symptoms 'severe pain in the mouth and a burning sensation to the lips, tongue, and throat, excessive drooling, vomiting... difficulty swallowing'. The emergency step is general advice."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 12 Nov: Vet or 24-hour clinic advice applies in the UAE; no UAE-specific number is given."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c28",
+      "where": "myths[0], myths[1], faqs.real-lily",
+      "claim": "A peace lily is not a true lily but a member of the arum family (Araceae), with anthuriums and callas. True lilies are a different risk: ASPCA lists kidney failure in cats from Easter lily.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/easter-lily",
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/"
+        ],
+        "note": "Verifier 12 Nov: Clemson: not true lilies; Araceae with anthuriums and callas. ASPCA Easter lily (Lilium longiflorum, Liliaceae): toxic to cats; kidney failure, death possible; cats only species affected. | Writer: Clemson: 'They are not true lilies but a member of the Araceae family, which also includes caladiums, elephant ears, anthuriums, and callas.' ASPCA Easter lily (Liliaceae): 'Toxic to Cats'; 'Vomiting, inappetence, lethargy, kidney failure, and death is possible. Cats are only species known to be affected.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 12 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c29",
+      "where": "faqs.air",
+      "claim": "A peace lily does not noticeably clean the air of a normal room; chamber results do not scale to homes; a 2019 review (Cummings & Waring) concluded a home would need far more plants than anyone keeps to match normal ventilation.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://doi.org/10.1038/s41370-019-0175-9",
+          "https://drexel.edu/news/archive/2019/November/potted-plants-do-not-improve-air-quality",
+          "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41370-019-0175-9&resultType=core"
+        ],
+        "note": "12 Nov re-check (abstract opened, Europe PMC, PMID 31695112): 12 chamber studies, 196 results; median single-plant CADR 0.023 m3/h, 'necessitating the placement of 10-1000 plants/m2 of a building's floor space' to match outdoor-to-indoor air exchange in typical buildings (~1 h-1). Primary-source figure: 10-1,000 plants per m2. The Drexel news release (opened 12 Nov) says 'between 100 and 1,000 plants per square meter'; that is the press office's rounding, not the paper. Use the paper's figure if a number is shown. The guide gives no number, so no text change. Snake-plant c23 and areca c25 now also record 10-1,000. Writer: Crossref record opened for the title, journal and date (6 Nov 2019); the abstract was not available (publisher login, PubMed blocked). Drexel news release (fetched): 'it would take between 100 and 1,000 plants per square meter of floor space'; 'reviewed a dozen studies, spanning 30 years'. The snake-plant ledger records 10–1,000 per m²: verifier to check the number in the paper. The guide gives no number. Clemson calls the peace lily 'air-purifying'; the guide does not repeat it."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 12 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c30",
+      "where": "problems[6]",
+      "claim": "White cotton is mealybugs, probably the most common insect indoors; spider mites, scale and fungus gnats are also possible. Fix: isolate, wipe with a damp cloth, remove bugs with a cotton bud, for heavy infestations use a houseplant pesticide and follow the label.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://edis.ifas.ufl.edu/publication/EP477",
+          "clemson-pests",
+          "https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/"
+        ],
+        "note": "Verifier 12 Nov: NC State: mealybugs probably the most common insect indoors. Clemson HGIC 1512: fungus gnats, mealybugs, spider mites, scales. Clemson HGIC 2252 (opened): 'isolate any plant suspected of being infested'; mealybugs on lower leaf surfaces and in leaf axils, honeydew; 'wiping each insect with a cotton swab dipped in rubbing alcohol'; 'An insecticidal soap spray may also be used'; 'Before using a pesticide indoors, be sure that the label specifies that use'. | Writer: NC State: 'Mealybugs are probably the most common insect indoors.' Clemson: 'fungus gnats, mealybugs, spider mites, and scales can be problematic'; 'Use pesticides only according to the directions on the label.' EP477 indoor pests: 'Mealybug, scale'. Cotton bud removal and isolation are general practice."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 12 Nov: Not climate-dependent. Product label not checked (store matter)."
+      },
+      "status": "corrected",
+      "change": "12 Nov: 'remove the bugs with a cotton bud' (unsourced) → 'cotton bud dipped in rubbing alcohol' (Clemson HGIC 2252); 'a pesticide made for houseplant pests' → 'insecticidal soap ... label allows indoor use on houseplants' (HGIC 2252); isolation now sourced."
+    },
+    {
+      "id": "c31",
+      "where": "problems[1]",
+      "claim": "Yellow leaves come from soil that dried out too much, or from overwatering (root and stem diseases are the most common problem); yellow between green veins can point to magnesium deficiency; yellow leaves do not turn green again.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://edis.ifas.ufl.edu/publication/EP161"
+        ],
+        "note": "Verifier 12 Nov: Clemson HGIC 1512: dry soil gives yellow leaves and edges; root and stem diseases from overwatering most common; Mg deficiency gives yellow between green veins. UF EP161 Table 3: 'Magnesium additives are needed if chlorosis is only on the lower leaf margins'; 'Trim dead blooms and leaves'. 'Yellow leaves do not turn green again' had only blog support and is not true for every cause (nutrient chlorosis can recover), so it was removed. 'Feed with a balanced fertiliser' did not match a magnesium deficiency. | Writer: Clemson: 'If the soil is allowed to dry out excessively, the plant will wilt, and the leaves and edges will turn yellow'; 'Root and stem diseases are the most common problem and are usually associated with over-watering'; 'A magnesium deficiency can cause plants to become stunted. Leaf tissue between the veins may turn yellow while veins remain green.' ENH958: chlorotic leaves from nutrient deficiency, frequently in winter when soil is cold; saturated medium gives wilting and black root tips. 'Do not turn green again' is from secondary web results only."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 12 Nov: Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "12 Nov: 'Cut yellow leaves off ... They do not turn green again.' → 'Trim dead leaves ... (UF/IFAS)'; 'feed lightly with a balanced fertiliser' → 'a houseplant fertiliser that lists magnesium (Mg), at quarter strength' (Clemson, UF EP161)."
+    },
+    {
+      "id": "c32",
+      "where": "problems[2]",
+      "claim": "Brown tips: direct sun, underwatering, low humidity, too much fertiliser and salt build-up, and frequent drooping.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://edis.ifas.ufl.edu/publication/EP161",
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/"
+        ],
+        "note": "Verifier 12 Nov: NC State, UF EP161 and Clemson quotes confirmed; Clemson HGIC 2251 adds hot, dry air and salt accumulation. 'Trim the brown tips with clean scissors, following the leaf shape' had no primary source (web search: blogs only) and was removed. | Writer: NC State: brown tips from 'excessive direct sunlight, underwatering, or low humidity'; salt build-up burns tips. ENH958: 'frequent drooping will result in brown tips and edges'; 'high soluble salts will burn leaf tips and margins'. Clemson: 'edges of the leaves can turn brown by overfertilization or by excessive drying.'"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 12 Nov: Flushing tied to visible crust, as baseline tap-water asks.",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json"
+        ]
+      },
+      "status": "corrected",
+      "change": "12 Nov: removed fix step 'Trim the brown tips with clean scissors, following the leaf shape.'"
+    },
+    {
+      "id": "c33",
+      "where": "problems[0]",
+      "claim": "Waterlogged soil can also make the leaves wilt, with dark root tips and brown leaf edges.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP161",
+          "https://hgic.clemson.edu/factsheet/indoor-plants-watering/"
+        ],
+        "note": "Verifier 12 Nov: UF EP161 Table 3: wilt or collapse, necrosis along margins, sparse roots with black tips; cause saturated medium; 'Reduce irrigation frequency'. Clemson HGIC 1459: wilting from root rot, watering may make it worse. | Writer: ENH958 Table 3: 'Leaves wilt or collapse and sometimes develop necrosis along leaf margins. Roots are sparse, sometimes with black tips' — cause 'Saturated soil medium', 'more likely to occur during cold weather'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 12 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c34",
+      "where": "faqs.outdoors",
+      "claim": "Best kept indoors in the UAE: no direct sun, not salt tolerant, summer far above 20–29 °C. A fully shaded, sheltered spot in the cooler months is possible on the coast; bring it in before summer and cold inland nights.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP477",
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/"
+        ],
+        "note": "Verifier 12 Nov: UF EP477 outdoor: zones 10B–12; no direct sun; salt tolerant: No. | Writer: EP477 outdoor: 'Okay for USDA Hardiness Zones 10B–12'; 'Light requirement: No direct sun'; 'Salt tolerant: No.'"
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 12 Nov: Coastal lows about 14–16 °C (baseline coastal-winter) are slightly below Clemson's 16 °C. Owner: confirm that shaded outdoor peace lilies do well on the UAE coast Oct–Apr.",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json"
+        ]
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c35",
+      "where": "fit",
+      "claim": "Fit lists: flowers without a sunny window; suits medium light and AC rooms; shows thirst by drooping; good gift plant; toxic if chewed; tolerates drought only a little; no direct sun.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://edis.ifas.ufl.edu/publication/EP477",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily"
+        ],
+        "note": "Verifier 12 Nov: UF EP477: 'Drought tolerant: Slightly tolerant.' Other items restate c04, c09, c11, c13, c27, all supported. | Writer: EP477: 'Drought tolerant: Slightly tolerant.' Other items restate c04, c09, c11, c13, c27."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 12 Nov: Same UAE checks as c04 and c13; the gift line is a use, not a fact."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c36",
+      "where": "first_week",
+      "claim": "Plants react to a large change in their surroundings; some drooping after delivery is common; check the soil and water if dry; do not repot while the plant is in flower or still drooping, repot later when roots grow through the drainage hole.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/",
+          "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+          "clemson-disorders",
+          "clemson-repot"
+        ],
+        "note": "Verifier 12 Nov: Clemson HGIC 2251: plants react to 'a significant change in environment' (some leaf drop). Clemson HGIC 1458: 'Do not repot ailing or dormant plants or those beginning to flower.' Drooping after delivery is from KB057 (store experience). The 'a few days' and 'a few weeks' wait times were our estimates and were removed (subjective-value rule). | Writer: No plant source; follows the store KB: KB057 ('A few drooping, bent or yellow leaves are a common reaction to the journey and a new spot') and KB072 ('Let it settle for a few weeks first')."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 12 Nov: Owner: confirm that some drooping after delivery is common for peace lilies.",
+        "sources": [
+          "aeo/kb/support_kb.json"
+        ]
+      },
+      "status": "needs_local",
+      "change": "12 Nov: 'needs a few days to settle in' → Clemson: plants react to a large change; 'Do not repot for a few weeks' → 'Do not repot while the plant is in flower or still drooping (Clemson); repot later, when roots grow through the drainage hole'."
+    },
+    {
+      "id": "c37",
+      "where": "uae_year",
+      "claim": "Season cards: summer indoors, most AC rooms stay within 20–29 °C, pots in warm bright rooms dry faster; autumn pots stay moist longer as rooms cool, trim dead flowers and leaves; winter growth slows in cooler rooms, stop feeding, coastal homes warm enough, inland/GCC keep away from cold windows; Feb–Mar repot; spring start feeding, many flower in spring.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+          "https://hgic.clemson.edu/factsheet/peace-lily/",
+          "https://edis.ifas.ufl.edu/publication/EP161"
+        ],
+        "note": "Verifier 12 Nov: Restates c06, c11–c14, c17–c19 (supported). 'Under AC it keeps growing' had no source → 'Most AC rooms stay within the 20–29 °C it prefers' (c11 + baseline). 'Growth slows' in winter limited to cooler rooms. 'Pots stay moist longer as rooms cool' = Clemson HGIC 1459 (cool room needs less water). 'Remove ... yellow leaves' → 'Trim dead flowers and leaves (UF/IFAS)'. | Writer: Combines c11–c14, c17–c19. 'Under AC it keeps growing' and 'pots stay moist longer as rooms cool' are not from a source."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 12 Nov: Owner: confirm the season cards fit UAE homes, mainly spring flowering (c19).",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json"
+        ]
+      },
+      "status": "needs_local",
+      "change": "12 Nov: summer 'Under AC it keeps growing' → 'Most AC rooms stay within the 20–29 °C it prefers'; winter 'Growth slows' → 'In cooler rooms growth slows and pots stay moist longer'; autumn 'yellow leaves' → 'dead flowers and leaves (UF/IFAS)'; spring 'roots fill the pot' → 'roots grow through the drainage hole'."
+    },
+    {
+      "id": "c38",
+      "where": "alternatives",
+      "claim": "Pets: snake plant and golden pothos toxic (ASPCA); bamboo palm (Chamaedorea elegans) and areca palm (Dypsis lutescens) non-toxic to cats and dogs (ASPCA). Light and water summaries for each.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/bamboo-palm",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snake-plant",
+          "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/",
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/"
+        ],
+        "note": "Verifier 12 Nov: ASPCA (all opened 12 Nov): snake plant (Sansevieria trifasciata) toxic to dogs and cats; golden pothos (Epipremnum aureum) toxic; bamboo palm (Chamaedorea elegans) and areca palm (Dypsis lutescens) non-toxic to dogs, cats, horses. Light/water: NC State Epipremnum aureum 'bright, indirect light and survives for long periods in low light ... let the ... medium dry out between watering'; NC State Chamaedorea elegans 'bright indirect light ... let the soil dry slightly out between waterings'; NC State Dypsis lutescens 'keep moist but not soggy during the growing season ... bright indirect light'; snake plant matches its verified guide (dry to the bottom of the pot, bright indirect, copes with low light). | Writer: Opened: golden pothos (Epipremnum aureum, toxic to dogs and cats, insoluble calcium oxalates); bamboo palm (Chamaedorea elegans, non-toxic to dogs, cats, horses); areca palm (Dypsis lutescens, non-toxic to dogs, cats, horses). Snake plant ASPCA page not opened in this session (taken from the snake-plant ledger). Light and water summaries for the four alternatives are not sourced here; they follow the snake-plant guide and should match each plant's own guide."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 12 Nov: Not climate-dependent; each plant's own guide carries the UAE checks."
+      },
+      "status": "corrected",
+      "change": "12 Nov: pothos water 'When the top of the soil has dried' → 'Let the mix dry out between waterings (NC State)'; bamboo palm water 'Keep lightly moist, not soggy' → 'Let the soil dry slightly between waterings (NC State)'."
+    }
+  ]
+}

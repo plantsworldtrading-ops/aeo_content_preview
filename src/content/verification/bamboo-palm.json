@@ -1,0 +1,844 @@
+{
+  "handle": "bamboo-palm",
+  "stage": "fact-checked",
+  "hash": "f7cc9765a84ae32c",
+  "content_errors": [],
+  "ledger_errors": [],
+  "signoff": null,
+  "claims": [
+    {
+      "id": "c01",
+      "where": "botanical_name, entity_ids",
+      "claim": "Accepted name Chamaedorea seifrizii Burret; Chamaedorea erumpens is a synonym. Wikidata Q15248029; POWO/IPNI id urn:lsid:ipni.org:names:54954-2.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.ipni.org/n/54954-2",
+          "https://api.gbif.org/v1/species/match?name=Chamaedorea%20erumpens&kingdom=Plantae",
+          "https://www.wikidata.org/wiki/Q15248029",
+          "https://ask.ifas.ufl.edu/publication/FP120",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/"
+        ],
+        "note": "Opened 12 Nov. IPNI 54954-2: 'Chamaedorea seifrizii Burret, Notizbl. Bot. Gart. Berlin-Dahlem 14: 268 (1938)', Arecaceae, links POWO taxon 54954-2. GBIF backbone: 'Chamaedorea erumpens H.E.Moore' status SYNONYM, accepted species Chamaedorea seifrizii. UF FPS120: 'Previous name(s): Chamaedorea erumpens (synonym)'. Wikidata Q15248029 P5037 = urn:lsid:ipni.org:names:54954-2. POWO page and API return HTTP 403 (Cloudflare), so POWO accepted status is not opened directly."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Botanical name; not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c02",
+      "where": "other_names, varieties, faqs.parlour, pet_safety",
+      "claim": "'Bamboo palm' is also used as a common name for Chamaedorea elegans (parlour palm); reed palm is a name for C. seifrizii. Arabic: كنبار is the Arabic name for the genus Chamaedorea (no species-level Arabic name found).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/bamboo-palm",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/reed-palm",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/",
+          "https://ask.ifas.ufl.edu/publication/FP120",
+          "https://www.wikidata.org/wiki/Q820113"
+        ],
+        "note": "Opened. NC State C. elegans common names include 'Bamboo Palm', 'Parlour Palm', 'Reed Palm'. ASPCA 'Bamboo Palm' entry: scientific name 'Chamaedorea elegans'. UF FPS120 C. seifrizii: 'Common name(s): bamboo palm, reed palm'. NC State C. seifrizii also lists Parlor Palm. | Verifier 12 Nov (loop 1): Wikidata Q15248029 (C. seifrizii) has no Arabic label (en aliases only: Seifriz's bamboo palm, Reed palm, Bamboo palm). Wikidata Q660200 (C. elegans) has no Arabic label. Wikidata Q820113 (genus Chamaedorea, opened) Arabic label 'كنبار'; its arwiki article 'كنبار' opens 'كنبار أو نخيل شاميدوريا ... (الإنجليزية: Parlor palm)'. Added كنبار as a genus name, labelled as such."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Species decision: the guide names C. seifrizii (IPNI/Wikidata entity, NC State, UF and Penn State all use 'bamboo palm' for C. seifrizii) and treats C. elegans as the parlour palm also sold as bamboo palm. Store listings (public product pages opened 12 Nov): 'Bamboo Palm - Chamaedorea Elegans' description says 'Chamaedorea Elegans or Bamboo palm (Aka Parlour palm)'; the Bushy listing says 'botanically known as Chamaedorea seifrizii'; the gift and bouquet listings use C. elegans image files (30-40 cm). Owner: confirm which species each listing ships. The variety rows now link the Bushy product to C. seifrizii and the standard product to C. elegans. Arabic name (loop 1): Owner, confirm what UAE customers call the bamboo palm in Arabic (كنبار, نخيل شاميدوريا, 'نخلة البامبو' or another). كنبار is only the Wikidata genus label, not proof of customer use."
+      },
+      "status": "needs_local",
+      "change": "Variety row for C. seifrizii now links the Bushy product (its store description names C. seifrizii). 12 Nov loop 1: added 'كنبار (Arabic name for the genus Chamaedorea)' to other_names (Wikidata Q820113 genus label)."
+    },
+    {
+      "id": "c03",
+      "where": "quick_answer, quick_facts.Light, care_sections.light, faqs.low-light",
+      "claim": "Bamboo palm prefers medium to bright indirect light and tolerates low light; NC State calls it an excellent houseplant for low-light areas.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/",
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://ask.ifas.ufl.edu/publication/FP120",
+          "https://blogs.ifas.ufl.edu/charlotteco/2022/10/28/foolproof-palm-care-bamboo-palm/"
+        ],
+        "note": "NC State seifrizii: 'Prefers medium light'; 'This plant will survive in low light conditions'; 'This plant makes an excellent houseplant for low-light areas.' Penn State: bamboo palm 'is tolerant of low-light conditions, though it prefers medium light'; palms 'crave bright, indirect light'. UF blog: 'among the few palms that thrive in shade and low-light conditions'. RHS (elegans): too little light yellows leaves and gives poor growth (supports 'grows more slowly in a dim spot')."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Indoor light advice; no UAE conflict. Tinted-glazing part is in c05."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c04",
+      "where": "care_sections.light",
+      "claim": "In its native range it grows in dappled shade under taller trees (seasonally dry forests, southern Mexico to Honduras).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/"
+        ],
+        "note": "NC State seifrizii: 'native to seasonally dry forests from southern Mexico to Honduras'; light: 'Dappled Sunlight (Shade through upper canopy all day)'. 'Dappled shade under taller trees' is a fair reading of the canopy attribute."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Native habitat; not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c05",
+      "where": "care_sections.light, problems.scorch, mistakes, fit.think_twice",
+      "claim": "Direct sun scorches the fronds; afternoon sun through west- or south-facing glass is the main light risk in the UAE.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.rhs.org.uk/plants/chamaedorea/growing-guide",
+          "https://ask.ifas.ufl.edu/publication/FP120"
+        ],
+        "note": "RHS (C. elegans): 'Avoid direct sun, especially in summer, as this will scorch the leaves.' UF FPS120 (C. seifrizii): 'plant grows in the shade'; 'should be planted in a shaded location'. NC State: dappled shade all day."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Baseline sun-through-glass is low confidence with no source: strong afternoon sun through west- and south-facing glass, and tinted tower glazing that cuts indoor light ('a spot close to a tinted window is often just right'). Owner: confirm from PlantsWorld experience."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c06",
+      "where": "quick_answer, quick_facts.Water, care_sections.watering, mistakes, first_week, fit.think_twice",
+      "claim": "Water when the top of the potting mix is dry; keep moist but not wet; water thoroughly and empty the saucer. No fixed interval is given (subjective-value rule).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/",
+          "https://homegarden.cahnr.uconn.edu/factsheets/houseplant-watering-recommendations"
+        ],
+        "note": "Penn State: 'Keep moist, but not wet.' 'Palms should not be allowed to completely dry out or be waterlogged.' 'Water when the top of the potting mix is dry.' 'Empty the saucer after watering.' NC State seifrizii: 'slightly moist potting mix'; 'must be well-drained'. UConn: 'Stick your finger into the potting mix and feel for moisture'; empty saucers. Pot-weight test is a reader test, not a number. Also covers fit.think_twice (no long bone-dry spells)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Rule + reader test (finger, pot weight) + what changes it (c07); no interval given, so the subjective-value rule is met."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c07",
+      "where": "care_sections.watering",
+      "claim": "Small or terracotta pots, bright or warm spots and long summer days dry the mix faster; large plastic or glazed pots, dim rooms, winter and humid coastal homes keep it moist longer.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://homegarden.cahnr.uconn.edu/factsheets/houseplant-watering-recommendations"
+        ],
+        "note": "UConn Extension (Houseplant Watering Recommendations): 'Unglazed clay pots dry out quicker than plastic or glazed pots'; light intensity, temperature and 'the humidity level all affect the rate at which a plant will use water'; 'plants growing in pots too big for their root system have a hard time using all the water'; plants 'dry out faster when temperatures are higher'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Factors match the baseline (indoor-ac: AC rooms vary; seasons). The 'humid coastal home' part is split out as c42 (needs_local)."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c08",
+      "where": "quick_answer, care_sections.watering, problems.rot",
+      "claim": "Overwatering can cause root rot, stem rot and bud rot; waterlogged mix causes rot.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/",
+          "https://blogs.ifas.ufl.edu/charlotteco/2022/10/28/foolproof-palm-care-bamboo-palm/",
+          "https://ask.ifas.ufl.edu/publication/FP120",
+          "https://extension.psu.edu/palms-as-houseplants"
+        ],
+        "note": "NC State seifrizii: 'Overwatering can cause root rot and stem rot.' UF FPS120: 'Avoid overwatering to prevent root rot.' UF blog: 'in waterlogged, over-watered soils, they can develop a bud rot.' Penn State: 'Excessive water can lead to root rot.' The earlier 'main risk' wording had no source (NC State elegans says only 'Overwatering can be a problem')."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "No UAE conflict."
+      },
+      "status": "corrected",
+      "change": "Quick answer: 'Overwatering is the main risk' -> 'Overwatering can rot the roots of Chamaedorea seifrizii' (NC State, UF)."
+    },
+    {
+      "id": "c09",
+      "where": "care_sections.watering.tips, problems.tips",
+      "claim": "UF/IFAS rates bamboo palm soil salt tolerance as poor; salts from tap water or fertiliser can cause brown tips; if a white crust or brown tips appear, scrape off the crust and flush the pot.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ask.ifas.ufl.edu/publication/FP120",
+          "https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/",
+          "https://ipm.ucanr.edu/home-and-landscape/houseplant-problems/",
+          "https://www.rhs.org.uk/plants/chamaedorea/growing-guide"
+        ],
+        "note": "UF FPS120: 'Soil salt tolerances: poor'. Colorado State PlantTalk 1339: salt signs are brown leaf tips and 'whitish crystal build-up around the lip of a pot' or crust on the soil; salts come from water and salt-based fertilisers; remove the crust and some surface mix, then flush. UC IPM houseplant problems: brown tips from 'excessive fertilizer or other soluble salts'; 'periodic leaching of container soil'. No source supports 'switch to filtered water' (UConn suggests bottled water only for sensitive plants; RHS suggests rainwater)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline tap-water: desalinated, remineralised, hardness varies; flushing tied to visible crust or brown tips, not to 'hard water'."
+      },
+      "status": "corrected",
+      "change": "Removed 'switch to filtered water' (no source) from the watering tip and the brown-tips fixes; added 'scrape off the crust' first (Colorado State Extension)."
+    },
+    {
+      "id": "c10",
+      "where": "quick_facts.Soil, care_sections.soil",
+      "claim": "Use a well-drained potting mix rich in organic matter; RHS suggests three parts peat-free ericaceous compost to one part perlite for parlour palm.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://blogs.ifas.ufl.edu/charlotteco/2022/10/28/foolproof-palm-care-bamboo-palm/",
+          "https://ask.ifas.ufl.edu/publication/FP120",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/",
+          "https://www.rhs.org.uk/plants/chamaedorea/growing-guide"
+        ],
+        "note": "UF blog: 'prefer moist, but well drained soil'; 'prefer soils high in organic matter'. UF FPS120: 'a rich soil encourages plant growth'. RHS (elegans): 'three parts peat-free ericaceous compost to one part perlite'. The draft said 'one part grit or perlite'; grit is not in the RHS mix text opened."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Potting mix; not location-dependent."
+      },
+      "status": "corrected",
+      "change": "RHS mix: 'three parts compost to one part grit or perlite' -> 'three parts peat-free ericaceous compost to one part perlite' (RHS wording)."
+    },
+    {
+      "id": "c11",
+      "where": "care_sections.soil, myths, care_sections.repotting",
+      "claim": "Use a pot with a drainage hole; palms like being slightly root-bound; avoid changing containers unless necessary.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://homegarden.cahnr.uconn.edu/factsheets/houseplant-watering-recommendations"
+        ],
+        "note": "Penn State: 'Choose a container with drainage at the bottom'; 'Palms like to be slightly rootbound'; 'do not change the container unless absolutely necessary'. Cover-pot advice follows UConn: empty saucers or cachepots containing water."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "KB013 says decorative pots have a drainage layer; the guide gives no store fact and only says to lift the inner pot to drain."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c12",
+      "where": "quick_facts.Humidity, care_sections.humidity",
+      "claim": "Bamboo palm prefers medium humidity; brown frond tips can signal low humidity; Penn State suggests a humidifier.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/",
+          "https://extension.psu.edu/palms-as-houseplants"
+        ],
+        "note": "NC State seifrizii: 'medium relative humidity'. Penn State: 'Frond tips will turn brown if there is low humidity'; 'Consider using a humidifier in the room where palms reside.' Penn State does not mention grouping plants; no opened source supports it."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline indoor-ac: AC rooms are not reliably dry; text says to look at the plant, not the AC. Coastal-humidity part is c42."
+      },
+      "status": "corrected",
+      "change": "'Group it with other plants or use a humidifier, as Penn State Extension suggests' -> 'Use a humidifier in the room, as Penn State Extension suggests' (grouping not in the source)."
+    },
+    {
+      "id": "c13",
+      "where": "quick_facts.AC, care_sections.humidity, problems.cold, mistakes, first_week",
+      "claim": "Keep the palm out of the direct flow of AC vents and away from draughty windows and doors; cold draughts damage fronds.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/"
+        ],
+        "note": "Penn State: 'Keep palms away from drafty windows and doors and air conditioning vents.' NC State elegans: 'Protect from cold drafts near windows, doors or vents.'"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "A primary source names AC vents directly; the guide gives no distance (rule only) and does not claim it is common in the UAE, so the low-confidence baseline ac-vents fact is not relied on."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c14",
+      "where": "care_sections.humidity, mistakes",
+      "claim": "Dust fronds with a damp cloth; leaf-shine products damage palm fronds.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/palms-as-houseplants"
+        ],
+        "note": "Penn State: 'do not use leaf-shining products on the palm fronds as they will damage the foliage'; 'dust them with a damp cloth instead.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c15",
+      "where": "quick_facts.Temperature, care_sections.temperature, faqs.ac-indoors",
+      "claim": "Penn State: ideal 21–27 °C by day (70–80 °F) and about 16 °C at night (60 °F); cold damage as reddish-brown dead areas usually at or below about 7 °C (45 °F).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://www.rhs.org.uk/plants/chamaedorea/growing-guide"
+        ],
+        "note": "Penn State: 'A daytime temperature range of 70 to 80°F is ideal'; 'Night temperatures should remain around 60°F'; 'Cold damage occurs on leaves as reddish-brown dead areas, usually at temperatures at or below 45°F.' Conversions: 21.1-26.7 °C, 15.6 °C, 7.2 °C. Text attributes them to indoor palms in general, as Penn State does."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline indoor-ac: design target about 22-24 °C, inside the range."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c16",
+      "where": "care_sections.temperature, uae_year.Winter, faqs.outdoors, problems.cold",
+      "claim": "Coastal UAE winter nights rarely fall to 7 °C; inland (Al Ain, desert, mountains) and Riyadh/Kuwait nights can fall below 7 °C, so bring outdoor palms in.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/palms-as-houseplants"
+        ],
+        "note": "Climate facts from the baseline sources (coastal-winter, inland-winter, gcc-winter); threshold from Penn State (c15)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline: coastal January lows about 14-16 °C (medium); inland lows of 3-5 °C most winters, -2 °C Raknah 2021 (high); Riyadh/Kuwait 7-10 °C with colder spells (low; text says 'can drop', which the range allows)."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c17",
+      "where": "care_sections.fertiliser, uae_year",
+      "claim": "Feed lightly with a balanced fertiliser in the growing season (spring to early autumn), not in winter; Penn State suggests a balanced slow-release liquid fertiliser two to three times over spring and summer; too much harms palms over time.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/",
+          "https://www.rhs.org.uk/plants/chamaedorea/growing-guide"
+        ],
+        "note": "Penn State: 'During the growing season of spring and summer, a balanced slow-release liquid fertilizer'; 'Only use two to three times, as too much fertilizer can harm palms in the long run.' NC State elegans: 'Fertilize periodically during the growing season and none in the winter.' RHS: balanced liquid feed monthly through the growing season. The number 'two to three times' is named to Penn State in the text."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Sources are temperate (spring-summer growth, winter rest). Baseline seasons: the UAE outdoor growing season is Oct-Apr. Owner: confirm that indoor palms under AC are best fed in spring and summer and rested in winter in UAE homes."
+      },
+      "status": "needs_local",
+      "change": "'slow-release or liquid fertiliser' -> 'slow-release liquid fertiliser' (Penn State wording)."
+    },
+    {
+      "id": "c18",
+      "where": "care_sections.repotting",
+      "claim": "Repot only when roots fill the pot; palms are sensitive to repotting; RHS suggests a pot about 2 cm wider; overpotting can cause root rot; repot in spring.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://www.rhs.org.uk/plants/chamaedorea/growing-guide"
+        ],
+        "note": "RHS (elegans): 'Once the roots become densely crowded, repot your plant in spring into a slightly larger container that's just a couple of centimetres (about 1in) wider'; 'Avoid using a much larger container (overpotting), as this may lead to root rot.' Penn State: 'Palms tend to be sensitive when repotted.' KB072: do not repot on arrival."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline seasons: repotting in the cooler months; spring (Mar-Apr) is inside that window."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c19",
+      "where": "care_sections.repotting.steps",
+      "claim": "Repotting steps: slightly wider pot with drainage hole; ease out without breaking the root ball; remove black soft roots; centre the root ball; water and drain; keep out of direct sun while it settles.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://fdn.montana.edu/extension/lila_extn/askstewardrepothouseplant.html",
+          "https://ipm.ucanr.edu/home-and-landscape/houseplant-problems/",
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://www.rhs.org.uk/plants/chamaedorea/growing-guide"
+        ],
+        "note": "Montana State Extension: 'Gently remove from the pot. If it is stuck, tap the sides and bottom of the pot'; 'Trim off any dead, diseased, or damaged roots'; 'center the plant root ball into the pot'; 'water thoroughly and let drain'. UC IPM: brownish-blackish roots indicate rot. Penn State: do not damage the roots. RHS: slightly wider pot. 'Same depth as before' had no opened source."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "corrected",
+      "change": "Step 4: 'Set the palm at the same depth as before' -> 'Set the root ball in the centre of the new pot' (Montana State Extension)."
+    },
+    {
+      "id": "c20",
+      "where": "care_sections.propagation, faqs.flowers",
+      "claim": "Propagate by division or seed; bamboo palm is dioecious (male and female plants), so seed/fruit needs both; seed propagation is slow; palms are sensitive to root disturbance.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ask.ifas.ufl.edu/publication/FP120",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/",
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://www.rhs.org.uk/plants/chamaedorea/growing-guide"
+        ],
+        "note": "UF FPS120: 'Propagation is by seed or division of the clumps'; 'As bamboo palm is a dioecious plant, both male and female plant specimens are required for flower and fruit production.' NC State: 'Male and female flowers grow on different plants'; propagation division and seed. Penn State: 'palm propagation can be slow'; 'Palms tend to be sensitive when repotted. Be careful not to damage the plant's roots'. The draft's 'sensitive to root disturbance' was a paraphrase not in the source."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Division in the cooler months follows baseline seasons."
+      },
+      "status": "corrected",
+      "change": "'Penn State notes that palms are sensitive to root disturbance' -> 'sensitive to repotting and advises care not to damage the roots' (Penn State wording)."
+    },
+    {
+      "id": "c21",
+      "where": "care_sections.propagation.steps",
+      "claim": "Division steps: water and unpot, tease or cut the clump apart so each piece has canes and roots, pot each piece in fresh mix, water, bright indirect light.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.rhs.org.uk/plants/chamaedorea/growing-guide",
+          "https://ask.ifas.ufl.edu/publication/FP120",
+          "https://fdn.montana.edu/extension/lila_extn/askstewardrepothouseplant.html"
+        ],
+        "note": "RHS: 'A thriving clump of parlour palms with several trunks, or offsets, can be divided.' 'Remove the plant from its pot and gently pull apart the rootball'. Montana State: water to moisten the root ball before removal; water thoroughly and let drain. 'Same depth' removed (no source)."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "corrected",
+      "change": "Division step 3: removed 'at the same depth as before' (no source)."
+    },
+    {
+      "id": "c22",
+      "where": "care_sections.placement",
+      "claim": "Suits living-room corners, bedrooms, hotel lobbies and offices with windows; used in interior landscapes.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/",
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://ask.ifas.ufl.edu/publication/FP120"
+        ],
+        "note": "Penn State: bamboo palm 'is a staple of interior landscapers due to its upright and spreading habit.' NC State: 'used in interior landscapes'; tags #interiorscape, #houseplant. UF: 'suitable for growing indoors'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Offices and hotel lobbies with AC fit the plant's temperature range (c15)."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c23",
+      "where": "quick_facts.Outdoors in UAE, care_sections.placement, uae_year, faqs.outdoors, fit.think_twice",
+      "claim": "Outdoors it needs shade (UF) and wind protection; move outside gradually and keep it in indirect light (Penn State); in UAE summer (highs about 41-42 °C, warm nights) most bamboo palms do better indoors; full shade outdoors in the UAE; move out in the cooler months.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ask.ifas.ufl.edu/publication/FP120",
+          "https://extension.psu.edu/palms-as-houseplants"
+        ],
+        "note": "UF FPS120: 'If used outside, this plant should be located in the shade and given wind protection from taller plantings.' Penn State: 'Take time to acclimate the palm to the outdoor light levels and temperatures'; 'Ensure that the indoor palm is placed in indirect sunlight during its stint outside.' Draft attributed 'full shade' to UF and 'start in deep shade' to Penn State; neither is in the sources."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "'Most bamboo palms do better indoors from May to September', 'full shade' outdoors in the UAE and moving them out in Oct-Nov are our reading of baseline summer-heat and seasons (Penn State advises late spring/early summer for temperate climates). Owner: confirm from PlantsWorld experience."
+      },
+      "status": "needs_local",
+      "change": "Placement: 'needs full shade ... as UF/IFAS advises' -> 'needs shade ...'; 'start in deep shade, as Penn State advises' -> 'keep it in indirect light, as Penn State advises'."
+    },
+    {
+      "id": "c24",
+      "where": "uae_year.Winter, uae_year.Summer",
+      "claim": "Outdoor pots must drain after rain; rain is rare but can be heavy.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://homegarden.cahnr.uconn.edu/factsheets/houseplant-watering-recommendations"
+        ],
+        "note": "Penn State: 'Choose a container with drainage at the bottom'; UConn: standing water keeps the soil saturated."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline rain (medium): rare but heavy bursts, mostly Nov-Apr; pots without drainage can flood."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c25",
+      "where": "care_sections.cleaning, problems.yellow, myths, first_week",
+      "claim": "Older fronds die naturally and hang on to the stem, needing removal by hand; browning of lower leaves is normal ageing, browning throughout the plant points to a care problem.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ask.ifas.ufl.edu/publication/FP120",
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://www.rhs.org.uk/plants/chamaedorea/growing-guide"
+        ],
+        "note": "UF FPS120: 'Since older leaves die and hang onto the stem, they require manual removal to keep the plant looking neat.' Penn State: 'Browning of lower leaves is typically a sign of age'; 'if browning occurs throughout the plant, it is caused by the lack of humidity and water.' RHS: remove 'old, dying fronds at the base'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c26",
+      "where": "problems.tips",
+      "claim": "Brown tips come from dry air, salt build-up or uneven watering (over- or underwatering).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://www.rhs.org.uk/plants/chamaedorea/growing-guide",
+          "https://ipm.ucanr.edu/home-and-landscape/houseplant-problems/"
+        ],
+        "note": "RHS (elegans): brown leaves have 'several causes, including overwatering, underwatering, hard tap water' 'or direct sunlight'; 'dry air can cause the leaf tips to go brown'. Penn State: low humidity browns tips. UC IPM: soluble salts brown tips. Dead brown tissue not turning green again is basic plant biology (no source needed beyond the trimming advice)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Tap water varies (baseline tap-water); text does not call it hard."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c27",
+      "where": "problems.mites",
+      "claim": "Spider mites cause fine webbing and speckled fronds; UF says spider mites and scale may become serious pests indoors; wipe fronds with a damp cloth or rinse with water (Penn State).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ask.ifas.ufl.edu/publication/FP120",
+          "https://ipm.ucanr.edu/PMG/PESTNOTES/pn74172.html",
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/"
+        ],
+        "note": "UF FPS120: 'Pest issues include scale and spider mites (may become serious pest problems, especially when used indoors).' UC IPM pn74172: mite feeding shows as 'light-colored spots or specks, called stipples'; 'Silk webbing may also be produced'; 'frequently wash leaf surfaces with water'; 'isolate the plant immediately'. Penn State: 'A wipe with a damp cloth or a gentle spray of water will help remove the offenders.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c28",
+      "where": "problems.mites, problems.mealybugs",
+      "claim": "A neem-based spray is an option against spider mites, mealybugs and scale.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://homegarden.cahnr.uconn.edu/factsheets/horticultural-oils",
+          "https://ipm.ucanr.edu/PMG/PESTNOTES/pn74172.html"
+        ],
+        "note": "UConn Extension (Horticultural Oils): oils are 'most effective against many soft bodied pests including aphids, adelgids, spider mites, scale insects' and 'mealybugs'; useful on 'houseplants'; plant-based oils 'may contain soybean, cottonseed, sesame, neem'; 'Read and follow all label precautions.' UC IPM pn74172: use horticultural oil or insecticidal soap 'labeled for use on your plant species'. Guide says 'follow the label'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c29",
+      "where": "problems.mealybugs",
+      "claim": "Mealybugs (white cotton) and scale insects (brown bumps) are common indoor pests of bamboo palm.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ipm.ucanr.edu/PMG/PESTNOTES/pn74172.html",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/",
+          "https://ask.ifas.ufl.edu/publication/FP120",
+          "https://blogs.ifas.ufl.edu/charlotteco/2022/10/28/foolproof-palm-care-bamboo-palm/"
+        ],
+        "note": "UC IPM pn74172: mealybugs are 'small, oval, whitish sap-sucking insects' with 'a cottony, powdery, or waxy material'; scales are 'small, brown or grayish, mostly stationary insects'; 'scrape them off'. NC State seifrizii: 'Monitor for mealy bugs, scale, and spider mites when grown indoors.' UF blog: scale and spider mites are the most common indoor pests."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c30",
+      "where": "quick_facts.Size, faqs.height",
+      "claim": "NC State gives a height of about 0.9–2.3 m (3–7.5 ft); Penn State says about 2 m (7 ft); taller outdoors in the tropics (UF/IFAS 4–12 ft).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/",
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://ask.ifas.ufl.edu/publication/FP120",
+          "https://blogs.ifas.ufl.edu/charlotteco/2022/10/28/foolproof-palm-care-bamboo-palm/"
+        ],
+        "note": "NC State: height 3 ft 0 in to 7 ft 6 in (0.91-2.29 m), 'It grows up to 7 feet tall.' Penn State: 'Reaching a height of 7 feet' (2.1 m, 'about 2 m'). UF FPS120: 4 to 12 feet; UF blog: 'can grow to 15 ft. tall, but this height is rarely achieved if grown indoors'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c31",
+      "where": "quick_facts.Growth, faqs.growth",
+      "claim": "Growth is slow to moderate; new canes grow from the base.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/",
+          "https://ask.ifas.ufl.edu/publication/FP120"
+        ],
+        "note": "NC State: 'the clump expands slowly'. UF FPS120: 'Growth rate: moderate'; 'New stems continually form at the base'. RHS: too little light gives poor growth. Penn State: growing season spring and summer."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c32",
+      "where": "myths, care_sections.cleaning",
+      "claim": "Bamboo palm is a true palm (Arecaceae); the name comes from cane-like stems with bamboo-like nodes.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ask.ifas.ufl.edu/publication/FP120",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/"
+        ],
+        "note": "UF FPS120: canes 'have nodes that resemble bamboo, hence the common name'; 'Family: Arecaceae'. NC State: family Arecaceae."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c33",
+      "where": "faqs.flowers",
+      "claim": "Small pale-yellow flowers on stalks that turn orange, followed by small black fruit; fruit juice can irritate sensitive skin.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ask.ifas.ufl.edu/publication/FP120",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/"
+        ],
+        "note": "UF FPS120: 'Inconspicuous pale-yellow flowers are produced in panicles within the foliage, which turn from green to bright orange once mature'; 'Fruit is rounded black drupes'; 'oxalic acid in fruits may cause dermatitis'. NC State: 'Round, bluish-black fruits. The flesh is irritating if touched.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c34",
+      "where": "quick_answer, quick_facts.Pets, fit.good_if, pet_safety, alternatives",
+      "claim": "ASPCA lists 'Bamboo Palm' (Chamaedorea elegans, the parlour palm also sold as bamboo palm) as non-toxic to cats, dogs and horses; the ASPCA has no entry for C. seifrizii. NC State gives C. seifrizii a low poison severity for people; the fruit flesh can irritate sensitive skin.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/bamboo-palm",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/reed-palm",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/"
+        ],
+        "note": "ASPCA 'Bamboo Palm': scientific name 'Chamaedorea elegans', 'Non-Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses'. ASPCA 'Reed Palm': C. elegans, non-toxic to dogs and cats. No ASPCA entry names C. seifrizii (search 12 Nov). NC State seifrizii: toxicity is under 'Poisonous to Humans' only, severity low, oxalic acid in fruit, 'flesh is irritating to the skin if handled by sensitive people'; no pet text. The draft's 'NC State rates bamboo palm as low risk' read as a pet rating, which NC State does not give."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "ASPCA advice is not location-dependent; emergency step is generic (vet or 24-hour clinic), no store fact."
+      },
+      "status": "corrected",
+      "change": "Quick answer, quick facts, fit and pet_safety now say the ASPCA entry is for C. elegans (parlour palm, also sold as bamboo palm) and that the ASPCA has no C. seifrizii entry; NC State 'low risk' now stated as low poison severity for people."
+    },
+    {
+      "id": "c35",
+      "where": "myths, faqs.air",
+      "claim": "Cummings & Waring 2019: potted plants removed VOCs in small sealed chambers; 10-1,000 plants per m2 of a building floor would be needed to match typical outdoor-to-indoor air exchange.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://doi.org/10.1038/s41370-019-0175-9",
+          "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41370-019-0175-9&resultType=core&format=json",
+          "https://drexel.edu/news/archive/2019/November/potted-plants-do-not-improve-air-quality"
+        ],
+        "note": "Europe PMC abstract (Cummings & Waring, J Expo Sci Environ Epidemiol; online 2019): potted plants removed VOCs 'in small, sealed chambers'; median single-plant CADR 0.023 m3/h, 'necessitating the placement of 10-1000 plants/m2 of a building's floor space' to match 'outdoor-to-indoor air exchange ... in typical buildings'. The draft said 'a home'; the paper says buildings. | 12 Nov re-check (abstract opened, Europe PMC, PMID 31695112): 12 chamber studies, 196 results; median single-plant CADR 0.023 m3/h, 'necessitating the placement of 10-1000 plants/m2 of a building's floor space' to match outdoor-to-indoor air exchange in typical buildings (~1 h-1). Primary-source figure: 10-1,000 plants per m2. The Drexel news release (opened 12 Nov) says 'between 100 and 1,000 plants per square meter'; that is the press office's rounding, not the paper. Use the paper's figure if a number is shown. The page's '10 to 1,000' matches the paper."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No NASA or air-purifying wording on the page."
+      },
+      "status": "corrected",
+      "change": "Myth and FAQ: 'a home would need' -> 'a building would need' (paper's wording)."
+    },
+    {
+      "id": "c36",
+      "where": "varieties",
+      "claim": "Parlour palm is smaller (Penn State: about 2–3 ft indoors, up to 6 ft); NC State: let the mix dry slightly between waterings, low to medium humidity; often several stems planted per pot.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/"
+        ],
+        "note": "Penn State: parlor palm 'stays compact in size as a houseplant, 2-3 feet in height, but can reach 6 feet tall.' NC State elegans: 'let the soil dry slightly out between waterings'; 'low to medium humidity'; 'growers frequently put three or more plants in a single pot'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c37",
+      "where": "alternatives.Areca Palm",
+      "claim": "Areca palm: bright indirect light indoors; moist but not soggy in the growing season; ASPCA non-toxic to dogs, cats and horses.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm"
+        ],
+        "note": "NC State Dypsis lutescens: 'provide bright indirect light'; 'keep moist but not soggy during the growing season'. ASPCA Areca Palm (Dypsis lutescens): 'Non-Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c38",
+      "where": "alternatives.Kentia Palm",
+      "claim": "Kentia palm: tolerates low light, slow-growing; ASPCA non-toxic to dogs and cats.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kentia-palm"
+        ],
+        "note": "Penn State: kentia 'Its ability to tolerate low-light conditions makes it an ideal companion for indoor settings'; 'slow-growing'. Water cell uses Penn State's general palm rule. ASPCA Kentia Palm (Howea forsteriana): non-toxic to dogs and cats."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c39",
+      "where": "alternatives.Lady Palm",
+      "claim": "Lady palm: needs indirect light, withstands deep shade; regular watering except winter; ASPCA non-toxic to dogs and cats.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/rhapis-excelsa/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lady-palm",
+          "https://api.gbif.org/v1/species/match?name=Rhapis%20flabelliformis&kingdom=Plantae"
+        ],
+        "note": "NC State Rhapis excelsa: 'it needs indirect light, withstands deep shade'; 'regular watering except in the winter when watering can be reduced'. ASPCA Lady Palm (Rhapis flabelliformis): non-toxic to dogs and cats. GBIF: Rhapis flabelliformis L'Her. is a SYNONYM of Rhapis excelsa."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c40",
+      "where": "first_week",
+      "claim": "A new plant settles best with no moves, no repotting and no feeding in the first days; nursery mix is often still moist on arrival.",
+      "g": {
+        "verdict": "unverified",
+        "sources": [],
+        "note": "No primary source for 'moving it again and again slows the settling in', 'nursery mix is often still moist when the plant arrives', 'a few bent or marked fronds after a move are common' or 'the main risk at first is too much care'. 'Do not repot yet' matches KB072; bent leaves match KB057."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "PlantsWorld delivery experience. Owner: confirm the first-week intro and steps 2, 3 and 5 for plants as PlantsWorld delivers them."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c41",
+      "where": "uae_year.Summer, care_sections.placement, faqs.outdoors",
+      "claim": "Dubai summer daytime highs about 41–42 °C with warm nights.",
+      "g": {
+        "verdict": "supported",
+        "sources": [],
+        "note": "Climate figures from the baseline sources (weathermonth.com, bayut.com); third-party sites, NCM normals not opened."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline summer-heat (medium): Dubai Jun-Sep highs about 41-42 °C, lows about 29-32 °C."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c42",
+      "where": "care_sections.watering, care_sections.humidity",
+      "claim": "AC rooms in the UAE are not always dry; some homes stay humid, especially on the coast, and a humid coastal home keeps the mix moist for longer.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://homegarden.cahnr.uconn.edu/factsheets/houseplant-watering-recommendations"
+        ],
+        "note": "UConn: 'the humidity level' affects how fast a plant uses water (general part supported)."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Baseline indoor-ac: Sharjah workspaces averaged 60.7% RH under AC; some homes feel dry, others humid. No source says coastal homes are more humid indoors. Owner: confirm from customer homes."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c43",
+      "where": "problems.rot",
+      "claim": "Rot signs: mix still wet long after watering, soft dark canes at the base, a foul smell, a newest frond that turns pale or wilts and pulls out easily. Fix: stop watering, cut away black soft roots and rotten canes, repot in fresh free-draining mix in a pot with a drainage hole.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ask.ifas.ufl.edu/publication/PP144",
+          "https://ipm.ucanr.edu/home-and-landscape/houseplant-problems/",
+          "https://ipm.ucanr.edu/PMG/PESTNOTES/pn74172.html",
+          "https://fdn.montana.edu/extension/lila_extn/askstewardrepothouseplant.html",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/"
+        ],
+        "note": "UF/IFAS bud rot (PP144): spear leaf and next leaf go pale or wilt; leaf base rots with 'a foul odor'; 'if severe, the spear leaf will easily pull from the bud'. UC IPM: brownish-blackish roots indicate root rot; 'Soft stem bases usually are indicative of overwatering'. Montana State: trim dead, diseased roots. Draft said 'sour smell' and 'new fronds that turn brown'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "corrected",
+      "change": "Signs: 'a sour smell, new fronds that turn brown and pull out easily' -> 'a foul smell, a newest frond that turns pale or wilts and pulls out easily' (UF/IFAS PP144)."
+    },
+    {
+      "id": "c44",
+      "where": "problems.yellow",
+      "claim": "Yellow fronds: oldest lower fronds yellowing is normal ageing; yellowing across the plant with wet mix points to overwatering; too little light also yellows fronds.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.psu.edu/palms-as-houseplants",
+          "https://ipm.ucanr.edu/home-and-landscape/houseplant-problems/",
+          "https://www.rhs.org.uk/plants/chamaedorea/growing-guide"
+        ],
+        "note": "Penn State: lower-leaf browning is age. UC IPM: 'Yellowing and dropping leaves can be caused by inadequate light, exposure to low temperatures, overwatering'. RHS: 'Too little light will cause the leaves to yellow and growth to be poor.' Draft left out low light."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not location-dependent."
+      },
+      "status": "corrected",
+      "change": "Added too little light as a cause, a sign and a fix in the yellow-fronds problem (RHS, UC IPM)."
+    }
+  ]
+}

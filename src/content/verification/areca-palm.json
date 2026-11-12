@@ -1,0 +1,667 @@
+{
+  "handle": "areca-palm",
+  "stage": "fact-checked",
+  "hash": "76a7f353cdfcfa7d",
+  "content_errors": [],
+  "ledger_errors": [],
+  "signoff": null,
+  "claims": [
+    {
+      "id": "c01",
+      "where": "botanical_name, entity_ids",
+      "claim": "Accepted name Chrysalidocarpus lutescens H.Wendl.; Dypsis lutescens (H.Wendl.) Beentje & J.Dransf. is a synonym. Wikidata Q11176489, POWO/IPNI urn:lsid:ipni.org:names:665962-1.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://web.archive.org/web/20250923055914/https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:665962-1",
+          "https://www.ipni.org/n/665962-1",
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://www.wikidata.org/wiki/Q11176489",
+          "https://api.gbif.org/v1/species/match?name=Dypsis%20lutescens"
+        ],
+        "note": "Opened 12 Nov. POWO (live site 403; Wayback copy of 23 Sep 2025): 'Chrysalidocarpus lutescens H.Wendl. ... This species is accepted'; native range E. Madagascar. IPNI 665962-1: C. lutescens H.Wendl., Bot. Zeitung 36: 117 (1878), 'Basionym of Dypsis lutescens (H.Wendl.) Beentje & J.Dransf.' NC State: 'Previously known as: Chrysalidocarpus glaucescens, Dypsis lutescens'. Wikidata Q11176489: taxon name C. lutescens, IPNI/POWO id 665962-1 (matches entity_ids). GBIF backbone still returns Dypsis lutescens ACCEPTED (older checklist); ASPCA and UF/IFAS use Dypsis lutescens, so the synonym stays on the page. World Flora Online matching service did not respond."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Botanical name; not location-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c02",
+      "where": "other_names",
+      "claim": "Other names: butterfly palm, golden cane palm, yellow palm, golden feather palm; Arabic نخلة الأريكا.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://edis.ifas.ufl.edu/publication/FR309/pdf",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm"
+        ],
+        "note": "Opened 12 Nov. NC State common names: Areca Palm, Bamboo Palm, Butterfly Palm, Golden Butterfly Palm, Golden Feather Palm, Yellow Palm. UF FOR247: Areca Palm, Golden Cane Palm, Yellow Bamboo Palm. ASPCA: Golden Butterfly Palm, Cane Palm, Golden Feather Palm, Yellow Palm. All four English names are supported. No primary source for the Arabic name; Wikidata Q11176489 has no Arabic label."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Owner: confirm the Arabic name UAE customers use for the areca palm (the page shows نخلة الأريكا; no primary source found)."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c03",
+      "where": "quick_answer, quick_facts.Light, care_sections.light, fit, first_week",
+      "claim": "Bright indirect light indoors; near an east-, west- or south-facing window (Clemson); most palms need bright natural light all year (Clemson); UAE: filter strong sun through west/south glass; tinted glazing lowers light.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://hgic.clemson.edu/factsheet/indoor-palms/"
+        ],
+        "note": "NC State: 'provide bright indirect light'; 'prefer a bright location'. Clemson: 'Areca palms do best in bright indirect sunlight. Place them near an east-, west- or south-facing window'; 'Most palms need bright natural light year-round. Filtered light near a south-east-or west-facing window is suitable'. The writer's 'grows slowly and thins out in a dim room' had no source."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline sun-through-glass: strong sun through west/south glass, tinted tower glazing lowers indoor light; same verdict as snake-plant c03.",
+        "baseline": "sun-through-glass"
+      },
+      "status": "corrected",
+      "change": "12 Nov: 'In a dim room the palm grows slowly and thins out' (no source) replaced by Clemson 'most palms need bright natural light all year'."
+    },
+    {
+      "id": "c04",
+      "where": "care_sections.light, quick_facts.Outdoors, problems[5], uae_year.Summer, faqs.outdoors",
+      "claim": "Outdoors: tolerates full sun but prefers partial shade (NC State); small palms benefit from shade until several feet tall; young palms in full sun develop yellow leaves; yellowing can be reduced with shade (UF/IFAS). UAE: shade from midday/afternoon sun May–Sep.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://edis.ifas.ufl.edu/publication/ST165/pdf",
+          "https://edis.ifas.ufl.edu/publication/FR309/pdf",
+          "https://hgic.clemson.edu/factsheet/indoor-palms/"
+        ],
+        "note": "NC State: 'Outdoors in zones 10-11, the plant tolerates full sun but prefers partial shade.' UF ENH324: 'Small palms benefit from some shade until they are several feet tall'; 'Young palms in full sun and those in high pH soils develop yellow leaves.' UF FOR247: 'yellowing ... can be regulated somewhat with shading.' Clemson: move palms outside gradually to higher light; 'should not be placed in direct sun while outside'. 'Dry, papery brown patches after a heatwave' had no source and was removed with the fix 'burnt patches do not turn green'."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Baseline summer-heat (highs 41–42 °C, hot nights) and seasons support shade May–Sep. Owner: confirm from PlantsWorld experience that areca palms survive UAE summers outdoors in shade or partial shade (the store sells an outdoor areca).",
+        "baseline": "summer-heat"
+      },
+      "status": "needs_local",
+      "change": "12 Nov: removed 'dry, papery brown patches after a heatwave' (signs) and 'Burnt patches do not turn green again' (fix) from the sunny-spot problem card: no source."
+    },
+    {
+      "id": "c05",
+      "where": "quick_answer, quick_facts.Water, care_sections.watering, mistakes, first_week, problems[6]",
+      "claim": "Keep soil moist but not soggy; water thoroughly when the soil surface dries; never let it dry out or stand in water; empty the saucer; no fixed interval (reader test with finger/skewer; pot size, material, light, AC, coast vs inland change the drying speed).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "https://edis.ifas.ufl.edu/publication/ST165/pdf"
+        ],
+        "note": "NC State: 'keep moist but not soggy during the growing season'. Clemson: 'Palms need to be kept moist. They should never be allowed to dry out or allowed to stand in water ... Water thoroughly when the surface of the soil dries, and discard the water in the saucer after the pot drains.' UF ENH324 drought tolerance 'moderate' (snake plant: drought tolerant, NC State) supports 'less forgiving of drought than snake plants'. No interval is given; finger/skewer and pot-weight tests are reader tests."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Subjective-value rule met: rule + reader test + drying factors, no number. Coastal vs inland and AC factors match baseline indoor-ac and summer-heat, as in snake-plant c05.",
+        "baseline": "indoor-ac"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c06",
+      "where": "care_sections.watering.tips, problems[2]",
+      "claim": "UAE tap water is desalinated and remineralised; mineral content varies; flush the pot or use filtered water if a white crust or brown tips appear.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/"
+        ],
+        "note": "CSU 1339: 'Brown leaf tips, yellowing leaves, and unaccountable wilting ... are all signs that salt build-up'; 'The most obvious sign of accumulated salts is a whitish crystal build-up around the lip of a pot or on the top of the soil'; 'Salts may be present in water ... and many fertilizers are salt based'; leach by filling the pot with water a couple of times and letting it drain."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline tap-water (low confidence): desalinated and remineralised, hardness varies; the page does not call it hard and ties flushing to a visible crust or brown tips. Same verdict as snake-plant c06.",
+        "baseline": "tap-water"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c07",
+      "where": "quick_facts.Humidity, care_sections.humidity, problems[2], problems[3]",
+      "claim": "Prefers high humidity; below 50% use a gravel tray with water or a room humidifier; UAE AC rooms are not reliably dry (hygrometer test).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://hgic.clemson.edu/factsheet/indoor-palms/"
+        ],
+        "note": "NC State: 'prefer ... high humidity'; 'Increase humidity with a humidifier, if needed'. Clemson: 'if the humidity level is below 50%, the pot saucer can be filled with gravel to increase the moisture level without rotting the plant roots. A room humidifier may also be used'. The 50% figure is Clemson's and is named in the text."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline indoor-ac: Sharjah workspace study 60.7% RH; the page says AC rooms are not always dry and gives a hygrometer test.",
+        "baseline": "indoor-ac"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c08",
+      "where": "quick_facts.AC, care_sections.humidity, mistakes, first_week, uae_year.Summer",
+      "claim": "Keep out of the direct cold airflow from AC vents (hand test, no distance).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/indoor-palms/"
+        ],
+        "note": "Clemson: 'Palms grow best with warmth. Protect them from drafts near doors, windows, and air conditioning.' No source gives a distance, so none is given; hand test only. Re-opened 12 Nov (loop 1): Clemson, NC State and UF ENH324 do not say that areca palms grow well in AC rooms or keep growing under AC in summer, so those statements were removed."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Baseline ac-vents is low confidence (nursery experience). Owner: confirm that direct AC airflow damages areca palms in customers' homes and that the hand test is good advice (same as snake-plant c13).",
+        "baseline": "ac-vents"
+      },
+      "status": "needs_local",
+      "change": "12 Nov loop 1: quick_facts.AC 'Grows well in AC rooms, but keep it out of the direct cold airflow from a vent' → 'Keep it out of the direct cold airflow from a vent (Clemson: protect palms from draughts near air conditioning)'; uae_year.Summer 'Indoors under AC an areca palm keeps growing. Check the soil often' → 'Indoors, check the soil often'. No source for growth under AC."
+    },
+    {
+      "id": "c09",
+      "where": "quick_facts.Temperature, problems[7], uae_year.Winter, faqs.outdoors",
+      "claim": "Ideal 18–21 °C night and 24–29 °C day; most houseplant palms need above 7 °C (45 °F) to prevent chilling damage, which shows as reddish-brown dead areas a few days after the cold (Clemson); inland UAE and colder GCC cities can fall below this; rare on the coast.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "https://edis.ifas.ufl.edu/publication/FR309/pdf",
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/"
+        ],
+        "note": "Clemson areca entry: 'Temperatures at night of 65 to 70 °F and 75 to 85 °F during the day are ideal' (18–21 / 24–29 °C). Clemson: 'Most houseplant palms need temperatures above 45 °F to prevent chilling damage' (7 °C) and 'Cold injury will cause reddish-brown dead areas on leaves after a few days.' UF FOR247: survives best where the average annual low is 35–40 °F. The writer's 'brown or dark, water-soaked patches' did not match Clemson."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baselines coastal-winter (lows 14–16 °C: cold damage rare), inland-winter (lows 3–5 °C, sub-zero records) and gcc-winter (Riyadh/Kuwait 7–10 °C with colder spells, low confidence). 'Not on the coast' changed to 'rarely on the coast' to match the baseline.",
+        "baseline": "inland-winter"
+      },
+      "status": "corrected",
+      "change": "12 Nov: chilling-damage card: 'Brown or dark, water-soaked patches' → 'Reddish-brown dead areas that appear a few days after a cold night' (Clemson); 'not on the coast' → 'rarely on the coast' (baseline coastal-winter)."
+    },
+    {
+      "id": "c10",
+      "where": "care_sections.soil, care_sections.repotting.steps, problems[1]",
+      "claim": "Well-drained potting soil; indoor potting mix with perlite; pot with a drainage hole; heavy garden soil rots roots; cover pot without a hole is fine if the inner pot drains.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "https://extension.illinois.edu/houseplants/repotting"
+        ],
+        "note": "NC State: 'Grow in well-drained potting soil'. Clemson: 'Soil mixes for palms must be porous ... excellent drainage'; 'Root rot usually results from a soil mix that does not drain quickly'; palms should not 'sit in the saucer that will collect excess water and rot the roots'. Perlite in a potting mix and heavy garden soil staying wet are standard porous-mix practice (Clemson 'porous'); cover pot advice restates 'do not stand in water'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Not climate-dependent. Linked products (potting soil, perlite) are live handles (verify.py)."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c11",
+      "where": "care_sections.fertiliser, mistakes, problems[2], uae_year.Spring",
+      "claim": "Slow-release palm fertiliser 12-4-12 or 8-2-12, two to three times a year in spring and summer; excess fertiliser harms palms and browns lower leaf tips.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "https://edis.ifas.ufl.edu/publication/EP269/pdf"
+        ],
+        "note": "Clemson: 'Fertilize with a slow-release palm fertilizer with an analysis like 12-4-12 or 8-2-12 ... only two to three times a year while the plant is actively growing during the spring and summer months. Excessive fertilizer can be harmful to palms. Tips of lower leaves may turn brown and die from excessive fertilization.' The numbers are Clemson's and named in the text."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Clemson gives South Carolina seasons. Owner: confirm that feeding in spring and summer (from March) suits UAE homes, where palms under AC may keep growing in summer (no source confirms this) and outdoor palms face peak heat.",
+        "baseline": "seasons"
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c12",
+      "where": "care_sections.fertiliser, problems[0]",
+      "claim": "Older areca leaves often yellow from potassium deficiency, speckled bronze or yellow; less common in pots; shows first on the oldest leaves; translucent yellow/orange spotting then marginal/tip necrosis; add Mg when correcting K; treatment may take one to two years or longer; healthy old fronds die in a few days, half-yellow fronds for months usually lack K.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/ST165/pdf",
+          "https://edis.ifas.ufl.edu/publication/EP269/pdf",
+          "https://edis.ifas.ufl.edu/publication/EP443/pdf"
+        ],
+        "note": "UF ENH324: 'Older leaves on plants of any age become chlorotic, frequently from a deficiency of potassium. Affected leaves are often speckled with bronze or yellow.' ENH1017: symptoms 'always appear first on the oldest leaves'; for Dypsis lutescens 'early symptoms appear as translucent yellow or orange spotting ... marginal and tip necrosis'; 'apply about 1/3 as much Mg'; 'Treatment ... may require one to two years or longer, since the entire canopy ... may need to be replaced'; and 'It is less common in container substrates.' ENH1182: 'A healthy old leaf will be completely green one day, completely orange-brown the second day ... completely brown the third day'; 'Half-dead old leaves that remain on the palm for months at a time are usually deficient in potassium'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Nutrient physiology; not climate-dependent. The page now says K deficiency is less common in pots."
+      },
+      "status": "corrected",
+      "change": "12 Nov: 'is often potassium deficiency' → 'can be potassium deficiency ... less common in pots than in sandy garden soil' (ENH1017); 'one old frond yellowing now and then is normal ageing' replaced by the ENH1182 description (healthy old fronds die in a few days; half-yellow for months = K). Fertiliser section adds the pots caveat."
+    },
+    {
+      "id": "c13",
+      "where": "care_sections.pruning, problems[0], mistakes, myths",
+      "claim": "Remove a frond only when completely brown; old fronds are a source of potassium for new growth; regular removal of discoloured K-deficient leaves accelerates decline and can kill the palm.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP269/pdf",
+          "https://edis.ifas.ufl.edu/publication/EP443/pdf"
+        ],
+        "note": "ENH1017: 'Removal of discolored older K-deficient leaves on a regular basis has been shown to accelerate the rate of decline ... and can result in premature death of the palm.' ENH1182 (opened 12 Nov): 'Potassium, like nitrogen and magnesium, is a mobile element within the palm'; 'those K-deficient older leaves are serving as a source of K for the palm ... only completely dead leaves should be removed'; 'Removal of completely dead leaves ... is never a problem.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "12 Nov: added UF ENH1182 as the source for nutrient movement (the writer saw it only in a search snippet); pruning text now says 'UF/IFAS explains that old fronds are a source of potassium for new growth'."
+    },
+    {
+      "id": "c14",
+      "where": "care_sections.pruning, myths, faqs.cut-back",
+      "claim": "New growth comes from a high central growing point, so palms cannot be pruned back to reduce their height (Clemson); give a tall palm more room.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/indoor-palms/"
+        ],
+        "note": "Clemson: 'Because new growth occurs from a high central growing point, palms can not be pruned back to reduce their height'; areca 'often outgrow their allotted space. Give them plenty of room.' The writer's 'single growing point at the top of each stem', 'a cut stem does not branch / grow back' and the brown-tip trimming advice (leave a thin brown edge, follow the leaf shape) are not in Clemson or another primary source."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "12 Nov: pruning, myth and FAQ text now quote Clemson ('high central growing point ... cannot be pruned back to reduce their height'); removed 'top of each stem', 'a cut stem does not branch/grow back' and the tip-trimming instructions (blog sources only)."
+    },
+    {
+      "id": "c15",
+      "where": "quick_facts.Repotting, care_sections.repotting",
+      "claim": "Repot every 2 or 3 years when roots fill the pot; palms do best with confined roots; fragile roots; pot only a little larger; signs: roots through the hole or on the surface, wilting between normal waterings; knock out gently, same depth, press and water; repot Oct–Apr in the UAE.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "https://extension.illinois.edu/houseplants/repotting"
+        ],
+        "note": "NC State: 'Repot every 2 or 3 years.' Clemson: 'Palms do best when their roots are confined and may only need repotting every two to three years, if roots fill the pot ... Many palms have fragile root systems'; Clemson repots 'in spring or early summer' (South Carolina). Illinois: signs are roots through the drainage holes, roots on the soil surface, 'The plant wilts between normal waterings'; 'Gently knock the plant out'; 're-potted at the same depth'; 'Gently press the soil around the roots and water immediately'. 'Water the day before', 'one pot size' and 'pot dries very fast / water runs straight through' had no source."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline seasons: repotting in the cooler months (Oct–Apr); Clemson's spring window falls inside it.",
+        "baseline": "seasons"
+      },
+      "status": "corrected",
+      "change": "12 Nov: repot signs now from Illinois; 'one pot size up' → 'a pot only a little larger' (Clemson: confined roots); removed 'water the day before'; 'squeeze or tap a plastic pot' → 'gently knock the palm out' (Illinois)."
+    },
+    {
+      "id": "c16",
+      "where": "care_sections.propagation",
+      "claim": "Propagated by division or seed; most palms are grown from seed, some can be divided; divide large crowded clumps in the cooler months; separate by hand, knife only if needed; each piece with fronds, stems and roots; larger pieces recover faster; repot straight away at the same depth.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://edis.ifas.ufl.edu/publication/ST165/pdf",
+          "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-division-and-offsets",
+          "https://extension.illinois.edu/houseplants/division"
+        ],
+        "note": "NC State: 'Recommended Propagation Strategy: Division, Seed'; 'multi-stemmed (clustering or clumping) palm'. UF ENH324: 'Propagation is by seeds or division.' Clemson: 'Most palms are propagated from seed. Some can be divided.' Iowa State: very large or crowded plants are good candidates; lay the plant on its side, loosen and separate by hand, 'A knife ... can be used if the root ball is too difficult to separate'; each piece needs 'healthy leaves, stems, and roots'; 'The larger the piece, the more quickly the plant recovers.' Illinois: 'Re-pot each piece immediately, so that the roots do not dry out.' 'Seed is slow and mostly used by nurseries' and 'water the day before' had no source."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline seasons: divide in the cooler months.",
+        "baseline": "seasons"
+      },
+      "status": "corrected",
+      "change": "12 Nov: 'Seed is slow and is mostly used by nurseries' → Clemson 'most palms are grown from seed and only some can be divided'; division steps rewritten from Iowa State and Illinois; 'water the day before' removed."
+    },
+    {
+      "id": "c17",
+      "where": "problems[3], quick_facts.Main pest, first_week, uae_year.Summer",
+      "claim": "Areca palms are very susceptible to spider mites; mites are a problem indoors with low humidity and warm temperatures; signs: webbing, pale/bronze speckling; fix: isolate, strong water rinse, horticultural or neem oil spray, raise humidity.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://extension.colostate.edu/resource/managing-houseplant-pests"
+        ],
+        "note": "Clemson: 'Areca palms are very susceptible to spider mites infestations'; 'Mites are often a problem in the home because of low humidity and warm temperatures.' NC State: 'susceptible to scale, whiteflies and spider mites.' CSU: spider mites cause white flecks, then 'graying or bronzing', and 'make webbing'; washing with 'a vigorous jet of water ... is particularly effective for spider mites'; isolate/quarantine plants; insecticide table: horticultural oil 'Y' (controls) and neem oil 'S' (may suppress) for spider mites. 'Neem spray' alone overstated its effect."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "UAE AC homes vary in humidity (baseline indoor-ac); the fix uses a humidity check, not a claim that AC air is dry.",
+        "baseline": "indoor-ac"
+      },
+      "status": "corrected",
+      "change": "12 Nov: spider-mite fix 'a neem-based spray' → 'a horticultural oil or neem oil spray, which can help control spider mites (Colorado State Extension)'."
+    },
+    {
+      "id": "c18",
+      "where": "problems[4]",
+      "claim": "Scale followed by sooty mould is a problem; mealybugs also attack palms; fix: isolate, rub or pick off scales, alcohol on mealybugs after a test leaflet, horticultural or neem oil spray (oils most effective for scales).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/ST165/pdf",
+          "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "https://extension.colostate.edu/resource/managing-houseplant-pests",
+          "https://yardandgarden.extension.iastate.edu/faq/how-do-i-control-mealybugs-houseplant"
+        ],
+        "note": "UF ENH324: 'Scales followed by sooty-mold can be a problem for yellow butterfly palm.' Clemson: 'Several scale insects attack palms. Mealybugs are another common pest.' CSU: soft scales produce 'large amounts of sticky honeydew'; 'spray oils are the most effective treatment for scales'; 'scales can be killed by rubbing or picking them off'; alcohol 'is well known as a useful control of mealybugs. However, using alcohol on plants may cause injuries such as leaf burn ... test a small part'; hand soaps and detergents have 'potential for plant injury'. ISU: 'dab each one with an alcohol-soaked cotton swab'; 'follow label directions'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "12 Nov: scale fix rewritten: alcohol wipe on scale → rub or pick scales off (CSU); alcohol for mealybugs with a test leaflet (ISU, CSU); 'wash with mild soapy water' removed (CSU warns of injury); neem spray → horticultural oil or neem oil (CSU: oils most effective for scales)."
+    },
+    {
+      "id": "c19",
+      "where": "problems[1]",
+      "claim": "Yellow fronds with always-wet soil mean overwatering and root rot; rot organisms thrive in wet, poorly drained mix; lower fronds wilt first; healthy roots firm and white, rotten roots mushy and brown.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "https://yardandgarden.extension.iastate.edu/article/2014/02-14/rootrot.html"
+        ],
+        "note": "Clemson: 'Root rot usually results from a soil mix that does not drain quickly or overly frequent watering'; 'Excessively wet soil can lead to root rot.' Iowa State: root-rot pathogens 'thrive in wet, poorly drained soils'; 'Symptoms ... begin with wilting of bottom leaves'; 'A healthy root tissue should be firm, white'; 'rotted roots are mushy and have a brown or reddish color.' 'Sour smell' and 'soft brown stem bases' had no primary source."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "12 Nov: root-rot card: removed 'a sour smell' and 'soft brown stem bases'; added 'lower fronds that wilt first' (ISU); roots 'firm and pale / dark and soft' → 'firm and white / mushy and brown' (ISU); 'roots cannot breathe' → 'root rot organisms thrive in wet, poorly drained mix' (ISU)."
+    },
+    {
+      "id": "c20",
+      "where": "problems[6]",
+      "claim": "Drooping or wilting fronds mean thirst or root damage; root rot is often mistaken for lack of water, so check the soil before watering.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "https://yardandgarden.extension.iastate.edu/article/2014/02-14/rootrot.html"
+        ],
+        "note": "Clemson: problems are 'Too much or too little water'; browning from 'lack of water'. Iowa State: root-rot wilting 'can be commonly mistaken for lack of water, so it is very important to examine the root system and potting mix moisture level before adding more water.' 'Folded or curling' fronds as a thirst sign and 'soil pulling away from the pot edge' had no source."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "12 Nov: problem card narrowed to 'drooping or wilting' fronds (removed 'folded or curling' and 'dry soil pulling away from the pot edge', 'sour smell'); added the Iowa State warning to check the soil first."
+    },
+    {
+      "id": "c21",
+      "where": "problems[2]",
+      "claim": "Brown leaf tips come from dry air, lack of water, too much fertiliser (Clemson) or salt build-up from water and fertiliser (CSU).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/"
+        ],
+        "note": "Clemson: 'Browning of leaves can also be caused by dry air and/or lack of water'; 'Tips of lower leaves may turn brown and die from excessive fertilization.' CSU 1339: brown tips and white crust from salt build-up; salts come from water and fertiliser; leach to remove. 'Cut tips do not grow back green' trimming step removed (see c14)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline tap-water: the page does not call UAE water hard.",
+        "baseline": "tap-water"
+      },
+      "status": "corrected",
+      "change": "12 Nov: salts sentence now cites Colorado State Extension; removed the 'trim the brown tips' fix (no primary source)."
+    },
+    {
+      "id": "c22",
+      "where": "quick_facts.Size indoors, faqs.growth, fit",
+      "claim": "Grows about 15–25 cm (6–10 in) a year and about 1.8–2.1 m (6–7 ft) indoors; often outgrows its space; up to about 9 m (30 ft) in the native habitat.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/"
+        ],
+        "note": "Clemson: 'This very popular palm grows 6 to 7 feet tall indoors' (1.8–2.1 m); 'Arecas grow 6 to 10 inches a year and often outgrow their allotted space' (15–25 cm). NC State: 'can grow to 30 feet tall and 15 feet wide in its native habitat' (about 9 m). Numbers are named sources' figures."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c23",
+      "where": "pet_safety, quick_facts.Pets, quick_answer, fit, myths, alternatives",
+      "claim": "ASPCA: areca palm (Dypsis lutescens) non-toxic to dogs, cats and horses. NC State: low-severity poison for people; heart-of-palm cyanogenic (cyanogenic glycosides), nausea and vomiting; do not eat it. Even non-toxic plants can upset a pet's stomach.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm",
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants"
+        ],
+        "note": "ASPCA areca palm (opened 12 Nov): 'Scientific Name: Dypsis lutescens ... Non-Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses'. ASPCA plant list: 'the consumption of any plant material may cause vomiting and gastrointestinal upset for dogs and cats' (supports 'can upset a pet's stomach'). NC State: 'Poison Severity: Low'; 'The heart-of-palm (the meristem and young leaf buds) are cyanogenic and should not be consumed. Symptoms include nausea and vomiting'; toxic principle 'cyanogenic glycoside(s)'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not climate-dependent. Emergency step says vet or 24-hour clinic; no store facts."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c24",
+      "where": "faqs.children, pet_safety.emergency",
+      "claim": "Low-severity poison for people; do not let children chew the plant; call a doctor or poison centre if a child eats part of it.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/"
+        ],
+        "note": "NC State: 'Poison Severity: Low'; heart-of-palm cyanogenic, 'Symptoms include nausea and vomiting'. Advice to stop children chewing and call a doctor or poison centre follows from that rating."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE poison-centre number is given; the generic 'doctor or poison centre' step is correct anywhere."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c25",
+      "where": "faqs.air, myths",
+      "claim": "Potted plants do not noticeably clean room air; chamber removal is far slower than building ventilation (Cummings & Waring 2019).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://doi.org/10.1038/s41370-019-0175-9",
+          "https://drexel.edu/news/archive/2019/November/potted-plants-do-not-improve-air-quality",
+          "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41370-019-0175-9&resultType=core&format=json"
+        ],
+        "note": "12 Nov re-check (abstract opened, Europe PMC, PMID 31695112): 12 chamber studies, 196 results; median single-plant CADR 0.023 m3/h, 'necessitating the placement of 10-1000 plants/m2 of a building's floor space' to match outdoor-to-indoor air exchange in typical buildings (~1 h-1). Primary-source figure: 10-1,000 plants per m2. The Drexel news release (opened 12 Nov) says 'between 100 and 1,000 plants per square meter'; that is the press office's rounding, not the paper. Use the paper's figure if a number is shown. The page gives no number, only 'far more plants than anyone keeps'. Drexel: 'a dozen studies, spanning 30 years'; chamber removal 'orders of magnitude slower' than building air exchange. (Earlier note gave the Drexel 100-1,000 figure as the paper's.)"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c26",
+      "where": "faqs.same-as-bamboo, alternatives.Bamboo Palm",
+      "claim": "'Bamboo palm' is a common name for the areca palm (ringed bamboo-like stems) and also for Chamaedorea seifrizii and C. elegans, which NC State notes are often confused with the areca palm; both tolerate lower light.",
+      "g": {
+        "verdict": "contradicted",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://edis.ifas.ufl.edu/publication/ST165/pdf",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/bamboo-palm"
+        ],
+        "note": "NC State areca: common names include Bamboo Palm; 'often confused with: Chamaedorea elegans, Chamaedorea seifrizii'; stems 'have prominent nodes, like bamboo'. UF ENH324 common names include bamboo palm. NC State C. seifrizii: 'Bamboo Palm, Parlor Palm, Reed Palm'; 'grows up to 7 feet tall'; 'will survive in low light'. NC State C. elegans: Bamboo Palm among names; 'can tolerate low-light conditions'. ASPCA 'Bamboo Palm' = C. elegans. The writer's 'Chamaedorea, a smaller palm' is contradicted for C. seifrizii (up to 7 ft, as tall as an indoor areca), which the bamboo-palm guide uses as 'bamboo palm'; 'in shops usually means Chamaedorea' had no source."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Common names; the shop-usage claim was removed, so nothing UAE-specific remains on the page."
+      },
+      "status": "corrected",
+      "change": "12 Nov: FAQ 'In shops, \"bamboo palm\" usually means Chamaedorea, a smaller palm' → names both Chamaedorea seifrizii and C. elegans (consistent with the bamboo-palm guide), both tolerate lower light (NC State). Alternative 'why' 'a smaller palm for a dimmer room' → 'a palm for a dimmer room'."
+    },
+    {
+      "id": "c27",
+      "where": "faqs.flower",
+      "claim": "Rarely blooms or fruits as a houseplant; outdoors hanging sprays of small flowers, then small egg-shaped fruits.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://edis.ifas.ufl.edu/publication/ST165/pdf",
+          "https://edis.ifas.ufl.edu/publication/FR309/pdf"
+        ],
+        "note": "NC State: 'Panicles of yellow flowers appear in the summer and are followed by yellow-orange fruits. They will rarely bloom or produce fruit as a houseplant'; fruit 'egg-shaped'. UF ENH324: 'small, white, inconspicuous flowers are produced all year long'; fruits black. UF FOR247: yellow flower stalks; fruit 'shaped like an egg ... turns from yellow to dark purple or black'. Sources disagree on colours and season, so the page no longer gives them."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "12 Nov: 'small yellow flowers in summer, followed by small yellow-orange fruits' → 'small flowers, followed by small egg-shaped fruits (NC State, UF/IFAS)'; sources disagree on colour and season."
+    },
+    {
+      "id": "c28",
+      "where": "faqs.native",
+      "claim": "Native/endemic to eastern Madagascar, endangered in the wild through habitat loss; one of the most popular indoor palms.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/FR309/pdf",
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://web.archive.org/web/20250923055914/https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:665962-1"
+        ],
+        "note": "UF FOR247: 'Areca palm is endemic to eastern Madagascar, where it is endangered due to the loss of its natural habitat'. POWO: native range E. Madagascar. NC State: 'native to Madagascar'; 'one of the most popular indoor palms'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c29",
+      "where": "alternatives",
+      "claim": "Bamboo palm: bright indirect light, tolerates low light, slightly moist never soggy, non-toxic (ASPCA, C. elegans). Kentia palm: moderate light, avoid direct sun, mix that does not dry out, non-toxic. Spider plant: medium light, tolerates deep shade, no direct sun, moist soil, tolerates drought, non-toxic. Snake plant: tolerates very low light, water when dry, toxic.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/",
+          "https://plants.ces.ncsu.edu/plants/chamaedorea-seifrizii/",
+          "https://plants.ces.ncsu.edu/plants/howea-forsteriana/",
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/bamboo-palm",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kentia-palm",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snake-plant"
+        ],
+        "note": "Opened 12 Nov. Bamboo palm: NC State C. elegans 'bright indirect light ... can tolerate low-light conditions'; 'let the soil dry slightly'; C. seifrizii 'slightly moist potting mix'; 'Overwatering can cause root rot' → 'Slightly moist, never soggy'. ASPCA 'Bamboo Palm' = Chamaedorea elegans, non-toxic to dogs, cats, horses (no ASPCA entry for C. seifrizii; NC State lists it as low-severity, oxalic acid in fruits), so the pets cell names C. elegans, the species of the linked product. Kentia: NC State 'Indoors, it requires moderate light'; 'requires little light'; 'potting mix that does not dry out'; 'As long as direct sunlight is avoided, it can withstand outdoor temperatures up to 100 °F'; ASPCA non-toxic. Spider plant: NC State 'medium light ... can tolerate deep shade. It is intolerant of direct sunlight ... moist soil ... tolerant of drought'; ASPCA non-toxic. Snake plant: NC State 'will tolerate very low light'; 'allow the soil to dry between waterings'; ASPCA 'Toxic to Dogs, Toxic to Cats', saponins."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Same indoor UAE checks as the main plant (baseline indoor-ac, sun-through-glass); kentia 'avoid direct sun' fits UAE summer highs above 38 °C (baseline summer-heat).",
+        "baseline": "indoor-ac"
+      },
+      "status": "corrected",
+      "change": "12 Nov: bamboo palm row: water 'Let the soil dry slightly between waterings' (C. elegans only) → 'Slightly moist, never soggy' (true for both Chamaedorea species and the linked guide); pets 'Non-toxic (ASPCA)' → 'Non-toxic (ASPCA, Chamaedorea elegans)'; why 'smaller palm' → 'a palm for a dimmer room' (see c26)."
+    },
+    {
+      "id": "c30",
+      "where": "care_sections.repotting, care_sections.propagation, uae_year.Autumn, uae_year.Spring",
+      "claim": "UAE: repot and divide in the cooler months (Oct–Apr), not in peak summer; move palms outdoors gradually, starting in shade; make sure outdoor pots drain after rain.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "https://yardandgarden.extension.iastate.edu/how-to/how-propagate-houseplants-division-and-offsets",
+          "https://www.thenationalnews.com/lifestyle/home-garden/2024/05/05/gardening-uae-summer-plants/"
+        ],
+        "note": "Clemson: 'When they are moved outside for the summer, gradually accustom them to higher light levels'; repot 'in spring or early summer' (South Carolina). Iowa State: 'Early spring is the ideal time ... but most houseplants can be successfully divided any time of the year.' Clemson: palms should not 'sit in the saucer that will collect excess water and rot the roots' (pots must drain)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baselines seasons (planting and repotting in the cooler months, Oct–Apr) and rain (short heavy bursts Nov–Apr; outdoor pots without holes can flood).",
+        "baseline": "seasons"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c31",
+      "where": "fit",
+      "claim": "Fit lists: non-toxic (ASPCA), needs bright light, tall feathery floor plant, does not like drying out, grows tall and wide.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm",
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://hgic.clemson.edu/factsheet/indoor-palms/"
+        ],
+        "note": "Restates c03 (bright light), c05 (does not like drying out), c22 (tall, outgrows space, 'Give them plenty of room') and c23 (ASPCA non-toxic)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Same as c03, c05."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c32",
+      "claim": "First week: bright indirect light away from sun and AC airflow; keep it in one spot; test the soil before watering; do not repot or feed yet; check under the fronds for spider mites.",
+      "where": "first_week",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "https://extension.colostate.edu/resource/managing-houseplant-pests",
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/"
+        ],
+        "note": "First week: bright indirect light away from sun and AC vents (c03, c08); test the soil before watering (c05); look under fronds for webbing or moving dots (CSU spider-mite signs, c17); do not repot or feed straight away (Clemson: palms do best with confined roots, feed only while actively growing). 'Moving it again and again slows the settling in' is general practice with no number; low risk (same as snake-plant c29)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Same checks as c05 and c08. No store facts on the page (delivery and arrival questions are KB057, KB016)."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c33",
+      "claim": "Areca palms are less forgiving of drought than snake plants.",
+      "where": "mistakes[1]",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/ST165/pdf",
+          "https://hgic.clemson.edu/factsheet/indoor-palms/",
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/"
+        ],
+        "note": "Opened 12 Nov (loop 1). UF ENH324 (areca): 'Drought tolerance: moderate'; 'palms should be watered during periods of drought'. Clemson: palms 'should never be allowed to dry out'. NC State areca entry, Resistance To Challenges: 'Heat, Humidity' (no drought). NC State Dracaena trifasciata entry, Resistance To Challenges: 'Drought, Dry Soil, Heat, Heavy Shade, Humidity'. The comparison follows from these sources."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "General comparison of the two species; not location-dependent."
+      },
+      "status": "verified"
+    }
+  ]
+}
