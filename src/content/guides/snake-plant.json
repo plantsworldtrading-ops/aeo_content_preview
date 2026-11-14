@@ -26,7 +26,7 @@
     "snake plant in bedroom"
   ],
   "question_title": "How do you care for a snake plant in the UAE?",
-  "quick_answer": "Snake plant care in the UAE is simple: give the plant bright indirect light, water only when the soil is dry to the bottom of the pot, and use a pot with a drainage hole. Under AC the soil dries slowly, so test it before every watering. Overwatering, which leads to root rot, is the main reason a snake plant (Dracaena trifasciata) fails.",
+  "quick_answer": "Snake plant care in the UAE is simple: give the plant bright indirect light, water only when the soil is dry to the bottom of the pot, and never let the roots stand in water. Under AC the soil dries slowly, so test it before every watering. Overwatering, which leads to root rot, is the main reason a snake plant (Dracaena trifasciata) fails.",
   "quick_facts": [
     {
       "label": "Light",
@@ -78,7 +78,7 @@
     ],
     "think_twice": [
       "A cat, a dog or a young child in your home chews plants: snake plants are toxic if eaten.",
-      "You like to water often, or your pots have no drainage hole.",
+      "You like to water often, or you do not want to check for standing water after you water.",
       "You want fast growth or regular flowers."
     ]
   },
@@ -101,7 +101,7 @@
         "Water a snake plant only when the soil is dry all the way to the bottom of the pot, not on a schedule. To test, push a wooden skewer to the bottom of the pot and pull it out. If the skewer comes out damp or with soil stuck to it, wait and test again later.",
         "How fast snake plant soil dries depends on the pot, the room and the season. Small and terracotta pots in a warm, bright spot dry fastest; large plastic or glazed pots in a dim AC room stay damp longest. In humid coastal homes and after rain, snake plant soil dries slowly, so the test will tell you to water less often. Inland, dry heat and hot wind dry pots quickly, so test outdoor snake plants more often in summer.",
         "In the cooler months snake plant growth slows and the soil takes longer to dry. NC State Extension says to water only every one to two months in winter, and University of Illinois Extension says to give just enough water in winter to stop the leaves from shrivelling.",
-        "When you water a snake plant, water thoroughly until water runs out of the drainage hole, then empty the saucer once the pot stops dripping. Never leave the pot standing in water.",
+        "When you water a snake plant, water thoroughly until water runs out of the bottom of the pot, then empty the saucer once the pot stops dripping. Never leave the pot standing in water.",
         "UAE tap water is desalinated and then remineralised, and its mineral content varies by area and building. If you see a white crust on the soil or pot, or brown leaf tips, flush the pot with plenty of water to wash the salts out, or switch to filtered water."
       ],
       "tips": [
@@ -117,7 +117,7 @@
       "heading": "What soil and pot does a snake plant need?",
       "paragraphs": [
         "Use a fast-draining mix for a snake plant: a cactus and succulent soil, or regular potting soil with plenty of perlite or coarse sand mixed in. Heavy, water-holding garden soil keeps the roots wet and leads to rot.",
-        "Always give a snake plant a pot with a drainage hole. Decorative pots without holes are fine as an outer cover, as long as you lift the inner pot out to drain. Terracotta and cement pots dry faster than plastic or glazed ceramic, which helps prevent overwatering."
+        "Extra water must be able to leave the roots of a snake plant: the roots must never stand in water. A pot with drainage holes is the easiest way to let it out. If the plant sits in a decorative cover pot, lift it out to drain after watering, or empty any water that collects in the cover pot. In a pot without a hole, push a wooden skewer to the bottom of the pot before you water: if it comes out with soggy soil, wait before you water again. Terracotta and cement pots dry faster than plastic or glazed ceramic, which helps prevent overwatering."
       ],
       "products": [
         "succulent-and-cactus-potting-soil-mix-indoor-plant-soil",
@@ -352,8 +352,8 @@
       "instead": "Water only when the soil is dry all the way down. Test it with a skewer before each watering."
     },
     {
-      "mistake": "A pot with no drainage hole, or a saucer left full of water",
-      "instead": "Use a pot with a hole, or lift the inner pot out of a cover pot to drain. Empty the saucer once the pot stops dripping."
+      "mistake": "Water left standing in the saucer, the cover pot or the bottom of the pot",
+      "instead": "Let extra water drain away and empty the saucer or cover pot once the pot stops dripping. In a pot without a hole, push a wooden skewer to the bottom before you water, and wait while the soil there is soggy."
     },
     {
       "mistake": "Pouring water into the centre of the leaves",
@@ -586,7 +586,7 @@
       "url": "https://extension.colostate.edu/resource/managing-houseplant-pests"
     }
   ],
-  "author": "PlantsWorld team",
+  "author": "Izzy Keethadath",
   "version_log": [
     {
       "version": "1.0",

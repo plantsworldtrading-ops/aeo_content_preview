@@ -36,7 +36,7 @@
     },
     {
       "label": "Soil",
-      "value": "Free-draining potting mix rich in organic matter, in a pot with a drainage hole."
+      "value": "Free-draining potting mix rich in organic matter; the roots must never stand in water."
     },
     {
       "label": "Temperature",
@@ -96,7 +96,7 @@
       "id": "watering",
       "heading": "How often should you water a bamboo palm in Dubai and the UAE?",
       "paragraphs": [
-        "Water a bamboo palm when the top of the potting mix feels dry, then water thoroughly until water runs out of the drainage hole. Penn State Extension sums it up as \"keep moist, but not wet\". There is no fixed number of days, because how fast the pot dries depends on your home.",
+        "Water a bamboo palm when the top of the potting mix feels dry, then water thoroughly until water runs out of the bottom of the pot. Penn State Extension sums it up as \"keep moist, but not wet\". There is no fixed number of days, because how fast the pot dries depends on your home.",
         "Test before you water a bamboo palm: push a finger into the top of the mix. If it feels dry, water. If it still feels damp, wait and test again later. Lifting the pot also helps: a pot that feels light has dried out, and a heavy pot still holds water.",
         "Several things change how often a bamboo palm needs water. A small pot, a terracotta pot, a bright or warm spot and long summer days dry the mix faster. A large plastic or glazed pot, a dim room, cooler winter months and a humid coastal home keep it moist for longer.",
         "Always empty the saucer after the pot stops dripping. A bamboo palm that stands in water or in soggy mix can get root rot, stem rot and bud rot."
@@ -110,7 +110,7 @@
       "heading": "What soil and pot does a bamboo palm need?",
       "paragraphs": [
         "Plant a bamboo palm in a potting mix that drains well and is rich in organic matter. A good universal potting soil with some perlite mixed in keeps the mix moist but airy; the RHS suggests three parts peat-free ericaceous compost to one part perlite for its close relative, the parlour palm.",
-        "Use a pot with a drainage hole for a bamboo palm. A decorative pot without a hole works as an outer cover, as long as you lift the inner pot out to drain after watering. Penn State Extension notes that palms like to be slightly root-bound, so a snug pot is better than a large one."
+        "Extra water must be able to leave the roots of a bamboo palm: the roots must never stand in water. A pot with drainage holes is the easiest way to let it out. If the plant sits in a decorative cover pot, lift it out to drain after watering, or empty any water that collects in the cover pot. In a pot without a hole, push a wooden skewer to the bottom of the pot before you water: if it comes out with soggy soil, wait before you water again. Penn State Extension notes that palms like to be slightly root-bound, so a snug pot is better than a large one."
       ],
       "products": [
         "universal-potting-soil-holland-plant-care-soil",
@@ -547,7 +547,7 @@
       "url": "https://doi.org/10.1038/s41370-019-0175-9"
     }
   ],
-  "author": "PlantsWorld team",
+  "author": "Izzy Keethadath",
   "version_log": [
     {
       "version": "1.0",

@@ -50,7 +50,7 @@
     },
     {
       "label": "Soil",
-      "value": "Potting mix high in organic matter, in a pot with a drainage hole."
+      "value": "Potting mix high in organic matter that drains well; the roots must never stand in water."
     },
     {
       "label": "Feeding",
@@ -105,7 +105,7 @@
         "Water a peace lily when the top of the soil feels dry, and do not let the pot dry out completely. NC State Extension and Clemson Extension both say to keep the soil moist but not soggy and to let it dry between waterings; Clemson says to let it dry slightly. There is no fixed schedule, because the right timing depends on your home.",
         "Test the soil before you water: Clemson Extension advises pushing a finger into the mix up to the first joint. If it feels dry at your fingertip, water; if it feels damp, wait and check again later. You can also lift the pot: a dry pot feels much lighter than a freshly watered one.",
         "Clemson Extension lists what changes the timing: a plant in a small pot, a porous clay (terracotta) pot or a warm, dry, sunny spot needs water more often; one in a large or plastic pot or a cool, dim room needs it less often. In the UAE, humid coastal homes and winter also slow drying. Check the soil, not the calendar.",
-        "When you water a peace lily, water thoroughly until water runs out of the drainage hole, then empty the saucer. Clemson Extension warns that a pot left standing in water leads to root rot. NC State Extension notes that watering from below also works very well for peace lilies.",
+        "When you water a peace lily, water thoroughly until water runs out of the bottom of the pot, then empty the saucer. Clemson Extension warns that a pot left standing in water leads to root rot. NC State Extension notes that watering from below also works very well for peace lilies.",
         "UF/IFAS lists the peace lily as not salt tolerant. UAE tap water is desalinated and then remineralised, and its mineral content varies by area and building. Clemson Extension says a white to grey crust on the soil or pot rim is a sign of salt build-up. If you see it, or brown leaf tips, flush the pot with plenty of water, scrape off the crust and add fresh potting mix."
       ],
       "tips": [
@@ -135,7 +135,7 @@
       "id": "soil",
       "heading": "What soil and pot does a peace lily need, and when should you repot?",
       "paragraphs": [
-        "Use a potting mix high in organic matter that holds moisture but still drains well, such as a peat- or bark-based bagged potting soil (NC State Extension, UF/IFAS). Always use a pot with a drainage hole, or lift the inner pot out of a decorative cover pot to drain.",
+        "Use a potting mix high in organic matter that holds moisture but still drains well, such as a peat- or bark-based bagged potting soil (NC State Extension, UF/IFAS). Extra water must be able to leave the roots of a peace lily: the roots must never stand in water. A pot with drainage holes is the easiest way to let it out. If the plant sits in a decorative cover pot, lift it out to drain after watering, or empty any water that collects in the cover pot. In a pot without a hole, push a wooden skewer to the bottom of the pot before you water: if it comes out with soggy soil, wait before you water again.",
         "A peace lily likes to be slightly pot-bound. Clemson Extension says to repot when roots grow through the drainage holes or circle on top of the soil, and to choose a pot only 2.5–5 cm (one to two inches) wider than the old one, because a much larger pot keeps the mix too wet and leads to root rot.",
         "NC State Extension recommends repotting in February or March; Clemson Extension says repotting works at any time of year, but the plant recovers faster in the growing season. In the UAE, February and March also avoid the summer heat."
       ],
@@ -262,7 +262,7 @@
       "signs": "Dry, light pot (thirst), or wet soil, dark root tips and brown leaf edges (too much water).",
       "fix": [
         "Push a finger into the soil.",
-        "If the soil is dry, water thoroughly until water runs out of the drainage hole. UF/IFAS says the plant usually stands up again within hours.",
+        "If the soil is dry, water thoroughly until water runs out of the bottom of the pot. UF/IFAS says the plant usually stands up again within hours.",
         "If the soil is wet, do not water. Let the pot drain and the soil dry a little, and check that the drainage hole is not blocked.",
         "If the plant droops only late in the day in a bright, warm room and the soil is moist, this can be normal (UF/IFAS)."
       ]
@@ -564,7 +564,7 @@
       "url": "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/"
     }
   ],
-  "author": "PlantsWorld team",
+  "author": "Izzy Keethadath",
   "version_log": [
     {
       "version": "1.0",

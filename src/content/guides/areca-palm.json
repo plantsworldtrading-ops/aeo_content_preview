@@ -26,7 +26,7 @@
     "areca palm Dubai"
   ],
   "question_title": "How do you care for an areca palm in the UAE?",
-  "quick_answer": "Areca palm care in the UAE comes down to three things: bright indirect light away from harsh sun through glass, soil that stays moist but never soggy, and a pot with a drainage hole. Water when the top of the soil feels dry, not on a fixed schedule. The areca palm (Chrysalidocarpus lutescens) is non-toxic to cats and dogs (ASPCA).",
+  "quick_answer": "Areca palm care in the UAE comes down to three things: bright indirect light away from harsh sun through glass, soil that stays moist but never soggy, and roots that never stand in water. Water when the top of the soil feels dry, not on a fixed schedule. The areca palm (Chrysalidocarpus lutescens) is non-toxic to cats and dogs (ASPCA).",
   "quick_facts": [
     {
       "label": "Light",
@@ -103,7 +103,7 @@
         "Water an areca palm when the surface of the soil feels dry, and do not let the whole pot dry out. NC State Extension says to keep the soil moist but not soggy during the growing season, and Clemson Extension says palms should never dry out or stand in water. There is no fixed number of days: the soil tells you when.",
         "To check whether an areca palm needs water, push a finger or a wooden skewer into the soil. If the top feels dry and the soil below is only slightly damp, water. If the soil is still wet near the surface, wait and check again later.",
         "Many things change how fast an areca palm's pot dries. Small pots, terracotta, bright light and a warm spot dry quickly. Large plastic or glazed pots, a dim room and cool AC dry slowly. Humid coastal homes dry more slowly than inland homes, and outdoor pots dry fastest in summer heat and wind.",
-        "Water an areca palm thoroughly, until water runs out of the drainage hole. Then empty the saucer once the pot stops dripping (Clemson)."
+        "Water an areca palm thoroughly, until water runs out of the bottom of the pot. Then empty the saucer once the pot stops dripping (Clemson)."
       ],
       "tips": [
         "UAE tap water is desalinated and then remineralised, and its mineral content varies by area and building. If you see a white crust on the soil or pot, or brown leaf tips, flush the pot with plenty of water or switch to filtered water.",
@@ -127,7 +127,7 @@
       "heading": "What soil and pot does an areca palm need?",
       "paragraphs": [
         "Grow an areca palm in a well-drained potting soil (NC State Extension). A good indoor potting mix with some perlite added drains well and still holds moisture. Heavy garden soil stays wet and can rot the roots.",
-        "Always grow an areca palm in a pot with a drainage hole. A decorative pot without a hole is fine as an outer cover, as long as you lift the inner pot out to drain after watering."
+        "Extra water must be able to leave the roots of an areca palm: the roots must never stand in water. A pot with drainage holes is the easiest way to let it out. If the plant sits in a decorative cover pot, lift it out to drain after watering, or empty any water that collects in the cover pot. In a pot without a hole, push a wooden skewer to the bottom of the pot before you water: if it comes out with soggy soil, wait before you water again."
       ],
       "products": [
         "universal-potting-soil-holland-plant-care-soil",
@@ -308,7 +308,7 @@
       "answer": "Drooping or wilting areca palm fronds mean the palm is short of water. Either the soil has dried out, or rotting roots can no longer take water up. Iowa State Extension warns that root rot is often mistaken for a lack of water, so check the soil before you water.",
       "signs": "Soil dry deep in the pot (thirst), or soil that is still wet (root damage).",
       "fix": [
-        "If the soil is dry, water thoroughly until water runs out of the drainage hole.",
+        "If the soil is dry, water thoroughly until water runs out of the bottom of the pot.",
         "If the soil is wet, check the roots and follow the fix for yellow fronds with wet soil."
       ]
     },
@@ -334,8 +334,8 @@
       "instead": "Keep the soil moist but not soggy. Areca palms are less forgiving of drought than snake plants."
     },
     {
-      "mistake": "A pot with no drainage hole, or a saucer left full of water",
-      "instead": "Use a pot with a hole, or lift the inner pot out of a cover pot to drain. Empty the saucer after watering."
+      "mistake": "Water left standing in the saucer, the cover pot or the bottom of the pot",
+      "instead": "Let extra water drain away and empty the saucer or cover pot once the pot stops dripping. In a pot without a hole, push a wooden skewer to the bottom before you water, and wait while the soil there is soggy."
     },
     {
       "mistake": "Summer afternoon sun through a west- or south-facing window",
@@ -572,7 +572,7 @@
       "url": "https://extension.illinois.edu/houseplants/division"
     }
   ],
-  "author": "PlantsWorld team",
+  "author": "Izzy Keethadath",
   "version_log": [
     {
       "version": "1.0",

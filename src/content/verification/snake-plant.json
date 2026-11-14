@@ -1,10 +1,22 @@
 {
   "handle": "snake-plant",
-  "stage": "fact-checked",
-  "hash": "611132ef8ea05b35",
+  "stage": "signed-off",
+  "hash": "f5589423275a8946",
   "content_errors": [],
   "ledger_errors": [],
-  "signoff": null,
+  "signoff": {
+    "by": "Owner",
+    "on": "2026-11-14",
+    "content_hash": "f5589423275a8946",
+    "confirmed_local": [
+      "c02",
+      "c13",
+      "c14",
+      "c20",
+      "c21"
+    ],
+    "notes": "Owner signed off in chat 2026-11-14 (\"yes sync i sign off\", confirmed \"yes go ahead and do this\") after the author line changed to Izzy Keethadath (T18 option a). Guide text unchanged."
+  },
   "claims": [
     {
       "id": "c01",
@@ -95,16 +107,18 @@
           "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
           "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
           "https://extension.illinois.edu/houseplants/mother-law-tongue",
-          "https://planttalk.colostate.edu/topics/houseplants/1337-snake-plant/"
+          "https://planttalk.colostate.edu/topics/houseplants/1337-snake-plant/",
+          "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+          "https://homegarden.cahnr.uconn.edu/factsheets/houseplant-watering-recommendations"
         ],
-        "note": "PSU: 'Water only when it is dry'; 'You can kill it by overwatering'; root rot 'a common affliction'. NC State: 'In winter only water every one to two months'. Illinois: 'allow the soil to dry completely between watering'; winter 'just enough to keep the foliage from shriveling'; 'Over-watering is the main reason for failure'. CSU is softer in winter (keep the soil from drying out completely); the skewer test covers both. Month labels: sources give no months, only 'winter' (NC State, Illinois) and 'fall and winter when active growth slows' (CSU). The page uses one UAE split for watering and feeding: growth Mar–Oct, slower Nov–Feb (see c08)."
+        "note": "Drainage check 12 Nov: Clemson HGIC 1459: 'Apply water until it runs out of the bottom of the pot.' | PSU: 'Water only when it is dry'; 'You can kill it by overwatering'; root rot 'a common affliction'. NC State: 'In winter only water every one to two months'. Illinois: 'allow the soil to dry completely between watering'; winter 'just enough to keep the foliage from shriveling'; 'Over-watering is the main reason for failure'. CSU is softer in winter (keep the soil from drying out completely); the skewer test covers both. Month labels: sources give no months, only 'winter' (NC State, Illinois) and 'fall and winter when active growth slows' (CSU). The page uses one UAE split for watering and feeding: growth Mar–Oct, slower Nov–Feb (see c08)."
       },
       "u": {
         "verdict": "supported",
         "note": "No UAE interval is stated any more. The rule and test work in any home; drying factors match baseline indoor-ac (not reliably dry) and summer-heat."
       },
       "status": "corrected",
-      "change": "12 Nov: removed our intervals (every 2–3 weeks Apr–Oct, 4–6 weeks Nov–Mar) from the quick answer, quick facts, watering section, summer and winter cards, mistakes and myths, and 'wait another week'. Now rule + skewer test + what changes it, with the NC State winter figure named. 'Most often dies from overwatering' now 'main reason it fails' (Illinois). 12 Nov (SEO follow-up): quick-facts labels 'Apr–Oct' / 'Nov–Mar' changed to 'Mar–Oct' / 'Nov–Feb' to match the feeding months; autumn card now says growth slows from November."
+      "change": "12 Nov: removed our intervals (every 2–3 weeks Apr–Oct, 4–6 weeks Nov–Mar) from the quick answer, quick facts, watering section, summer and winter cards, mistakes and myths, and 'wait another week'. Now rule + skewer test + what changes it, with the NC State winter figure named. 'Most often dies from overwatering' now 'main reason it fails' (Illinois). 12 Nov (SEO follow-up): quick-facts labels 'Apr–Oct' / 'Nov–Mar' changed to 'Mar–Oct' / 'Nov–Feb' to match the feeding months; autumn card now says growth slows from November. | 12 Nov: 'until water runs out of the drainage hole' -> 'until water runs out of the bottom of the pot' (Clemson HGIC 1459 wording; same meaning, works for any pot)."
     },
     {
       "id": "c06",
@@ -126,22 +140,25 @@
     },
     {
       "id": "c07",
-      "where": "care_sections.soil, care_sections.repotting.steps, mistakes",
-      "claim": "Fast-draining cactus/succulent mix or potting soil with plenty of perlite or coarse sand; pot with a drainage hole; terracotta and cement dry faster than plastic.",
+      "where": "quick_answer, care_sections.soil, care_sections.repotting.steps, mistakes[1], fit.think_twice[1]",
+      "claim": "Fast-draining cactus/succulent mix or potting soil with plenty of perlite or coarse sand; Extra water must be able to leave the roots; roots must never stand in water; a pot with drainage holes is the easiest way; a plant in a decorative cover pot is lifted out to drain or the cover pot is emptied; in a pot without a hole, skewer test to the bottom and wait while the soil there is soggy. Terracotta and cement dry faster than plastic.",
       "g": {
         "verdict": "supported",
         "sources": [
           "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
-          "https://planttalk.colostate.edu/topics/houseplants/1337-snake-plant/"
+          "https://planttalk.colostate.edu/topics/houseplants/1337-snake-plant/",
+          "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+          "https://homegarden.cahnr.uconn.edu/factsheets/houseplant-watering-recommendations",
+          "https://extension.umd.edu/resource/potting-and-repotting-indoor-plants"
         ],
-        "note": "PSU: 'cactus potting mix or one with perlite'; 'only containers with drainage holes'. CSU: often grown in clay pots for stability."
+        "note": "Drainage check 12 Nov (opened): UConn: surplus water 'causes the potting medium to remain saturated and displaces necessary oxygen'; 'Empty saucers or cachepots containing water'; 'let the pot drain well before returning it to its regular site'. Clemson HGIC 1459: 'Apply water until it runs out of the bottom of the pot. Don't let the pot sit in the water that runs out. Empty the saucer. Allow the pot to drain completely.' Penn State: 'Choose only containers with drainage holes to prevent soggy soil' (supports 'easiest way'). UMD: glazed ceramic pots 'commonly lack sufficient drainage holes' and 'can be used with a clay or plastic pot inside to allow for drainage'. The skewer test to the bottom of the pot is the FORMAT.md reader test, no number. No drainage or gravel layer is mentioned (UMD and Clemson HGIC 1458 advise against gravel). | PSU: 'cactus potting mix or one with perlite'; 'only containers with drainage holes'. CSU: often grown in clay pots for stability."
       },
       "u": {
         "verdict": "supported",
-        "note": "Linked products exist in the store."
+        "note": "Owner decision 12 Nov: no statement on how PlantsWorld pots are made and no 'must have a hole', so the guide does not conflict with KB011/KB013. The principle and the test work in any pot. Not climate-dependent."
       },
       "status": "corrected",
-      "change": "12 Nov: 'half and half with perlite' (no source for the ratio) changed to 'plenty of perlite or coarse sand'."
+      "change": "12 Nov: 'half and half with perlite' (no source for the ratio) changed to 'plenty of perlite or coarse sand'. | 12 Nov (owner decision, KB011/KB013): 'Always give a snake plant a pot with a drainage hole / use a pot with a drainage hole (quick answer) / mistake 'A pot with no drainage hole' / think twice 'your pots have no drainage hole'' -> drainage principle + reader test ('A pot with drainage holes is the easiest way to let it out'). No store fact, no drainage layer."
     },
     {
       "id": "c08",
@@ -531,20 +548,24 @@
     {
       "id": "c33",
       "where": "fit",
-      "claim": "Fit lists: forgiving of missed waterings, copes with low light and AC rooms, slow growth; toxic if chewed; needs drainage and infrequent watering; rarely flowers.",
+      "claim": "Fit lists: forgiving of missed waterings, copes with low light and AC rooms, slow growth; toxic if chewed; needs infrequent watering and no standing water; rarely flowers.",
       "g": {
         "verdict": "supported",
         "sources": [
           "https://extension.psu.edu/snake-plant-a-forgiving-low-maintenance-houseplant",
-          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/"
+          "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+          "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+          "https://homegarden.cahnr.uconn.edu/factsheets/houseplant-watering-recommendations",
+          "https://extension.umd.edu/resource/potting-and-repotting-indoor-plants"
         ],
-        "note": "Each item restates c03, c05, c15, c17 and c19. PSU: tolerates going 'a month or so' without water. Illinois: over-watering is the main reason for failure."
+        "note": "Drainage check 12 Nov (opened): UConn: surplus water 'causes the potting medium to remain saturated and displaces necessary oxygen'; 'Empty saucers or cachepots containing water'; 'let the pot drain well before returning it to its regular site'. Clemson HGIC 1459: 'Apply water until it runs out of the bottom of the pot. Don't let the pot sit in the water that runs out. Empty the saucer. Allow the pot to drain completely.' Penn State: 'Choose only containers with drainage holes to prevent soggy soil' (supports 'easiest way'). UMD: glazed ceramic pots 'commonly lack sufficient drainage holes' and 'can be used with a clay or plastic pot inside to allow for drainage'. The skewer test to the bottom of the pot is the FORMAT.md reader test, no number. No drainage or gravel layer is mentioned (UMD and Clemson HGIC 1458 advise against gravel). | Each item restates c03, c05, c15, c17 and c19. PSU: tolerates going 'a month or so' without water. Illinois: over-watering is the main reason for failure."
       },
       "u": {
         "verdict": "supported",
-        "note": "Same UAE checks as c05 and c13."
+        "note": "Owner decision 12 Nov: no statement on how PlantsWorld pots are made and no 'must have a hole', so the guide does not conflict with KB011/KB013. The principle and the test work in any pot. Not climate-dependent."
       },
-      "status": "verified"
+      "status": "corrected",
+      "change": "12 Nov (owner decision, KB011/KB013): 'your pots have no drainage hole' -> drainage principle + reader test ('you do not want to check for standing water after you water'). No store fact, no drainage layer."
     },
     {
       "id": "c34",
