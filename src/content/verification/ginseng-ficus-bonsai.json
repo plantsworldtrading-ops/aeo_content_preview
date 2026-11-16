@@ -1,0 +1,734 @@
+{
+  "handle": "ginseng-ficus-bonsai",
+  "stage": "signed-off",
+  "hash": "4db0d72133c871e2",
+  "content_errors": [],
+  "ledger_errors": [],
+  "signoff": {
+    "by": "Owner",
+    "on": "2026-11-16",
+    "content_hash": "4db0d72133c871e2",
+    "confirmed_local": [
+      "c02",
+      "c14",
+      "c25",
+      "c26"
+    ],
+    "notes": "Owner signed off on the batch 2 review page 2026-11-16; all needs_local questions accepted as written (no changes)."
+  },
+  "claims": [
+    {
+      "id": "c01",
+      "where": "botanical_name, entity_ids",
+      "claim": "Accepted name Ficus microcarpa L.f., family Moraceae; 'Ginseng' is a cultivar; Wikidata Q714180; POWO/IPNI id urn:lsid:ipni.org:names:853217-1.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://api.gbif.org/v1/species/match?name=Ficus%20microcarpa",
+          "https://www.ipni.org/n/853217-1",
+          "https://www.wikidata.org/wiki/Q714180",
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng"
+        ],
+        "note": "Verifier 15 Nov: IPNI API 853217-1 = 'Ficus microcarpa' L.f., Moraceae, 1782, inPowo true. Wikidata Q714180 links this IPNI id. NC State 'Ginseng' page: Genus Ficus, species microcarpa, family Moraceae, cultivar 'Ginseng'. POWO page returned HTTP 403 (Cloudflare block) to the verifier as well; IPNI inPowo=true is accepted as the POWO link."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Botanical identity."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c02",
+      "where": "other_names",
+      "claim": "Common names Ficus ginseng, Ginseng bonsai, Pot-bellied ficus, Chinese banyan, Indian laurel fig; Arabic بونساي الجينسنغ.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/",
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng",
+          "https://ipm.ucanr.edu/home-and-landscape/cuban-laurel-thrips/"
+        ],
+        "note": "English names: NC State 'Ginseng' lists Ficus Ginseng, Ginseng Ficus, Pot-bellied Ficus; NC State species lists Chinese Banyan and Indian Laurel; UC IPM uses 'Indian laurel fig'. 'Ginseng bonsai' is the trade name on our product. The Arabic name has no source (Wikidata Arabic label is 'فيكس عادي')."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Owner: confirm that UAE customers call it 'بونساي الجينسنغ'; remove it if not."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c03",
+      "where": "faqs.retusa, brief",
+      "claim": "The ginseng ficus is often sold labelled Ficus retusa; NC State says this is a common mislabel and the name belongs to another plant; a ginseng bonsai labelled retusa is still F. microcarpa.",
+      "g": {
+        "verdict": "contradicted",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng",
+          "https://edis.ifas.ufl.edu/publication/EP136/pdf"
+        ],
+        "note": "NC State 'Ginseng': 'While it is commonly mislabeled as Ficus retusa, that species refers to another plant not used in bonsai.' The draft said the two are 'closely related figs with the same care' and that ginseng is 'usually' sold as retusa: NC State says neither. (UF/IFAS Table 2 does list F. retusa 'Kingman' as a bonsai, so the two sources differ on retusa itself; the page now makes no claim about F. retusa care.)"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "corrected",
+      "change": "faqs.retusa: 'usually sold as Ficus retusa ... The two are closely related figs with the same care' → 'often sold labelled Ficus retusa ... NC State: common mislabel; the name belongs to another plant; a ginseng bonsai labelled retusa is still F. microcarpa and follows this guide'."
+    },
+    {
+      "id": "c04",
+      "where": "faqs.name, myths",
+      "claim": "Named for its thick, bulbous roots that resemble ginseng; widely used for bonsai because of them; it is a fig, not ginseng.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng",
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/",
+          "https://ipm.missouri.edu/meg/2026/2/ficus-dt"
+        ],
+        "note": "NC State 'Ginseng': 'used extensively in bonsai for its bulbous, thick roots reminiscent of ginseng that rise out of the ground'. Family Moraceae (figs). Missouri also: 'It often carries the common name of Ginseng Ficus'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c05",
+      "where": "fit.good_if, faqs.beginner, quick_facts.Growth, care_sections.pruning",
+      "claim": "Grows faster and is easier to care for than other bonsai species; good for first-timers; fast grower.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng"
+        ],
+        "note": "NC State 'Ginseng': 'grows somewhat faster and is easier to care for than other bonsai species, making it great for first-timers'; Growth Rate: Rapid. FAQ changed 'grows faster' to 'grows somewhat faster' to match the source."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "corrected",
+      "change": "faqs.beginner: 'grows faster' → 'grows somewhat faster' (NC State wording)."
+    },
+    {
+      "id": "c06",
+      "where": "quick_facts.Light, care_sections.light, first_week, mistakes",
+      "claim": "Needs lots of light (Missouri: good east-, west- or south-facing window or plant lights); species listed full sun to part shade; low light causes green leaf drop (UF/IFAS: move to brighter area); ficus is sensitive to sudden light changes.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ipm.missouri.edu/meg/2026/2/ficus-dt",
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/",
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng",
+          "https://edis.ifas.ufl.edu/publication/EP136/pdf"
+        ],
+        "note": "Missouri: 'the first key to growing a happy, healthy Ficus is to give it lots of light ... east-, west-, or south-facing window or augment with plant lights'. NC State species: Light Full sun, Partial Shade (no 'outdoors' qualifier, so the draft's 'outdoors' was removed); 'Ginseng': 'Keep it in a sunny, warm location'. UF/IFAS Table 3: green leaf drop / low light stress / move plant to a brighter area; text: 'Ficus is sensitive to radical changes in light intensities'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline sun-through-glass: bright window light is available in UAE homes; tinted glazing lowers light, which the 'move it to a brighter place' advice covers."
+      },
+      "status": "corrected",
+      "change": "care_sections.light: 'NC State lists the species for full sun to part shade outdoors' → 'lists full sun to part shade for the species and says to keep a ginseng ficus in a sunny, warm location' (NC State attribute has no outdoors qualifier)."
+    },
+    {
+      "id": "c07",
+      "where": "care_sections.light, problems[5], quick_facts.Light, uae_year",
+      "claim": "Strong summer afternoon sun through west/south glass can dry and shrivel ficus leaves; UF/IFAS lists too much sunlight (or low humidity) as the cause of dry, shrivelled leaves; filter with a sheer curtain.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP136/pdf",
+          "https://plants.ces.ncsu.edu/plants/schefflera-arboricola/"
+        ],
+        "note": "UF/IFAS Table 3: 'Dry and shriveled leaves / Low relative humidity or too much sunlight / Increase relative humidity or remove from bright area'. Sheer curtain as a filter: NC State (Schefflera page) uses the same 'filtered light (eg. sheer curtain)' advice for houseplants."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline sun-through-glass (strong afternoon sun through west/south glass). problems[5] wording 'this is common' → 'this can happen' (no evidence of frequency)."
+      },
+      "status": "corrected",
+      "change": "problems[5].answer: 'In the UAE this is common when' → 'In the UAE this can happen when' (no source for frequency)."
+    },
+    {
+      "id": "c08",
+      "where": "care_sections.watering, quick_facts.Water, mistakes, myths",
+      "claim": "Water when the top part of the soil is dry (Missouri: top 25–50% of the mix dry to the touch); too much water suffocates roots; no fixed schedule.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ipm.missouri.edu/meg/2026/2/ficus-dt",
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng",
+          "https://edis.ifas.ufl.edu/publication/EP136/pdf",
+          "https://hgic.clemson.edu/factsheet/indoor-plants-watering/"
+        ],
+        "note": "Sources differ in wording. NC State 'Ginseng': 'Keep it in a sunny, warm location with consistent moisture'. UF/IFAS interior care: 'Media should be kept moist'. Missouri: 'water as the top 25 to 50 percent of the potting mix dries to the touch ... too much water will suffocate the roots'. Clemson watering factsheet: no fixed answer to how often; water when the mix feels dry to the touch. The page now states both positions and the combined rule (moist below the surface, never soggy, never bone dry). No interval of our own."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Rule + test approach, no UAE number (baseline indoor-ac)."
+      },
+      "status": "corrected",
+      "change": "care_sections.watering[0]: Missouri only → NC State 'consistently moist' and UF/IFAS 'kept moist' stated next to Missouri 'top 25–50% dry', with the combined rule."
+    },
+    {
+      "id": "c09",
+      "where": "care_sections.watering",
+      "claim": "Small or shallow bonsai pots dry faster; warm bright window, inland heat and outdoor summer air dry soil quickly; dim AC room, glazed pot, coastal humidity keep it damp longer; slower drying in cooler months.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+          "https://edis.ifas.ufl.edu/publication/EP136/pdf"
+        ],
+        "note": "Clemson HGIC 'Indoor Plants: Watering': frequency depends on 'the type and size of its pot, soil mix ... and variable weather conditions'; porous clay pots need more frequent watering than glazed or plastic; 'A large plant in a small pot needs water more often'; 'A plant in a warm, dry, sunny location needs more frequent watering than one in a cool, low-light environment'; dormant plants need less water. UF/IFAS: 'Irrigate frequently during hot weather'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline summer-heat, inland heat, seasons (cooler months Oct–Apr)."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c10",
+      "where": "care_sections.watering, problems[0]",
+      "claim": "Both soil that stays wet and soil that dries out completely cause ficus leaf drop; UF/IFAS lists moisture stress as a cause of yellow leaf drop.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP136/pdf",
+          "https://ipm.missouri.edu/meg/2026/2/ficus-dt"
+        ],
+        "note": "UF/IFAS Table 3: yellow leaf drop / moisture stress / adjust watering; green leaf drop / 'Media may be excessively wet. Allow to dry prior to rewatering'. Missouri: stress from inconsistent watering causes leaf drop."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c11",
+      "where": "care_sections.watering tips",
+      "claim": "White crust on soil or pot: flush the pot with plenty of water to wash out salts.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP136/pdf"
+        ],
+        "note": "UF/IFAS: high soluble salts → 'leach soil'; 'leaching the media may help reduce potential leaf burning problems'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline tap-water: flushing tied to a visible crust; the page does not call UAE water hard."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c12",
+      "where": "care_sections.soil",
+      "claim": "Ficus needs a mix with good water-holding capacity and aeration (UF/IFAS: peat, pine bark, perlite etc.); NC State lists good drainage; overwatering causes root rot; drainage hole; empty water from decorative bowls.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP136/pdf",
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/"
+        ],
+        "note": "UF/IFAS: 'Ficus requires media with good container capacity and aeration'; peat, pine bark, vermiculite or perlite. NC State species: Good Drainage; 'Root rot can occur from overwatering'. Missouri: ficus adapt to nearly any potting medium 'as long as it is not soil' (the page says 'potting mix')."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Advice to empty decorative bowls covers pots without holes (KB013: drainage layer, holes not confirmed per pot)."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c13",
+      "where": "quick_facts.Temperature, care_sections.temperature, uae_year, care_sections.outdoors",
+      "claim": "Most ficus prefer about 16–29 °C (60–85 °F, Missouri); air noticeably warmer or cooler than the room causes yellowing and leaf drop; UF/IFAS: avoid draughts; NC State: suitable above 68 °F (20 °C) all year.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ipm.missouri.edu/meg/2026/2/ficus-dt",
+          "https://edis.ifas.ufl.edu/publication/EP136/pdf",
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/"
+        ],
+        "note": "Missouri: 'Most Ficus species prefer a temperature: between about 60° and 85°F' (15.6–29.4 °C, 'about 16–29 °C' is correct) and blasts of warmer or cooler air cause yellowing and leaf drop. UF/IFAS interior care: 65–80 °F most appropriate, 'drafts should be avoided'; Table 3 chilling injury (slimy necrotic spots, mass leaf drop): 'Plants should be kept in areas above 60°F at all times'. The 16 °C night advice now cites this UF/IFAS damage guidance, not Missouri's preferred range."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline inland-winter (3–5 °C lows most winters), gcc-winter (Riyadh/Kuwait 7–10 °C), coastal-winter (Jan lows 14–16 °C): 'also happens on the coast in January' is correct."
+      },
+      "status": "corrected",
+      "change": "care_sections.outdoors and uae_year.Winter: '16 °C, the lower end of the range most ficus prefer' → 'UF/IFAS says to keep ficus above 60 °F (about 16 °C) at all times to avoid chilling injury (slimy dark spots, mass leaf drop)'."
+    },
+    {
+      "id": "c14",
+      "where": "care_sections.temperature, mistakes, quick_facts.AC tolerance",
+      "claim": "AC vents: cold air blowing on the leaves causes yellowing and leaf drop; hand test next to the leaves; heaters/warm appliance air cause the same.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ipm.missouri.edu/meg/2026/2/ficus-dt",
+          "https://edis.ifas.ufl.edu/publication/EP136/pdf"
+        ],
+        "note": "Missouri: 'try to avoid placing your Ficus near hot or cold drafts. Blasts of air that are noticeably warmer or cooler than the ambient room air temperature can cause leaf yellowing and leaf drop'. 'If you are comfortable, your Ficus is, too' supports AC rooms. The hand test is a reader test, no distance given."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Baseline ac-vents (low confidence, nursery experience): owner to confirm that AC vent draughts cause leaf drop on ficus bonsai in customers' homes."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c15",
+      "where": "care_sections.temperature, quick_facts.Humidity, faqs.aerial-roots",
+      "claim": "Average indoor humidity is fine (Missouri); high humidity favours aerial roots (NC State); aerial roots normal, can be trimmed.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ipm.missouri.edu/meg/2026/2/ficus-dt",
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/"
+        ],
+        "note": "Missouri: 'Average household relative humidity levels are fine'; 'In warm, humid conditions, many Ficus species produce aerial roots ... If unwanted, these can removed without harming the plant'. NC State species: 'High humidity (70% - 100%) is preferable and seems to favor the development of aerial roots'. Draft omitted NC State's 'preferable' and said roots can 'thicken over time' (no source)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline indoor-ac: humidity under AC varies; the page makes no 'dry AC' claim."
+      },
+      "status": "corrected",
+      "change": "quick_facts.Humidity, care_sections.temperature[2]: NC State 'high humidity (70–100%) is preferable' added. faqs.aerial-roots: 'leave them to thicken over time or trim them off' → 'leave them or remove them: Missouri says unwanted aerial roots can be removed without harming the plant'."
+    },
+    {
+      "id": "c16",
+      "where": "care_sections.fertiliser, uae_year",
+      "claim": "Feed as little as once or twice a year or as often as the label says; most gardeners stop in winter when light falls (Missouri); UAE: pause in the short winter days, restart with new spring growth.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ipm.missouri.edu/meg/2026/2/ficus-dt"
+        ],
+        "note": "Missouri: 'You can fertilize as infrequently as once or twice a year or as much as the fertilizer packaging recommends. Most gardeners stop fertilizing in winter when light levels decrease and the days get shorter.' The draft's 'feed March–October, stop November–February' had no source and was removed; the page now ties the pause to short winter days and the restart to new spring growth."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline seasons; UAE winter days are the shortest of the year (Dec–Feb card)."
+      },
+      "status": "corrected",
+      "change": "care_sections.fertiliser[0]: 'In the UAE, feed from March to October and stop from November to February' → 'pause feeding in the short days of winter and start again when new growth appears in spring'; uae_year.Autumn: 'Feed until the end of October' removed."
+    },
+    {
+      "id": "c17",
+      "where": "care_sections.fertiliser",
+      "claim": "High salts cause loss of oldest leaves, stunted growth, shrivelled roots (UF/IFAS: reduce fertiliser, low-salt water, leach); yellowing leaf edges = underfeeding.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP136/pdf"
+        ],
+        "note": "UF/IFAS Table 3: 'Loss of oldest leaves, stunted growth ... shriveled roots / High soluble salts / Reduce fertilization, use water with low soluble salt levels and leach soil'; 'Yellowing of leaf edges / Underfeeding'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c18",
+      "where": "care_sections.pruning",
+      "claim": "Ficus usually needs pruning to keep shape, thin foliage for light, remove dead branches (UF/IFAS); sterilised shears for dead twigs; remove galled leaves.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP136/pdf",
+          "https://ipm.ucanr.edu/home-and-landscape/cuban-laurel-thrips/"
+        ],
+        "note": "UF/IFAS: 'Proper pruning is usually necessary to maintain shape, thin foliage for better light penetration, and remove dead branches'; Table 3: 'Remove dead twigs with sterilized shears'. UC IPM: 'Prune and dispose of infested terminals'. UF/IFAS four-week rule supports 'do not prune a new plant straight away'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c19",
+      "where": "care_sections.pruning, faqs.sap, pet_safety, quick_facts.Pets",
+      "claim": "Milky sap can irritate skin; all parts irritating, especially the sap (Clemson); gloves if skin is sensitive.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/pet-owners-beware-11-poisonous-houseplants-to-avoid/",
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+          "https://plants.ces.ncsu.edu/plants/ficus/"
+        ],
+        "note": "NC State genus page 'Ficus': 'The latex can cause minor skin irritation, especially when exposed to sunlight'; Causes Contact Dermatitis: Yes; Poison Part: Sap/Juice. Clemson (Ficus benjamina): 'All parts are irritating or potentially toxic, especially the white, milky sap'. Draft cited Clemson (a pet article on F. benjamina) for skin irritation in people; now cites NC State."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "corrected",
+      "change": "care_sections.pruning[1] and faqs.sap: Clemson 'all parts of ficus are irritating' (pet source, F. benjamina) → NC State 'ficus latex can cause minor skin irritation, especially in sunlight'. New visible source ncsu_ficus."
+    },
+    {
+      "id": "c20",
+      "where": "care_sections.repotting",
+      "claim": "Repot when roots fill the pot or water runs straight through; Missouri: every year or two under ideal conditions; tolerates root-bound but does not prefer it.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ipm.missouri.edu/meg/2026/2/ficus-dt",
+          "https://hgic.clemson.edu/factsheet/indoor-plants-watering/"
+        ],
+        "note": "Missouri: 'Ficus can put up with being rootbound, but they don't prefer it. Under ideal growing conditions, repotting every year or two will help provide optimal growth.' Clemson watering: water that runs straight through / large plant in small pot needs water more often (repot sign is a reasonable reading). KB072: repot when roots fill the pot."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c21",
+      "where": "care_sections.repotting, first_week, mistakes, care_sections.pruning",
+      "claim": "Once placed indoors, do not move, prune, repot or fertilise a ficus for at least about four weeks (UF/IFAS).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP136/pdf"
+        ],
+        "note": "UF/IFAS 'Shipping and Interior Care': 'Once plants are placed indoors, it is advisable not to move, prune, re-pot, or fertilize them for about four weeks at least'. Named-source number, named in the text."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "KB072 'let it settle for a few weeks' is consistent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c22",
+      "where": "care_sections.repotting, uae_year",
+      "claim": "In the UAE most repotting is done in the cooler months (Oct–Apr).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json"
+        ],
+        "note": "Regional fact, not botanical: baseline 'seasons' (medium) from The National and Khaleej Times: most planting and repotting in the cooler months Oct–Apr."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline seasons (medium)."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c23",
+      "where": "care_sections.repotting, mistakes",
+      "claim": "Keep the thick ginseng roots at the same height; do not bury them.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng"
+        ],
+        "note": "NC State 'Ginseng': the roots 'rise out of the ground' and are why the cultivar is used for bonsai; the page gives this as the reason to keep them at the same height. Planting at the same depth is standard repotting practice."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c24",
+      "where": "care_sections.propagation",
+      "claim": "Ficus microcarpa propagates easily from cuttings in water or sand/potting soil (NC State).",
+      "g": {
+        "verdict": "unverified",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/",
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng"
+        ],
+        "note": "NC State species supports cuttings in water, sand or potting soil. The second sentence (a cutting grows without the swollen ginseng roots) is in no source opened: unverified, so it was removed."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "corrected",
+      "change": "care_sections.propagation: sentence 'A cutting grows into a normal young ficus tree; it does not come with the thick, swollen roots' removed (no source)."
+    },
+    {
+      "id": "c25",
+      "where": "care_sections.outdoors, quick_facts.Outdoors in UAE, uae_year",
+      "claim": "Can go outside in shade Oct–Apr; species listed full sun to part shade and warm climates; a small bonsai pot dries fast in UAE summer; shade May–Sep or bring indoors; move gradually; inland/GCC: bring in below about 16 °C.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/",
+          "https://ipm.missouri.edu/meg/2026/2/ficus-dt",
+          "https://edis.ifas.ufl.edu/publication/EP136/pdf",
+          "aeo/verification/uae_gcc_baseline.json",
+          "https://hgic.clemson.edu/factsheet/indoor-plants-watering/"
+        ],
+        "note": "NC State species: full sun and partial shade, zones 9a–11b, 'suitable for temperatures above 68 degrees F all year long'. UF/IFAS: sensitive to radical light changes; chilling injury below 60 °F. Missouri: environmental change causes leaf drop. Clemson: warm, sunny locations dry pots faster. 'Full shade' was changed to 'shade' (baseline says outdoor plants need shade in summer; no source asks for full shade)."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Baseline seasons and summer-heat support shade in May–Sep; owner to confirm from experience whether a small bonsai pot outdoors in summer is advisable at all."
+      },
+      "status": "needs_local",
+      "change": "care_sections.outdoors and uae_year: 'full shade' → 'shade'; quick_facts.Outdoors: 'bring it in on nights below about 16 °C' added (UF/IFAS)."
+    },
+    {
+      "id": "c26",
+      "where": "varieties",
+      "claim": "Grafted ginseng: some are grafted with branches of a smaller-leaved cultivar; larger S-shaped ficus bonsai product follows the same care; bigger pot dries more slowly.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng",
+          "https://hgic.clemson.edu/factsheet/indoor-plants-watering/"
+        ],
+        "note": "NC State 'Ginseng': 'sometimes grafted with branches of a smaller-leaved cultivar'. Clemson watering: a small plant in a large pot needs water less often (bigger pot dries slowly). The species of the S-shape product (`ficus-bonsai-tree-xxl-ficus-ginseng`, Shopify title 'Ficus Bonsai - Ficus Retusa') is not confirmed."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Owner: confirm which species the large S-shape ficus bonsai is. If it is not F. microcarpa, move it out of this guide. Products not edited."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c27",
+      "where": "first_week, problems[0], myths",
+      "claim": "Some leaf drop after delivery or a move is normal; a problem only if it continues (Missouri).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ipm.missouri.edu/meg/2026/2/ficus-dt"
+        ],
+        "note": "Missouri: shattering from environmental change, cold, inconsistent watering; 'Shattering isn't necessarily a sign of a problem unless leaves continue to drop over a period of time'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "KB071 (verified) says some leaf drop after arrival is normal; consistent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c28",
+      "where": "problems[1]",
+      "claim": "Yellow leaves with wet soil = overwatering and root rot (NC State, Missouri); fix by checking roots, cutting black soft roots, repotting in well-drained mix.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/",
+          "https://ipm.missouri.edu/meg/2026/2/ficus-dt",
+          "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/"
+        ],
+        "note": "NC State: 'Root rot can occur from overwatering'. Missouri: too much water suffocates roots. Clemson HGIC 'Houseplant Diseases & Disorders': infected roots are brown to black and may be soft; 'If only a few roots are infected, cut out these roots and repot the plant in sterile soil'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c29",
+      "where": "problems[2], image",
+      "claim": "Cuban laurel thrips mainly galls Ficus microcarpa; new leaves curl and fold along the midvein; dark brown, reddish or purplish scars; adults black/dark brown, larvae pale; damage mostly cosmetic; heavy feeding slows growth, early leaf drop; prune and dispose of infested terminals; only systemic insecticides likely to work inside galls.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ipm.ucanr.edu/home-and-landscape/cuban-laurel-thrips/",
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng",
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/",
+          "https://commons.wikimedia.org/wiki/File:Gynaikothrips_ficorum_31941445.jpg",
+          "https://www.inaturalist.org/observations/20717932"
+        ],
+        "note": "UC IPM: 'Cuban laurel thrips mostly galls Indian laurel fig, Ficus microcarpa'; leaf 'folds along the main vein and forms a permanent gall with dark brown, reddish, or purplish scarring'; adults black to dark brown, larvae translucent white/pale yellow; 'Except for aesthetic damage, Gynaikothrips do not seriously harm ficus'; prolonged feeding 'can slow plant growth and cause premature drop of leaves'; adults spread with movement of infested plants; 'Prune and dispose of infested terminals'; 'only a systemic insecticide ... is likely to provide control'. Image: Commons API shows licence CC0 (Creative Commons Zero), author iNaturalist user 螯蝦 (login ksf); iNaturalist obs 20717932 records 'Eating' 54982 (Ficus microcarpa), 4 photos CC0. Record 'problem' equals problems[2].question exactly."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "The page names no insecticide product, so UAE product availability does not apply."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c30",
+      "where": "problems[3]",
+      "claim": "Spider mites are a pest of Ficus microcarpa; white flecks; webbing; wash with a jet of water; washing and higher humidity most effective; oil sprays.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/",
+          "https://extension.colostate.edu/resource/managing-houseplant-pests"
+        ],
+        "note": "NC State: susceptible to spider mites. CSU: feeding wounds 'appear as white flecks'; webbing; 'The most effective controls include washing and increasing humidity around the plant. Small plants can be repeatedly washed with a jet of water from a shower or kitchen sprayer'; 'Horticultural oils are probably the most effective spray'; neem oils 'may be used in a manner like horticultural oils'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c31",
+      "where": "problems[4]",
+      "claim": "Scale insects and mealybugs are pests of Ficus microcarpa; honeydew; rub or pick off scale; alcohol for mealybugs; spray oils most effective for scale.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/",
+          "https://extension.colostate.edu/resource/managing-houseplant-pests"
+        ],
+        "note": "NC State: mealybugs and scale insects. CSU: scales and mealybugs excrete honeydew; 'spray oils are the most effective treatment for scales'; 'scales can be killed by rubbing or picking them off'; 'Swabbing individual mealybugs with alcohol is useful'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c32",
+      "where": "pet_safety, alternatives, fit, faqs.gift",
+      "claim": "ASPCA lists fig plants (Ficus) as toxic to cats, dogs and horses; ficin and ficusin; GI and dermal irritation.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fig",
+          "https://hgic.clemson.edu/pet-owners-beware-11-poisonous-houseplants-to-avoid/"
+        ],
+        "note": "ASPCA 'Weeping Fig': Scientific Name 'Ficus sp.', toxic to dogs, cats, horses; toxic principles ficin, ficusin; the page lists no clinical signs. ASPCA 'Fig' (Ficus benjamina): clinical signs 'Gastrointestinal and dermal irritation'. No ASPCA entry names Ficus microcarpa. Clemson (F. benjamina): GI upset, skin irritation, blistering; all parts irritating, especially the sap. Draft said 'The ASPCA lists fig plants (Ficus species) as toxic' and gave the signs without naming the species they come from."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "corrected",
+      "change": "pet_safety.summary: 'The ASPCA lists fig plants (Ficus species) as toxic ... chewing it can cause stomach upset and skin irritation' → 'The ASPCA has no separate entry for Ficus microcarpa, but its genus entry (Weeping Fig, Ficus sp.) is toxic ...; for weeping fig (F. benjamina) the ASPCA lists stomach and skin irritation'. quick_facts.Pets: '(ASPCA lists ficus as toxic)' → '(ASPCA genus entry, Ficus sp.)'."
+    },
+    {
+      "id": "c33",
+      "where": "myths, faqs.air",
+      "claim": "A 2019 review found buildings would need 10–1,000 potted plants per m² of floor to match normal air exchange.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://doi.org/10.1038/s41370-019-0175-9",
+          "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41370-019-0175-9&resultType=core&format=json"
+        ],
+        "note": "Europe PMC record of Cummings & Waring (J Expo Sci Environ Epidemiol, online 2019, issue 2020), abstract: '10-1000 plants/m2 of a building's floor space ... to achieve the same removal rate that outdoor-to-indoor air exchange already provides in typical buildings'. The page uses it only to say plants do not noticeably clean room air; no air-purifying claim on the page (checked: no 'purif', 'NASA', 'removes toxins')."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c34",
+      "where": "myths",
+      "claim": "UF/IFAS: Ficus microcarpa is used as a tree outdoors in the tropics but commonly as a bonsai indoors.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP136/pdf",
+          "https://ipm.missouri.edu/meg/2026/2/ficus-dt"
+        ],
+        "note": "UF/IFAS Table 2: F. microcarpa 'Tree forms used outdoors in tropical regions but commonly used as a bonsai indoors'. Missouri: 'more common indoors as a bonsai'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c35",
+      "where": "faqs.size",
+      "claim": "Bonsai stays small by pot and pruning; species can reach about 12 m (40 ft) outdoors in Mediterranean climates.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/",
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng"
+        ],
+        "note": "NC State: 'when grown outdoors in Mediterranean climates, it can reach 40 feet high with a 40 foot crown' (12 m). Missouri: more than 40 feet in tropical regions."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c36",
+      "where": "alternatives",
+      "claim": "Money Tree: indirect light or sun/shade mix, moist well-drained, non-toxic (ASPCA). Umbrella Plant: filtered light, dry then soak, toxic (ASPCA). Rubber Plant: bright indirect, no afternoon sun, fairly dry between waterings, toxic (ASPCA lists ficus). Hobbit Jade: sunny with afternoon shade, water when dry, toxic (ASPCA, listed as Crassula argentea).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/pachira-aquatica/",
+          "https://plants.ces.ncsu.edu/plants/schefflera-arboricola/",
+          "https://plants.ces.ncsu.edu/plants/ficus-elastica/",
+          "https://plants.ces.ncsu.edu/plants/crassula-ovata/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/money-tree",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/schefflera",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/jade-plant",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig"
+        ],
+        "note": "NC State Pachira: 'prefers indirect sunlight or a mix of sun and shade'; 'moist, well-drained potting mix'; standing water not tolerated. NC State Schefflera: 'filtered light (eg. sheer curtain)'; 'Allow the soil to dry out and then thoroughly soak it'. NC State F. elastica: 'bright indirect light or partial shade and protection from the afternoon sun'; drainage 'Occasionally Dry'. NC State Crassula ovata: 'sunny location indoors that also provides some afternoon shade'; 'Water in moderation when the soil is dry'. ASPCA: Money Tree non-toxic; Schefflera toxic (dogs, cats); Jade Plant (C. argentea) toxic; Weeping Fig (Ficus sp.) toxic, alt. name 'indian rubber plant'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c37",
+      "where": "fit.think_twice",
+      "claim": "A small pot dries out quickly; regular checking needed.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/indoor-plants-watering/"
+        ],
+        "note": "Clemson watering: 'A large plant in a small pot needs water more often than a small plant in a large pot'; warm, sunny spots dry faster."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c38",
+      "where": "varieties",
+      "claim": "Ginseng ficus look: thick swollen roots above the soil, short trunk, glossy teardrop-shaped leaves.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng",
+          "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/"
+        ],
+        "note": "NC State 'Ginseng': bulbous thick roots that rise out of the ground; leaves 'Dark green, teardrop-shaped', glossy, leathery; shape lanceolate/oblanceolate. Draft said 'oval' leaves."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "n/a"
+      },
+      "status": "corrected",
+      "change": "varieties[0].look: 'glossy oval leaves' → 'glossy, teardrop-shaped leaves' (NC State)."
+    }
+  ]
+}

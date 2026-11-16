@@ -1,0 +1,784 @@
+{
+  "handle": "spider-plant",
+  "stage": "signed-off",
+  "hash": "25c3dca9b1c1fc44",
+  "content_errors": [],
+  "ledger_errors": [],
+  "signoff": {
+    "by": "Owner",
+    "on": "2026-11-16",
+    "content_hash": "25c3dca9b1c1fc44",
+    "confirmed_local": [
+      "c02",
+      "c25",
+      "c30",
+      "c38",
+      "c41"
+    ],
+    "notes": "Owner signed off on the batch 2 review page 2026-11-16; all needs_local questions accepted as written (no changes)."
+  },
+  "claims": [
+    {
+      "id": "c01",
+      "where": "botanical_name, myths",
+      "claim": "The spider plant is Chlorophytum comosum, family Asparagaceae.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+          "https://www.wikidata.org/wiki/Q1164349",
+          "https://www.ipni.org/n/532810-1",
+          "https://www.rhs.org.uk/plants/370935/chlorophytum-comosum-lemon/details"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'Asparagaceae (asparagus) family'; ASPCA: 'Family: Asparagaceae'; IPNI API 532810-1 Chlorophytum comosum (Thunb.) Jacques (family Anthericaceae is the older placement). RHS 'Lemon' page: Family Asparagaceae. POWO 403 again. | Writer 15 Nov: NC State and ASPCA: Chlorophytum comosum, family Asparagaceae. Wikidata Q1164349 P225 Chlorophytum comosum. IPNI 532810-1: Chlorophytum comosum (Thunb.) Jacques, family recorded as Anthericaceae (older placement); inPowo true. POWO page returned 403 (not opened)."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: Not climate-dependent: n/a expected."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c02",
+      "where": "other_names",
+      "claim": "Other names: Chlorophytum, Ribbon plant, Spider ivy, Anthericum comosum; Arabic غيلان واحف.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+          "https://www.wikidata.org/wiki/Q1164349"
+        ],
+        "note": "Verifier 15 Nov: NC State common names list Anthericum Comosum, Chlorophytum, Ribbon Plant, Spider Ivy; ASPCA: Ribbon Plant, Anthericum, Spider Ivy. Wikidata Special:EntityData Q1164349: Arabic label غيلان واحف, no Arabic aliases. | Writer 15 Nov: NC State common names: Anthericum Comosum, Chlorophytum, Ribbon Plant, Spider Ivy, Spiderplant, Spider Plant, Walking Anthericum. ASPCA: Ribbon Plant, Anthericum, Spider Ivy. Wikidata Q1164349 Arabic label: غيلان واحف (no Arabic aliases)."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Owner: confirm which Arabic name UAE customers use; غيلان واحف is the Wikidata label and may not be the everyday name. | Writer 15 Nov: Owner: confirm which Arabic name UAE customers use; the Wikidata label may not be the common one."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c03",
+      "where": "entity_ids",
+      "claim": "Wikidata Q1164349; POWO urn:lsid:ipni.org:names:532810-1.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q1164349",
+          "https://www.ipni.org/n/532810-1"
+        ],
+        "note": "Verifier 15 Nov: Wikidata Q1164349 P5037 = urn:lsid:ipni.org:names:532810-1; IPNI API for that id returns Chlorophytum comosum (Thunb.) Jacques. | Writer 15 Nov: Wikidata Q1164349: P5037 urn:lsid:ipni.org:names:532810-1, P961 532810-1, P846 GBIF 2774846. IPNI API 532810-1 = Chlorophytum comosum (Thunb.) Jacques."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Identifiers. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c04",
+      "where": "quick_answer, quick_facts.Light, care_sections.light, faqs.low-light",
+      "claim": "Medium to bright indirect light is best; tolerates deep shade; no direct sun (intolerant); midday sun may scorch leaves.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'prefers medium light levels yet can tolerate deep shade. It is intolerant of direct sunlight.' Clemson: 'grow best with bright indirect light. They can tolerate some direct sunlight, but midday light may scorch leaves.' UW: 'medium to bright light'. Unsourced 'grows more slowly in a dim spot' removed from the light section and the low-light FAQ ('most babies' in bright light also unsourced). | Writer 15 Nov: NC State: 'prefers medium light levels yet can tolerate deep shade', 'intolerant of direct sunlight'. Clemson: 'grow best with bright indirect light', 'can tolerate some direct sunlight, but midday light may scorch leaves'. UW: 'medium to bright light'. Note: Clemson says some direct sun is tolerated; the page says no direct sun (NC State). 'Grows more slowly in a dim spot' is the writer's wording, not quoted."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline sun-through-glass: keeping back from west/south glass matches intense UAE sun. | Writer 15 Nov: Baseline sun-through-glass (low confidence): west/south glass gives strong light; advice to keep back from it."
+      },
+      "status": "corrected",
+      "change": "15 Nov: Removed 'In a dim spot it survives but grows more slowly' and 'In a dim room it grows more slowly; for the best growth and the most babies' → 'Clemson Extension says it grows best in bright indirect light.' (Clemson HGIC 1513)"
+    },
+    {
+      "id": "c05",
+      "where": "quick_answer, quick_facts.Water, care_sections.watering, mistakes",
+      "claim": "Water thoroughly when the top of the soil has dried slightly; no fixed schedule; water less in winter.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/"
+        ],
+        "note": "Verifier 15 Nov: UW: 'Allow the soil to dry slightly between thorough waterings.' Clemson: 'allowed to dry out briefly between waterings' ('Check their soil daily' rightly not used). NC State: 'Reduce watering during winter.' No interval on the page: rule + finger/weight test + what changes it, per FORMAT.md. Winter card: unsourced 'Growth slows and the soil stays moist longer' → 'NC State Extension advises watering less in winter. Test the soil before each watering.' | Writer 15 Nov: UW: 'Allow the soil to dry slightly between thorough waterings.' Clemson: 'allowed to dry out briefly between waterings' (Clemson also says 'Check their soil daily' — not used: subjective-value rule). NC State: 'grows best in moist soil ... tolerant of drought and dry soil'; reduce watering in winter. Finger test, pot weight test and the list of what speeds or slows drying are general reader tests, not quoted from these pages."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline indoor-ac, coastal humidity, seasons: drying time depends on the home; page gives no number. | Writer 15 Nov: Baseline indoor-ac, coastal-winter, seasons: drying depends on the home; coastal humidity slows drying."
+      },
+      "status": "corrected",
+      "change": "15 Nov: uae_year Winter: 'Growth slows and the soil stays moist longer, so water less (NC State Extension).' → 'NC State Extension advises watering less in winter. Test the soil before each watering.'"
+    },
+    {
+      "id": "c06",
+      "where": "care_sections.watering, problems[1]",
+      "claim": "Thick fleshy roots store water so the plant survives inconsistent watering; overwatering and poorly drained soil cause root rot.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+          "https://hgic.clemson.edu/factsheet/spider-plant/"
+        ],
+        "note": "Verifier 15 Nov: UW: 'Thick, fleshy roots and rhizomes evolved to store water, allowing spider plants to survive inconsistent watering'; 'Overwatering or planting in poorly drained soils can lead to root rot.' Clemson: 'Root rot usually results from a soil mix that does not drain quickly or from excessive watering.' | Writer 15 Nov: UW: 'Thick, fleshy roots and rhizomes evolved to store water, allowing spider plants to survive inconsistent watering'; 'Overwatering or planting in poorly drained soils can lead to root rot.' Clemson: 'Root rot usually results from a soil mix that does not drain quickly or from excessive watering.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c07",
+      "where": "care_sections.water-quality, quick_facts.Water quality, faqs.tap-water, problems[0]",
+      "claim": "Chlorine and fluoride in tap water and water high in soluble salts cause leaf tip burn; distilled water or rainwater helps.",
+      "g": {
+        "verdict": "contradicted",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+          "https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'Avoid watering with tap water as the chlorine and fluorides can cause leaf tip burn' — contradicts the page's 'You can, but watch the leaf tips'. Clemson: 'water that is high in soluble salts'. UW: 'Using distilled water or rainwater will help prevent tip browning' — 'filtered water' is not in any source (a carbon filter does not remove salts or fluoride) and was removed. Iowa State also lists chlorine and fluoride for spider plant. | Writer 15 Nov: NC State: avoid tap water; chlorine and fluoride can cause leaf tip burn. Clemson: 'Leaf tip burn is caused by too much fertilizer or water that is high in soluble salts.' UW: tip burn causes include 'salt accumulation and/or chemicals, particularly fluoride or chlorine'; 'Using distilled water or rainwater will help prevent tip browning.' 'Filtered water' is the writer's addition."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline tap-water: page says desalinated, remineralised, content varies; does not call it hard or claim UAE fluoride levels. | Writer 15 Nov: Baseline tap-water (low confidence): desalinated, remineralised, content varies; the page does not call it hard. Whether UAE tap water carries chlorine or fluoride at levels that matter is not known: verifier to check."
+      },
+      "status": "corrected",
+      "change": "15 Nov: 'You can, but watch the leaf tips.' → 'NC State Extension advises against tap water for a spider plant…'; 'filtered water is an easy option' / 'filtered or distilled' (quick fact, problem fix, FAQ) → 'distilled water or rainwater (UW–Madison Extension)'."
+    },
+    {
+      "id": "c08",
+      "where": "care_sections.water-quality",
+      "claim": "A white crust on the soil or pot rim is a sign of salt build-up; flush the pot with plenty of water.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/"
+        ],
+        "note": "Verifier 15 Nov: Clemson HGIC 2251: 'White to grey crusty deposits on the soil surface or rim of pots is a sign of salt buildup'; 'Drench plants with water periodically to leach some of the salts from the potting soil. Empty the water from the saucer'. Text now names Clemson. | Writer 15 Nov: Not stated on the spider plant pages opened. The same advice is sourced to Clemson (peace lily guide) and CSU PlantTalk 1339 (snake plant ledger c06), not opened in this session. Verifier: open a source or cut."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline tap-water: tie flushing to visible crust; page does so. | Writer 15 Nov: Baseline tap-water."
+      },
+      "status": "corrected",
+      "change": "15 Nov: Sourced to Clemson HGIC 2251 (added to page sources) and wording matched: 'white to grey crusty deposits… drench the pot… empty the saucer'."
+    },
+    {
+      "id": "c09",
+      "where": "quick_facts.Temperature, care_sections.temperature",
+      "claim": "Ideal 18–24 °C by day and 10–13 °C at night (Clemson); does well at cool to average temperatures, tolerates warmer (UW); keep above about 7 °C (NC State).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/"
+        ],
+        "note": "Verifier 15 Nov: Clemson: '65 °F and 75°F during the day and 50 °F to 55 °F at night are ideal' (18–24 / 10–13 °C). UW: 'cool to average temperature, although will tolerate warmer conditions.' NC State: 'Keep temperatures above 45 degrees F' (7 °C). Numbers are non-subjective damage/ideal temperatures with named sources. | Writer 15 Nov: Clemson: 'Temperatures between 65 °F and 75°F during the day and 50 °F to 55 °F at night are ideal.' (65–75 °F = 18.3–23.9 °C; 50–55 °F = 10–12.8 °C). UW: 'cool to average temperature, although will tolerate warmer conditions.' NC State: keep above 45 °F (7.2 °C)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline indoor-ac: design target about 22–24 °C, inside Clemson's day range. | Writer 15 Nov: Baseline indoor-ac: AC design target about 22–24 °C, inside Clemson's day range."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c10",
+      "where": "care_sections.temperature, uae_year.Winter",
+      "claim": "Cold matters only inland and in colder GCC cities; keep away from cold windows and doors on winter nights; Clemson advises moving it away from windows against winter draughts.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "https://extension.illinois.edu/houseplants/care"
+        ],
+        "note": "Verifier 15 Nov: Clemson: 'Move spider plants a few feet from windows to protect them from drafts during the winter' (distance not used). Illinois Extension: 'Take special care near cold window panes too. Cold glass can damage foliage.' NC State: above 45 °F. | Writer 15 Nov: Clemson: 'Move spider plants a few feet from windows to protect them from drafts during the winter.' (distance not used on the page). NC State: above 45 °F."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline coastal-winter (lows 14–16 °C outdoors), inland-winter (3–5 °C, below 0 °C recorded), gcc-winter: cold advice limited to inland and colder GCC cities. | Writer 15 Nov: Baseline coastal-winter (lows about 14–16 °C), inland-winter (3–5 °C most winters, below 0 °C recorded), gcc-winter (low confidence). 'Coastal homes rarely come close to 7 °C indoors' is the writer's inference."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c11",
+      "where": "care_sections.temperature, first_week, placement",
+      "claim": "Keep it out of the direct airflow of AC vents.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.illinois.edu/houseplants/care"
+        ],
+        "note": "Verifier 15 Nov: Illinois Extension 'Houseplants: Care': 'Avoid extreme temperature changes, such as cold and hot air blasts from windows, radiators, heating and air conditioning vents.' Not spider-plant specific; text now names Illinois. No distance given (none on page). | Writer 15 Nov: No spider plant source opened says this."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline ac-vents (low confidence) agrees; advice has no number. | Writer 15 Nov: Baseline ac-vents (low confidence, nursery experience). Owner/staff to confirm."
+      },
+      "status": "corrected",
+      "change": "15 Nov: 'Do not put a spider plant in the direct airflow of an AC vent.' → sourced to Illinois Extension (added to page sources)."
+    },
+    {
+      "id": "c12",
+      "where": "quick_facts.Humidity, care_sections.humidity",
+      "claim": "Does well in average humidity; low humidity is one cause of brown tips; a humidifier or a pebble tray helps; humidity under AC varies.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/"
+        ],
+        "note": "Verifier 15 Nov: UW: 'They do well with average humidity'. Clemson: 'Low humidity and excessively dry soil may also cause brown leaf tips.' NC State: 'Use a humidifier or place the plant container on a tray of pebbles with water'. | Writer 15 Nov: UW: 'They do well with average humidity'. Clemson: 'Low humidity and excessively dry soil may also cause brown leaf tips.' NC State: use a humidifier, or set the pot on a tray of pebbles with water."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline indoor-ac: page says humidity under AC varies; no 'dry AC air'. | Writer 15 Nov: Baseline indoor-ac: AC rooms not reliably dry; page does not say 'dry AC air'."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c13",
+      "where": "quick_facts.Soil, care_sections.soil",
+      "claim": "General-purpose potting soil that drains well.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/"
+        ],
+        "note": "Verifier 15 Nov: Clemson: 'A general-purpose potting soil is suitable'; quick guide 'with good drainage'. UW: 'general-purpose potting soil or soilless medium'. NC State: Good Drainage. | Writer 15 Nov: Clemson: 'A general-purpose potting soil is suitable'. UW: 'general-purpose potting soil or soilless medium'. NC State: good drainage, loam, pH 6.0–8.0."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c14",
+      "where": "care_sections.soil, problems[5]",
+      "claim": "Thick fleshy tuberous roots; divide and repot before roots crack the container; repot at any time of year.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/"
+        ],
+        "note": "Verifier 15 Nov: Clemson HGIC 1513: 'thick, fleshy tuberous roots'; 'Divide and repot plants before the roots expand enough to crack the container. Repot at any time of the year.' Clemson repotting factsheet: repot 'if roots are growing out of the drainage hole, or if the plant requires frequent watering' — supports the signs list. | Writer 15 Nov: Clemson: 'Spider plants form thick, fleshy tuberous roots.' 'Divide and repot plants before the roots expand enough to crack the container.' 'Repot at any time of the year.' 'Push the plant up' in problems[5] is the writer's wording."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline seasons: most repotting in the cooler months. | Writer 15 Nov: Advice to repot in the cooler months: baseline seasons."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c15",
+      "where": "care_sections.soil, problems[2], mistakes",
+      "claim": "Spider plants grow and produce plantlets best when slightly pot-bound.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/"
+        ],
+        "note": "Verifier 15 Nov: UW: 'Plants grow and produce plantlets best when slightly pot bound.' | Writer 15 Nov: UW: 'Plants grow and produce plantlets best when slightly pot bound.' UW also says they 'need frequent repotting' because roots crowd quickly."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c16",
+      "where": "care_sections.soil.steps",
+      "claim": "Wait four to six months before feeding a newly potted plant (Clemson).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/spider-plant/"
+        ],
+        "note": "Verifier 15 Nov: Clemson: 'Wait four to six months before feeding newly potted plants.' Named in text (repot steps and now first-week step 4, which replaced the unsourced 'Do not feed it yet'). | Writer 15 Nov: Clemson: 'Wait four to six months before feeding newly potted plants.' Sourced number, named in text."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "corrected",
+      "change": "15 Nov: first_week step 4 'Do not feed it yet. Repot only if…' → 'Repot only if… After repotting, Clemson Extension advises waiting four to six months before you feed it.'"
+    },
+    {
+      "id": "c17",
+      "where": "care_sections.fertiliser",
+      "claim": "Feed lightly during active growth with a water-soluble or slow-release houseplant fertiliser as the label says; every three to four months, or more often at half strength (UW).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/"
+        ],
+        "note": "Verifier 15 Nov: Clemson: 'Feed plants during periods of active growth with a water-soluble or time-release houseplant fertilizer. Follow the label recommendations.' UW: 'Fertilizing every 3-4 months is usually sufficient, or feed more frequently using half strength' — number from a named source. | Writer 15 Nov: Clemson: 'Feed plants during periods of active growth with a water-soluble or time-release houseplant fertilizer.' 'Follow the label recommendations.' UW: 'Fertilizing every 3-4 months is usually sufficient, or feed more frequently using half strength fertilizer solution.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c18",
+      "where": "care_sections.fertiliser, problems[0], problems[2], myths, mistakes, quick_facts.Feeding",
+      "claim": "Heavy feeding reduces plantlets and too much fertiliser burns leaf tips.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+          "https://hgic.clemson.edu/factsheet/spider-plant/"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'Do not over-fertilize, as this decreases plantlet formation.' UW: 'Heavily fertilized plants… may not form as many plantlets and excessive fertilizer may lead to tip browning.' Clemson: tip burn 'caused by too much fertilizer'. | Writer 15 Nov: NC State: don't over-fertilise, it reduces plantlet formation. UW: 'Heavily fertilized plants, however, may not form as many plantlets and excessive fertilizer may lead to tip browning.' Clemson: tip burn 'caused by too much fertilizer'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c19",
+      "where": "care_sections.propagation, problems[2], uae_year.Autumn, quick_facts.Babies",
+      "claim": "Plantlets form when the mother plant gets short days and long uninterrupted nights for at least three weeks; most offshoots appear as days shorten in autumn; indoors flowers can appear any time.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/"
+        ],
+        "note": "Verifier 15 Nov: NC State: plantlets 'develop when the mother plant receives short days and long, uninterrupted nights–less than 12 hours of light a day–for at least three weeks.' Clemson: 'most of their offshoots when the days shorten in the fall.' UW: stems 'when grown indoors… may appear at any time of year.' | Writer 15 Nov: NC State: needs 'short days and long, uninterrupted nights for at least three weeks'; stolons and plantlets 'are light dependent and develop when the mother plant receives short days.' Clemson: 'produce most of their offshoots when the days shorten in the fall.' UW: same trigger; 'when grown indoors they may appear at any time of year.'"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: UAE (about 24–25 °N) has days under 12 hours between the September and March equinoxes (astronomy), so autumn/winter match. Lamps-late advice follows from NC State's 'uninterrupted nights'. | Writer 15 Nov: UAE autumn/winter days are shorter (general astronomy, not in the baseline). 'A room where lights stay on late may give fewer babies' is the writer's inference from NC State's 'uninterrupted nights'."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c20",
+      "where": "care_sections.propagation.steps",
+      "claim": "Plantlets are extremely easy to root; they root when they touch soil; detach once rooted; or pot a rooted plantlet directly; start any time of year; larger plants can be divided.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+          "https://hgic.clemson.edu/factsheet/spider-plant/"
+        ],
+        "note": "Verifier 15 Nov: UW: 'extremely easy to propagate'; attached plantlet set on a pot 'allow it to root before severing the stem'; 'remove and pot up a plantlet that has already started developing roots'; 'Larger plants can also be divided.' Clemson: 'plantlets root readily when in contact with soil'; 'Start new plants at any time of year'; 'Detach them once roots have formed and pot directly into moist growing mix.' | Writer 15 Nov: UW: 'extremely easy to propagate by planting the \"spiders\" or plantlets'; 'remove and pot up a plantlet that has already started developing roots'; 'Larger plants can also be divided.' Clemson: 'New plantlets will root when they come into contact with soil.' 'Start new plants at any time of year from the plantlets.' 'Detach them once roots have formed and pot directly into moist growing mix.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c21",
+      "where": "care_sections.placement, faqs.size",
+      "claim": "In a hanging basket it grows quickly to about 60–75 cm wide with stems 60–90 cm long.",
+      "g": {
+        "verdict": "contradicted",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/spider-plant/"
+        ],
+        "note": "Verifier 15 Nov: Clemson: 'grow quickly to 2 to 2½ feet wide and 2 to 3 feet long when grown in a hanging basket' — the 2–3 ft is the plant's length, not stem length as the page said. | Writer 15 Nov: Clemson: 'grow quickly to 2 to 2½ feet wide and 2 to 3 feet long when grown in a hanging basket.' (2–2.5 ft = 61–76 cm; 2–3 ft = 61–91 cm.)"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "corrected",
+      "change": "15 Nov: '60–75 cm wide, with stems 60–90 cm long' → '60–75 cm wide and 60–90 cm long in a hanging basket' (placement, FAQ size; Clemson HGIC 1513)."
+    },
+    {
+      "id": "c22",
+      "where": "quick_facts.Size, faqs.size",
+      "claim": "About 30–45 cm tall.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/"
+        ],
+        "note": "Verifier 15 Nov: NC State: Height 1 ft 0 in – 1 ft 6 in (30–46 cm). UW: 'Plants grow 12-15″ tall'. | Writer 15 Nov: NC State: about 1 to 1.5 ft tall (30–46 cm), 1 to 2 ft wide. UW: 'Plants grow 12-15\" tall' (30–38 cm)."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c23",
+      "where": "fit, pet_safety, quick_facts.Pets, quick_answer, alternatives intro",
+      "claim": "The spider plant is non-toxic to cats and dogs.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/"
+        ],
+        "note": "Verifier 15 Nov: ASPCA spider plant: 'Non-Toxic to Dogs, Non-Toxic to Cats'. NC State tags #non-toxic for cats/dogs/horses. Emergency box is general advice, makes no toxicity claim. | Writer 15 Nov: ASPCA: 'Non-Toxic to Dogs', 'Non-Toxic to Cats'. NC State tags it non-toxic for cats, dogs and horses. The emergency step (call the vet if a pet eats a lot of any plant and is unwell) is general advice, not from ASPCA."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c24",
+      "where": "varieties",
+      "claim": "'Vittatum': wide creamy-white central stripe, most common variegated cultivar (Clemson); 'Variegatum': white or cream edges; 'Bonnie': curling, twisting leaves.",
+      "g": {
+        "verdict": "contradicted",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/"
+        ],
+        "note": "Verifier 15 Nov: Looks supported: NC State 'Vittatum' 'Medium green leaves with a wide, creamy white, central stripe', 'Variegatum' 'edged in white or cream margins', 'Bonnie' 'curl and twist'; Clemson 'Vittatum' 'Most common variegated cultivar'. But 'Same care' contradicted for two: UW 'Vittatum' 'tends to be slower growing than the green types'; 'Variegatum' 'tends to produce fewer plantlets'. 'Bonnie': NC State gives no separate care (care is for the species). | Writer 15 Nov: NC State: 'Vittatum' 'Medium green leaves with a wide, creamy white, central stripe'; 'Variegatum' 'green leaves edged in white or cream margins'; 'Bonnie' 'green leaves that curl and twist'. Clemson: 'Vittatum' 'Most common variegated cultivar'. Linking 'Vittatum' to our standard product is the writer's reading of the product photo: verifier/owner to confirm."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: cultivar descriptions are not climate-dependent; the product link question moved to c41."
+      },
+      "status": "corrected",
+      "change": "15 Nov: 'Vittatum' care 'Same care' → 'Same care; UW–Madison Extension says it tends to grow more slowly than green types'; 'Variegatum' → '…tends to make fewer babies'."
+    },
+    {
+      "id": "c25",
+      "where": "varieties",
+      "claim": "'Lemon' (sold as Spider Plant Lemon): lime-green to yellow-green leaves; grow it the same way.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.rhs.org.uk/plants/370935/chlorophytum-comosum-lemon/details"
+        ],
+        "note": "Verifier 15 Nov: RHS Plant Profile 370935: 'Chlorophytum comosum 'Lemon'', spider plant 'Lemon', family Asparagaceae, name status Accepted — a cultivar of the same species, so species care applies. Leaf colour 'lime-green to yellow-green': no authoritative description (only retailers); it is from our product photos. | Writer 15 Nov: No extension source opened lists 'Lemon'. Look from the Shopify product photos and alt text ('lime-green arching leaves'). Care: no source."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Owner: confirm what the grower supplies as 'Lemon' and that the lime-green leaf description matches the plants sold. | Writer 15 Nov: Owner: confirm what the grower supplies as 'Lemon' and that care is the same."
+      },
+      "status": "needs_local",
+      "change": "15 Nov: care 'Sold as a spider plant; grow it the same way' → 'A cultivar of the same species (RHS); grow it the same way'."
+    },
+    {
+      "id": "c26",
+      "where": "faqs.stripes",
+      "claim": "'Hawaiian' variegation fades with age (NC State); the white line of 'White Stripe' is lost as the leaf ages (UW).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'Hawaiian' 'variegation on new leaves but variegation fades with age'. UW: 'White Stripe' line 'that is lost as the leaf ages'. | Writer 15 Nov: NC State: 'Hawaiian' 'variegation on new leaves but variegation fades with age'. UW: 'White Stripe' 'has a narrow white to cream line down the central leaf vein that is lost as the leaf ages.' NC State does not mention the loss for 'White Stripe'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c27",
+      "where": "faqs.flowers",
+      "claim": "Small white star-shaped flowers on the long stems; plantlets form on the same stems.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'Small white star-shaped flowers form in loose panicles'; 'Stolons are long and green, producing flowers and plantlets.' UW: flowers at stem ends, plantlets form after flowering. | Writer 15 Nov: NC State: 'Small white star-shaped flowers form in loose panicles, the stolons sometimes bearing plantlets at nodes.' Plantlets form on long stolons and at the tips of flower stalks."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c28",
+      "where": "problems[0]",
+      "claim": "Brown tips have several causes: low humidity, very dry soil, salt build-up, fluoride or chlorine (UW); too much fertiliser and salty water (Clemson). Brown tips do not turn green again.",
+      "g": {
+        "verdict": "contradicted",
+        "sources": [
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges"
+        ],
+        "note": "Verifier 15 Nov: Causes supported (UW, Clemson, Iowa State: 'common on some species like spider plant'). 'Brown tips are the most common spider plant problem': no source; UW says 'a common problem', Clemson names water and insects as primary problems. 'Brown tips do not turn green again': no source. Iowa State: 'Trimming the brown portions off the leaves with a scissors can improve appearance, but new browning will occur if the root cause is not addressed.' | Writer 15 Nov: UW: 'tip burn of the leaves is a common problem that can have many causes.' Causes as quoted in c07, c12, c18. 'Brown tips do not turn green again' and 'trim them off' are writer additions: no source opened."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline tap-water. | Writer 15 Nov: Baseline tap-water."
+      },
+      "status": "corrected",
+      "change": "15 Nov: 'the most common spider plant problem' → 'a common spider plant problem' (problem answer; quick answer 'its most common problem, usually come from' → 'a common problem, can come from'); 'Brown tips do not turn green again. Trim them off…' → 'Trim the brown parts off… Iowa State Extension notes that new browning appears if the cause is not fixed.'"
+    },
+    {
+      "id": "c29",
+      "where": "problems[1]",
+      "claim": "Too much or too little water are the main problems; root rot from poorly draining soil or excessive watering; remove rotten roots and repot.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/"
+        ],
+        "note": "Verifier 15 Nov: Clemson HGIC 1513: too much or too little water are primary problems; root rot sentence. Clemson HGIC 2251: 'Most often, yellowing is a symptom caused by overwatering. Check for drainage in the pot, examine the roots'; root rot: 'If only a few roots are infected, cut out these roots and repot the plant in sterile soil'; 'Do not allow houseplants to stand in a saucer full of water.' Answer and fix now cite these. | Writer 15 Nov: Clemson: too much or too little water, insects and mites are the primary problems; root rot sentence as in c06. 'Yellow, limp leaves' as the symptom and the repot-and-trim-roots step are writer wording: no source opened ties yellow leaves to root rot for this species."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "corrected",
+      "change": "15 Nov: Answer now uses Clemson HGIC 2251 ('yellowing is most often a symptom of overwatering') in place of the unsupported link; fix 'remove soft or rotten roots' → 'cut out soft or rotten roots… (Clemson Extension)'."
+    },
+    {
+      "id": "c30",
+      "where": "problems[3], uae_year.Summer, faqs.outdoors, quick_facts.Outdoors",
+      "claim": "Direct sun scorches it; outdoors it needs bright light but can sunburn in full sun; best kept indoors in the UAE.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'intolerant of direct sunlight'. Clemson: 'midday light may scorch leaves'. UW: 'Outdoors they need bright light but can sunburn if grown in full sun'; 'in warmer climates… ground covers in partly shaded areas'. FAQ now quotes the partly shaded line. | Writer 15 Nov: NC State: intolerant of direct sunlight. Clemson: midday light may scorch leaves. UW: 'Outdoors they need bright light but can sunburn if grown in full sun.'"
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Baseline summer-heat (highs 41–42 °C, nights 29–32 °C) is far above Clemson's 18–24 °C ideal, so 'best kept indoors' fits. Whether a shaded outdoor spider plant survives a UAE summer is not in any source: owner to confirm from PlantsWorld experience the advice 'shaded outdoor spot only in the cooler months on the coast'. | Writer 15 Nov: Baseline summer-heat (highs about 41–42 °C, nights 29–32 °C) far above Clemson's 18–24 °C; inland-winter for cold nights. Coastal cool-season shaded spot is the writer's inference."
+      },
+      "status": "needs_local",
+      "change": "15 Nov: FAQ outdoors: 'A fully shaded spot is possible…' → adds UW partly-shaded line and Clemson ideal range; cool-season outdoor advice left for the owner."
+    },
+    {
+      "id": "c31",
+      "where": "problems[4]",
+      "claim": "Main pests are scale insects and mealybugs (UW); Clemson also lists whiteflies, spider mites and aphids.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/"
+        ],
+        "note": "Verifier 15 Nov: UW: 'few pest problems other than scale insects and mealybugs.' Clemson HGIC 1513: whiteflies, spider mites, scales, aphids. Clemson HGIC 2252: scales 'small and immobile'; mealybugs 'look cottony'; honeydew 'shiny and sticky'; 'Isolate new plants'; 'leaves can be wiped with a soft, wet cloth'; 'Before using a pesticide indoors, be sure that the label specifies that use.' | Writer 15 Nov: UW: 'few pest problems other than scale insects and mealybugs.' Clemson: whiteflies, spider mites, scales and aphids are the most common insect and mite problems. Fix steps (isolate, wipe with a damp cloth, labelled indoor spray) are general: no spider plant source opened gives them."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c32",
+      "where": "myths, faqs.air",
+      "claim": "Potted plants do not measurably clean room air: 10–1,000 plants per m² would be needed to match normal air exchange (Cummings & Waring).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://doi.org/10.1038/s41370-019-0175-9",
+          "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41370-019-0175-9&resultType=core&format=json"
+        ],
+        "note": "Verifier 15 Nov: Europe PMC record (re-opened): Cummings & Waring, 'Potted plants do not improve indoor air quality…', first published online 2019-11-06 (print 2020). Abstract: chamber studies in 'small, sealed chambers'; 'necessitating the placement of 10-1000 plants/m2 of a building's floor space' to match outdoor-to-indoor air exchange. Page makes no air-purifying claim: myth + FAQ say it does not noticeably clean room air. Note: UW page says spider plants clean indoor air; the guide does not repeat it. | Writer 15 Nov: Europe PMC abstract: median single-plant CADR 0.023 m³/h, 'necessitating the placement of 10-1000 plants/m2 of a building's floor space' to match outdoor-to-indoor air exchange (~1 h-1). Chamber studies were 'small, sealed chambers'. Journal year: Europe PMC gives 2020 (print); published online 2019. doi.org redirected to nature.com login (not read there)."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c33",
+      "where": "myths",
+      "claim": "Spider lilies belong to other genera, such as Hymenocallis.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/hymenocallis/",
+          "https://plants.ces.ncsu.edu/plants/lycoris-radiata/"
+        ],
+        "note": "Verifier 15 Nov: NC State Hymenocallis: common names include 'Spider Lily', family Amaryllidaceae; NC State Lycoris radiata: 'Red Spider Lily', 'Spider Lily', Amaryllidaceae. Spider plant is Asparagaceae (NC State, ASPCA). | Writer 15 Nov: No source opened. Basis: the store's own product 'Spider Lily - Hymenocallis'. Verifier: open a source or cut."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c34",
+      "where": "alternatives",
+      "claim": "Boston fern: bright indirect light, moist soil never allowed to dry out (NC State); non-toxic to cats and dogs (ASPCA).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/boston-fern"
+        ],
+        "note": "Verifier 15 Nov: NC State Nephrolepis exaltata: 'Plant in bright, indirect light'; 'moist soil that should never be allowed to dry out'. ASPCA Boston fern: 'Non-Toxic to Dogs, Non-Toxic to Cats'. | Writer 15 Nov: NC State: 'Plant in bright, indirect light'; 'moist soil that should never be allowed to dry out'. ASPCA (Nephrolepis exalta bostoniensis): Non-Toxic to Dogs, Non-Toxic to Cats."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c35",
+      "where": "alternatives",
+      "claim": "Peperomia obtusifolia: bright indirect light, tolerates low light, intolerant of wet soil, overwatering a big problem (NC State); non-toxic (ASPCA).",
+      "g": {
+        "verdict": "contradicted",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/baby-rubber-plant"
+        ],
+        "note": "Verifier 15 Nov: NC State Peperomia obtusifolia: 'prefers bright indirect light'; 'tolerates low light for several months'; 'intolerant of wet soil'; 'Overwatering is a big problem' — not 'the main problem'. ASPCA baby rubber plant: Non-Toxic. | Writer 15 Nov: NC State: 'prefers bright indirect light'; 'tolerates low light for several months'; 'intolerant of wet soil'; 'Overwatering is a big problem'. ASPCA Baby Rubber Plant (Peperomia obtusifolia): Non-Toxic to Dogs, Non-Toxic to Cats."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "corrected",
+      "change": "15 Nov: 'Dislikes wet soil; overwatering is the main problem (NC State)' → 'Intolerant of wet soil; overwatering is a big problem (NC State)'."
+    },
+    {
+      "id": "c36",
+      "where": "alternatives",
+      "claim": "Areca palm: bright indirect light, keep moist but not soggy in the growing season (NC State); non-toxic (ASPCA).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm"
+        ],
+        "note": "Verifier 15 Nov: NC State Dypsis lutescens: 'provide bright indirect light'; 'keep moist but not soggy during the growing season'. ASPCA areca palm: Non-Toxic to Dogs/Cats. | Writer 15 Nov: NC State: 'provide bright indirect light'; 'keep moist but not soggy during the growing season'. ASPCA (Dypsis lutescens): non-toxic to dogs, cats, horses."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c37",
+      "where": "alternatives",
+      "claim": "Golden pothos: bright indirect light, survives low light, let the mix dry out between waterings (NC State); toxic to cats and dogs (ASPCA).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos"
+        ],
+        "note": "Verifier 15 Nov: NC State Epipremnum aureum: 'prefers bright, indirect light and survives for long periods in low light'; 'let the well-drained potting medium dry out between watering'. ASPCA golden pothos: 'Toxic to Dogs, Toxic to Cats'. | Writer 15 Nov: NC State: 'prefers bright, indirect light and survives for long periods in low light'; 'let the well-drained potting medium dry out between watering'. ASPCA (Epipremnum aureum): Toxic to Dogs, Toxic to Cats."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent. | Writer 15 Nov: n/a"
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c38",
+      "where": "first_week",
+      "claim": "A few bent or yellow leaves after delivery are a common reaction to the journey and a new spot.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "aeo/kb/support_kb.json#KB057",
+          "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/"
+        ],
+        "note": "Verifier 15 Nov: Clemson HGIC 2251: 'Some leaf drop occurs when plants are subjected to a significant change in environment' — supports a reaction to a move; 'bent' leaves from transport is not in the source. | Writer 15 Nov: Same as KB057 (refund policy 3.1). No horticultural source opened."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Owner: confirm from delivery experience. Same wording as KB057, whose 'recover within a few days' still waits for the owner decision (PROGRESS T6); the guide does not repeat 'a few days'. | Writer 15 Nov: Store fact via KB057; owner already approved KB057 wording."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c39",
+      "where": "care_sections.humidity",
+      "claim": "Use a hygrometer to know the real humidity near the plant.",
+      "g": {
+        "verdict": "supported",
+        "sources": [],
+        "note": "Verifier 15 Nov: A hygrometer is the instrument that measures relative humidity (definition). Advice has no number. | Writer 15 Nov: General advice; no source needed beyond the baseline."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline indoor-ac: humidity under AC varies from home to home, so measuring is the right test. | Writer 15 Nov: Baseline indoor-ac."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c40",
+      "where": "first_week.steps, fit",
+      "claim": "First week: bright indirect light away from direct sun and AC airflow, test the soil before watering, leave it in one spot; fit lists restate facts from c04, c05, c06, c23, c28, c30.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "https://hgic.clemson.edu/factsheet/spider-plant/",
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/",
+          "https://extension.illinois.edu/houseplants/care"
+        ],
+        "note": "Verifier 15 Nov: light (c04), soil test (c05), AC airflow (c11, Illinois) and pets (c23) as quoted above. 'Leave it in one spot' follows Clemson HGIC 2251 (leaf drop after a significant change in environment)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: baseline indoor-ac, ac-vents, sun-through-glass. No subjective number."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c41",
+      "where": "varieties ('Vittatum' products link)",
+      "claim": "The standard PlantsWorld spider plant product is 'Vittatum'.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/"
+        ],
+        "note": "Verifier 15 Nov: the main product photo (content/images/spider-plant.json) shows green leaves with a cream central stripe, which matches the 'Vittatum' description of NC State and UW. A photo cannot prove the cultivar."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Owner: confirm which cultivar the grower supplies for the standard product."
+      },
+      "status": "needs_local"
+    }
+  ]
+}

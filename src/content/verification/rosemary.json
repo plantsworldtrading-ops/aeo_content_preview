@@ -1,0 +1,608 @@
+{
+  "handle": "rosemary",
+  "stage": "signed-off",
+  "hash": "95e80b1846748f7b",
+  "content_errors": [],
+  "ledger_errors": [],
+  "signoff": {
+    "by": "Owner",
+    "on": "2026-11-16",
+    "content_hash": "95e80b1846748f7b",
+    "confirmed_local": [
+      "c02",
+      "c22",
+      "c24",
+      "c31"
+    ],
+    "notes": "Owner signed off on the batch 2 review page 2026-11-16; all needs_local questions accepted as written (no changes)."
+  },
+  "claims": [
+    {
+      "id": "c01",
+      "where": "botanical_name, entity_ids, faqs.name",
+      "claim": "Accepted name Salvia rosmarinus; Rosmarinus officinalis is a synonym; family Lamiaceae (mint family). Wikidata Q102240169; POWO id urn:lsid:ipni.org:names:457138-1.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://api.gbif.org/v1/species/match?name=Rosmarinus%20officinalis",
+          "https://www.wikidata.org/wiki/Q102240169",
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://www.ipni.org/api/1/n/urn:lsid:ipni.org:names:457138-1"
+        ],
+        "note": "Verifier 15 Nov: IPNI 457138-1: Salvia rosmarinus Schleid., family Lamiaceae, inPowo true. GBIF match: Rosmarinus officinalis L. SYNONYM, accepted Salvia rosmarinus, Lamiaceae. Wikidata Q102240169 P225 Salvia rosmarinus, P5037 = urn:lsid:ipni.org:names:457138-1. NC State: 'Previously known as: Rosmarinus officinalis'. POWO page itself returned 403 (curl and WebFetch). | Writer 2026-11-15: GBIF: Rosmarinus officinalis L. status SYNONYM, accepted Salvia rosmarinus, family Lamiaceae. Wikidata Q102240169 P5037 = urn:lsid:ipni.org:names:457138-1. NC State: 'Previously known as: Rosmarinus officinalis'; 'Lamiaceae or mint family'. POWO not opened directly."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c02",
+      "where": "other_names",
+      "claim": "Arabic names إكليل الجبل and روزماري are used for rosemary.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.wikidata.org/wiki/Q102240169"
+        ],
+        "note": "Verifier 15 Nov: Wikidata Q102240169 (re-opened): Arabic label إكليل الجبل; aliases include روزماري. | Writer 2026-11-15: Wikidata Q102240169: Arabic label 'إكليل الجبل'; Arabic aliases include 'روزماري', 'اكليل الجبل', 'حصى البان'."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Owner: confirm which Arabic name UAE customers use (إكليل الجبل, روزماري or another)."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c03",
+      "where": "care_sections.light, quick_facts.Light, fit",
+      "claim": "Rosemary needs full sun, at least six hours of direct sun a day; native to dry, rocky areas around the Mediterranean; in too little light it grows weak and thin.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/herbs/rosemary/",
+          "https://extension.psu.edu/growing-herbs-indoors"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'Full sun (6 or more hours of direct sunlight a day)'; 'found in dry, rocky areas'. UF/IFAS: 'at least six hours of sun'. Penn State: rosemary in the list 'These herbs do best in direct sunlight'; 'Herbs that are not exposed to their preferred light conditions will become thin and spindly'. The unsourced 'weak and thin' sentence was replaced by the Penn State statement. | Writer 2026-11-15: NC State: 'Full sun (6 or more hours of direct sunlight a day)'; 'native to Africa, Europe, Western Asia, and the Mediterranean and is found in dry, rocky areas.' UF/IFAS: 'at least six hours of sun.' 'Weak and thin in low light' is from web results (Gardening Know How etc.), not a primary source opened."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline sun-through-glass and seasons: UAE sun is strong; Oct–Apr full sun suits it."
+      },
+      "status": "corrected",
+      "change": "15 Nov: 'In too little light, rosemary grows weak and thin' (no source) → Penn State Extension statement on thin, spindly herbs; Penn State added to sources."
+    },
+    {
+      "id": "c04",
+      "where": "care_sections.light, uae_year.Summer, faqs.summer, first_week, quick_facts.Light",
+      "claim": "In desert summers, sun-loving herbs such as rosemary do best with morning sun and afternoon shade, an east-facing spot, or 30–40% shade cloth; hot dry wind dries plants; a wall or hedge helps.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az2061-2023.pdf"
+        ],
+        "note": "Verifier 15 Nov: AZ2061 p.1 re-read: 'basil, and rosemary, are true sun lovers ... eastern exposure is considered ideal ... 30-40% shade cloth ... Dry hot winds can also be a problem. Taking advantage of a wall, fence ... or hedge'. | Writer 2026-11-15: AZ2061 p.1: 'Some herbs, such as basil, and rosemary, are true sun lovers, but during the summer in the southwest the sun can be very intense ... An eastern exposure is considered ideal, giving sun in the morning and shade in the afternoon ... covering plants with 30-40% shade cloth ... Dry hot winds can also be a problem. Taking advantage of a wall, fence, deciduous trees, or hedge'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Tucson summers reach 105 °F (~40 °C); baseline summer-heat (Dubai highs 41–42 °C) and seasons (May–Sep shade) agree."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c05",
+      "where": "care_sections.watering, quick_facts.Water, myths, mistakes, problems[0]",
+      "claim": "Water when the mix is dry at finger depth (rule + finger/skewer test); overwatering is the most common cause of rosemary decline or death; rosemary suffers when watered too often.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/herbs/rosemary/",
+          "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az2061-2023.pdf"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'Overwatering is the common cause of plant decline or death' (not 'most common'). UF/IFAS: 'suffers when watered too frequently'. Finger/skewer test is a reader test, no number. Myth fact now cites AZ2061 p.3: 'In summer this may mean watering pots twice a day. If plants need water more than twice a day, then chances are the pot is getting too much sun or the plant is pot bound.' | Writer 2026-11-15: NC State: 'Overwatering is the common cause of plant decline or death.' UF/IFAS: 'prefers dry conditions and suffers when watered too frequently.' Finger-depth test is our reader test (no number)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: No interval of our own; the only number is AZ2061's, named in the text. Desert-summer source fits the baseline summer-heat."
+      },
+      "status": "corrected",
+      "change": "15 Nov: 'most common cause' → 'the common cause' (NC State wording) in quick facts, watering, problems and myths. Myth fact 'in a large pot with afternoon shade that is much less often than daily' (our estimate, and AZ2061 says summer pots may need water twice a day) → rule + test + AZ2061 named figure."
+    },
+    {
+      "id": "c06",
+      "where": "care_sections.watering, uae_year.Summer, problems[2]",
+      "claim": "Small pots, terracotta and full sun dry fastest; pots in direct summer sun heat the roots; small pots (under 14 in) are very hard to keep moist; larger pots need less frequent watering.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az2061-2023.pdf"
+        ],
+        "note": "Verifier 15 Nov: AZ2061 p.2: 'Containers in direct summer sun tend to \"cook\" the roots and any pot under 14\" in size will be very difficult to keep moist'; larger pots 'require less frequent watering'; clay pots 'may require more water'; plastic pots 'retain more water'. | Writer 2026-11-15: AZ2061 p.2: 'Containers in direct summer sun tend to \"cook\" the roots and any pot under 14\" in size will be very difficult to keep moist'; 'Larger pots ... require less frequent watering'; clay pots 'may require more water'."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline summer-heat and seasons."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c07",
+      "where": "care_sections.watering, mistakes, uae_year.Summer, faqs.summer",
+      "claim": "Do not wet herb foliage in hot sun: water can scorch leaves and minerals in the water can damage them.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az2061-2023.pdf",
+          "https://ipm.ucanr.edu/home-and-landscape/powdery-mildew-on-ornamentals/pest-notes/"
+        ],
+        "note": "Verifier 15 Nov: AZ2061 p.3: 'As a rule, water should not be applied to the foliage because it can cause sunburn and the minerals in our water can cause leaf damage.' Not limited to 'in hot sun'. The link 'wet leaves invite powdery mildew' is CONTRADICTED by UC IPM: 'powdery mildew doesn't require moist conditions'; 'Water on plant surfaces for extended periods inhibits spore germination'. 'Early or late in the day' has no source. | Writer 2026-11-15: AZ2061 p.3: 'As a rule, water should not be applied to the foliage because it can cause sunburn and the minerals in our water can cause leaf damage.' 'Wet leaves invite powdery mildew' is linked to NC State 'poor circulation and high humidity'; the wet-leaf link itself is not stated by an opened source."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline tap-water: desalinated, remineralised, minerals vary."
+      },
+      "status": "corrected",
+      "change": "15 Nov: removed 'Wet leaves and still air also invite powdery mildew' (contradicted, UC IPM) and 'early or late in the day' (no source) from watering, mistakes, summer card and FAQ; foliage advice now matches AZ2061 ('sunburn', minerals)."
+    },
+    {
+      "id": "c08",
+      "where": "care_sections.watering, faqs.salt",
+      "claim": "Rosemary is highly salt and drought tolerant.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://hgic.clemson.edu/factsheet/indoor-plants-watering/"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'Highly salt and drought tolerant'; tags #salt tolerant, #coastal plant; epithet 'dew of the sea ... thrive well in coastal areas, sea cliffs, and exposure to ocean mists'. Clemson HGIC indoor watering (WebFetch): watering until it runs out the bottom 'washes out the excess salts'; empty the saucer. | Writer 2026-11-15: NC State: 'Highly salt and drought tolerant.'"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline tap-water: flushing tied to visible crust, not to 'hard water'."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c09",
+      "where": "care_sections.soil, quick_facts.Soil",
+      "claim": "Rosemary grows in most soils except clay; RHS: soil-based compost with horticultural grit up to 25% by volume; add sand or perlite to bought mix if it drains poorly; squeeze test.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://www.rhs.org.uk/advice/grow-your-own/herbs/rosemary",
+          "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az2061-2023.pdf"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'tolerates ... most soil types except clay'. RHS: soil-based compost, 'horticultural grit (up to 25 per cent by volume)'. AZ2061 p.2: add sand or perlite; squeeze test 'It should just fall apart'. | Writer 2026-11-15: NC State: tolerates 'most soil types except clay'; 'light, slightly acidic, dry to medium, well-drained soils'. RHS: 'peat-free soil-based compost' with 'horticultural grit (up to 25 per cent by volume)'. AZ2061 p.2: 'you may have to add additional sand or perlite ... Dampen the mix and squeeze a handful, if it stays in a clump when you open your hand it probably needs more sand or perlite. It should just fall apart.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c10",
+      "where": "care_sections.soil, quick_facts.Pot",
+      "claim": "Pot with drainage holes; RHS at least 30 cm wide and deep; Arizona herb pots at least 14 in (~35 cm) in desert heat; plastic holds more water, black plastic absorbs heat; clay evaporates, cooler roots, needs more water; raise pots off the ground.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.rhs.org.uk/advice/grow-your-own/herbs/rosemary",
+          "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az2061-2023.pdf"
+        ],
+        "note": "Verifier 15 Nov: RHS: pot 'at least 30cm (1ft) wide and deep' with 'plenty of drainage holes ... rosemary must never sit in waterlogged' compost. AZ2061 p.2: 'it must have drainage holes'; 'Plants will not survive if the soil does not drain well'; 'at least 14 inches in diameter'; plastic/black plastic/clay statements; 'Raise pots up off the ground'. | Writer 2026-11-15: RHS: pot 'at least 30cm (1ft) wide and deep' with 'plenty of drainage holes'. AZ2061 p.2: 'Pots should be at least 14 inches in diameter. Larger pots ... protect the roots from extreme temperatures'; plastic 'retain more water than clay pots and absorb heat especially black plastic pots'; clay 'porous ... keep plant roots cooler'; 'Raise pots up off the ground to allow water to drain and allow air to circulate.'"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Owner decision 12 Nov (PROGRESS): guides must not conflict with KB013/KB011 (decorative pots with drainage layer). Absolute 'Drainage holes are a must' rewritten as sourced statements plus a skewer test for pots without a hole. Baseline rain: heavy bursts flood pots."
+      },
+      "status": "corrected",
+      "change": "15 Nov: 'Drainage holes are a must' / 'Use a pot with drainage holes' / quick answer 'in a pot with drainage holes' → attributed RHS/Arizona statements, 'a pot that lets extra water drain away' and a skewer test for pots without a hole (neutral wording, KB013)."
+    },
+    {
+      "id": "c11",
+      "where": "care_sections.fertiliser, uae_year.Spring",
+      "claim": "Rosemary in the ground needs no feed; potted rosemary in the same pot over a year: general-purpose granular feed in late spring or early summer; herbs need no heavy or frequent fertiliser; perennial herbs benefit from compost in spring.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.rhs.org.uk/advice/grow-your-own/herbs/rosemary",
+          "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az2061-2023.pdf"
+        ],
+        "note": "Verifier 15 Nov: RHS: in the ground 'doesn't need feeding'; same container more than one year: 'a sprinkling of general purpose granular feed in late spring or early summer'. AZ2061 p.4: 'herbs do not need heavy or frequent application of fertilizer. Perennial herbs will benefit from ... compost ... in the spring'; 'follow package directions'. | Writer 2026-11-15: RHS: in the ground 'doesn't need feeding'; container plants over a year in the same pot benefit from 'a sprinkling of general purpose granular feed in late spring or early summer'. AZ2061 p.4: 'herbs do not need heavy or frequent application of fertilizer. Perennial herbs will benefit from the application of compost ... in the spring.'"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: RHS timing is UK; AZ2061 (desert) gives spring for perennial herbs, so the UAE spring card (Mar–Apr) matches."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c12",
+      "where": "care_sections.pruning, mistakes, myths, problems[5], faqs.harvest-amount",
+      "claim": "Trim lightly after flowers fade; do not cut into old wood; unpruned plants become leggy; old straggly plants are best replaced with cuttings; old wood often does not regrow.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.rhs.org.uk/advice/grow-your-own/herbs/rosemary",
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/"
+        ],
+        "note": "Verifier 15 Nov: RHS: 'trim it back lightly every year after the flowers fade, but avoid cutting back into old wood'; 'Left unpruned, rosemary will become leggy, woody and bare at the base. As they don't usually recover from heavy pruning, old straggly plants are best replaced'. NC State DISAGREES: 'tolerates ... heavy pruning'; 'severely pruning is an option'. The myth 'A hard cut back makes old rosemary bushy again' therefore cannot be called a myth; 'old wood often does not grow back' was not the RHS wording. | Writer 2026-11-15: RHS: trim 'lightly every year after the flowers fade, but avoid cutting back into old wood'; unpruned plants become leggy; old straggly plants best replaced with cuttings. NC State differs: 'Once the bloom has passed, severely pruning is an option to encourage dense foliage growth.' 'Old wood often does not regrow' is our wording of the RHS advice, not a quote."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "15 Nov: removed the hard-cut-back myth; 'old wood often does not grow back' → 'does not usually recover from heavy pruning' (RHS) in pruning, mistakes and FAQ; pruning text now states that NC State says rosemary tolerates heavy pruning."
+    },
+    {
+      "id": "c13",
+      "where": "care_sections.pruning",
+      "claim": "Pinching and trimming herbs encourages new growth; soft new growth has the best flavour; pick all year; cut herbs early morning or evening because leaves hold less oil in the heat of the day.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az2061-2023.pdf",
+          "https://www.rhs.org.uk/advice/grow-your-own/herbs/rosemary"
+        ],
+        "note": "Verifier 15 Nov: AZ2061 p.5: 'Herbs respond well to being pinched or trimmed back. Pruning will encourage new and vigorous growth'; 'Cut ... in the early morning or evening as there are less oils present in the leaves during the heat of the day.' RHS: evergreen, 'harvested all year round'; 'soft new growth ... has the best flavour'; 'Snip off shoots ... aiming to keep an attractive shape'. Unsourced steps 'just above a pair of leaves' and 'Leave green leaves on every stem you cut' removed (also from FAQ harvest-amount). | Writer 2026-11-15: AZ2061 p.5: 'Herbs respond well to being pinched or trimmed back. Pruning will encourage new and vigorous growth.' 'Cut the stems or leaves in the early morning or evening as there are less oils present in the leaves during the heat of the day.' RHS: can be picked all year; 'the soft new growth in late spring and summer has the best flavour.' Pruning steps (cut above a pair of leaves, spread cuts) are general practice, no source."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "15 Nov: removed 'just above a pair of leaves' and 'Leave green leaves on every stem you cut' (no source); steps now attributed to RHS."
+    },
+    {
+      "id": "c14",
+      "where": "care_sections.propagation",
+      "claim": "Rosemary is slow from seed; stem cuttings, layering or division work better; RHS softwood cuttings from new growth, semi-ripe later, layering spring or autumn; UF/IFAS: difficult from seed or cuttings. Root cuttings in gritty, barely damp mix in bright shade.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://www.rhs.org.uk/advice/grow-your-own/herbs/rosemary",
+          "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/herbs/rosemary/"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'slow to germinate from seed ... more success propagating from stem cuttings, layering, or division'; 'easily transplanted and rooted'. RHS: 'simple to grow from cuttings'; softwood 'from new growth in late spring or summer', semi-ripe 'in summer', layer 'in spring or autumn'. UF/IFAS: 'it can be difficult to start rosemary plants from seed or cuttings'. Sources conflict; text now says so. 'Root them in a gritty, barely damp mix in bright shade' had no source and was removed. | Writer 2026-11-15: NC State: 'slow to germinate from seed ... more success propagating from stem cuttings, layering, or division.' RHS: softwood cuttings 'from new growth in late spring or summer', semi-ripe in summer, layering spring or autumn. UF/IFAS: 'it can be difficult to start rosemary plants from seed or cuttings.' 'Bright shade, gritty barely damp mix' has no opened source."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Spring card: cuttings from soft new growth; RHS ties cuttings to new growth, which in the UAE comes in the cool season and spring (baseline seasons)."
+      },
+      "status": "corrected",
+      "change": "15 Nov: 'UF/IFAS warns ... expect some cuttings to fail. Root them in a gritty, barely damp mix in bright shade, not in full UAE sun' → sources-differ sentence (RHS, NC State vs UF/IFAS) + 'take a few more cuttings than you need'."
+    },
+    {
+      "id": "c15",
+      "where": "care_sections.indoors, quick_facts.Indoors, problems[3], myths, fit.think_twice",
+      "claim": "Rosemary is difficult to keep indoors; indoors it is more open to aphids, mealybugs, whiteflies and spider mites; most AC rooms cannot give 6+ hours of direct sun.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://extension.psu.edu/growing-herbs-indoors"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'Rosemary can be difficult to overwinter indoors'; monitor for aphids, mealybugs, whiteflies and spider mites 'particularly if indoors'. Penn State: rosemary needs direct sun; 'rotate pots often'. 'Most rooms under AC cannot give six hours' was an inference; rewritten as 'a room away from a sunny window cannot give'. Problem 'weak, pale and dropping needles' had no source for 'pale' or 'needle drop' (Ask Extension notes overwatering also causes leaf drop); problem now 'thin and spindly' per Penn State. | Writer 2026-11-15: NC State: 'Rosemary can be difficult to overwinter indoors'; monitor for 'aphids, mealybugs, whiteflies, and spider mites, particularly if indoors.' 'Most rooms under AC cannot give six hours of direct sun' is our inference."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline sun-through-glass: tinted tower glazing cuts indoor light."
+      },
+      "status": "corrected",
+      "change": "15 Nov: problem 'Why is my indoor rosemary weak, pale and dropping needles?' → 'Why is my indoor rosemary thin and spindly?' with Penn State symptoms; 'more open to pests indoors' → NC State wording; added 'turn the pot often' (Penn State)."
+    },
+    {
+      "id": "c16",
+      "where": "quick_facts.Heat and cold, uae_year.Winter, myths",
+      "claim": "Rosemary is frost-tolerant, hardy in USDA zones 8–10; harsh frosts can damage shoots or kill young plants; cold, wet compost rots the roots.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://www.rhs.org.uk/advice/grow-your-own/herbs/rosemary"
+        ],
+        "note": "Verifier 15 Nov: NC State: USDA zones 8a–10b; tag #frost tolerant. NC State no longer lists 'Heat' as a resistance (writer note wrong), so 'Handles heat' had no source; AZ2061 says rosemary needs summer protection in the desert. RHS: established plants survive 'as low as -8°C'; harsh frosts 'can damage the shoots or even kill young plants'; 'Cold, wet compost can cause rosemary roots to rot and die.' | Writer 2026-11-15: NC State: 'USDA Plant Hardiness Zone: 8a ... 10b'; tag '#frost tolerant'; challenge resistance 'Heat'. RHS: 'Harsh frosts can damage the shoots or even kill young plants'; 'Cold, wet compost can cause rosemary roots to rot and die.'"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline inland-winter (Al Ain -2 °C, Jebel Jais -5.7 °C) and gcc-winter: above the RHS -8 °C for established plants; young plants at risk only on rare frosty nights. Wording 'rarely a problem', not 'no problem' (BANNED rule)."
+      },
+      "status": "corrected",
+      "change": "15 Nov: quick fact 'Handles heat and drought ... UAE winter nights are not a problem' → 'Drought tolerant, but needs afternoon shade in desert summers ... rarely a problem'."
+    },
+    {
+      "id": "c17",
+      "where": "quick_facts.Humidity, problems[1], mistakes, faqs.salt",
+      "claim": "Rosemary has low tolerance for wet, humid environments; poor circulation and high humidity cause powdery mildew.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://ipm.ucanr.edu/home-and-landscape/powdery-mildew-on-ornamentals/pest-notes/"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'low tolerance for wet, humid environments'; 'Poor circulation and high humidity can cause powdery mildew'. UC IPM: 'Moderate temperatures (60° to 80°F) and shade encourage the disease'; 'temperatures above 95°F may suppress growth'; full sun and air circulation help prevent it. 'Humid coastal weather gets it most' had no source and was removed. | Writer 2026-11-15: NC State: 'has a low tolerance for wet, humid environments'; 'Poor circulation and high humidity can cause powdery mildew.' NC State also lists 'Humidity' under challenge resistance (conflict on the page)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: UC IPM heat figure means mildew is less likely in UAE summer heat outdoors and more likely in the cool months or shade; baseline has no coastal humidity fact, so the coastal claim was removed rather than sent to the owner."
+      },
+      "status": "corrected",
+      "change": "15 Nov: 'which is why rosemary crowded with other pots, kept indoors or in humid coastal weather gets it most' → UC IPM shade/temperature statement and 'crowded plants and plants in shade or still air are most at risk'."
+    },
+    {
+      "id": "c18",
+      "where": "problems[0]",
+      "claim": "Root rot and botrytis are common diseases; cold, wet compost rots roots. Fix steps (unpot, cut rotten roots, repot in gritty mix, take cuttings if most roots rotten).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://www.rhs.org.uk/advice/grow-your-own/herbs/rosemary",
+          "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'Root rot and botrytis are common diseases.' RHS: cold, wet compost rots roots. Clemson HGIC houseplant diseases (WebFetch): 'Infected roots are brown to black and may be soft'; 'If only a few roots are infected, cut out these roots and repot the plant in sterile soil'; 'Do not overwater ... too much water increases the occurrence of root rot.' 'Healthy roots are pale and firm' had no source. | Writer 2026-11-15: NC State: 'Root rot and botrytis are common diseases.' RHS: cold, wet compost rots roots. Fix steps are general practice; no opened source gives rosemary root-rot steps."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "15 Nov: fix steps rewritten to Clemson Extension (brown to black soft roots; cut out a few rotten roots and repot; do not overwater); 'healthy roots are pale and firm' removed; cuttings kept only as a back-up step."
+    },
+    {
+      "id": "c19",
+      "where": "problems[1]",
+      "claim": "Powdery mildew fix: remove affected shoots, more space, air and sun, keep leaves dry; do not eat badly affected shoots.",
+      "g": {
+        "verdict": "contradicted",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://ipm.ucanr.edu/home-and-landscape/powdery-mildew-on-ornamentals/pest-notes/",
+          "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/"
+        ],
+        "note": "Verifier 15 Nov: Writer's fix steps were unsourced and partly wrong. UC IPM: 'Unlike many diseases, powdery mildew doesn't require moist conditions'; water on leaves inhibits spores, so 'keep the leaves dry' as a mildew fix is contradicted; infected parts may go 'in the compost, green waste, or trash', so 'not into compost' is contradicted; too much nitrogen favours mildew; full sun and air circulation help. Clemson: 'proper ventilation and not overwatering ... Remove severely infected leaves.' 'Do not eat badly affected shoots' had no source (and touches food safety) and was removed. | Writer 2026-11-15: NC State gives the cause only. Fix steps and 'do not eat badly affected shoots' have no opened source."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: UC IPM: heat above 35 °C suppresses the fungus, so the answer now tells UAE readers when to expect it."
+      },
+      "status": "corrected",
+      "change": "15 Nov: fix list → remove worst shoots and throw away (Clemson); space, air and sun (UC IPM); do not overfeed (UC IPM); water only when dry (Clemson). Removed 'not into compost', 'keep the leaves dry', 'do not eat badly affected shoots'."
+    },
+    {
+      "id": "c20",
+      "where": "problems[4]",
+      "claim": "Rosemary is generally pest and disease free; watch aphids, mealybugs, whiteflies, spider mites; insecticidal soap usually works; avoid systemic insect controls on food plants.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az2061-2023.pdf",
+          "https://ipm.ucanr.edu/home-and-landscape/aphids/",
+          "https://ipm.ucanr.edu/home-and-landscape/spider-mites/",
+          "https://ipm.ucanr.edu/home-and-landscape/whiteflies/",
+          "https://ipm.ucanr.edu/home-and-landscape/mealybugs/"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'generally pest and disease free'; pest list. AZ2061 p.4: avoid systemic insect controls on food plants; insecticidal soap; follow directions. UC IPM spider mites: 'leaves are stippled with white dots or have webbing'; aphids: 'Spray aphids with a strong stream of water'; mites: 'apply a water spray or mist to the undersides of leaves'; whiteflies 'fly around plants when disturbed'; mealybugs 'wax-covered', 'white, cottony egg masses'. 'Move away from other plants' had no source and was removed. | Writer 2026-11-15: NC State: 'Rosemary is generally pest and disease free'; list of pests. AZ2061 p.4: 'It is best not to use systemic insect controls on food plants ... insecticidal soap usually works very well. Make sure to follow the directions.' Water-spray step and symptom descriptions (webbing = spider mites) are general knowledge, no opened source."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "15 Nov: identification and water-spray steps now attributed to UC IPM; spider mites described as relatives of spiders; removed 'move away from other plants'."
+    },
+    {
+      "id": "c21",
+      "where": "quick_facts.Size, faqs.size",
+      "claim": "In the ground 4–5 ft (about 1.2–1.5 m) tall, 3–4 ft (about 0.9–1.2 m) wide, erect and rounded; smaller in containers or when pruned.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/herbs/rosemary/"
+        ],
+        "note": "Verifier 15 Nov: NC State: Height 4–5 ft, Width 3–4 ft. UF/IFAS: 'can reach up to 6 feet tall and 4 to 5 feet wide when planted in the ground but will remain smaller if pruned or planted in containers.' Writer's 'up to about 1.2–1.5 m' understated the UF/IFAS figure. | Writer 2026-11-15: NC State: 'grows from 4 to 5 feet tall and is generally erect and rounded'; width 3 to 4 feet. UF/IFAS: 'will remain smaller if pruned or planted in containers.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "15 Nov: 'Up to about 1.2–1.5 m tall and 0.9–1.2 m wide' → 'About 1.2–1.8 m tall and 0.9–1.5 m wide (NC State, UF/IFAS)'; FAQ gives both sources."
+    },
+    {
+      "id": "c22",
+      "where": "quick_facts.Flowers, faqs.flower, uae_year.Spring",
+      "claim": "Tiny blue, lavender or white flowers, pink in some cultivars; NC State: spring into summer; UF/IFAS (warm climate): winter and spring; attract butterflies and bees.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/"
+        ],
+        "note": "Verifier 15 Nov: NC State: flowers 'tiny, blue, lavender, or white'; 'Some cultivars have pink flowers'; bloom 'spring into summer'; 'Flowers attract butterflies and bees.' UF/IFAS: 'blooms in winter and spring with small pink, lavender, or blue flowers'. Spring card 'Rosemary flowers from spring' rewritten to the UF/IFAS warm-climate timing; FAQ now gives both. | Writer 2026-11-15: NC State: flowers 'tiny, blue, lavender, or white'; 'Flowering usually begins in the spring and into summer'; 'Some cultivars have pink flowers'; 'Flowers attract butterflies and bees.'"
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Owner: confirm when PlantsWorld rosemary flowers in the UAE (UF/IFAS warm-climate timing is winter and spring)."
+      },
+      "status": "needs_local",
+      "change": "15 Nov: spring card 'Rosemary flowers from spring' → 'In warm climates rosemary often flowers in late winter and spring (UF/IFAS)'; FAQ flower adds UF/IFAS timing."
+    },
+    {
+      "id": "c23",
+      "where": "pet_safety, quick_facts.Pets, fit",
+      "claim": "ASPCA: rosemary (Rosmarinus officinalis) is non-toxic to dogs, cats and horses.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/rosemary",
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants"
+        ],
+        "note": "Verifier 15 Nov: ASPCA rosemary (re-opened): Rosmarinus officinalis, 'Non-Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses'. ASPCA plant list page: 'the consumption of any plant material may cause vomiting and gastrointestinal upset for dogs and cats' supports the stomach-upset sentence. NC State tags non-toxic for cats, dogs, horses. | Writer 2026-11-15: ASPCA: 'Non-Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses'. NC State tags: non-toxic for cats, dogs, horses. 'Even a non-toxic plant can upset a stomach' matches KB075 wording, no primary source."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c24",
+      "where": "varieties",
+      "claim": "Upright cultivars such as 'Miss Jessopp's Upright'; trailing cultivars such as 'Capri' or 'Prostratus'; drip emitters for creeping types such as prostrate rosemary.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.rhs.org.uk/advice/grow-your-own/herbs/rosemary",
+          "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/herbs/rosemary/",
+          "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az2061-2023.pdf"
+        ],
+        "note": "Verifier 15 Nov: RHS: 'Miss Jessopp's Upright' 'Vigorous vertical growth'; 'Capri' 'low and trailing'. RHS does not call 'Capri' Prostratus group. NC State and UF/IFAS name the cultivar 'Prostratus' (low, creeping; groundcover). AZ2061 p.3: emitters for 'prostrate rosemary'. | Writer 2026-11-15: RHS: 'Miss Jessopp's Upright' AGM 'Vigorous vertical growth'; 'Capri' prostrata group 'low and trailing'. UF/IFAS: groundcover forms like 'Prostratus'. AZ2061 p.3: emitters 'strategically placed especially for herbs that increase by creeping ... prostrate rosemary'. Our products do not name a cultivar."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Owner: which form our two rosemary products are (photos suggest upright; Shopify titles name no cultivar)."
+      },
+      "status": "needs_local",
+      "change": "15 Nov: 'Trailing rosemary (Prostratus group, for example 'Capri')' → 'Trailing rosemary (for example 'Capri' or 'Prostratus')'."
+    },
+    {
+      "id": "c25",
+      "where": "uae_year.Autumn, faqs.plant-time, uae_year.Summer",
+      "claim": "Best time to plant rosemary in the UAE is October–November; Arizona herb calendar for Tucson gives Oct–Nov for rosemary; do not plant or repot in summer.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az2061-2023.pdf",
+          "verification/uae_gcc_baseline.json"
+        ],
+        "note": "Verifier 15 Nov: AZ2061 p.6 calendar re-read with column positions: '*Rosemary P' has one dot under 'Oct - Nov'. | Writer 2026-11-15: AZ2061 p.6 planting calendar: Rosemary, P (perennial), dot under 'Oct - Nov' only."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline seasons: gardening season about Oct–Apr; planting in cooler months."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c26",
+      "where": "uae_year.Winter",
+      "claim": "Pots must drain after rain.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "verification/uae_gcc_baseline.json",
+          "https://www.rhs.org.uk/advice/grow-your-own/herbs/rosemary"
+        ],
+        "note": "Verifier 15 Nov: RHS: 'Rosemary hates having wet roots, especially in winter'; 'Cold, wet compost can cause rosemary roots to rot'; move potted plants out of heavy rain. | Writer 2026-11-15: General drainage advice (RHS: hates wet roots, especially in winter)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline rain: rare but heavy bursts Nov–Apr."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c27",
+      "where": "alternatives[0]",
+      "claim": "Thyme: full sun; dry, well-drained soil; drought tolerant; non-toxic to cats and dogs (NC State tags).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/thymus-vulgaris/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/thyme"
+        ],
+        "note": "Verifier 15 Nov: NC State thyme: 'prefers full sun, requires good drainage'; 'dry, sandy, or rocky soils'; 'frost and drought-tolerant'. ASPCA thyme (now opened): Thymus vulgaris 'Non-Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses'. | Writer 2026-11-15: NC State: 'Full sun (6 or more hours ...)'; 'performs best in dry, sandy, or rocky soils' and 'requires good drainage'; 'frost and drought-tolerant'; tags non-toxic for cats, dogs, horses. ASPCA thyme page not opened."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "15 Nov: pets 'Non-toxic to cats and dogs (NC State Extension)' → 'Non-toxic to cats, dogs and horses (ASPCA)'; ASPCA thyme added to sources."
+    },
+    {
+      "id": "c28",
+      "where": "alternatives[1]",
+      "claim": "Sweet basil: full sun to partial shade; moist, well-drained soil; ASPCA non-toxic to dogs and cats.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-basilicum/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/basil"
+        ],
+        "note": "Verifier 15 Nov: NC State basil: Light full sun and partial shade (2–6 h); 'prefers full sun and moist, well-drained soils'. ASPCA basil: 'Non-Toxic to Dogs, Non-Toxic to Cats'. | Writer 2026-11-15: NC State: full sun and partial shade listed; 'prefers full sun and moist, well-drained soils.' ASPCA: 'Non-Toxic to Dogs', 'Non-Toxic to Cats'. 'Fast, leafy' is general knowledge."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c29",
+      "where": "alternatives[2]",
+      "claim": "Mint: full sun, tolerates partial shade; moist soil, does not do well in dry soils; ASPCA toxic to cats, dogs and horses.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/mentha-spicata/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mint"
+        ],
+        "note": "Verifier 15 Nov: NC State spearmint: 'thrives in full sun'; 'does tolerate partial shade'; 'does not do well in dry soils'. ASPCA mint (Mentha sp.): 'Toxic to Dogs, Toxic to Cats, Toxic to Horses'; essential oils; vomiting and diarrhea with large ingestions. Genus-level ASPCA entry covers an unnamed Mentha product. | Writer 2026-11-15: NC State (Mentha spicata): 'thrives in full sun' and 'does tolerate partial shade'; 'does not do well in dry soils'. ASPCA (Mentha sp.): toxic to dogs, cats, horses; essential oils; vomiting and diarrhoea with large ingestions. Our product does not name the Mentha species."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c30",
+      "where": "first_week",
+      "claim": "Put a new plant in direct sun (afternoon shade May–Sep); move indoor plants into sun gradually; test before watering; do not feed or repot straight away.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az2061-2023.pdf",
+          "aeo/kb/support_kb.json#KB072",
+          "https://www.rhs.org.uk/plants/types/houseplants/moving-houseplants-outdoors"
+        ],
+        "note": "Verifier 15 Nov: RHS moving houseplants outdoors (WebFetch): start plants in bright shade, 'gradually exposing them to more and more direct sunlight'; 'Even cacti can burn if exposed to direct sunlight outdoors when first moved from indoors.' RHS: plants in a pot for more than a year benefit from feed (so no feed at first). Light/water/summer-shade steps from c03–c06. | Writer 2026-11-15: Built from the light, watering and summer-shade claims above. 'Gradual move into sun' is general practice; no opened source. KB072: let a new plant settle before repotting."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline seasons (May–Sep shade). 'Let it settle before repotting' is plant advice, not a store promise; KB072 says the same."
+      },
+      "status": "corrected",
+      "change": "15 Nov: gradual move outdoors now sourced to RHS (starting in bright shade) in indoors section and problems; RHS added to sources."
+    },
+    {
+      "id": "c31",
+      "where": "care_sections.indoors, problems[3].fix",
+      "claim": "Keep indoor rosemary out of the direct stream of an AC vent.",
+      "g": {
+        "verdict": "unverified",
+        "sources": [
+          "verification/uae_gcc_baseline.json"
+        ],
+        "note": "Verifier 15 Nov: No opened primary source covers AC draughts on rosemary. Advice only, no number."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Baseline ac-vents (low confidence, 'confirm with PlantsWorld staff'). Owner: confirm AC-vent draughts damage rosemary in UAE homes."
+      },
+      "status": "needs_local"
+    }
+  ]
+}

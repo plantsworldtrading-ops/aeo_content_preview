@@ -1,0 +1,665 @@
+{
+  "handle": "tulsi",
+  "stage": "signed-off",
+  "hash": "28eeca965de40121",
+  "content_errors": [],
+  "ledger_errors": [],
+  "signoff": {
+    "by": "Owner",
+    "on": "2026-11-16",
+    "content_hash": "28eeca965de40121",
+    "confirmed_local": [
+      "c02",
+      "c04",
+      "c16",
+      "c17",
+      "c28",
+      "c31",
+      "c33"
+    ],
+    "notes": "Owner signed off on the batch 2 review page 2026-11-16; all needs_local questions accepted as written (no changes)."
+  },
+  "claims": [
+    {
+      "id": "c01",
+      "where": "botanical_name, entity_ids",
+      "claim": "Accepted name Ocimum tenuiflorum; Ocimum sanctum is a synonym (former name). Wikidata Q960124; POWO id urn:lsid:ipni.org:names:453130-1.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://api.gbif.org/v1/species/match?name=Ocimum%20sanctum",
+          "https://www.wikidata.org/wiki/Q960124",
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/",
+          "https://www.ipni.org/api/1/n/urn:lsid:ipni.org:names:453130-1"
+        ],
+        "note": "Verifier 15 Nov: IPNI 453130-1: Ocimum tenuiflorum L., Sp. Pl., Lamiaceae, inPowo true. GBIF match: Ocimum sanctum = SYNONYM of Ocimum tenuiflorum (2927100). Wikidata Q960124 P225 Ocimum tenuiflorum, P5037 = urn:lsid:ipni.org:names:453130-1. NC State: previous name Ocimum sanctum. POWO page and API return HTTP 403 (not opened); IPNI used. | Writer: GBIF match: 'Ocimum sanctum L.' status SYNONYM, accepted species Ocimum tenuiflorum (key 2927100). Wikidata Q960124 P225 Ocimum tenuiflorum, P5037 urn:lsid:ipni.org:names:453130-1. NC State: 'previously known as Ocimum sanctum'. POWO itself not opened."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c02",
+      "where": "other_names",
+      "claim": "Common names holy basil, tulsi, tulasi, hot basil; Arabic الحبق المقدس; Hindi तुलसी.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/",
+          "https://www.wikidata.org/wiki/Q960124"
+        ],
+        "note": "Verifier 15 Nov: NC State common names: Holy Basil, Hot Basil, Tulasi, Tulsi. Wikidata Q960124: Arabic label 'حبق رقيق الأزهار', aliases 'حبق مقدس', 'الحبق المقدس'; Hindi label 'तुलसी'. The Arabic alias exists, but no source shows what UAE customers call it. | Writer: NC State common names: Holy Basil, Hot Basil, Tulasi, Tulsi. Wikidata: Arabic label 'حبق رقيق الأزهار', Arabic aliases 'حبق مقدس', 'الحبق المقدس'; Hindi label 'तुलसी'."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Owner: confirm the Arabic name UAE customers use (الحبق المقدس or another name). | Writer: Owner: confirm what UAE customers call it in Arabic (الحبق المقدس or another name)."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c03",
+      "where": "quick_answer, quick_facts.Light, care_sections.light, faqs.shade, mistakes, myths",
+      "claim": "Tulsi needs full sun, six or more hours of direct sunlight a day; in less sun stems stretch and the plant thins out.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/",
+          "https://yardandgarden.extension.iastate.edu/how-to/growing-basil-home-garden",
+          "rhs_poorly"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'Full sun (6 or more hours of direct sunlight a day)'. RHS: 'Weak, spindly growth, pale leaves and poor flowering are all signs that a plant isn't getting enough light.' Iowa: seedlings in low light get lanky. The writer's 'leaves get smaller' had no source and was replaced by RHS wording. | Writer: NC State light: 'Full sun (6 or more hours of direct sunlight a day)'; 'It prefers full sun in moist, well drained soil.' Iowa: grow basil in full sun; seedlings need bright light so they do not become leggy. The legginess wording for adult plants is general horticulture, not quoted."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline sun-through-glass: strong sun outdoors; tinted glass reduces indoor light. Full sun is available on UAE balconies and gardens. | Writer: Baseline sun-through-glass and summer-heat: strong sun year-round."
+      },
+      "status": "corrected",
+      "change": "care_sections.light: 'stems stretch, the leaves get smaller and the plant thins out' -> 'growth gets weak and spindly and the leaves get pale, which the RHS lists as signs of too little light'. Same change in care_sections.indoors and problems[2].signs ('pale or small new leaves' -> 'pale new leaves')."
+    },
+    {
+      "id": "c04",
+      "where": "quick_answer, care_sections.light, uae_year.Summer, first_week, faqs.summer-outdoors, mistakes",
+      "claim": "In the UAE summer (May–Sep) give tulsi pots morning sun and afternoon shade; small pots dry out fast; test soil more often in heatwaves.",
+      "g": {
+        "verdict": "unverified",
+        "sources": [
+          "https://utgardens.tennessee.edu/holy-basil-brings-scent-and-sanctity-to-the-herb-or-pollinator-garden/",
+          "aeo/verification/uae_gcc_baseline.json",
+          "clemson_watering"
+        ],
+        "note": "Verifier 15 Nov: UT Gardens: 'Hot weather doesn't bother this plant one bit' (Tennessee). Clemson: 'A large plant in a small pot needs water more often'; warm, sunny spots need more frequent watering. No source opened gives afternoon shade for tulsi; it rests on the UAE baseline only. | Writer: UT Gardens: thrives in hot, humid conditions; 'Hot weather doesn't bother this plant one bit.' (Tennessee, not desert). No source opened gives afternoon shade for tulsi."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Baseline seasons (May–Sep outdoor plants need shade) and summer-heat (41–42 °C highs, warm nights). Owner: confirm from PlantsWorld experience that tulsi does better with afternoon shade on UAE balconies from May to September. | Writer: Baseline seasons: May–Sep outdoor plants need shade and more frequent watering; summer-heat 41–42 °C highs. Owner/staff: confirm tulsi does better with afternoon shade on UAE balconies in summer."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c05",
+      "where": "quick_facts.Water, quick_facts.Soil, care_sections.watering, care_sections.soil, problems[1]",
+      "claim": "Holy basil prefers moist, well-drained soil, tolerates a wide range of soil types and pH, and does poorly in waterlogged soil.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'tolerates a wide variety of soil types and pH conditions' but 'does poorly in water logged soils'; prefers 'moist, well drained soil'. | Writer: NC State: 'While it tolerates a wide variety of soil types and pH conditions it does poorly in water logged soils'; 'moist, well drained soil'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c06",
+      "where": "care_sections.watering",
+      "claim": "Rule + test: water when the top of the soil feels dry (finger to first knuckle); what changes it: small/terracotta pots, full sun, hot wind and summer dry fastest; large plastic pots, shade, coastal humidity and cool months slower.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/",
+          "clemson_watering"
+        ],
+        "note": "Verifier 15 Nov: Clemson watering: 'Stick your finger into the mix up to the first joint; if it is dry at your fingertip it needs water.' 'A large plant in a small pot needs water more often'; 'Water evaporates rapidly from the sides of a porous clay pot'; 'A plant in a warm, dry, sunny location needs more frequent watering than one in a cool, low-light environment'; dormant plants need less water. No interval given (subjective-value rule met: rule, test, what changes it). | Writer: Subjective-value rule: rule and test, no interval. The finger test depth is our test, not a source number. Drying factors are general horticulture, not quoted from an opened page."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline summer-heat, seasons, indoor-ac: the factors named (sun, heat, coastal humidity, cooler months) match UAE conditions; no 'dry AC air' claim. | Writer: Baseline indoor-ac, seasons, summer-heat: coastal humidity and inland heat differ."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c07",
+      "where": "care_sections.watering",
+      "claim": "Water at the base until water runs out of the drainage hole, then empty the saucer; Iowa State advises against overhead watering and watering at night for basil, to limit downy mildew.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://yardandgarden.extension.iastate.edu/how-to/growing-basil-home-garden",
+          "clemson_watering"
+        ],
+        "note": "Verifier 15 Nov: Iowa: 'avoid overhead irrigation and watering at night' to reduce downy mildew risk. Clemson: 'Apply water until it runs out of the bottom of the pot'; 'Empty the saucer.' | Writer: Iowa: 'To limit downy mildew, avoid overhead irrigation and watering at night.' (sweet basil context)."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c08",
+      "where": "care_sections.watering",
+      "claim": "UAE tap water is desalinated and remineralised, mineral content varies; flush pots if a white crust shows, or use filtered water.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json",
+          "clemson_disorders"
+        ],
+        "note": "Verifier 15 Nov: Clemson disorders: 'White to grey crusty deposits on the soil surface or rim of pots is a sign of salt buildup'; 'Drench plants with water periodically to leach some of the salts'; other suggestions include repotting in fresh soil. 'Switch to filtered water' had no source and was removed. | Writer: Baseline tap-water fact (low confidence). Flushing advice tied to visible crust, as the baseline requires."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline tap-water: desalinated and remineralised, hardness varies; advice tied to a visible crust, not 'hard water'. | Writer: Baseline tap-water: do not call it hard; tie advice to symptoms."
+      },
+      "status": "corrected",
+      "change": "care_sections.watering: 'flush the pot ... or switch to filtered water' -> 'Clemson Extension says white to grey crusty deposits ... are a sign of salt build-up: drench the pot with plenty of water ..., or repot into fresh potting mix'."
+    },
+    {
+      "id": "c09",
+      "where": "care_sections.soil",
+      "claim": "Basil is well suited to containers; NC State advises a container or confined area for holy basil because it self-seeds and can be an aggressive weed outside its native range.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://yardandgarden.extension.iastate.edu/how-to/growing-basil-home-garden",
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/"
+        ],
+        "note": "Verifier 15 Nov: Iowa: 'Basil is well-suited for growing in containers.' NC State: 'place it in a confined area or container to manage its spread'; aggressive weed outside its native range; 'easily propagates itself by seed'. | Writer: Iowa: basil 'is well-suited for growing in containers.' NC State: 'place it in a confined area or container to manage its spread'; 'It can be considered an aggressive weed in regions outside its native range'; 'easily propagates itself by seed'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c10",
+      "where": "care_sections.soil, uae_year.Autumn",
+      "claim": "Repot when roots fill the pot or the soil dries very fast; in the UAE most planting and repotting is done Oct–Apr; repotting steps.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json",
+          "clemson_repot"
+        ],
+        "note": "Verifier 15 Nov: Clemson repotting: repot 'If roots are in a solid mass around the rootball', or 'if the plant requires frequent watering or wilts shortly after watering'; pot '1 or 2 inches larger'; 'Do not add soil above the original level'; 'gently press the soil with your fingers'; 'Water well so excess water drains out'. Steps match. | Writer: Repot trigger and steps are general horticulture; no tulsi source opened gives them."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline seasons: most planting and repotting in the cooler months (Oct–Apr). | Writer: Baseline seasons: most planting and repotting in the cooler months."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c11",
+      "where": "care_sections.pruning, uae_year, problems[2], problems[5]",
+      "claim": "Cutting or pinching stem tips makes basil branch and extends the harvest; tulsi can be cut several times through summer and regrows from stem joints.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://yardandgarden.extension.iastate.edu/how-to/growing-basil-home-garden",
+          "https://utgardens.tennessee.edu/holy-basil-brings-scent-and-sanctity-to-the-herb-or-pollinator-garden/",
+          "usu_basil"
+        ],
+        "note": "Verifier 15 Nov: Iowa: 'If stem tips are removed, plants will branch and form more growth that can be harvested'. UT: 'Tulsi can be cut several times through the summer months'; 'it forms new bracts at the stem junctures'. USU: 'Cut stems just above a leaf node ... to promote new growth and branching.' | Writer: Iowa: 'Removing stem tips makes plants branch, extending the harvest into fall'; pinch plants in mid-spring to encourage branching. UT: 'Tulsi can be cut several times through the summer months'; new growth at stem joints after cutting."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c12",
+      "where": "quick_facts.Flowers, care_sections.pruning",
+      "claim": "Holy basil flowers are tiny, white, pale pink or lavender, in terminal spikes (panicles or racemes 4–12 cm).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'White, pale pink or lavender tiny tubular flowers' in clusters at the stem tips, 4–12 cm. | Writer: NC State: 'White, pale pink or lavender tiny tubular flowers with green or purple sepals' in 'terminal panicles or racemes that are 4-12 cm long'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c13",
+      "where": "care_sections.pruning, problems[5], mistakes",
+      "claim": "Basil is best picked when flower buds have formed but before they open; much of the leaf flavour fades once seed forms. Picking off flower spikes gives more leaves.",
+      "g": {
+        "verdict": "contradicted",
+        "sources": [
+          "https://yardandgarden.extension.iastate.edu/how-to/growing-basil-home-garden",
+          "psu_basil",
+          "usu_basil"
+        ],
+        "note": "Verifier 15 Nov: Iowa: best flavour 'when flower buds have started to form but before they begin to open'; 'Much of the flavor in the leaves will have dissipated once the seed has formed.' Supported. But 'pick off flower spikes to get more leaves' is contradicted: Utah State says pinching off flowers 'does not stimulate new foliage' and 'encourages flowers to form in the axils of the leaves thus reducing the yield'. Penn State: 'Pinch out growing tips to retard flowering and to promote branching and leafy growth.' 'The plant puts less into new leaves' after seed had no source. | Writer: Iowa: pick basil when flower buds have formed but before they open; once seed forms 'much of the flavor in the leaves will have dissipated'. Iowa is about basil in general. 'Picking off flower spikes gives more leaves' is not stated by a source opened."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "Flower-spike removal for more leaves replaced by tip pinching. pruning para 2: 'pick off the flower spikes as they form' -> 'pick them before the flowers open ... Penn State Extension advises pinching out the growing tips to slow flowering and promote leafy growth'; pruning step -> 'Pinch out the growing tips often to slow flowering'; uae_year Summer -> 'Pinch out the stem tips to slow flowering'; problems[2] fix step removed; problems[5] answer: 'and the plant puts less into new leaves' removed, fix -> Penn State tip pinching + USU leaf picking above a pair of leaves; mistakes -> 'Pinch out the stem tips often, and pick the leaves before the flowers open'."
+    },
+    {
+      "id": "c14",
+      "where": "care_sections.pruning",
+      "claim": "Bees visit tulsi flowers.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://utgardens.tennessee.edu/holy-basil-brings-scent-and-sanctity-to-the-herb-or-pollinator-garden/",
+          "psu_basil"
+        ],
+        "note": "Verifier 15 Nov: UT: 'The light purple flowers of the Rama variety attract a steady stream of honeybees and solitary bees.' Penn State: nectar-bearing basil flowers attract bees. | Writer: UT: 'The light purple flowers of the Rama variety attract a steady stream of honeybees and solitary bees.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c15",
+      "where": "care_sections.pruning",
+      "claim": "In Hindu households tulsi is sacred and it is common to ask permission from the plant before harvesting.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://utgardens.tennessee.edu/holy-basil-brings-scent-and-sanctity-to-the-herb-or-pollinator-garden/"
+        ],
+        "note": "Verifier 15 Nov: UT: 'In Hindu households, Tulsi is seen as sacred, and it is common to ask permission from the plant before harvesting.' | Writer: UT: 'In Hindu households, Tulsi is seen as sacred, and it is common to ask permission from the plant before harvesting.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Cultural fact, not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c16",
+      "where": "care_sections.feeding, mistakes",
+      "claim": "Feed lightly while growing; too much nitrogen affects basil flavour; stop feeding when growth slows in winter.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://yardandgarden.extension.iastate.edu/how-to/growing-basil-home-garden"
+        ],
+        "note": "Verifier 15 Nov: Iowa: 'avoid heavy nitrogen fertilization'; 'Too much nitrogen affects its flavor.' Light feeding follows from this. No number given. Clemson: dormant plants need less; stopping feed when growth slows is general practice. | Writer: Iowa: 'Too much nitrogen affects its flavor.' Light feeding and stopping in winter are general practice, not quoted."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Baseline seasons. Owner: confirm that tulsi grows most in the warm months in the UAE and that feeding should stop when growth slows in winter. | Writer: Baseline seasons; owner to confirm UAE feeding practice for tulsi."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c17",
+      "where": "care_sections.seeds",
+      "claim": "Tulsi grows from seed and self-seeds; basil seeds germinate best at about 24 °C (75 °F); seedlings need bright light to avoid legginess; sow Oct–Apr in the UAE; sowing steps.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/",
+          "https://yardandgarden.extension.iastate.edu/how-to/growing-basil-home-garden",
+          "aeo/verification/uae_gcc_baseline.json"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'easily propagates itself by seed'. Iowa: 'It can be grown easily from seed'; 'warm temperatures (about 75°F) for germination' (24 °C conversion, source named in text); 'Keep seedlings in bright light to prevent lanky plants that do not transplant well'. 'Cover very lightly', 'a few true leaves' and 'gradually' had no source and were removed. | Writer: NC State: 'easily propagates itself by seed'. Iowa: seeds germinate best around 75°F; keep seedlings in bright light so they don't become leggy. 24 °C is the conversion of 75 °F. Sowing steps are general practice."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Baseline seasons (Oct–Apr gardening season). Owner: confirm the UAE sowing window and the advice to sow indoors in a bright spot in summer. | Writer: Baseline seasons: gardening season Oct–Apr. Owner: confirm the sowing window."
+      },
+      "status": "needs_local",
+      "change": "care_sections.seeds steps: 'cover them very lightly' removed; 'when it has a few true leaves' -> 'when they are big enough to handle'; 'into full sun gradually' -> 'into full sun'; bright-light step now says why (Iowa: lanky seedlings)."
+    },
+    {
+      "id": "c18",
+      "where": "care_sections.indoors",
+      "claim": "Indoors tulsi needs the sunniest window; basil grown indoors has a less intense flavour and fragrance; tinted tower glass reduces light; in an AC room away from windows it declines.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://yardandgarden.extension.iastate.edu/how-to/growing-basil-home-garden",
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/",
+          "aeo/verification/uae_gcc_baseline.json",
+          "rhs_poorly"
+        ],
+        "note": "Verifier 15 Nov: Iowa: 'Plants grown indoors will have a less intense flavor and fragrance.' NC State: full sun. RHS: low light gives weak, spindly growth and pale leaves. 'Turn the pot now and then' had no opened source and was removed. | Writer: Iowa: basil can grow on a sunny windowsill, but 'plants grown indoors will have a less intense flavor and fragrance.' Decline away from windows follows from NC State full-sun need; not quoted."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline sun-through-glass: tinted glazing in many towers reduces indoor light (low confidence; wording says 'many', not all). | Writer: Baseline sun-through-glass: tinted glazing reduces indoor light (low confidence)."
+      },
+      "status": "corrected",
+      "change": "care_sections.indoors: 'the stems stretch, the leaves get small and pale' -> 'the growth gets weak and spindly, the leaves get pale'; 'and turn the pot now and then so all sides get light' removed."
+    },
+    {
+      "id": "c19",
+      "where": "quick_facts.Temperature, uae_year.Winter, problems[4]",
+      "claim": "Basil does not tolerate cold and is readily damaged by frost; coastal UAE winter nights are mild; inland (Al Ain, desert) and Riyadh/Kuwait nights get cold: move pots to shelter.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://yardandgarden.extension.iastate.edu/how-to/growing-basil-home-garden",
+          "aeo/verification/uae_gcc_baseline.json",
+          "clemson_watering"
+        ],
+        "note": "Verifier 15 Nov: Iowa: 'Basil does not tolerate cold temperatures and is readily damaged by frost.' Penn State gives 50 °F for sweet basil leaves, not for tulsi, so no number is on the page. Problem signs about wind exposure and leaf darkening had no source and were removed. Clemson: cooler conditions need less frequent watering. | Writer: Iowa: basil 'does not tolerate cold temperatures and is readily damaged by frost.' No tulsi-specific temperature threshold found; none given on the page. Problem signs (leaf loss after a cold night) are not quoted from a source."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline coastal-winter (mild coastal nights), inland-winter (Al Ain, desert, -2 to -5.7 °C records), gcc-winter (Riyadh, Kuwait colder). The text limits cold risk to inland and colder GCC cities. | Writer: Baseline coastal-winter, inland-winter, gcc-winter."
+      },
+      "status": "corrected",
+      "change": "problems[4]: symptom 'Leaves droop, darken or drop after cold nights' -> 'Damaged or falling leaves after cold nights'; signs 'damaged leaves on the side of the plant most exposed to wind' -> 'Leaf damage or leaf loss that starts after a cold night.'"
+    },
+    {
+      "id": "c20",
+      "where": "quick_facts.Size",
+      "claim": "Holy basil grows rapidly to about 3 ft (90 cm).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/",
+          "https://utgardens.tennessee.edu/holy-basil-brings-scent-and-sanctity-to-the-herb-or-pollinator-garden/"
+        ],
+        "note": "Verifier 15 Nov: NC State: grows quickly to about 3 feet tall. UT: 18–24 in over a season in Tennessee (smaller, consistent with 'about'). | Writer: NC State: 'grows rapidly to a height of 3 feet'. UT: 'small bush 18-24 inches tall and wide' over a season in Tennessee."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c21",
+      "where": "quick_facts.Life span, faqs.lifespan, problems[5]",
+      "claim": "Holy basil is an annual or short-lived perennial and self-seeds.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/",
+          "https://utgardens.tennessee.edu/holy-basil-brings-scent-and-sanctity-to-the-herb-or-pollinator-garden/"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'aromatic annual or short-lived pernnial or subshrub', 'easily propagates itself by seed'. UT: 'small annual'; 'It will self-sow if left to seed'. | Writer: NC State: 'aromatic annual or short-lived pernnial or subshrub'; reseeds easily. UT: 'small annual'; 'It will self-sow'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c22",
+      "where": "quick_facts.Pets, pet_safety",
+      "claim": "No pet-safety listing exists for holy basil; the ASPCA has no entry for it and lists sweet basil (Ocimum basilicum), a different species, as non-toxic to cats and dogs. Keep pets from chewing it and ask a vet.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/basil",
+          "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+          "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list"
+        ],
+        "note": "Verifier 15 Nov: Rewritten claim. ASPCA cat and dog plant lists (fetched 15 Nov) contain only 'Ocimum basilicum' for Ocimum; /holy-basil, /tulsi, /ocimum-sanctum return a blank soft-404 page. ASPCA basil page: Ocimum basilicum, 'Non-Toxic to Dogs', 'Non-Toxic to Cats', no mention of O. tenuiflorum or O. sanctum. Web searches for Pet Poison Helpline, Cornell vet, Merck Vet Manual and peer-reviewed sources found no holy basil pet entry (only plant-app and pet-blog pages, not primary). The old summary implied a verdict by analogy ('close relative'); it now states there is no listing. NOTE: pet_safety.status is still 'non-toxic' because FORMAT.md and verify.py allow only toxic|non-toxic; no value fits an unknown case. The status is not shown as text on the page (CSS class only). The master or owner must decide the status value. | Writer: ASPCA Basil page: Ocimum basilicum, 'Non-Toxic to Dogs', 'Non-Toxic to Cats'. Web search found no ASPCA entry for Ocimum tenuiflorum. Verifier: decide whether 'non-toxic' status is acceptable from a same-genus relative, or find a primary source for O. tenuiflorum."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "pet_safety.summary: 'It lists sweet basil (Ocimum basilicum), a close relative in the same genus, as non-toxic ... Any plant can upset a pet's stomach if a lot of it is eaten' -> 'No pet-safety listing exists for holy basil (Ocimum tenuiflorum): the ASPCA plant lists for cats and dogs do not include it. The ASPCA lists sweet basil ..., a different species, as non-toxic ..., but that listing does not cover tulsi. Keep pets from chewing the plant, and ask your vet if you are unsure.' quick_facts.Pets and emergency text matched. Status field left for the master (no allowed value)."
+    },
+    {
+      "id": "c23",
+      "where": "problems[0]",
+      "claim": "A drooping, crisp tulsi in summer is usually short of water; signs and fix steps (water thoroughly, rewet shrunk soil, afternoon shade, bigger pot).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/",
+          "aeo/verification/uae_gcc_baseline.json",
+          "rhs_poorly",
+          "clemson_watering"
+        ],
+        "note": "Verifier 15 Nov: RHS: 'Wilted leaves, brown and crispy leaf edges' are signs of underwatering. Clemson watering: potting mix 'shrinks away from the sides of the pot' as it dries; 'If soil does become very dry and hard to rewet, use the double watering method'; small pots need water more often. 'The pot feels light' and 'cut off fully dry stems' had no source and were removed. | Writer: No source opened describes tulsi drought symptoms. General horticulture."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Verifier 15 Nov: Baseline summer-heat and seasons: small pots in full sun dry fast in UAE summer. | Writer: Baseline summer-heat, seasons."
+      },
+      "status": "corrected",
+      "change": "problems[0]: signs 'the pot feels light, leaves curl or turn crisp from the edges' -> 'wilted leaves with brown, crisp edges'; fix 'water again slowly' -> 'water it a second time (the Clemson Extension double watering method)'; fix 'Cut off fully dry stems once the plant recovers' removed."
+    },
+    {
+      "id": "c24",
+      "where": "problems[1]",
+      "claim": "Yellow lower leaves with wet soil usually mean waterlogged soil; fix steps.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/",
+          "rhs_poorly",
+          "clemson_watering"
+        ],
+        "note": "Verifier 15 Nov: NC State: does poorly in waterlogged soils. RHS: overwatering signs include 'old and new leaves yellowing and dropping at the same time'. Clemson: roots surrounded by water 'cannot take up oxygen'; 'These roots may rot'. The writer's 'cannot take up what the plant needs' and 'lower leaves yellow' were replaced by the source wording. | Writer: NC State: does poorly in waterlogged soils. The yellow-leaf symptom link is general horticulture, not quoted."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "problems[1]: symptom 'Yellow lower leaves' -> 'Yellowing leaves'; answer 'cannot take up what the plant needs' -> 'Clemson Extension says roots that sit in water cannot take up oxygen and may rot'; signs 'lower leaves yellow and drop' -> 'old and new leaves yellow and drop at the same time (RHS)'."
+    },
+    {
+      "id": "c25",
+      "where": "problems[3]",
+      "claim": "Whiteflies are gnat-like with fine white wax, suck sap, leave sticky honeydew, heavy infestations drop leaves; aphids leave honeydew; control: washing, yellow sticky cards, neem products, insecticidal soap; follow the label harvest wait on edible plants.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://extension.colostate.edu/resource/managing-houseplant-pests"
+        ],
+        "note": "Verifier 15 Nov: CSU: whiteflies 'somewhat gnat-like and covered with fine white wax'; sap sucking; sticky honeydew; 'Heavily infested plants may drop leaves prematurely'; nymphs on leaf undersides; 'Yellow sticky cards or tape can be used to trap adult whiteflies'; 'neem insecticides, and insecticidal soaps may control nymphs'. Aphids: honeydew; 'Periodically hose the plant with a vigorous jet of water'. The water jet is CSU advice for aphids, not whiteflies, so the step now says aphids. Label-wait step gives no number. | Writer: CSU: whiteflies 'somewhat gnat-like and covered with fine white wax'; honeydew; 'Heavily infested plants may drop leaves prematurely'; 'Yellow sticky cards or tape can be used to trap adult whiteflies'; 'Horticultural oils, neem insecticides, and insecticidal soaps may control nymphs'. Aphids: honeydew; 'periodic washing with water'. CSU page is about houseplants; the label-wait step is ours (no number)."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "problems[3] fix: 'Wash the plant with a strong jet of water' -> 'Hose aphids off with a strong jet of water, as Colorado State University Extension advises'; neem step now says CSU: these may control young whiteflies (nymphs)."
+    },
+    {
+      "id": "c26",
+      "where": "faqs.sacred",
+      "claim": "In Hinduism tulsi is worshipped as a goddess and every part is sacred; Hindu households keep a tulsi plant, often in an ornate earthen pot in a courtyard; prayers can begin with an offering of its leaves; part of traditional Ayurvedic practice (no health claims).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4296439/",
+          "https://utgardens.tennessee.edu/holy-basil-brings-scent-and-sanctity-to-the-herb-or-pollinator-garden/",
+          "https://yardandgarden.extension.iastate.edu/how-to/growing-basil-home-garden",
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/",
+          "cohen2014"
+        ],
+        "note": "Verifier 15 Nov: Cohen 2014 (PMC4296439): 'In Hinduism, tulsi is worshipped as a goddess and every part of the tulsi plant is revered and considered sacred'; households 'incomplete without a tulsi plant, typically in an ornate earthen pot' 'situated in a courtyard'. UT: 'every spiritual practice and prayer begins with an offering of Tulsi leaves'; ask permission before harvesting. The Ayurveda sentence (medical tradition) and the meta-sentence 'makes no health claims' were removed: the FAQ now gives the religious and cultural role only. The earthen-pot detail is now attributed to Cohen, not UT. | Writer: Cohen 2014: 'In Hinduism, tulsi is worshipped as a goddess and every part of the tulsi plant is revered and considered sacred'; 'Hindi households are considered incomplete without a tulsi plant, typically in an ornate earthen pot situated in a courtyard'. UT: spiritual practices and prayers start with an offering of its leaves. Iowa: sacred in Hinduism, main use in religious ceremonies. NC State: used in Hindu religion and Ayurvedic medicine. Health content of Cohen not used."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Cultural fact, not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "faqs.sacred: 'Tulsi is also part of traditional Ayurvedic practice; this guide covers how to grow it and makes no health claims.' removed; citations moved so Cohen covers the goddess and earthen pot, UT covers the leaf offering and asking permission."
+    },
+    {
+      "id": "c27",
+      "where": "faqs.vs-basil, myths",
+      "claim": "Tulsi (O. tenuiflorum) and sweet basil (O. basilicum) are different species; tulsi has hairy green or purple stems, fuzzier, purple-tinged leaves, smaller flowers, and a spicy clove, mint and basil flavour; both need full sun and moist, well-drained soil.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/",
+          "https://utgardens.tennessee.edu/holy-basil-brings-scent-and-sanctity-to-the-herb-or-pollinator-garden/",
+          "https://plants.ces.ncsu.edu/plants/ocimum-basilicum/"
+        ],
+        "note": "Verifier 15 Nov: NC State: 'Highly pubescent square stems in purple or green'; 'its leaves tend to have a purple cast, its flowers are not as large'; 'spicy bite that is a mix of clove, mint, and basil flavor'. UT: 'duskier, fuzzier leaves'. NC State sweet basil: 'prefers full sun and moist, well-drained soils'. | Writer: NC State: 'Highly pubescent square stems in purple or green'; leaves have a purple cast; flowers smaller than culinary basil; spicy clove, mint and basil flavour. UT: 'duskier, fuzzier leaves and a distinct pleasant aroma'. NC State sweet basil: 'prefers full sun and moist, well-drained soils'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c28",
+      "where": "faqs.varieties",
+      "claim": "UT Gardens names Rama, Krishna and Vana; Krishna is the black/purple type (Cohen); Rama has light purple flowers and is most common in North American gardens (UT); Vana is the wild type.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://utgardens.tennessee.edu/holy-basil-brings-scent-and-sanctity-to-the-herb-or-pollinator-garden/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4296439/"
+        ],
+        "note": "Verifier 15 Nov: UT: 'three distinct varieties of Tulsi: Rama, Vana, and Krishna'; 'Rama is the most common in North American gardens'; 'The light purple flowers of the Rama variety'. Cohen: 'Krishna tulsi (black/purple variety)', 'white Vana (wild) tulsi'. Vana is now attributed to Cohen. | Writer: UT: three varieties Rama, Vana, Krishna; Rama most common in North American gardens; 'The light purple flowers of the Rama variety'. Cohen: 'Krishna tulsi (black/purple variety)', 'white Vana (wild) tulsi'."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Owner: which tulsi type does PlantsWorld sell? The old product text says Krishna tulsi; the product photo shows green leaves. | Writer: Owner: which type(s) does PlantsWorld sell? The old product description says Krishna Tulsi; the product photo shows green leaves."
+      },
+      "status": "needs_local",
+      "change": "faqs.varieties: 'Vana tulsi is the wild type.' -> 'Vana tulsi is the white, wild type (Cohen, 2014).'"
+    },
+    {
+      "id": "c29",
+      "where": "faqs.eat",
+      "claim": "Tulsi is a culinary herb used in Asian cooking like sweet basil, usually cooked or steeped as tea rather than eaten raw; used in some Thai cooking.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/",
+          "https://yardandgarden.extension.iastate.edu/how-to/growing-basil-home-garden"
+        ],
+        "note": "Verifier 15 Nov: NC State: used in Asian cooking in the same ways as sweet basil, 'commonly cooked or used in teas rather than used raw'. Iowa: 'used in some Thai cuisine'. | Writer: NC State: 'A culinary herb especially in Asia used in the same ways as sweet basil', commonly cooked or steeped in teas rather than eaten raw. Iowa: used in some Thai cooking."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c30",
+      "where": "faqs.spread",
+      "claim": "Tulsi self-seeds; can be an aggressive weed outside its native range; grow it in a container.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/",
+          "https://utgardens.tennessee.edu/holy-basil-brings-scent-and-sanctity-to-the-herb-or-pollinator-garden/"
+        ],
+        "note": "Verifier 15 Nov: NC State: easily self-seeds; aggressive weed outside native range; confined area or container. UT: 'It will self-sow if left to seed'. | Writer: See c09. UT: 'It will self-sow if left to seed'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c31",
+      "where": "faqs.summer-outdoors",
+      "claim": "A tulsi can stay outside in the UAE summer with morning sun and afternoon shade; a bigger pot holds water longer than a small one.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://utgardens.tennessee.edu/holy-basil-brings-scent-and-sanctity-to-the-herb-or-pollinator-garden/",
+          "aeo/verification/uae_gcc_baseline.json",
+          "clemson_watering"
+        ],
+        "note": "Verifier 15 Nov: UT: heat does not bother tulsi. Clemson: 'A large plant in a small pot needs water more often than a small plant in a large pot.' Afternoon shade: no source (see c04). | Writer: UT: likes heat. Bigger-pot point is general horticulture."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Baseline summer-heat and seasons. Owner: confirm from PlantsWorld experience that tulsi survives the UAE summer outdoors with afternoon shade. | Writer: Owner/staff: confirm from nursery experience in UAE summer."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c32",
+      "where": "alternatives",
+      "claim": "Sweet basil: full sun, copes with part shade, moist well-drained soil, ASPCA non-toxic. Mint: full sun to part shade, moist soil, does not do well in dry soil, ASPCA toxic to dogs and cats. Rosemary: full sun, dry to medium soil, overwatering the common cause of decline, drought and salt tolerant, ASPCA non-toxic.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-basilicum/",
+          "https://plants.ces.ncsu.edu/plants/mentha-spicata/",
+          "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/basil",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mint",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/rosemary"
+        ],
+        "note": "Verifier 15 Nov: NC State sweet basil: full sun and 'Partial Shade (... 2-6 hours)', moist, well-drained. NC State Mentha spicata: full sun or partial shade; 'does not do well in dry soils'. NC State rosemary: 'dry to medium, well-drained soils in full sun'; 'Overwatering is the common cause of plant decline or death'; 'Highly salt and drought tolerant'; 'perennial, evergreen shrub', stems 'become woody'. ASPCA: basil non-toxic dogs/cats; mint (Mentha sp.) toxic to dogs, cats, horses; rosemary non-toxic dogs/cats/horses. | Writer: NC State sweet basil: full sun and partial shade listed; moist, well-drained. NC State Mentha spicata: full sun or partial shade; 'does not do well in dry soils'; 'Best grown in a container as it spreads rampantly'. NC State rosemary: 'dry to medium, well-drained soils in full sun'; 'Overwatering is the common cause of plant decline or death'; 'Highly salt and drought tolerant'. ASPCA: basil non-toxic dogs/cats; mint (Mentha sp.) toxic to dogs, cats, horses; rosemary non-toxic dogs/cats/horses."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c33",
+      "where": "fit, first_week",
+      "claim": "Fit lists and first-week steps (sunniest spot, afternoon shade in summer, feel soil on arrival, check drainage, do not repot straight away).",
+      "g": {
+        "verdict": "unverified",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/ocimum-tenuiflorum/"
+        ],
+        "note": "Verifier 15 Nov: No source gives first-week steps for tulsi. Each step follows from verified claims: full sun (c03), afternoon shade in summer (c04, needs_local), finger test and drainage (c06, c07), repot when roots fill the pot (c10). 'Do not repot straight away' is our advice. | Writer: Derived from the claims above; no separate source."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Verifier 15 Nov: Owner: confirm the first-week steps match how PlantsWorld delivers tulsi (nursery pot size, condition on arrival) and the 'do not repot straight away' advice. | Writer: Owner/staff: confirm first-week advice matches how PlantsWorld delivers tulsi (pot type, condition)."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c34",
+      "where": "care_sections.pruning steps",
+      "claim": "Cut tulsi stems can be kept in the fridge.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "psu_basil"
+        ],
+        "note": "Verifier 15 Nov: Penn State: store cut basil stems 'up to a week in the refrigerator in a plastic bag wrapped in a paper towel' (sweet basil). No number on the page."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Verifier 15 Nov: Not climate-dependent."
+      },
+      "status": "corrected",
+      "change": "pruning step 'keep them in the fridge' -> 'keep the cut stems in the fridge (Penn State Extension)'."
+    }
+  ]
+}

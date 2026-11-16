@@ -6,12 +6,27 @@ import g_areca_palm_r from "./rendered/areca-palm.json";
 import g_bamboo_palm from "./guides/bamboo-palm.json";
 import g_bamboo_palm_v from "./verification/bamboo-palm.json";
 import g_bamboo_palm_r from "./rendered/bamboo-palm.json";
+import g_ginseng_ficus_bonsai from "./guides/ginseng-ficus-bonsai.json";
+import g_ginseng_ficus_bonsai_v from "./verification/ginseng-ficus-bonsai.json";
+import g_ginseng_ficus_bonsai_r from "./rendered/ginseng-ficus-bonsai.json";
+import g_lucky_bamboo from "./guides/lucky-bamboo.json";
+import g_lucky_bamboo_v from "./verification/lucky-bamboo.json";
+import g_lucky_bamboo_r from "./rendered/lucky-bamboo.json";
 import g_peace_lily from "./guides/peace-lily.json";
 import g_peace_lily_v from "./verification/peace-lily.json";
 import g_peace_lily_r from "./rendered/peace-lily.json";
+import g_rosemary from "./guides/rosemary.json";
+import g_rosemary_v from "./verification/rosemary.json";
+import g_rosemary_r from "./rendered/rosemary.json";
 import g_snake_plant from "./guides/snake-plant.json";
 import g_snake_plant_v from "./verification/snake-plant.json";
 import g_snake_plant_r from "./rendered/snake-plant.json";
+import g_spider_plant from "./guides/spider-plant.json";
+import g_spider_plant_v from "./verification/spider-plant.json";
+import g_spider_plant_r from "./rendered/spider-plant.json";
+import g_tulsi from "./guides/tulsi.json";
+import g_tulsi_v from "./verification/tulsi.json";
+import g_tulsi_r from "./rendered/tulsi.json";
 import g_zz_plant from "./guides/zz-plant.json";
 import g_zz_plant_v from "./verification/zz-plant.json";
 import g_zz_plant_r from "./rendered/zz-plant.json";
@@ -19,7 +34,12 @@ import g_zz_plant_r from "./rendered/zz-plant.json";
 export const guideList: { guide: Guide; verification: Verification; rendered: Rendered }[] = [
   { guide: g_areca_palm as Guide, verification: g_areca_palm_v as Verification, rendered: g_areca_palm_r },
   { guide: g_bamboo_palm as Guide, verification: g_bamboo_palm_v as Verification, rendered: g_bamboo_palm_r },
+  { guide: g_ginseng_ficus_bonsai as Guide, verification: g_ginseng_ficus_bonsai_v as Verification, rendered: g_ginseng_ficus_bonsai_r },
+  { guide: g_lucky_bamboo as Guide, verification: g_lucky_bamboo_v as Verification, rendered: g_lucky_bamboo_r },
   { guide: g_peace_lily as Guide, verification: g_peace_lily_v as Verification, rendered: g_peace_lily_r },
+  { guide: g_rosemary as Guide, verification: g_rosemary_v as Verification, rendered: g_rosemary_r },
   { guide: g_snake_plant as Guide, verification: g_snake_plant_v as Verification, rendered: g_snake_plant_r },
+  { guide: g_spider_plant as Guide, verification: g_spider_plant_v as Verification, rendered: g_spider_plant_r },
+  { guide: g_tulsi as Guide, verification: g_tulsi_v as Verification, rendered: g_tulsi_r },
   { guide: g_zz_plant as Guide, verification: g_zz_plant_v as Verification, rendered: g_zz_plant_r },
 ];

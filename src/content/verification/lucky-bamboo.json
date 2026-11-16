@@ -1,0 +1,652 @@
+{
+  "handle": "lucky-bamboo",
+  "stage": "signed-off",
+  "hash": "8ff0a4a7997b7553",
+  "content_errors": [],
+  "ledger_errors": [],
+  "signoff": {
+    "by": "Owner",
+    "on": "2026-11-16",
+    "content_hash": "8ff0a4a7997b7553",
+    "confirmed_local": [
+      "c02",
+      "c21",
+      "c31"
+    ],
+    "notes": "Owner signed off on the batch 2 review page 2026-11-16; all needs_local questions accepted as written (no changes)."
+  },
+  "claims": [
+    {
+      "id": "c01",
+      "where": "botanical_name, entity_ids",
+      "claim": "Lucky bamboo is Dracaena sanderiana; plants are sometimes sold as Dracaena braunii. Wikidata Q27686509; POWO id urn:lsid:ipni.org:names:60471006-2.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+          "https://www.wikidata.org/wiki/Q27686509",
+          "https://www.wikidata.org/wiki/Q31318",
+          "https://en.wikipedia.org/wiki/Dracaena_braunii",
+          "https://api.gbif.org/v1/species/match?name=Dracaena%20sanderiana",
+          "https://api.checklistbank.org/dataset/3LR/taxon/37JXR/info",
+          "https://www.ipni.org/api/1/search?q=Dracaena%20sanderiana"
+        ],
+        "note": "Accepted name: Catalogue of Life 2026-11-11 (WCVP/POWO data; POWO itself blocked by Cloudflare) lists 'Dracaena sanderiana Mast.' accepted, identifier ipni:60471006-2, link powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60471006-2; 'Dracaena braunii Engl.' is a separate accepted species (ipni:534129-1). Synonyms of D. sanderiana in COL: Dracaena poggei, D. vanderystii, Pleomele poggei, Pleomele sanderiana (not D. braunii). IPNI has two D. sanderiana records: 60471006-2 (inPowo true, 1892) and 534355-1 (not in POWO); entity_ids.powo = 60471006-2 is correct; Wikidata Q27686509 P5037 = the same id. Wikipedia (D. braunii): 'Most plants named Dracaena braunii in cultivation are Dracaena sanderiana.' NC State 'Previously known as Dracaena braunii' is contradicted by WCVP, so the guide does not call D. braunii a synonym."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "corrected",
+      "change": "botanical_name: 'sometimes sold as Dracaena braunii' -> 'sometimes sold as Dracaena braunii, a separate species' (COL/WCVP: both accepted species). entity_ids unchanged (verified)."
+    },
+    {
+      "id": "c02",
+      "where": "other_names",
+      "claim": "Common names: ribbon plant, friendship bamboo, Chinese water bamboo, water bamboo. Arabic خيزران الحظ.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+          "https://www.wikidata.org/wiki/Q31318"
+        ],
+        "note": "NC State common names: Chinese Water Bamboo, Friendship Bamboo, Lucky Bamboo, Ribbon Plant, Water Bamboo. Arabic 'خيزران الحظ' is the Wikidata ar label of Q31318 (D. braunii); Q27686509 (D. sanderiana) ar label is 'أيدع ساندري'. No primary source for the Arabic name customers use."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Owner: confirm that UAE customers call it خيزران الحظ (or give the name they use)."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c03",
+      "where": "quick_answer, quick_facts.What it is, myths, faqs.real-bamboo",
+      "claim": "Not a true bamboo; a tropical shrub from West Africa in the asparagus family (Asparagaceae); looks like bamboo when the lower leaves are removed.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+          "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/",
+          "https://api.checklistbank.org/dataset/3LR/taxon/37JXR/info"
+        ],
+        "note": "NC State: 'Lucky bamboo is not a bamboo at all', 'a member of the asparagus family (Asparagaceae)', origin 'West Central Tropical Africa to North East Angola'. Clemson: resembles bamboo once the lower leaves are removed; 'native to western Africa'. COL/WCVP native range: Angola, Cameroon, Central African Republic, Congo, DR Congo, Gabon = Central Africa. 'West Africa' was contradicted by the WCVP range."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "corrected",
+      "change": "quick_facts.What it is, myths, faqs.real-bamboo: 'from West Africa' -> 'from Central Africa' (COL/WCVP range Cameroon to Angola; NC State 'West Central Tropical Africa')."
+    },
+    {
+      "id": "c04",
+      "where": "quick_answer, quick_facts.Light, care_sections.light, myths, mistakes, fit",
+      "claim": "Needs bright, indirect light, such as near an east- or north-facing window; direct sun damages the leaves and turns them brown; tolerates shade.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/",
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+          "https://ask.extension.org/kb/faq.php?id=852450"
+        ],
+        "note": "Clemson: 'bright, indirect light, such as those facing east or north'; direct sun scorches leaves and turns them brown. NC State: 'bright but indirect light indoors all year'; light tags Dappled Sunlight and 'Deep shade (Less than 2 hours to no direct sunlight)' = tolerates shade. UMD: 'Direct sunlight will scorch the leaves.'"
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline sun-through-glass: strong sun through glass; the advice (no direct sun) holds in UAE homes."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c05",
+      "where": "quick_answer, quick_facts.In water, care_sections.water, mistakes, myths, first_week, soil-or-water FAQ",
+      "claim": "In water: cover the roots and at least one inch (2.5 cm) of stem; change the water weekly (Clemson and NC State); NC State says the weekly change prevents mosquitoes.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/",
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/"
+        ],
+        "note": "Clemson: cover the roots and at least an inch of stem; replace the water every week. NC State: 'Change the water weekly (to prevent mosquitoes)'. Subjective-value rule 4: number from named primary sources, and the page names them next to it (quick answer, quick facts, water section, mistakes, myths: Clemson and/or NC State). FAQ soil-or-water says 'changed weekly' in an answer about water vs soil; the weekly figure is attributed in every main place."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "No UAE factor changes the change interval given by the sources; the top-up rule covers faster evaporation."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c06",
+      "where": "care_sections.water",
+      "claim": "Water evaporates faster in a warm, bright spot and a small or wide vase, slower in a cool AC room; top up when the roots are no longer under water.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/",
+          "https://www.noaa.gov/jetstream/atmosphere/hydro"
+        ],
+        "note": "Rewritten as rule + reader test + what changes it. Rule/test: top up when the roots are no longer under water (follows Clemson's water level). What changes it: NOAA JetStream 'For evaporation to take place, energy is required' (from sunlight, the air) = faster in a warm, bright spot. The writer's 'small or wide vase' factor had no source and was removed."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline indoor-ac: AC rooms 22–24 °C, cooler than a sunny spot."
+      },
+      "status": "corrected",
+      "change": "water para 2: 'evaporates faster in a warm, bright spot and in a small or wide vase, and slower in a cool AC room' -> rule + test first, then 'Evaporation needs energy from the sun and the air (NOAA), so the level falls sooner in a warm, bright spot than in a cool AC room'. Vase-size factor removed (no source)."
+    },
+    {
+      "id": "c07",
+      "where": "care_sections.water",
+      "claim": "Pebbles or glass stones hold the stalks upright; pebbles give roots room and add weight so the container does not tip.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/",
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/"
+        ],
+        "note": "Clemson: pebbles or marbles at the bottom keep stalks upright. NC State: 'Putting some pebbles in the bottom gives a place for the roots to grow' and 'gives weight to the container to prevent it from tipping over'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c08",
+      "where": "quick_answer, quick_facts.Water type, care_sections.water-quality, mistakes, problems",
+      "claim": "Use chlorine-free water; dracaenas are sensitive to fluoride (OSU PNW handbook: most Dracaena species and cultivars very sensitive); Ask Extension answers (Ohio State, Michigan State) say lucky bamboo is sensitive to chlorine and fluoride; filtered (reverse osmosis) or distilled water.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+          "https://pnwhandbooks.org/plantdisease/pathogen-articles/nonpathogenic-phenomena/fluorine-toxicity-plants",
+          "https://ask.extension.org/kb/faq.php?id=446449",
+          "https://ask.extension.org/kb/faq.php?id=390446"
+        ],
+        "note": "NC State: 'can be grown in chlorine-free water'. PNW (Pscheidt, OSU, rev. Mar 2024): Table 1 'Plants sensitive to fluoride' lists 'corn plant Dracaena sp. Most species and cultivars'; text: 'Both Dracaena deremensis and D. fragrans (corn plant) are very sensitive'; lucky bamboo/D. sanderiana not named; 'Treating fluoridated water with reverse osmosis, condensation, or charcoal can reduce this problem'. OSU answer (Dave M., 2018): dracaenas sensitive to chlorine and fluoride in tap water; distilled water. MSU answer (Laura S., 2017): sensitive to fluoride and chlorine; 'Use rain water or distilled water'. The guide said PNW lists most dracaenas as 'very sensitive': contradicted (Table 1 says 'sensitive')."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline tap-water (low): desalinated, remineralised, mineral content varies. No source on UAE tap-water fluoride or chlorine; the guide claims neither and ties the switch to brown tips or crust."
+      },
+      "status": "corrected",
+      "change": "water-quality para 1: 'lists most dracaena species as very sensitive' -> 'lists most dracaena species and cultivars as sensitive to fluoride (it does not name lucky bamboo)' (PNW Table 1). Quick answer: 'In the UAE, use filtered or distilled water' -> 'switch to filtered or distilled water if the leaf tips brown' (no source on UAE tap-water fluoride)."
+    },
+    {
+      "id": "c09",
+      "where": "care_sections.water-quality, problems[1], care_sections.feeding",
+      "claim": "High fluoride, boron or soluble salts make dracaena leaf tips or margins chlorotic or necrotic; damaged leaves do not recover.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP149"
+        ],
+        "note": "UF/IFAS ENH892 (McConnell, Chen, Henny, Everitt) Table 3: 'Leaf tips or margins become chlorotic or necrotic.' cause 'High boron, fluoride, or soluble salts.' treatment 'Damaged leaves will not recover. Leach media ... use fertilizers and water low in boron and fluoride.' Genus-level; the guide says 'dracaena'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c10",
+      "where": "care_sections.water-quality",
+      "claim": "A University of Maryland Extension answer suggests distilled water, or tap water that has stood for a day.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ask.extension.org/kb/faq.php?id=852450"
+        ],
+        "note": "UMD HGIC answer (9 Oct 2023): distilled water is best; tap water is acceptable 'if you let the water sit for a day before using it'. Attributed on the page."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c11",
+      "where": "care_sections.water-quality, problems[1]",
+      "claim": "A white crust on the vase or pebbles signals salt build-up; switch water.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ask.extension.org/kb/faq.php?id=852450"
+        ],
+        "note": "UMD answer: 'salt build up on the rim of the pot', possibly from chemicals in the water. UF/IFAS: leach to lower high soluble salts."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline tap-water: tie water advice to visible crust or brown tips, as the guide does."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c12",
+      "where": "quick_facts.In soil, care_sections.soil, problems[0]",
+      "claim": "In soil: well-drained potting soil for indoor or tropical plants; water when the top inch (2.5 cm) is dry; do not leave water in the saucer; stake tall stems until roots anchor.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/"
+        ],
+        "note": "Clemson: well-drained potting soil labelled for indoor or tropical plants; water when the top inch of soil is dry; do not let water collect in a saucer; stake tall stems until the roots anchor. Number from named source, named in text (soil section). problems[0] fix '2.5 cm' repeats the Clemson rule."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c13",
+      "where": "care_sections.soil, faqs.soil-or-water",
+      "claim": "Soil needs less work than water because there is no water to change.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ask.extension.org/kb/faq.php?id=390446"
+        ],
+        "note": "MSU answer: 'It would be less maintenance to grow it in soil, since you wouldn't have to change the water.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c14",
+      "where": "care_sections.soil, problems[0]",
+      "claim": "Overwatering in soil yellows the leaves and rots the stems.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/"
+        ],
+        "note": "NC State: 'Overwatering can cause yellowing of the leaves and rotting of the stems.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c15",
+      "where": "quick_facts.Temperature, care_sections.temperature",
+      "claim": "21–27 °C (70–80 °F) is most appropriate indoors for dracaenas; avoid draughts.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP149"
+        ],
+        "note": "UF/IFAS ENH892, 'Shipping and Interior care': 'Temperatures of 70 to 80°F are most appropriate, and drafts should be avoided'. Dracaena genus. 70–80 °F = 21.1–26.7 °C. Not a subjective value (a plant temperature range) and named next to the number."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline indoor-ac: AC target about 22–24 °C, inside the range."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c16",
+      "where": "quick_facts.Temperature, care_sections.temperature, uae_year.Winter, problems[4], faqs.outdoors",
+      "claim": "Keep above about 15 °C (60 °F) at all times; chilling injury causes slimy, necrotic leaf spots and mass leaf drop.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP149"
+        ],
+        "note": "UF/IFAS Table 3: 'Slimy, necrotic spots on leaves, mass leaf drop.' 'Chilling injury' 'Plants should be kept in areas above 60°F at all times, including shipping and showcasing.' 60 °F = 15.6 °C. Damage temperature: keeps its number; UF named."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline inland-winter (high), gcc-winter (low), coastal-winter (medium): inland/GCC nights below 15 °C; coastal lows about 14–16 °C. problems[4] cause sentence: 'cold draught from an AC vent' removed (no source that AC air falls below 15 °C)."
+      },
+      "status": "corrected",
+      "change": "problems[4] answer: 'near cold glass on inland winter nights and in a cold draught from an AC vent' -> 'on inland and GCC winter nights, near a cold window or an open door' (no source that AC supply air causes chilling injury)."
+    },
+    {
+      "id": "c17",
+      "where": "care_sections.temperature, mistakes, problems",
+      "claim": "Keep out of the direct stream of an AC vent; hand test for moving air.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP149"
+        ],
+        "note": "UF/IFAS: 'drafts should be avoided'. AC distance written as rule (out of the direct stream) + reader test (hand next to the leaves with the AC on) + what to change (move the plant or turn the louvres). No number."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline ac-vents (low): draughts from vents are a common cause of leaf damage; the guide gives only the sourced rule and a test."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c18",
+      "where": "quick_facts.Feeding, care_sections.feeding, mistakes, problems[1]",
+      "claim": "In water: liquid houseplant fertiliser at 1/4 the recommended rate every other month; in soil: houseplant fertiliser monthly in the growing season; NC State: weak liquid fertiliser.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/",
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/"
+        ],
+        "note": "Clemson: every other month, liquid houseplant fertiliser at one-quarter strength (water); houseplant fertiliser monthly in the growing season (soil). NC State: 'a weak liquid fertilizer'. Numbers named (Clemson) in quick facts, feeding, mistakes. UF/IFAS: high soluble salts cause tip damage (feeding para 2)."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c19",
+      "where": "quick_facts.Growth, faqs.height",
+      "claim": "Growth is slow; rarely flowers as a houseplant; stems never strong enough to stay upright beyond 2–3 feet (60–90 cm).",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+          "https://edis.ifas.ufl.edu/publication/EP149"
+        ],
+        "note": "NC State: growth rate 'Slow'; 'Lucky bamboo rarely blooms as a houseplant.' UF/IFAS Table 1 D. sanderiana 'Ribbon Plant', 'Gold', 'Lucky Bamboo': 'the stems never become strong enough to remain upright beyond 2–3 feet in height'. 2–3 ft = 60–90 cm."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c20",
+      "where": "care_sections.propagation, faqs.cut-top",
+      "claim": "Propagate by stem cuttings: cut a shoot of new growth, remove lowest leaves, place in water; roots usually in 2–3 weeks; a cut stalk sends out new leaves at the node.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+          "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/",
+          "https://ask.extension.org/kb/faq.php?id=446449"
+        ],
+        "note": "NC State: propagation 'Stem Cutting'. Clemson: cut a new-growth shoot, strip the lowest leaves, place in water, roots usually in 2 to 3 weeks (named next to the number). OSU answer: new leaves form at the node when the top is cut; re-root the cutting in water."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c21",
+      "where": "varieties",
+      "claim": "Styles: straight stalks, spiral stalks (trained by growers), tiered towers of stalk sections, tiger bamboo (striped); all the same care.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+          "https://edis.ifas.ufl.edu/publication/EP149"
+        ],
+        "note": "NC State: stems 'often trained into a variety of shapes (e.g., braided or spiral)'. UF/IFAS: 'Lucky Bamboo' plants are typically leafless stems of 'Ribbon Plant' sold individually or in clusters. Tiered towers (2-, 3-, 5-step) and tiger bamboo: our Shopify product listings (handles name Dracaena sanderiana). No botanical source on tiger bamboo or that it needs the same care."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Owner: confirm tiger bamboo is Dracaena sanderiana and needs the same care as green lucky bamboo; confirm the tier counts (two to five) match the range sold."
+      },
+      "status": "needs_local"
+    },
+    {
+      "id": "c22",
+      "where": "fit, faqs.stalk-meaning",
+      "claim": "Lucky bamboo is a symbolic plant in Chinese culture, used in feng shui, often given as a gift for celebrations such as Chinese New Year; traditional stalk meanings: 1 good fortune, 2 love, 3 happiness, 5 health, 6 prosperity; 4 avoided. The guide makes no claim that the plant brings luck.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/"
+        ],
+        "note": "Clemson: symbolic plant in Chinese culture; used in feng shui; a common gift for celebrations such as Chinese New Year; 1 good fortune, 2 love and relationships, 3 happiness, 5 health, 6 prosperity; omits 4 because it isn't considered lucky. Checked: the guide never says the plant brings luck; the FAQ ends 'These are traditional meanings, not something the plant does.' Fit list says 'often given for celebrations' only."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "Cultural fact; no UAE claim made."
+      },
+      "status": "corrected",
+      "change": "faqs.stalk-meaning: 'four is avoided' -> 'it leaves out four, which is not considered lucky' (Clemson wording: the page omits 4)."
+    },
+    {
+      "id": "c23",
+      "where": "problems[0]",
+      "claim": "Yellow leaves: improper watering or too much light; chlorine and fluoride cause yellowing and browning leaves and leaf drop; lower leaves age naturally; remove with sterilised scissors.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ask.extension.org/kb/faq.php?id=852450",
+          "https://ask.extension.org/kb/faq.php?id=446449",
+          "https://ask.extension.org/kb/faq.php?id=390446",
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/"
+        ],
+        "note": "UMD: 'improper watering or over-exposure to light'; 'Direct sunlight will scorch the leaves'; older lower leaves age and turn brown; cut with 'a sharp sterilized knife or scissors'. OSU: chlorine/fluoride 'yellowing and browning leaves, leading to leaf drop'. MSU: fluoride can yellow leaves. NC State: overwatering yellows leaves."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c24",
+      "where": "problems[1]",
+      "claim": "Brown tips: fluoride, boron, salts or too much fertiliser; low humidity and direct sun also brown tips; cut tips do not grow back.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP149",
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+          "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/"
+        ],
+        "note": "UF/IFAS Table 3 (see c09): damaged leaves will not recover. NC State: 'Low humidity can cause browning of the leaf tips.' Clemson: direct sun turns leaves brown; quarter-rate feeding. 'Cut tips do not grow back' had no source: replaced with the UF/IFAS statement."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline indoor-ac: humidity under AC varies; the guide does not claim AC air is dry."
+      },
+      "status": "corrected",
+      "change": "problems[1] fix: 'Trim the brown tips with clean scissors. Cut tips do not grow back.' -> 'Trim the brown tips with clean scissors if you like. The damaged parts do not recover (UF/IFAS Extension).'"
+    },
+    {
+      "id": "c25",
+      "where": "problems[2]",
+      "claim": "Soft stalk = disease or rot, does not recover; firm colour change can be maturing (woody); cut above the soft part, re-root the top on its own to prevent spread, discard the rest.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://ask.extension.org/kb/faq.php?id=446449"
+        ],
+        "note": "OSU answer (2018): soft stem at the spot = a disease organism causing rot; discard, or cut above the spot, discard below, re-root the cutting in water separately to prevent spread; change the water and rinse the pebbles; a solid spot may be the stem maturing, 'more woody'."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c26",
+      "where": "problems[3]",
+      "claim": "Pests: mealybugs, mites, scale (NC State); spider mites, mealybugs, aphids (Clemson); remove by hand, rinse, neem oil or insecticidal soap.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+          "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/",
+          "https://ask.extension.org/kb/faq.php?id=390446"
+        ],
+        "note": "NC State: 'Monitor for mealybugs, mites and scale insects.' Clemson lucky bamboo page: spider mites, mealybugs, aphids; removed by hand, rinsed off, or neem oil or insecticidal soap. MSU: spray both sides of the leaves with insecticidal soap. Identification and follow-up: see c32."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c27",
+      "where": "pet_safety, quick_facts.Pets, fit",
+      "claim": "Toxic to cats and dogs (ASPCA: Ribbon Plant, Dracaena spp.); saponins; vomiting (occasionally with blood), depression, anorexia, hypersalivation, dilated pupils (cats). NC State: humans should not eat it, sap can irritate skin; poison severity low. Clemson: toxic to pets, skin irritation in humans.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/ribbon-plant",
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+          "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/"
+        ],
+        "note": "ASPCA 'Ribbon Plant': scientific name 'Dracaena spp.', also 'Corn Plant, Cornstalk Plant, Dracaena, Dragon Tree'; 'Toxic to Dogs', 'Toxic to Cats'; toxic principle 'Saponins'; 'Vomiting (occasionally with blood), depression, anorexia, hypersalivation, dilated pupils (cats).' The entry is for Dracaena spp., not D. sanderiana by name; 'ribbon plant' is a D. sanderiana common name (NC State, UF/IFAS). NC State: poison severity Low; saponins; 'Humans should not eat this plant. The sap can cause skin irritation.' Clemson: toxic to pets, irritates human skin. Pet summary starts 'No.'"
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "corrected",
+      "change": "pet_safety.summary: 'lists dracaenas (Dracaena species, ribbon plant) as toxic' -> 'lists ribbon plant (Dracaena species), a common name of lucky bamboo, as toxic' (the ASPCA entry is Dracaena spp. under the name Ribbon Plant)."
+    },
+    {
+      "id": "c28",
+      "where": "uae_year.Summer, faqs.outdoors",
+      "claim": "Keep indoors in UAE summer: Dubai summer highs about 41–42 °C with warm nights; sources describe it outdoors only in partial shade; hardy only in USDA zones 10–12.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+          "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/",
+          "aeo/verification/uae_gcc_baseline.json"
+        ],
+        "note": "NC State: 'performs well in containers with partial shade outdoors in summer or bright but indirect light indoors all year'; zones 10a–10b. Clemson: hardy in zones 10 to 12; outside in shade after the last frost; bring in before nights fall below 65°F (18.3 °C). No source on heat above 40 °C: the guide now says so instead of giving its own conclusion, and 'keep indoors' rests on NC State's 'indoors all year'. The zones claim was removed from the FAQ."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline summer-heat (medium): Dubai highs about 41–42 °C, warm nights; inland-winter (high): nights below 15 °C."
+      },
+      "status": "corrected",
+      "change": "uae_year.Summer and faqs.outdoors rewritten: 'the sources describe lucky bamboo outdoors only in partial shade' / 'hardy only in tropical climates (USDA zones 10 to 12)' -> NC State indoors all year + outdoors only in (partial) shade in summer, Clemson 18 °C (65 °F) bring-in limit, and 'neither gives advice for heat like a Dubai summer'."
+    },
+    {
+      "id": "c29",
+      "where": "uae_year.Autumn",
+      "claim": "The UAE outdoor gardening season starts in October.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "aeo/verification/uae_gcc_baseline.json"
+        ],
+        "note": "Baseline seasons (medium): UAE gardening season about October to April (The National, Khaleej Times)."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline seasons."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c30",
+      "where": "alternatives",
+      "claim": "Money Plant (Golden Pothos) toxic; Snake Plant toxic; Peace Lily toxic; Spider Plant non-toxic (ASPCA). Spider plant: medium light, tolerates deep shade, not direct sun; moist soil, tolerates drought (NC State). Light/water rows for pothos, snake plant and peace lily copied from the signed-off snake-plant guide alternatives.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snake-plant",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+          "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+          "aeo/content/snake-plant.json"
+        ],
+        "note": "ASPCA pages opened 15 Nov: Golden Pothos (Epipremnum aureum) toxic to dogs and cats; Snake Plant (Sansevieria trifasciata) toxic; Peace Lily (Spathiphyllum) toxic; Spider Plant (Chlorophytum comosum) non-toxic to dogs and cats. NC State C. comosum: 'prefers medium light levels yet can tolerate deep shade', 'intolerant of direct sunlight', 'grows best in moist soil ... tolerant of drought and dry soil'. Pothos/snake/peace lily light rows match the signed-off snake-plant guide alternatives. 'Grown in water' = our product format."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "c31",
+      "where": "care_sections.light, uae_year",
+      "claim": "Afternoon sun through west- or south-facing glass is the main light risk in UAE homes.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/how-to-grow-and-care-for-lucky-bamboo-dracaena-sanderiana/"
+        ],
+        "note": "Clemson: direct sun scorches leaves and turns them brown (G for the damage). Spring card rewritten to the sourced rule (move back if the sun reaches the plant) without the 'before May' timing."
+      },
+      "u": {
+        "verdict": "needs_local",
+        "note": "Baseline sun-through-glass (low, no sources): owner to confirm that afternoon sun through west- or south-facing glass is the main light problem PlantsWorld sees with lucky bamboo in UAE homes."
+      },
+      "status": "needs_local",
+      "change": "uae_year.Spring: 'Before May, move the plant back from any window that gets strong afternoon sun.' -> 'If the sun starts to reach the plant through the window, move it back: direct sun turns the leaves brown (Clemson Extension).' (timing was our estimate)."
+    },
+    {
+      "id": "c32",
+      "where": "problems[3] answer and fix",
+      "claim": "White cotton = mealybugs (waxy, cottony covering); fine webs = spider mites; keep the plant away from other plants; more than one treatment is often needed.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/"
+        ],
+        "note": "Clemson HGIC 'Common Houseplant Insects & Related Pests' (J. McLeod Scott, rev. J. Williamson): mealybug females 'cover themselves and their eggs with a white, waxy material, making them look cottony'; spider mites: 'A silky web is often seen with heavier infestations'; 'Isolate new plants from plants already in the home for six weeks'; 'eliminating them often takes more than one treatment'. Isolation of an infested plant follows the same isolation advice."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE/GCC factor affects this fact."
+      },
+      "status": "corrected",
+      "change": "problems[3] fix 1: 'Move the plant away from your other plants.' -> 'Keep the plant away from your other plants until the pests are gone.' Claim added by the verifier (was not in the ledger)."
+    },
+    {
+      "id": "c33",
+      "where": "first_week.steps",
+      "claim": "UF/IFAS advises no repotting or fertiliser for about four weeks after dracaenas are placed indoors.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP149"
+        ],
+        "note": "UF/IFAS ENH892 'Shipping and Interior care': 'Once plants are placed indoors, it is advisable not to re-pot or fertilize for about four weeks because plants do not need additional stress.' Wait time from a named primary source, named in the text (subjective-value rule 4)."
+      },
+      "u": {
+        "verdict": "n/a",
+        "note": "No UAE factor. Consistent with KB072 ('settle for a few weeks')."
+      },
+      "status": "corrected",
+      "change": "first_week: 'Leave the plant in one spot so it can settle.' -> UF/IFAS four-week no-repot/no-feed rule. Step 'Wait for the first weekly water change before you move the stalks or the pebbles.' removed (unsourced wait time)."
+    },
+    {
+      "id": "c34",
+      "where": "quick_answer",
+      "claim": "In UAE homes keep it out of AC draughts; switch to filtered or distilled water if the leaf tips brown.",
+      "g": {
+        "verdict": "supported",
+        "sources": [
+          "https://edis.ifas.ufl.edu/publication/EP149",
+          "https://ask.extension.org/kb/faq.php?id=446449",
+          "https://ask.extension.org/kb/faq.php?id=390446",
+          "https://pnwhandbooks.org/plantdisease/pathogen-articles/nonpathogenic-phenomena/fluorine-toxicity-plants"
+        ],
+        "note": "UF/IFAS: drafts should be avoided; tip damage from fluoride/salts. OSU, MSU: distilled water. PNW: reverse osmosis reduces fluoride."
+      },
+      "u": {
+        "verdict": "supported",
+        "note": "Baseline indoor-ac and tap-water: advice tied to a visible symptom, no claim about UAE water fluoride."
+      },
+      "status": "corrected",
+      "change": "Quick answer: 'In the UAE, use filtered or distilled water and keep it out of AC draughts.' -> 'In UAE homes, keep it out of AC draughts and switch to filtered or distilled water if the leaf tips brown.' (no source that UAE tap water harms lucky bamboo)."
+    }
+  ]
+}
